@@ -1,0 +1,102 @@
+%   
+%\documentclass[12pt,a4paper]{memoir} % for a long document
+\documentclass[12pt,a4paper]{memoir} % for a short document
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{color}   
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[frenchb]{babel}
+\chapterstyle{veelo}
+% See the ``Memoir customise'' template for some common customisations
+% Don't forget to read the Memoir manual: memman.pdf
+\newlength{\drop}% for my convenience
+\definecolor{Medium}{gray}{0.45}
+ 
+\newcommand*{\titleJT}{\begingroup% Jan Tschichold: typographer
+\drop = 0.08\textheight
+\vspace*{\drop}
+\hspace*{0.3\textwidth}
+{\Large Dominique Aubert}\\[2\drop]
+\hspace*{0.3\textwidth}{\Huge\itshape The Big Book of}\par
+{\raggedleft\Huge\itshape Conundrums\par}
+\vfill
+\hspace*{0.3\textwidth}\\[0.5\baselineskip]  
+\hspace*{0.3\textwidth}{\Large The Publisher}
+\vspace*{\drop}
+\endgroup}
+
+\newcommand*{\titleTH}{\begingroup% T&H Typography
+\raggedleft
+\vspace*{\baselineskip}
+{\Large Dominique Aubert}\\[0.167\textheight]
+{\textcolor{Medium}{\Huge Cosmologie Physique}}\\[\baselineskip]
+{\bfseries Une introduction}\\[\baselineskip]
+{\small Master 2 spécialité astrophysique, Année 2015-2016}\par
+\vfill
+{\small Observatoire Astronomique de Strasbourg - Université de Strasbourg}\par
+\vspace*{3\baselineskip}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=10cm,width=12cm]{plots/homo/50mpc-1.jpg}
+%	\caption{caption}
+	\label{fig:plots_homo_50mpc-1}
+\end{figure}
+\endgroup}
+
+\newcommand*{\titleGM}{\begingroup% Gentle Madness
+\drop = 0.1\textheight
+\vspace*{\baselineskip}
+\vfill
+\hbox{%
+\hspace*{0.2\textwidth}%
+\rule{1pt}{\textheight}
+\hspace*{0.05\textwidth}%
+\parbox[b]{0.75\textwidth}{
+\vbox{%
+\vspace{\drop}
+{\noindent\HUGE\bfseries Some\\[0.5\baselineskip]
+Conundrums}\\[2\baselineskip]
+{\Large\itshape Puzzles for the Mind}\\[4\baselineskip]
+{\Large THE AUTHOR}\par
+\vspace{0.5\textheight}
+{\noindent The Publisher}\\[\baselineskip]
+}% end of vbox
+}% end of parbox
+}% end of hbox
+\vfill
+\null
+\endgroup}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ie}{\textit{i.e. }}
+\newcommand{\md}{\mathrm{d}}
+\newcommand{\cst}{\mathrm{cst}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% BEGIN DOCUMENT
+\begin{document}
+\thispagestyle{empty}
+\titleTH 
+
+
+%\clearpage
+%\include{foreword}  
+\clearpage
+
+\tableofcontents* % the asterisk means that the contents itself isn't put into the ToC
+
+\include{connaissance}
+\include{fondamentaux}
+\include{homogene}
+\include{chaud}
+\include{thermique}
+\include{cmb}
+\include{structures}
+%\include{observed}
+%\include{thermal}
+
+%\include{heterogeneous}
+\end{document}

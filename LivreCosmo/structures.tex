@@ -1,0 +1,221 @@
+%!TEX root = /Users/domaubert/Documents/Lectures/cosmologie/cosmo_main.tex
+
+\chapter{Formation des grandes structures}
+\label{s:struct}
+Les grandes structures de l'Univers désignent de façon générique la matière diffuse, les galaxies et amas de galaxies qui s'organisent sous l'effet de la gravitation. Aujourd'hui ces grandes structures produisent une distribution de matière 'filamentaire' où des surdensités côtoient des vides, reliées entre elles par des ponts de matériels. Elles résultent de l'action du mécanisme d'instabilité gravitationnelle sur les faibles fluctuations de densité présentes dans l'Univers jeune et tracées par exemple par le CMB. Au cours des 13.8 milliards d'années, des surdensité de 0.001\% parviennent ainsi à croître pour atteindre des contrastes de densité mesurés aujourd'hui dans les galaxies d'au moins plusieurs centaines. Si un grande partie des processus à l'œuvre lors de la formation des grandes structures peut être saisis par une approche analytique, le problème ne peut être abordé dans toute sa complexité que via l'utilisation de simulations numériques, dites simulation cosmologiques.
+
+\section{Densité et spectre de puissance}
+L'un des objectifs de l'étude de la formation des grandes structures est de prédire comme la matière va s'organiser au cours de l'histoire de l'Univers. La quantité généralement suivie est le contraste de densité :
+\begin{equation}
+\delta(x,t) =\frac{\rho-\bar\rho}{\bar\rho}.
+\end{equation}
+En l'absence de création de masse et dans un Univers homogène et isotrope, la densité moyenne $\bar{\rho}$ est une quantité de référence constante dans l'espace et pour laquelle la variation temporelle est seulement due à la dilution cosmologique. 
+
+Toutefois, le contraste de densité a une position $x$ donnée à un instant donné $t$ est finalement porteur d'assez peu d'information cosmologique, puisque l'on cherche à obtenir des contraintes qui ont une valeur 'cosmologique', i.e. globales et génériques. La première étape vers un traitement cosmologique consisté à raisonner dans l'espace de Fourier et à considérer les \textit{modes} $\delta_k(t)$ d'une réalisation donnée de $\delta(x,t)$:
+\begin{equation}
+\delta(x,t)\sim\int_{k=-\infty}^\infty \delta_k(t) e^{ikx} dk
+\label{e:fourdelta}
+\end{equation}
+L'équation \ref{e:fourdelta} représente la décomposition en série de Fourier du contraste de densité : en pratique cela revient à décomposer le champ de densité en une série de modes sinusoïdaux et dont les contributions des différentes fréquences sont données par $\delta_k$. En plus d'un intérêt mathématique, cette décomposition constitue une mise en pratique de 'cosmologisation' de la densité : on se met à suivre des modes sinusoïdaux délocalisés, de taille caractéristique $\lambda=2\pi/k$, la position $x$ perd de l'importance. L'amplitude d'un mode $k$ est donné tout simplement par $|\delta_k|^2$: l'étude de cette amplitude et son éventuelle évolution temporelle nous renseigne globalement sur l'évolution des structures d'échelle caractéristique $\lambda$ au cours du temps et sur leurs contribution relatives. Cette amplitude est aussi appelée \textit{puissance} et l'ensemble des puissances de tous les modes $k$ est appelé \textit{spectre de puissance}.
+
+\paragraph{Champ aléatoire Gaussien} Le champ de matière cosmologique appartient semble-t-il à la classe des champs aléatoires gaussiens. C'est une prédiction des théories inflationnaires, il semble observationnellement que ce soit le cas et in fine cela constitue une base de travail et éventuellement on pourra être amené à mesure des départs à cette gaussianité. Un champ aléatoire gaussien $\delta(\vec x)$ se caractérise par une densité de probabilité de type:
+\begin{equation}
+p(\delta(\vec x)) \sim \exp( -\delta (\vec x) C^{-1} \delta (\vec x)),
+\end{equation}
+où $C$ est une matrice de corrélation, généralement non diagonale. Cette matrice encode les corrélations qui peuvent apparaître dans le champ: celui-ci possède généralement des structures possédant une certaine cohérence spatiale et cette dernière se manifeste en couplant le champ $\delta$ entre différentes positions via $C$. Une propriété intéressante est que la probabilité de la transformée de Fourier de $\delta (\vec x)$ suit le même type PDF:
+\begin{equation}
+p'(\delta_{\vec k})\sim \exp( -\delta_{\vec k}^* \tilde C^{-1} \delta_{\vec k}).
+\end{equation}
+Une propriété encore plus intéressante est que $\tilde C$ est diagonale si $\delta(\vec x)$ est un champ aléatoire gaussien: chaque mode de Fourier peut être suivi statistiquement indépendamment des autres. Par simple inspection, il apparaît que les composantes de cette matrice de corrélation sont les variances des modes:
+\begin{equation}
+\langle \delta_{\vec k}^* \delta_{\vec k'}\rangle = P(k)\delta_D(\vec k -\vec k')=\langle|\delta_{\vec k}|^2\rangle.
+\end{equation}
+Cette mesure de la variance ne dépend que la norme du mode considéré (plusieurs modes partage donc la même variance) et constitue le spectre de puissance $P(k)$ du champ de matière.
+
+Cette quantité est destinée à être mesurée au cours du temps et nous renseigne sur la croissance des structures. Si certaines échelles bénéficient d'une croissance plus rapide que d'autres, cela se manifestera par une déformation du spectre de puissance aux échelles concernées.  Si le champ est vraiment un champ aléatoire gaussien, la connaissance de $P(k)$ suffit à complètement le définir : si des corrélations anisotropes sont détectées (dans les relevés de galaxies ou dans le CMB), elles confirmeront soit la nature non-gaussienne des fluctuations primordiales soit l'existence de processus physiques qui génèrent de la non-gaussianité.
+
+Une quantité reliée au spectre de puissance est la fonction de corrélation à deux points $\xi (r)$: elle exprime l'excès de probabilité de trouver de la matière en deux points séparés d'une certaine distance $r$ par rapport à une distribution aléatoire. On peut démontrer que la fonction de corrélation à deux points est simplement la représentation du spectre de puissance dans l'espace des positions (donc sa transformée de Fourier):
+\begin{equation}
+\xi (r)\sim \int d\vec k P(k) e^{i k r}.
+\end{equation}
+Notons qu'à nouveau cette excès de probabilité de dépend que de la distance $r$ et non pas d'une orientation ou de positions spécifiques des 2 points considérés. Généralement, la fonction de corrélation à 2 points est utilisée si l'on a une description discrète du champ de densité: c'est le cas par exemple lorsque l'on utilise des galaxies comme traceurs de la matière dans les grands relevés. Si l'on travaille avec un champ continu (comme dans des travaux analytique), on passe directement dans une représentation en mode de Fourier en utilisant le spectre de puissance $P(k)$: ce dernier présente l'avantage d'explicitement séparer les modes de tailles différentes, là où la fonction de corrélation à 2 points "mélange" les modes et peut donc être dominé par une échelle au détriment des autres, qui peuvent pourtant contenir une information pertinente.
+
+\section{Longueur de Jeans}
+Une quantité centrale dans l'étude de l'instabilité gravitationnelle est la longueur de Jeans, notée $\lambda_J$. Elle correspond à la longueur minimale  que doit avoir une structure pour s'effondrer sous l'effet de la gravitation. On y associe également une masse (la masse de Jeans) $M_J$ donnée simplement par:
+\begin{equation}
+M_J=\frac{4\pi}{3}\bar\rho\lambda_J^3,
+\end{equation}
+,où $\bar \rho$ est la densité moyenne du milieu et une structure de masse supérieure à la masse de Jeans va s'effondrer. L'existence du grandeur critique pour que l'effondrement se réalise traduit l'existence d'une compétition entre la gravité et un autre processus que la gravité doit 'vaincre' pour que la structure collapse. En général cet autre processus est l'existence d'un support thermique qui fournit une pression à même de s'opposer à la gravitation. Pour du gaz, il s'agit généralement de la pression interne du gaz, pour des systèmes non collisionnels (type gaz d'étoiles) c'est la dispersion de vitesse interne qui agit comme une barrière à l'effondrement.
+
+L'expression de la longueur de Jeans peut s'obtenir avec un simple raisonnement: pour qu'une structure s'effondre il faut que l'information gravitationnelle se répartisse plus rapidement au sein d'une structure que l'information de support thermique. Dans un milieu de densité $\rho$ l'information gravitationnelle est transportée en un temps dynamique:
+\begin{equation}
+t_G\approx \frac{1}{\sqrt{G\rho}}.
+\end{equation}
+Pour un gaz la transmission de l'information de support thermique dépend de la vitesse du son $c_s$ et de la taille de la structure $\lambda$:
+\begin{equation}
+t_p\approx\frac{\lambda}{c_s}.
+\end{equation}
+L'effondrement a lieu si $t_G<t_p$, donc si la taille de la structure considérée obéit à la condition:
+\begin{equation}
+\lambda >\frac{c_s}{\sqrt{G\rho}}\equiv \lambda_J.
+\end{equation}
+Faire baisser $\lambda_J$ revient à favoriser l'effondrement gravitationnel, le cas limite étant $\lambda_J \rightarrow 0$ où toute structure s'effondre. Ce régime s'obtient dans un milieu très dense ou bien très froid, i.e. sans support thermique.  A l'inverse, une grande valeur de $\lambda_J$ réduit la possibilité d'effondrement et $\lambda_J\rightarrow\infty$ revient à empêcher toute structure de s'effondrer: cela correspond à un milieu sous-dense, donc très léger, ou bien très chaud avec une grande vitesse du son. Pour un système non-collisionnel, la même expression existe pour la longueur de Jeans en remplaçant la vitesse du son par la dispersion de vitesse du milieu.
+
+\subsection{Traitement perturbatif}
+Une dérivation plus rigoureuse peut être obtenue par un traitement perturbatif au premier ordre. On considère un gaz de densité moyenne $\bar \rho$ et d'équation d'état:
+\begin{equation}
+\frac{dP}{d\rho}=c_s^2.
+\end{equation}
+Ce gaz obéit aux équation de Poisson, qui est l'équation de champ de la gravité newtonienne:
+\begin{equation}
+\Delta \phi(x,t) = 4 \pi G \rho
+\end{equation}
+ et aux équations fluides, conservation de la masse:
+ \begin{equation}
+ \frac{\partial \rho}{\partial t} + \vec \nabla \rho \vec u=0,
+ \end{equation}
+ et conservation de l'impulsion
+ \begin{equation}
+ \frac{\partial \vec v}{\partial t} +\vec u \vec \nabla \vec u = -\frac{\vec \nabla P}{\rho}-\vec \nabla \phi.
+ \end{equation}
+ On réalise un traitement perturbatif (à 1D par simplicité):
+ \begin{eqnarray}
+ \rho(x,t)&=&\bar \rho(1 +\delta(x,t))\\
+ u(x,t)&=&v_1(x,t)\\
+ \phi(x,t)&=&\phi_1(x,t)\\
+ P&=&P_0+P_1(x,t)
+ \end{eqnarray}
+ En injectant ces développement, on parvient aisément à écrire:
+ \begin{eqnarray}
+ \frac{\partial \delta}{\partial t}&=&-\bar \rho \frac{\partial v_1}{\partial x}\\
+ \frac{\partial}{\partial t}\frac{\partial v_1}{\partial x}+\frac{c_s^2}{\bar \rho}\frac{\partial^2 \delta}{\partial x^2}+\frac{\partial^2 \phi_1}{\partial x^2}&=&0
+ \end{eqnarray}
+ d'où l'équation maîtresse de l'instabilité:
+ \begin{equation}
+ \ddot \delta -c_s ^2\frac{\partial^2 \delta}{\partial x^2}=4\pi G \bar \rho \delta
+ \end{equation}
+ \subsection{Effondrement et Oscillations}
+ Cette équation s'analyse plus facilement en prenant sa transformée de Fourier spatiale:
+ \begin{equation}
+ \ddot \delta_k +(c_s^2k ^2-4\pi G \bar \rho) \delta_k= 0.
+ \end{equation}
+ Deux régime peuvent être facilement distingués:
+ \begin{itemize}
+ \item si $c_s^2 k^2> 4\pi G \bar \rho$ c'est une équation d'oscillateur harmonique. Le mode correspond à une onde sonore de pulsation $\omega=\sqrt{c_s^2 k^2-4\pi G \bar \rho}$. Cela correspond à des grandes fréquences spatiales, donc des petites structures: notons que leur fréquence temporelle est d'autant plus grande que ces structures sont petites.
+ \item si $c_s^2 k^2< 4\pi G \bar \rho$, la solution est hyperbolique avec donc une contribution exponentielle croissante, qui correspond à l'instabilité gravitationnelle. Ce régime correspond aux faibles valeurs de $k$ donc aux grandes échelles. Le temps caractéristique d'instabilité est $\tau = (4\pi G \bar \rho - c_s^2k^2)^{-1/2}$ qui se résume au temps dynamique si k est suffisamment faible donc si le mode étudié est suffisamment grand. 
+ \end{itemize}
+ 
+ On remarque que le cas critique $\frac{4\pi^2c_s^2}{\lambda^2}=4\pi G \rho$ nous redonne la longueur de Jeans:
+ \begin{equation}
+ \lambda_J=c_s\sqrt{\frac{\pi}{G\rho}}
+ \end{equation}
+ 
+ \subsection{Cas cosmologique}
+\newthought{Le cas cosmologique} se doit de prendre en compte l'expansion de l'Univers. Comme on le verra en fin de démonstration, cela change finalement peu de choses par rapport au cas exposé précédemment. Toutefois cette étude présente un intérêt technique en rapport avec la manipulation de grandeur comobiles dans des équations différentielles couplées. Pour cette raison le calcul sera décrit en détail.
+
+\newthought{Les équations importantes} sont les mêmes que dans le cas d'un Univers statique\sidenote{$\rho$ est la densité de matière, $\vec u$ la vitesse, $\vec  r$ la position physique, $P$ la pression et $\phi$ le potentiel gravitationnel}:
+\begin{eqnarray}
+\frac{\partial \rho}{\partial t}+\frac{\partial \rho \vec u}{\partial \vec r}&=&0\\
+\frac{\partial \vec u}{\partial t}+\vec u \cdot \frac{\partial \vec u}{\partial \vec r}&=&-\frac{1}{\rho}\frac{\partial P}{\partial \vec r}-\frac{\partial \phi}{\partial \vec r}\\
+\frac{\partial^2 \phi}{\partial \vec r^2}&=&4\pi G \rho.
+\end{eqnarray}
+ La principale difficulté découle de la dépendance temporelle de la distance physique $\vec r=a(t) \vec x(t)$ où $\vec x$ désigne la position comobile : la dérivée par rapport à $\vec r$ doit donc être prise avec précaution. Par commodité on préfère généralement écrire ces équations en fonction de données comobiles pour extraire au moins l'effet de flot cosmologique encodé par le facteur d'expansion $a(t)$.
+ 
+La première étape consiste à transformer les dérivée temporelles prises à $\vec r$ constant en dérivée prises à $\vec x$ constant\sidenote{on rappelle que pour $f(r=a(t)x,t)$ alors $\left(\frac{\partial f}{\partial t}\right)_x=\left(\frac{\partial f}{\partial t}\right)_r+\frac{\partial f}{\partial \vec r}\frac{\partial \vec r}{\partial t}$}:
+\begin{equation}
+\left(\frac{\partial }{\partial t}\right)_r = \left(\frac{\partial }{\partial t}\right)_x-\frac{\dot a}{a}\vec x \cdot \left(\frac{\partial}{\partial \vec x}\right)_t,
+\end{equation}
+de même les dérivée spatiales deviennent:
+\begin{equation}
+\frac{\partial }{\partial \vec r}=\frac{1}{a}\frac{\partial}{\partial \vec x}.
+\end{equation}
+ Pour finir, il faut établir que la vitesse comporte une partie liée au flot de Hubble \sidenote{ le terme $\dot a \vec x$ peut facilement se réecrire sous la forme $H \vec r$, i.e. la loi de Hubble}:
+\begin{equation}
+\dot {\vec u}=\dot a \vec x + a \dot {\vec x}= \dot a \vec x + \vec v
+\end{equation}
+ où $\vec v$ désigne une vitesse particulière superposée au flot cosmologique.
+ Enfin la densité sera également exprimée en fonction de la densité de fond, $\bar \rho \sim a{-3}$ qui subit l'expansion cosmologique :
+ \begin{equation}
+ \rho(\vec x,t) =\bar \rho(t)(1+\delta(\vec x,t)).
+ \end{equation}
+ 
+ \newthought{La conservation de la masse} est modifiée comme suit : nous allons prendre les différents termes un par un. La dérivée temporelle de la densité comprend 2 termes, le premier \sidenote{notez la dérivée temporelle de $\bar \rho\sim a^{-3}$ qui intervient ici }:
+ \begin{eqnarray}
+  \left(\frac{\partial \rho}{\partial t}\right)_x&=& \left(\frac{\partial \rho}{\partial t}\right)_r,\\
+  &=&\bar \rho\frac{\partial \delta}{\partial t} -3\frac{\dot a}{a}\bar \rho (1+\delta),
+ \end{eqnarray}
+et le second:
+\begin{eqnarray}
+\frac{\dot a}{a}\vec x \cdot \frac{\partial \rho}{\partial \vec x}&=&\frac{\dot a }{a}\bar \rho \frac{\partial\delta}{\partial \vec x}.
+\end{eqnarray}
+Le terme de flux de cette même équation devient quant à lui:
+\begin{eqnarray}
+\frac{1}{a}\frac{\partial}{\partial \vec x}(\bar \rho(1+\delta)(\vec v + \dot a \vec x))&&\\
+=\frac{\bar \rho}{a} \frac{\partial}{\partial \vec x}(\bar \rho(1+\delta)\vec v) + \frac{\bar \rho \dot a}{a} \frac{\partial}{\partial \vec x}(\bar \rho(1+\delta)\vec x)&&.
+\end{eqnarray}
+Le dernier terme de cette égalité peut être réecrit sous la forme:
+\begin{eqnarray}
+\frac{\bar \rho \dot a}{a} \frac{\partial}{\partial \vec x}(\bar \rho(1+\delta)\vec x)&&\\
+=\bar \rho \frac{\dot a }{a} 3(1+\delta) +\bar \rho \frac{\dot a }{a} \vec x \cdot \frac{\partial \delta}{\partial \vec x}.
+\end{eqnarray}
+En rassemblant le tout on obtient l'équation de conservation de la masse dans sa formulation comobile:
+\begin{equation}
+\frac{\partial \delta}{\partial t}+\frac{1}{a}\frac{\partial}{\partial \vec x}((1+\delta)\vec v)=0
+\end{equation}
+
+ \newthought{L'équation d'Euler comobile} se dérive de la même manière. Prenons le premier terme de dérivée temporelle de la vitesse:
+ \begin{eqnarray}
+ \left(\frac{\partial \vec u}{\partial t}\right)_r&=&\left(\frac{\partial \vec u}{\partial t}\right)_x-\frac{\dot a }{a}\vec x \cdot \frac{\partial \vec u}{\partial \vec x}.
+\end{eqnarray}  
+La dérivée temporelle à $\vec x$ constant donne:
+\begin{eqnarray}
+\left(\frac{\partial \vec u}{\partial t}\right)_x&=&\left(\frac{\partial \vec v}{\partial t}\right)_x + \ddot a {\vec x},
+\end{eqnarray}
+tandis que le terme de Hubble donne \sidenote{on utilise ${\vec e} \cdot \frac{\partial}{\partial \vec x}\vec x= \vec e$}:
+\begin{eqnarray}
+\frac{\dot a }{a}\vec x \cdot \frac{\partial \vec u}{\partial \vec x}&=&\frac{\dot a }{a}\vec x \cdot \frac{\partial \vec v}{\partial \vec x}+\frac{\dot a^2}{a}\vec x.
+\end{eqnarray}
+ Le terme d'advection ne présente pas de difficulté particulière \sidenote{on utilise ${\vec e} \cdot \frac{\partial}{\partial \vec x}\vec x= \vec e$} :
+ \begin{eqnarray}
+ \vec u \cdot \frac{\partial \vec u}{\partial \vec r}&=&\frac{1}{a}\vec v \cdot \frac{\partial \vec v}{\partial \vec x}+\frac{\dot a}{a}\vec x \cdot \frac{\partial \vec v}{\partial \vec x}\\
+ &&+ \frac{\dot a^2}{a}\vec x +\frac{\dot a}{a}\vec v.
+ \end{eqnarray}
+ En rassemblant tous ces premiers termes on obtient une expression comobile pour le membre de gauche de l'équation d'Euler:
+ \begin{equation}
+ \left(\frac{\partial \vec v}{\partial t}\right)_x +\frac{\dot a}{a}\vec v+\frac{1}{a}\vec v \cdot \frac{\partial \vec v}{\partial \vec x} + \ddot a {\vec x}. 
+ \label{e:geuler}
+ \end{equation}
+ Le terme correspondant aux forces de pressions de pose pas de difficulté tandis que le terme correspondant aux forces de gravitation peut être modifié en lui incluant le terme en $\ddot a {\vec x}$ de l'équation \ref{e:geuler}:
+ \begin{eqnarray}
+  \frac{\partial \phi}{\partial \vec r}&=&\frac{1}{a}(\frac{\partial \phi}{\partial \vec x}+a\ddot a \vec x)\\
+  &=&\frac{1}{a}\frac{\partial \Phi}{\partial \vec x},
+ \end{eqnarray}
+ où $\Phi(\vec x,t)$ est un potentiel gravitationnel effectif, prenant en compte les effets de fonds changeant:
+ \begin{equation}
+ \Phi= \phi+\frac{a\ddot a {\vec x}^2}{2}.
+ \end{equation}
+En rassemblant partie différentielle et termes sources, on obtient une équation d'Euler comobile qui ressemble beaucoup à sa contrepartie physique avec l'inclusion d'un terme de friction de Hubble :
+\begin{equation}
+\left(\frac{\partial \vec v}{\partial t}\right)_x +\frac{\dot a}{a}\vec v+\frac{1}{a}\vec v \cdot \frac{\partial \vec v}{\partial \vec x}=-\frac{1}{a\bar \rho (1+\delta)}\frac{\partial P}{\partial \vec x}-\frac{1}{a}\frac{\partial \Phi}{\partial \vec x}.
+\end{equation}
+
+\newthought{L'équation de Poisson} doit également être reformulée en faisant notamment intervenir le potentiel effectif $\Phi$\sidenote{en utilisant $\frac{\partial^2}{\partial \vec x^2} {\vec x}^2=6$}:
+\begin{eqnarray}
+\Delta \phi &=&\frac{1}{a}\frac{\partial^2 \phi}{\partial \vec x^2}\\
+&=&\frac{1}{a^2}\frac{\partial \Phi}{\partial \vec x^2}-3\frac{\ddot a}{a}\\
+&=&4\pi G \bar \rho(1+\delta).
+\end{eqnarray}
+Or l'équation de Friedmann\sidenote{$\frac{\ddot a}{a}=-\frac{4}{3}\pi G \bar \rho$} permet de relier l'évolution du facteur d'expansion avec la densité du fond et permet notamment d'établir que:
+\begin{equation}
+4\pi G \bar \rho a^2+3 a \ddot a=0,
+\end{equation}
+ d'où l'équation de Poisson comobile:
+ \begin{equation}
+ \frac{\partial^2 \Phi}{\partial \vec x^2}=4\pi G \bar \rho a^2 \delta
+ \end{equation}
+ 
+ \newthought{En expansion}, l'équation maîtresse devient (pour chaque mode de Fourier):
+ \begin{equation}
+  \ddot \delta_k +2H\dot \delta_k+ (\frac{c_s^2k ^2}{a^2}-4\pi G \bar \rho) \delta_k= 0.
+ \end{equation}
+ où toutes les quantités sont des quantités comobiles. On retrouve essentiellement la même équation et les mêmes conclusions s'imposent, à savoir instabilité si $\lambda >\lambda_J$ et oscillations sonores dans le cas inverse. On note toutefois la présence du terme $2H\dot \delta_k$ qui s'apparente à un terme d'amortissement dû à l'expansion. On montrera qu'a cause de ce terme qui tempère les solutions, les modes instables ne seront plus exponentiels mais en loi de puissance et les modes stables oscillants seront amortis sur des temps caractéristiques de l'ordre du temps de Hubble.

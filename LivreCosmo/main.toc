@@ -1,0 +1,113 @@
+\select@language {french}
+\contentsline {chapter}{Etat des connaissances}{9}{chapter*.3}
+\contentsline {section}{Observation fondamentale : le d\IeC {\'e}calage vers le rouge}{9}{section*.4}
+\contentsline {section}{Propri\IeC {\'e}t\IeC {\'e}s g\IeC {\'e}n\IeC {\'e}rales de l'Univers}{10}{section*.5}
+\contentsline {subsection}{Param\IeC {\`e}tres cosmologiques}{10}{subsection*.6}
+\contentsline {paragraph}{Param\IeC {\`e}tre de Hubble}{11}{paragraph*.7}
+\contentsline {paragraph}{Param\IeC {\`e}tres de densit\IeC {\'e}}{11}{paragraph*.8}
+\contentsline {paragraph}{Spectre de fluctuations initiales}{11}{paragraph*.9}
+\contentsline {paragraph}{Etat d'ionisation de l'Univers}{11}{paragraph*.10}
+\contentsline {paragraph}{Mod\IeC {\`e}le minimal}{12}{paragraph*.11}
+\contentsline {subsection}{Principales sondes observationnelles}{12}{subsection*.12}
+\contentsline {paragraph}{Mesure directe de $H_0$}{12}{paragraph*.13}
+\contentsline {paragraph}{Supernov\IeC {\ae } et cosmologie}{12}{paragraph*.14}
+\contentsline {paragraph}{Le fond diffus cosmologique}{13}{paragraph*.15}
+\contentsline {paragraph}{Grands relev\IeC {\'e}s de Galaxies}{13}{paragraph*.16}
+\contentsline {paragraph}{Amas de Galaxies}{14}{paragraph*.17}
+\contentsline {paragraph}{Milieu Intergalactique}{14}{paragraph*.18}
+\contentsline {paragraph}{Lentilles Gravitationnelles}{14}{paragraph*.19}
+\contentsline {section}{Une Histoire du Cosmos}{15}{section*.20}
+\contentsline {chapter}{Pr\IeC {\'e}lude: Cosmologie Newtonienne}{17}{chapter*.21}
+\contentsline {section}{Quelques \IeC {\'e}l\IeC {\'e}ments de dynamique}{20}{section*.22}
+\contentsline {section}{Equation de Friedmann}{21}{section*.23}
+\contentsline {section}{Commentaire sur la validit\IeC {\'e} du mod\IeC {\`e}le}{23}{section*.24}
+\contentsline {chapter}{Concepts Fondamentaux}{25}{chapter*.25}
+\contentsline {section}{D\IeC {\'e}finition de l'Univers et de la Cosmologie}{25}{section*.26}
+\contentsline {section}{Principe Cosmologique}{25}{section*.27}
+\contentsline {subsection}{Tautologie}{26}{subsection*.28}
+\contentsline {subsection}{Principe cosmologique pragmatique}{27}{subsection*.29}
+\contentsline {section}{Relativit\IeC {\'e} G\IeC {\'e}n\IeC {\'e}rale: notions}{27}{section*.30}
+\contentsline {subsection}{Principe d'\IeC {\'e}quivalence}{27}{subsection*.31}
+\contentsline {subsection}{R\IeC {\'e}f\IeC {\'e}rentiel inertiel}{29}{subsection*.32}
+\contentsline {subsection}{Qu'est-ce que la gravitation ?}{29}{subsection*.33}
+\contentsline {subsection}{Espace-temps et M\IeC {\'e}trique}{30}{subsection*.34}
+\contentsline {subsection}{M\IeC {\'e}trique de Friedman-Robertson-Walker}{31}{subsection*.35}
+\contentsline {subsection}{Facteur d'expansion, Loi de Hubble}{33}{subsection*.36}
+\contentsline {subsection}{D\IeC {\'e}calage vers le rouge}{34}{subsection*.37}
+\contentsline {subsection}{Source de la gravitation}{35}{subsection*.38}
+\contentsline {section}{Equations de Friedmann}{38}{section*.39}
+\contentsline {chapter}{Dynamique de l'Univers Homog\IeC {\`e}ne}{41}{chapter*.40}
+\contentsline {section}{Fluides Cosmologiques}{41}{section*.41}
+\contentsline {subsection}{La mati\IeC {\`e}re non-relativiste}{43}{subsection*.42}
+\contentsline {subsection}{La Mati\IeC {\`e}re Relativiste}{44}{subsection*.43}
+\contentsline {subsection}{Le "Volume"}{46}{subsection*.44}
+\contentsline {section}{Epoques de domination}{46}{section*.45}
+\contentsline {subsection}{Param\IeC {\`e}tre de densit\IeC {\'e} $\Omega $}{48}{subsection*.46}
+\contentsline {subsection}{Valeurs exp\IeC {\'e}rimentales des param\IeC {\`e}tres de densit\IeC {\'e}}{50}{subsection*.47}
+\contentsline {section}{Mod\IeC {\`e}les d'Univers}{51}{section*.48}
+\contentsline {subsection}{Mod\IeC {\`e}le d'Einstein-de Sitter : $\Omega _m=1$}{51}{subsection*.49}
+\contentsline {subsection}{Univers-Lumi\IeC {\`e}re, $\Omega _r=1$}{52}{subsection*.50}
+\contentsline {subsection}{Univers de Sitter, $\Omega _v=1$}{52}{subsection*.51}
+\contentsline {subsection}{Cas g\IeC {\'e}n\IeC {\'e}ral, mod\IeC {\`e}le standard $\Lambda $CDM}{53}{subsection*.52}
+\contentsline {chapter}{l'Univers Chaud}{55}{chapter*.53}
+\contentsline {section}{Equilibre \& Gel de R\IeC {\'e}actions}{55}{section*.54}
+\contentsline {section}{Statistique d'un gaz}{57}{section*.55}
+\contentsline {section}{Les photons}{58}{section*.56}
+\contentsline {section}{Histoire de la Temp\IeC {\'e}rature}{59}{section*.57}
+\contentsline {section}{Evolution des abondances}{61}{section*.58}
+\contentsline {paragraph}{Cas ultra-relativiste}{61}{paragraph*.59}
+\contentsline {paragraph}{Cas non relativiste}{62}{paragraph*.60}
+\contentsline {paragraph}{Transition}{62}{paragraph*.61}
+\contentsline {section}{Abondances r\IeC {\'e}siduelles}{62}{section*.62}
+\contentsline {chapter}{Histoire thermique de l'Univers et Nucl\IeC {\'e}osynth\IeC {\`e}se primordiale}{65}{chapter*.63}
+\contentsline {section}{Quelques \IeC {\'e}tapes}{65}{section*.64}
+\contentsline {paragraph}{Entropie et fond neutrino}{66}{paragraph*.65}
+\contentsline {section}{Synth\IeC {\`e}se de l'h\IeC {\'e}lium}{66}{section*.66}
+\contentsline {paragraph}{Rapport neutron/proton}{66}{paragraph*.67}
+\contentsline {paragraph}{Synth\IeC {\`e}se du Deut\IeC {\'e}rium}{67}{paragraph*.68}
+\contentsline {paragraph}{radioactivit\IeC {\'e} $\beta $}{68}{paragraph*.69}
+\contentsline {paragraph}{synth\IeC {\`e}se de l'h\IeC {\'e}lium et autres \IeC {\'e}l\IeC {\'e}ments l\IeC {\'e}gers}{68}{paragraph*.70}
+\contentsline {section}{Nucl\IeC {\'e}osynth\IeC {\`e}se et Cosmologie}{69}{section*.71}
+\contentsline {chapter}{Le Fond Diffus Cosmologique}{71}{chapter*.72}
+\contentsline {section}{Recombinaison}{71}{section*.73}
+\contentsline {section}{Surface de derni\IeC {\`e}re diffusion}{73}{section*.74}
+\contentsline {paragraph}{Fin de la diffusion Thompson}{73}{paragraph*.75}
+\contentsline {paragraph}{surface de derni\IeC {\`e}re diffusion}{73}{paragraph*.76}
+\contentsline {section}{Corps noir cosmologique}{74}{section*.77}
+\contentsline {section}{Anisotropies du CMB}{75}{section*.78}
+\contentsline {subsection}{Principe de l'analyse des anisotropies du CMB}{76}{subsection*.79}
+\contentsline {paragraph}{Echelles angulaires}{77}{paragraph*.80}
+\contentsline {paragraph}{Spectre de puissance}{77}{paragraph*.81}
+\contentsline {subsection}{Avant-plans}{78}{subsection*.82}
+\contentsline {paragraph}{Dip\IeC {\^o}le}{78}{paragraph*.83}
+\contentsline {subsection}{Anisotropies Intrins\IeC {\`e}ques}{79}{subsection*.84}
+\contentsline {paragraph}{Grandes \IeC {\'e}chelles}{80}{paragraph*.85}
+\contentsline {paragraph}{Petites \IeC {\'e}chelles}{80}{paragraph*.86}
+\contentsline {subsection}{Anisotropies secondaires}{81}{subsection*.87}
+\contentsline {paragraph}{La r\IeC {\'e}ionisation}{81}{paragraph*.88}
+\contentsline {paragraph}{L'effet SZ des amas}{82}{paragraph*.89}
+\contentsline {paragraph}{Le lentillage gravitationnel cosmique}{82}{paragraph*.90}
+\contentsline {chapter}{Formation des grandes structures}{85}{chapter*.91}
+\contentsline {section}{Densit\IeC {\'e} et spectre de puissance}{85}{section*.92}
+\contentsline {paragraph}{Champ al\IeC {\'e}atoire Gaussien}{86}{paragraph*.93}
+\contentsline {section}{Longueur de Jeans}{87}{section*.94}
+\contentsline {subsection}{Traitement perturbatif}{88}{subsection*.95}
+\contentsline {subsection}{Effondrement et Oscillations}{89}{subsection*.96}
+\contentsline {subsection}{Cas cosmologique}{90}{subsection*.97}
+\contentsline {chapter}{Entropie et Univers}{95}{chapter*.98}
+\contentsline {section}{Configurations et probabilit\IeC {\'e}s}{95}{section*.99}
+\contentsline {section}{Entropie et perception du temps}{98}{section*.100}
+\contentsline {section}{Entropie et Complexit\IeC {\'e}}{99}{section*.101}
+\contentsline {section}{Entropie et formation des grandes structures}{101}{section*.102}
+\contentsline {section}{Le d\IeC {\'e}fi de l'entropie actuelle}{102}{section*.103}
+\contentsline {chapter}{L'inflation et les premiers instants}{105}{chapter*.104}
+\contentsline {section}{Le probl\IeC {\`e}me de l'Horizon de causalit\IeC {\'e}}{105}{section*.105}
+\contentsline {section}{Le probl\IeC {\`e}me de la platitude}{106}{section*.106}
+\contentsline {section}{L'origine des fluctuations cosmiques}{107}{section*.107}
+\contentsline {chapter}{Simulations Cosmologiques}{109}{chapter*.108}
+\contentsline {section}{De la discr\IeC {\'e}tisation et de la r\IeC {\'e}solution}{110}{section*.109}
+\contentsline {section}{Dynamique Non-Collisionelle: Mati\IeC {\`e}re Noire et \IeC {\'e}toiles}{111}{section*.110}
+\contentsline {section}{Hydrodynamique}{115}{section*.111}
+\contentsline {chapter}{Bibliographie}{119}{chapter*.112}
+\contentsline {chapter}{Index}{121}{chapter*.113}
+\contentsfinish 
