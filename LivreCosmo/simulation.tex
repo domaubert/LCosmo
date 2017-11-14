@@ -5,6 +5,13 @@
 
 Pour toutes ces raisons, il est tout un domaine de la cosmologie physique qui vise à développer des outils de simulations numériques permettant notamment de suivre la structuration de la matière dans des régimes arbitraires de symétries et de non linéarités. Ces simulations sont essentiellement dédiées à l'étude de la \textit{dynamique} de la matière dans l'Univers en produisant des portions d'Univers synthétiques en évolution depuis les premiers instants jusqu'à nos jours. Elles reproduisent ce que nous pensons être l'histoire complexe de croissance et d'assemblage des structures : en comparant les prédictions de ces outils à la 'réalité terrain', il s'agit de tester les lois physiques qui sont utilisées et nos hypothèses sur l'état initial de l'Univers et ses propriétés. Par ailleurs ces simulations fournissent des histoires de croissances des structures qui peuvent être supplémentés de modèles supplémentaires pour explorer des physiques qui ne se limitent pas à la dynamique ou bien utilisées à des fins pratiques pour mettre au point des relevés, préparer des observations ou simuler des instruments. Ces outils numériques sont appelés \textit{simulations cosmologiques} et leurs principes les plus importants sont décrits dans ce chapitre.
 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=20cm]{figs/simuemma.jpg}
+	\caption{Un exemple de produit de simulation cosmologique. Cette image montre une prédiction numérique de l'état de l'Univers 1 milliards d'années après le Big-Bang : les teintes vertes encodent la densité du gaz, les rouges la température du gaz et l'opacité trace l'état d'ionisation du gaz. L'image fait 90 Mpc de côté.}
+	\label{f:simuemma}
+\end{figure}
+
 \section{De la discrétisation et de la résolution}
 Ces simulations sont produites par des codes informatiques devant tourner sur des ordinateurs. Ces machines possèdent des ressources finies et manipulent des quantités \textit{discrètes}, ce qui est en contradiction avec notre description habituelle du monde qui repose généralement sure une description \textit{continue} : un volume permet une infinité de positions possibles ou bien tous les instants sont accessibles à l'intérieur d'un intervalle donné. Même une quantité à priori dénombrable peu donner l'apparence d'une infinité, telle un nombre de particules qui dans des volumes cosmologiques peuvent être tout simplement gigantesque. Un traitement informatique va donc impliquer de discrétiser le temps, l'espace, la distribution de matière, etc... pour pouvoir être envisageable.
 Par la suite, nous considérons la densité de matière dans l'espace $\delta(\vec x)$ : ce champ scalaire est défini en tout point de l'espace et possède donc une infinité de valeurs possibles tout en étant mesurable dans à infinité de positions possibles. 
@@ -122,3 +129,93 @@ Notez que cette mise à jour à l'instant $p+1$ ne nécessite la connaissance qu
 \frac{\Delta x}{ \Delta t}> v.
 \end{equation}
 Cette équation traduit que la vitesse numérique, la vitesse de mise à jour, doit être supérieure à la vitesse typique du processus physique que l'on cherche à reproduire : pour une résolution spatiale donnée cela équivaut à mettre une limite supérieure au pas de temps choisi \sidenote{Notons que la même chose existe pour les particules de la partie précédente. Si l'on souhaite qu'une particule ne parcoure pas une trop grande distance durant un pas de temps, il faut limiter ce dernier.} Notons qu'il existe aussi une approche dite \textit{implicite} où tous les termes de mise à jour sont exprimés à l'instant $p+1$ : toutefois ces termes sont inconnus au moment du calcul et la mise à jour implique dès lors un problème typique d'inversion, souvent compliqué, en lieu et place de la simple expression algébrique obtenue ici. En revanche l'approche implicite est généralement inconditonnellement stable, ce qui permet l'utilisation de pas de temps plus grands pour simuler un problème donné.
+
+\newthought{Une autre méthode populaire} existe pour traiter les équations hydrodynamique et qui repose sur une description particulaire des éléments de fluides. Nommée \textit{SPH} (pour \textit{smoothed particle hydrodynamics}) elle repose sur l'utilisation de particules d'extension finie et non-nulle. Cette extension est formalisée par un noyau dont la valeur dépend de la distance au centre de la particule, $W(|x-x_p|)$, valeur qui tend vers zéro au delà d'une certaine \textit{distance de lissage}. Ce noyau fait office de poids et toute quantité intensive (densité, moment, énergie...) associée à une particule s'obtient en additionnant les contributions pondérées de ses voisines:
+\begin{equation}
+A=\sum_i m_i \frac{A_i}{\rho_i} W(|x_i-x_p|).
+\end{equation} 
+Cette somme se fait généralement sur un nombre de particules voisines prédéterminé : si la matière est dense, les distances impliquées seront courtes tandis qu'un état diffus implique naturellement une sommation sur des plus grandes distances.
+ 
+L'intérêt de cette méthode est sa simplicité : par exemple toute dérivée spatiale de $A$ se propage linéairement au noyau de pondération, dont la dérivée est généralement simple et connue. De plus, cette description sous forme de particule n'implique pas de géométrie d'échantillonnage à priori au contraire d'une grille qui fixe d'emblée des directions ou des points de mesures privilégiés. Les particules de fluides se déplacent librement et peuvent par exemple sur-échantillonner les régions denses ou sous échantillonner les régions vides : par rapport à une grille, on a ainsi un échantillonnage de l'espace au plus près des contrastes de densité. Son inconvénient majeur est sa plus grande diffusivité comparées aux meilleures formulations sur grille : dans ses versions les plus communes, la méthode SPH ne parvient pas à capturer certains types chocs ou de discontinuités et ne lui permet pas de reproduire certaines instabilités hydrodynamiques standard. 
+
+\section{Processus Physico-Chimiques}
+Comme expliqué dans la partie XX, le gaz cosmique ne peut s'organiser sous la forme de galaxies que si ce dernier peut évacuer de l'énergie via des processus de refroidissement. L'équation qui régit l'évolution de l'énergie interne est\sidenote{$e$ désigne l'énergie interne du gaz tandis que $H$ et $\Lambda$ désignent respectivement les fonctions de chauffage et de refroidissement} :
+\begin{equation}
+\frac{de}{dt}=H-\Lambda.
+\end{equation}
+La fonction de refroidissement $\Lambda$ peut-être plus ou moins sophistiqué et faire intervenir des espèces moléculaires, des métaux \sidenote{éléments plus lourds que l'Hélium} ou se limiter aux éléments H et He. Dans ce dernier cas, les processus impliqués sont le refroidissement par ionisation, par émission de rayonnement de recombinaison, de désexcitation collisionelle ainsi que le rayonnement synchrotron et compton inverse avec les photons du CMB. Tous ces processus sont tabulés et dépendent de la température du gaz, de sa densité et de son état d'ionisation. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/zoom.png}
+	\caption{Exemple de dynamique dans une simulation hydrodynamique avec refroidissement. L'image de droite représente la distribution de gaz dans les 2 cadres de gauches. On note la présence de disque gazeux crées par le gaz effondré sous l'effet du refroidissement en rotation.}
+	\label{f:zoom}
+\end{figure}
+
+
+
+\newthought{L'état d'ionisation du gaz} doit également être connu pour chaque élément de résolution afin de calculer ces refroidissements. Dans le cas d'un gaz composé uniquement d'Hydrogène, l'état d'ionisation du gaz est régit par \sidenote{$n_{HI}$ désigne la densité numérique de gaz d'hydrogène neutre, $n_{HII}$ celle d'hydrogène ionisé et $n_e$ la densité d'électrons libres }:
+\begin{equation}
+\frac{dn_{HI}}{dt}=\alpha(T) n_{HII} n_e-\beta(T) n_{HI}n_e-\Gamma n_{HI}.
+\label{e:eint}
+\end{equation}
+Cette équation lie la variation de l'abondance d'atomes neutres à la recombinaison atomique \sidenote{contrôlée par le taux de recombinaison $\alpha$ (en $m^3 s^{-1}$)} qui tend à faire augmenter cette abondance en fonction du nombre d'électrons libres et d'atomes ionisés, à l'ionisation collisionelle \sidenote{contrôlée par le taux de collisions $\beta$ (en $m^3 s^{-1}$)} qui tend à diminuer cette abondance en fonction du nombre d'électrons libres à nouveau et enfin par la photoionisation \sidenote{contrôlée par le taux de photoionisation $\Gamma=c\sigma n_\gamma$ (en $s^{-1}$)} qui encode la destruction d'atomes neutres par le rayonnement ionisant. Ce type d'équation doit être résolue en chaque élément de résolution à chaque pas de temps. Elle peut être résolue dans le régime hors équilibre ou plus simplement en supposant que cette abondance converge très rapidement vers l'équilibre\sidenote{ce qui est une bonne approximation compte tenu des temps courts impliqués dans les processus physico-chimiques par rapports aux temps dynamiques} en posant arbitrairement $\frac{dn_{HI}}{dt}=0$.
+
+\newthought{Les taux} physico-chimiques de recombinaison ou de collisions dépendent uniquement de la température et sont tabulés. Le taux de photoionisation dépend lui de la quantité de photons $n_\gamma$ ionisants présents en chaque point de l'espace simulé\sidenote{$\sigma$ désigne la section efficace d'ionisation et dépends très fortement de la fréquence du rayonnement étudié.}:
+\begin{equation}
+\Gamma=c\sigma n_\gamma.
+\label{e:photoion}
+\end{equation}
+Ce rayonnement ionisant est produit par les étoiles et les quasars pour l'essentiel et dépend dans l'absolu du lieu considéré (à proximité ou éloigné des sources de rayonnement) et de l'instant puisque les populations d'étoiles et de quasars évoluent au cours de l'histoire de l'Univers. En pratique, la plupart des simulations cosmologiques considère que le rayonnement ionisant est assimilable à un fond uniforme~: après la Réionisation, l'Univers est 'transparent' aux rayonnement UV et cela constitue donc une approximation raisonnable. L'évolution temporelle de ce 'fond UV' peut être tabulé et injecté dans l'équation \ref{e:photoion}. Un exemple couramment utilisé est le fond dit de 'Haardt \& Madau', reposant sur une description réaliste de l'évolution des populations des différents types de sources et dont l'évolution est donné dans la figure \ref{f:HM}. Ce taux intervient également dans le terme de chauffage $H$ de l'équation \ref{e:eint} : chaque ionisation s'accompagne d'un dépôt d'énergie de la forme \sidenote{où $E_\gamma$ désigne l'énergie portée par chaque photon et $E_i$ désigne l'énergie d'ionisation (13.6 eV pour H)}:
+\begin{equation}
+H=c \sigma n_\gamma n_{HI} (E_\gamma-E_i).
+\end{equation}
+Donc non seulement le rayonnement influe sur le refroidissement du gaz en réglant le taux d'ionisation du gaz (et donc sa capacité à rayonner) mais également sur son chauffage. Depuis un peu moins de 10 ans, un nouveau type de simulation prenant en compte la propagation du rayonnement et les effets d'opacités \sidenote{physique que l'on regroupe sous le terme de \textit{transfert radiatif}} est apparu : extrêmement coûteuses ces simulations sont pour l'instant limitées à l'étude de l'époque de Réionisation\sidenote{donc limité au premier milliard d'années de l'histoire de l'Univers} mais permettent de s'affranchir de l'hypothèse d'un fond UV uniforme. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/HM.png}
+	\caption{Evolution en redshift du taux de photoionisation crée par le fond ultra-violet du modèle de Haardt \& Madau. Ce modèle suppose un Univers optiquement mince et sort de son domaine d'hypothèse pour z>6, lorsque l'Univers n'est pas complètement réionisé. On note une augmentation suivi d'une baisse du taux de photoionisation qui trace l'histoire cosmique de formation d'étoile.}
+	\label{f:HM}
+\end{figure}
+
+
+\section{Formation et rétroaction stellaire}
+L'objectif des simulations cosmologiques est d'explorer le processus de croissances des structures dans ses régimes les plus non-linéaires et l'un des aboutissement de ces régimes est la formation d'étoile. Par ailleurs, la comparaison entre résultats de modélisation et observations se fait invariablement par la composante lumineuse des galaxies et à ce titre l'inclusion de modèles de formation stellaire est indispensable pour pouvoir comparer une vraie galaxie avec la composante stellaire d'une galaxie simulée.
+
+\newthought{La résolution spatiale} nécessaire à modéliser la formation stellaire est néanmoins difficilement compatible avec les échelles cosmologiques. La formation stellaire opère dans des nuages moléculaires géants, aux tailles caractéristiques de l'ordre du parsec, tandis que les effets cosmologiques qui nous intéressent se manifestent sur des échelles supérieures au Mégaparsec : le rapport d'échelle est très important et à vrai dire hors de portée des machines de calcul actuelles. En effet, une haute résolution spatiale dans un grand volume cosmologique implique un grand nombre d'éléments de calculs (particules, cellules) et donc un grand nombre de données à traiter sur une très grande durée. Par exemple, un volume de 100 Mpc traité avec des cellules au parsec de résolution implique un nombre de cellules total de l'ordre de $(10^8)^3=10^{24}$. En 2017, les plus grandes simulations cosmologiques produites sur les plus grands calculateurs mondiaux traitent avec difficulté de problèmes échantillonnés sur $10^{11-12}$ cellules, bien en deçà de l'exigeance que nous venons de formuler.
+
+\newthought{La formation stellaire} ne peut donc être simulée à partir de 'principes premiers'\sidenote{dans des volumes cosmologiques. Il existe des simulations à l'échelle du nuage moléculaires qui ont la résolution suffisante mais qui se restreignent à des volumes physiques simulés bien insuffisants pour faire de la cosmologie.} et il faut donc avoir recours à des modèles. Une des approches les plus communes repose sur l'idée que la formation stellaire est régie par l'effondrement gravitationnel du gaz et opère donc sur des temps dynamiques \sidenote{$\rho_*$ désigne la densité de masse stellaire formée, $\rho_g$ désigne la densité de gaz convertie en étoile et $t_g$ est le temps dynamique gravitationnel}:
+\begin{equation}
+\frac{d \rho_*}{dt}=\frac{d \rho_g}{dt}\sim\epsilon\frac{\rho_g}{t_g}.
+\end{equation}
+Ici $\epsilon$ désigne l'efficacité de formation stellaire et manifeste le fait que le temps caractéristique de formation d'étoile n'est pas exactement le temps dynamique mais plutôt $t_g/\epsilon$ : l'efficacité est un paramètre libre du modèle.
+
+Or le temps dynamique est lui même dépendant de la densité de gaz en effondrement:
+\begin{equation}
+t_g\sim\frac{1}{\sqrt{G\rho_g}}.
+\end{equation}
+Le taux de formation stellaire (SFR \sidenote{de l'anglais \textit{Star Formation Rate}}) est alors décrit par une loi de puissance sur la densité de gaz présente localement:
+\begin{equation}
+\mathrm{SFR}\sim \epsilon \rho_g^{3/2}.
+\label{e:schmidt}
+\end{equation}
+Cette relation est appelée \textit{Loi de Schmidt} et traduit en des termes simples qu'une région dense et riche en gaz produit naturellement plus d'étoile : l'efficacité du processus est contrôlé par $\epsilon$ et opère sur des échelles de temps $t_g/\epsilon$. Observationnellement, on constate toutefois que le processus de formation stellaire est hautement inefficace avec des temps caractéristique de conversion de l'ordre de quelques milliards d'années alors que les temps d'effondrement attendus sont environs 100 fois plus courts. L'efficacité de formation stellaire est donc de l'ordre de $1\%$ et traduit l'impact macroscopique de processus non résolus qui empêche une formation d'étoile soutenue\sidenote{on ne connaît pas la source précise de cette inefficacité. Champs magnétique, turbulence, vents stellaires sont souvent invoqués sans que leur rôles relatifs et quantitatifs ne soient exactement connus.}.
+
+\newthought{En pratique}, un code de simulation va passer en revue tous ses éléments de résolution et convertir une partie du gaz conformément à la Loi de Schmidt. Cette conversion va se manifester sous la forme de création de particules stellaires : ces particules n'intéragissent que via la gravitation et se découplent du gaz comme de vrais étoiles. Ces étoiles possède un âge, éventuellement une composition chimique synthétique qui permet de leur assigner une luminosité ou un spectre pouvant amener des comparaisons entre ces populations stellaires simulées et celles observées dans les vraies galaxies. Notons pour finir que ces particules stellaires ont des masses typiques de l'ordre de 1000 $M_\odot$ à quelque millions et représentent donc des amas ou des populations stellaires et non pas des étoiles individuelles : nos machines actuelles ne sont pas capables de gérer le nombre réel d'étoiles présentes dans un volume cosmologique et doivent donc les regrouper en 'macro-étoiles'.
+
+\newthought{Une étoile meurt}, parfois de façon spectaculaire en particulier si elle est massive, de l'ordre de la dizaine de masses solaire ou plus. Cette mort s'accompagne d'une explosion en supernovae qui va injecter de l'énergie dans le gaz environnant, le chauffer et donc prévenir au moins momentanément l'apparition de génération successives d'autres étoiles (voir Fig. \ref{f:SN}). Une population existante va donc modérer l'apparition de populations suivantes dans un mécanisme de rétroaction. Les codes de simulations vont modéliser cette rétroaction en injectant de l'énergie dans le gaz à proximité des particules stellaires qui atteignent l'âge correspondant à l'apparition des premières explosion. Notons que toute la population stellaire d'une particule stellaire n'est pas concernée : une population contient des étoiles massives, qui explosent, et des étoiles légères de type solaire qui ont des durées de vie de l'ordre de l'âge de l'Univers. La répartition des masses au sein d'une population est donnée par la \textit{fonction de masse initiale}. Observationnellement cette répartition est souvent décrite par une \textit{loi de Salpeter} dans un grand nombre de contextes \sidenote{$N(m)$ désigne le nombre d'étoiles de masse $m$ à $dm$ près}:
+\begin{equation}
+N(m)dm\sim m^{-2.35}dm
+\end{equation}
+qui traduit le fait qu'une population naissante possède un grand nombre d'étoiles de faible masses et un nombre plus faible d'étoiles massives susceptibles de réinjecter de l'énergie dans le gaz environnant. Cette fonction de masse initiale, comme toutes les autres, permet de contraindre la fraction d'étoiles qui vont exploser ainsi que la répartition temporelle (durée, instant) de cette réinjection d'énergie.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=13cm]{figs/SN.png}
+	\caption{Exemples d'injection d'énergie par une particule stellaire modélisant l'explosion d'une supernovae. La colonne de gauche montre la densité de gaz autour d'une galaxies pesant $1/10$ème de la masse de la Voie Lactée. La colonne de droite montre la température du gaz. La ligne supérieur montre une simulation sans explosion tandis que les 2 lignes inférieures montrent 2 modèles d'explosion. On note la montée en température du gaz lors de la présence d'explosion ainsi que la création de fronts créés par le gaz expulsé.}
+	\label{f:SN}
+\end{figure}
+
+
+\newthought{Tous ces modèles sous-grilles} sont susceptibles de multiples variations dans toutes les étapes, traduisant notre manque de connaissance actuel sur les processus à l'oeuvre autour de la formation stellaire. Par conséquent les simulations, qui visent à reproduire l'Univers et les galaxies observées, disposent de multiples leviers sur lesquels agir et qui constituent autant de paramètres libres. Par ailleurs, on sait que d'autres physiques sous-estimées ou non modélisées ont peut-être leur rôle à jouer et de fait tout accord entre simulations et observations peut être critiqué\sidenote{comme étant expérience dépendant ou accidentel par exemple} et tout désaccord peut être minimisé en invoquant une physique mal ou non résolue. La section suivante survole les quelques problèmes rencontrés par les prédictions numériques : ces problèmes sont la conséquence du caractère beaucoup plus complexe, plus non-linéaire et multiforme des physiques en jeu lorsque l'on quitte le domaine de la cosmologie à proprement dit pour aborder celui de la formation des galaxies. Il n'en reste pas moins que les simulations sont les seuls outils de modélisation nous permettant d'étudier ces processus dans leur plus grande complexité.

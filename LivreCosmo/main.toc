@@ -33,9 +33,9 @@
 \contentsline {subsection}{Espace-temps et M\IeC {\'e}trique}{30}{subsection*.34}
 \contentsline {subsection}{M\IeC {\'e}trique de Friedman-Robertson-Walker}{31}{subsection*.35}
 \contentsline {subsection}{Facteur d'expansion, Loi de Hubble}{33}{subsection*.36}
-\contentsline {subsection}{D\IeC {\'e}calage vers le rouge}{34}{subsection*.37}
-\contentsline {subsection}{Source de la gravitation}{35}{subsection*.38}
-\contentsline {section}{Equations de Friedmann}{38}{section*.39}
+\contentsline {subsection}{D\IeC {\'e}calage vers le rouge}{35}{subsection*.37}
+\contentsline {subsection}{Source de la gravitation}{36}{subsection*.38}
+\contentsline {section}{Equations de Friedmann}{39}{section*.39}
 \contentsline {chapter}{Dynamique de l'Univers Homog\IeC {\`e}ne}{41}{chapter*.40}
 \contentsline {section}{Fluides Cosmologiques}{41}{section*.41}
 \contentsline {subsection}{La mati\IeC {\`e}re non-relativiste}{43}{subsection*.42}
@@ -87,27 +87,38 @@
 \contentsline {paragraph}{La r\IeC {\'e}ionisation}{81}{paragraph*.88}
 \contentsline {paragraph}{L'effet SZ des amas}{82}{paragraph*.89}
 \contentsline {paragraph}{Le lentillage gravitationnel cosmique}{82}{paragraph*.90}
-\contentsline {chapter}{Formation des grandes structures}{85}{chapter*.91}
-\contentsline {section}{Densit\IeC {\'e} et spectre de puissance}{85}{section*.92}
-\contentsline {paragraph}{Champ al\IeC {\'e}atoire Gaussien}{86}{paragraph*.93}
-\contentsline {section}{Longueur de Jeans}{87}{section*.94}
-\contentsline {subsection}{Traitement perturbatif}{88}{subsection*.95}
-\contentsline {subsection}{Effondrement et Oscillations}{89}{subsection*.96}
-\contentsline {subsection}{Cas cosmologique}{90}{subsection*.97}
-\contentsline {chapter}{Entropie et Univers}{95}{chapter*.98}
-\contentsline {section}{Configurations et probabilit\IeC {\'e}s}{95}{section*.99}
-\contentsline {section}{Entropie et perception du temps}{98}{section*.100}
-\contentsline {section}{Entropie et Complexit\IeC {\'e}}{99}{section*.101}
-\contentsline {section}{Entropie et formation des grandes structures}{101}{section*.102}
-\contentsline {section}{Le d\IeC {\'e}fi de l'entropie actuelle}{102}{section*.103}
-\contentsline {chapter}{L'inflation et les premiers instants}{105}{chapter*.104}
-\contentsline {section}{Le probl\IeC {\`e}me de l'Horizon de causalit\IeC {\'e}}{105}{section*.105}
-\contentsline {section}{Le probl\IeC {\`e}me de la platitude}{106}{section*.106}
-\contentsline {section}{L'origine des fluctuations cosmiques}{107}{section*.107}
-\contentsline {chapter}{Simulations Cosmologiques}{109}{chapter*.108}
-\contentsline {section}{De la discr\IeC {\'e}tisation et de la r\IeC {\'e}solution}{110}{section*.109}
-\contentsline {section}{Dynamique Non-Collisionelle: Mati\IeC {\`e}re Noire et \IeC {\'e}toiles}{111}{section*.110}
-\contentsline {section}{Hydrodynamique}{115}{section*.111}
-\contentsline {chapter}{Bibliographie}{119}{chapter*.112}
-\contentsline {chapter}{Index}{121}{chapter*.113}
+\contentsline {chapter}{La Mati\IeC {\`e}re Noire}{85}{chapter*.91}
+\contentsline {section}{Mati\IeC {\`e}re noire et dynamique interne des structures}{85}{section*.92}
+\contentsline {subsection}{Courbe de rotation des galaxies}{85}{subsection*.93}
+\contentsline {chapter}{Formation des grandes structures}{87}{chapter*.94}
+\contentsline {section}{Densit\IeC {\'e} et spectre de puissance}{87}{section*.95}
+\contentsline {paragraph}{Champ al\IeC {\'e}atoire Gaussien}{88}{paragraph*.96}
+\contentsline {section}{Longueur de Jeans}{89}{section*.97}
+\contentsline {subsection}{Traitement perturbatif}{90}{subsection*.98}
+\contentsline {subsection}{Effondrement et Oscillations}{91}{subsection*.99}
+\contentsline {subsection}{Cas cosmologique}{92}{subsection*.100}
+\contentsline {section}{Croissance des perturbations : cas sub-horizon}{96}{section*.101}
+\contentsline {subsection}{Mati\IeC {\`e}re sans pression}{96}{subsection*.102}
+\contentsline {subsection}{Mati\IeC {\`e}re avec pression}{97}{subsection*.103}
+\contentsline {section}{Croissance des perturbations : cas super-horizon}{99}{section*.104}
+\contentsline {section}{Croissance des perturbations : synth\IeC {\`e}se et spectre de puissance}{100}{section*.105}
+\contentsline {section}{Et apr\IeC {\`e}s ?}{103}{section*.106}
+\contentsline {chapter}{Simulations Cosmologiques}{105}{chapter*.107}
+\contentsline {section}{De la discr\IeC {\'e}tisation et de la r\IeC {\'e}solution}{106}{section*.108}
+\contentsline {section}{Dynamique Non-Collisionelle: Mati\IeC {\`e}re Noire et \IeC {\'e}toiles}{108}{section*.109}
+\contentsline {section}{Hydrodynamique}{111}{section*.110}
+\contentsline {section}{Processus Physico-Chimiques}{114}{section*.111}
+\contentsline {section}{Formation et r\IeC {\'e}troaction stellaire}{116}{section*.112}
+\contentsline {chapter}{Entropie et Univers}{123}{chapter*.113}
+\contentsline {section}{Configurations et probabilit\IeC {\'e}s}{123}{section*.114}
+\contentsline {section}{Entropie et perception du temps}{126}{section*.115}
+\contentsline {section}{Entropie et Complexit\IeC {\'e}}{127}{section*.116}
+\contentsline {section}{Entropie et formation des grandes structures}{129}{section*.117}
+\contentsline {section}{Le d\IeC {\'e}fi de l'entropie actuelle}{130}{section*.118}
+\contentsline {chapter}{L'inflation et les premiers instants}{133}{chapter*.119}
+\contentsline {section}{Le probl\IeC {\`e}me de l'Horizon de causalit\IeC {\'e}}{133}{section*.120}
+\contentsline {section}{Le probl\IeC {\`e}me de la platitude}{134}{section*.121}
+\contentsline {section}{L'origine des fluctuations cosmiques}{135}{section*.122}
+\contentsline {chapter}{Bibliographie}{137}{chapter*.123}
+\contentsline {chapter}{Index}{139}{chapter*.124}
 \contentsfinish 

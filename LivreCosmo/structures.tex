@@ -217,5 +217,180 @@ Or l'équation de Friedmann\sidenote{$\frac{\ddot a}{a}=-\frac{4}{3}\pi G \bar \
  \newthought{En expansion}, l'équation maîtresse devient (pour chaque mode de Fourier):
  \begin{equation}
   \ddot \delta_k +2H\dot \delta_k+ (\frac{c_s^2k ^2}{a^2}-4\pi G \bar \rho) \delta_k= 0.
+  \label{e:epert}
  \end{equation}
  où toutes les quantités sont des quantités comobiles. On retrouve essentiellement la même équation et les mêmes conclusions s'imposent, à savoir instabilité si $\lambda >\lambda_J$ et oscillations sonores dans le cas inverse. On note toutefois la présence du terme $2H\dot \delta_k$ qui s'apparente à un terme d'amortissement dû à l'expansion. On montrera qu'a cause de ce terme qui tempère les solutions, les modes instables ne seront plus exponentiels mais en loi de puissance et les modes stables oscillants seront amortis sur des temps caractéristiques de l'ordre du temps de Hubble.
+ 
+ A ce stade il faut rappeler, que le traitement décrit juste ici est approché. Par exemple la matière noire \sidenote{qui compose $80\%$ du bilan énergétique de la matière} ne peut pas, à priori, être correctement décrite par les équations 'fluides' utilisées ici. Comme ses particules sont non collisionelles, on ne peut réduire la pression\sidenote{qui est une mesure des propriétés du tenseur des dispersions de vitesses} à un scalaire et elle peut être anisotrope. La question se pose dans les même termes pour le rayonnement. Un traitement rigoureux doit passer par l'utilisation de l'équation de Boltzmann qui encode directement l'évolution de la fonction de distribution des ces fluides dans l'espace des phases et non celle des ses moments (densité, impulsion, etc...).  Heureusement le résultat obtenu reste très similaire à celui présenté dans l'équation \ref{e:epert} et elle fera donc l'affaire pour les raisonnement à suivre.
+ 
+ L'autre difficulté est lié à la nature multi-fluide des perturbations. Nous avons:
+ \begin{itemize}
+ \item les photons: relativiste, avec une pression de rayonnement associée,
+ \item les baryons: non-relativiste mais couplés avec le rayonnement avant la recombinaison. Les photons vont donc fournir une source de support dynamique bien plus important que la simple pression thermique,
+ \item la matière noire : non-relativiste et sans pression.
+ \end{itemize}
+ Ces 3 fluides vont évoluer selon des termes donnés par l'éq. \ref{e:epert}. Par ailleurs ces fluides sont couplés et s'influencent l'un l'autre : c'est vrai via la pression de rayonnement pour les baryons et les photons mais également via le terme $4\pi G \bar \rho)\delta_k$. Ce terme trace une source gravitationnelle de perturbation et doit donc inclure toutes les contributions au bilan énergétique de l'Univers, photons compris. C'est notamment vrai durant les époques avant l'équivalence \sidenote{correspondant à $z>3000$ ou $t<80 000$ ans où matière et rayonnement contribuent de manière égale au bilan énergétique du cosmos} durant lesquelles la source principale de potentiel est la contribution des photons. En pratique, nous avons donc un jeu d'équations multiples couplées qu'on ne peut résoudre de façon analytique : les grands principes peuvent toutefois être explorés en appliquant des hypothèses raisonnables comme décrit dans les parties suivantes.
+ 
+ \section{Croissance des perturbations : cas sub-horizon}
+ \newthought{Les échelles explorées} dans cette partie sont suffisamment compactes pour être plus petites que l'horizon a un instant donné. Cela permet en particulier le transport d'une information dynamique au sein des structures en jeu, autorisant effondrement ou ondes de pression par exemple. L'équation à interpréter est celle donnée par l'eq. \ref{e:epert} et nous allons être amenés à distinguer 2 époques, avant l'équivalence (dominée par le rayonnement RD) et après l'équivalence (dominée par la matière MD). Les facteurs d'expansion et le paramètre de Hubble \sidenote{avec $H=\dot a/a$} durant RD sont donnés par :
+ \begin{eqnarray}
+ a&\sim& \sqrt{t},\\
+ H&=&\frac{1}{2t},
+ \end{eqnarray}
+ tandis que les relations équivalentes durant MD sont données par:
+ \begin{eqnarray}
+ a&\sim&t^{2/3},\\
+ H&=&\frac{2}{3t}.
+ \end{eqnarray}
+ 
+  \subsection{Matière sans pression}
+Prenons d'abord le cas d'une matière sans pression, correspondant à celui de la matière noire : la vitesse du son est négligeable et pourra donc être annulée dans Eq. \ref{e:epert}.
+
+\newthought{Durant l'époque dominée par le rayonnement}, le terme source de gravitation est dominé par la contribution des photons. Toutefois, on considèrera ce terme comme négligeable : les photons possèdent une pression intrinsèque élevée et une grande longueur de jeans. Ils ne peuvent se structures et leur densité ne peut croître de façon substantielle \sidenote{de fait elle aura un comportement oscillant, voir section suivante}:
+\begin{equation}
+\bar \rho \delta_k \sim(\bar \rho \delta_k)_\gamma \sim 0.
+\end{equation}
+L'équation résultante pour la matière sans pression est donc: 
+\begin{equation}
+\ddot \delta_k+\frac{1}{t}\dot \delta \sim 0
+\end{equation}
+dont la solution est de type logarithmique:
+\begin{equation}
+\delta_{k,RD}\sim \log(t).
+\end{equation}
+Dans le cadre qui est le notre, une croissance logarithmique peut être assimiliée à une absence de croissance, au mieux à une croissance très lente.
+
+\newthought{Durant l'époque dominée par la matière}, le terme source est dominé par la matière elle-même: toute croissance sera donc entretenue par une croissance du potentiel, conduisant naturellement à une augmentation de la perturbation. L'équation à traitée est donnée par:
+\begin{equation}
+\ddot \delta_k +2 H \dot \delta_k =4\pi G \bar\rho \delta_k.
+\end{equation}
+En introduisant explicitement les dépendances temporelles on obtient\sidenote{en utilisant $\bar \rho\sim\rho_c=\frac{3H^2}{8\pi G}$}:
+\begin{equation}
+\ddot \delta_k +\frac{4}{3t}\dot \delta_k - \frac{2}{3t^2}\delta_k=0.
+\end{equation}
+Cette équation possède une solution croissante donnée par \sidenote{il existe aussi une solution décroissante en $\delta=1/t$, qui est de peu d'intérêt car dominée par la solution croissante} :
+\begin{equation}
+\delta_{k,MD}\sim t^{2/3}\sim a(t).
+\end{equation}
+Le contraste avec la solution précédente est frappant: la présence d'un terme source de gravitation permet à la fluctuation de prospérer tandis que que son absence conduit à une non-augmentation de la perturbation.
+
+\subsection{Matière avec pression}
+Ce cas correspond à celui des baryons : durant ces époques pré-recombinaison, le couplage important entre les photons et les baryons confère à ces dernier une pression importante et une vitesse du son proche de la vitesse de la lumière $c_s\sim c$.
+
+\newthought{Durant l'époque dominée par le rayonnement}, on continuera à négliger le terme source induit par les photons par contre le terme de pression ne peut plus être omis et l'équation des perturbations devient:
+\begin{equation}
+\ddot \delta_k+2H\dot \delta +c_s^2k^2 \delta \sim 0.
+\end{equation}
+La solution est oscillante avec un amortissement induit par l'expansion\sidenote{avec un temps caractéristique $\tau \sim{1/2H}$.}. De notre point de vue, c'est également une solution 'sous contrôle', non-croissante. En l'absence de gravitation, les fluctuations baryoniques s'organisent en ondes de pression.
+
+\newthought{Durant l'époque dominée par la matière}, le terme source de gravitation devient non négligeable mais n'est pas dominé par les baryons\sidenote{qui ne représente que $20\%$ de la matière totale}. L'équation à résoudre devient alors \sidenote{ici $DM$ dénote la matière noire pour \textit{dark matter}.}:
+\begin{equation}
+\ddot \delta_k+2H\dot \delta +c_s^2k^2 \delta 4\pi G \bar\rho_{DM} \delta_{k,DM}
+\end{equation}
+On a donc un terme source de fond, mais ce terme n'est pas en mesure de produire une augmentation de l'amplitude des oscillations: ce terme évolue lentement par rapport aux temps caractéristiques d'oscillations et ne peut donc produire de résonances par exemple. Ce terme de forçage n'implique pas de croissance incontrôlée de l'amplitude des fluctuations baryoniques qui sont toujours dans un régime oscillant comme précédemment.
+
+\newthought{Ces oscillations} constituent de notre point de vue une 'absence de croissance': les ondes de pressions passent mais ne 'grossissent pas'. En pratique c'est même l'opposé qui va se produire : à cause du couplage imparfait entre photons et rayonnement, la pression apportée par les photons ne garantit pas un entretien perpétuel des oscillations et elles vont s'amortir \sidenote{on parle aussi d'amortissement Silk, du nom du physicien anglais à l'origine de la découverte de cet effet}. L'effet d'amortissement est même catastrophique au sens où toute structure baryonique contenant une masse inférieure à $10^{13} M_\odot$ \sidenote{et donc de taille inférieure à une certaine taille critique} doit être 'effacée' du spectre des fluctuations. Cette masse est supérieure à celle de la Voie Lactée actuellement : il faut donc trouver un mécanisme pour entretenir les fluctuations de masse inférieure à cette limite pour pouvoir expliquer les structures observées aujourd'hui.
+
+\newthought{La matière noire} va fournir ce mécanisme: comme vu précédemment, la matière sans pression va voir ses fluctuations croître de façon permanente durant l'époque dominée par la matière. Au moment de la recombinaison, les baryons auront vu une grande partie de leurs fluctuations être amorties par l'amortissement que nous venons juste de mentionner. Toutefois la recombinaison s'accompagne de la perte de support de pression offert par le rayonnement \sidenote{permettant aux photons de s'échapper sous forme du rayonnement de fond diffus}: les baryons sont alors libres de s'effondrer dans les puits de potentiels crées par la matière noire. Vers un redshift $z\sim 100$ les fluctuations baryoniques ont convergé vers les fluctuations de la matière noire, autorisant la formation de structures de masses plus légères que la masse limite mentionnée précédemment.
+
+\newthought{Ces oscillations baryoniques}  sont des ondes accoustiques (BAOs, de l'anglais \textit{baryonic accoustic oscillations}) car elles sont entretenues par l'entrejeu entre gravité et pression (de rayonnement dans le cas présent). Par simple inspection de l'équation différentielle maîtresse, on peut constater que la fréquence d'oscillation dépend de la taille du mode étudié : un mode à grande fréquence spatiale implique une grande fréquence temporelle et vice-versa. Par conséquent, l'amplitude du mode au moment de la recombinaison va dépendre du mode en question : au moment de l'émission du fond diffus, certains modes seront en amplitude maximale, d'autres en amplitude plus modérés. En simplifiant, on peut imaginer que certains modes vont osciller un nombre de fois entier entre leur déclenchement et la recombinaison, parvenant ainsi à un extremum d'amplitude tandis que d'autres seront dans une phase quelconques avec des amplitudes moins remarquables. Les échelles qui se détachent sous la forme de 'pics' dans le spectre de puissance du fond diffus cosmologique sont la manifestation de ces modes qui parviennent en extremum d'amplitude au moment où le rayonnement fossile est produit.
+
+
+
+\section{Croissance des perturbations : cas super-horizon}
+\newthought{L'horizon} désigne la plus grande échelle sur laquelle un phénomène de propagation peut opérer. Sa valeur est simplement donnée par :
+\begin{equation}
+L_H=\frac{c}{H}
+\end{equation}
+où $H^{-1}$ opère comme une mesure de l'âge de l'Univers à un instant donné. L'horizon est donc le produit de la plus grande vitesse par la plus grande durée. Son expression comobile présente une évolution temporelle qui dépend de la période de domination. Durant la période dominée par le rayonnement on a comme horizon comobile:
+\begin{equation}
+\ell_{H,RD}=\frac{c}{aH}\sim a
+\end{equation} 
+et durant la période dominée par la matière:
+\begin{equation}
+\ell_{H,MD}\sim\sqrt{a}.
+\end{equation}
+Dans les 2 cas, l'horizon grandit avec le temps et un mode de taille comobile donnée va donc successivement être plus grand que l'horizon (super-horizon) puis plus petit (sub-horizon). Le cas super-horizon demande un traitement en relativité générale complet donnant l'équation de croissance des structures suivantes:
+\begin{equation}
+\ddot \delta_k + 2H \dot \delta_k = \frac{3}{2}H^2(1+w)(1+3w)\delta_k
+\end{equation}
+où $w=0$ durant l'époque MD et $w=1/3$ durant l'époque RD \sidenote{pour ces échelles plus grandes que l'horizon, la pression ne peut jouer un role significatif: baryons et matière noire ont le même comportement}. 
+
+Cette équation est similaire à celle obtenue dans le cas sub-horizon. Pour l'époque de domination de la matière on retrouve le même taux de croissance que celui obtenu pour la matière noire :
+\begin{equation}
+\delta_{k,MD}\sim t^{2/3}\sim a(t),
+\end{equation}
+tandis que durant l'époque de domination du rayonnement on obtient:
+\begin{equation}
+\delta_{k,RD}\sim t \sim a(t)^2.
+\end{equation}
+
+
+\section{Croissance des perturbations : synthèse et spectre de puissance}
+
+La synthèse des résultats précédents pour le cas de la matière noire est présenté dans la figure \ref{f:perturb}. On constate qu'une petite perturbation peut voir son histoire de croissance gelée si elle passe sous l'horizon durant l'époque dominée par le rayonnement. A l'inverse un mode de grande longueur d'onde devra attendre la période dominée par la matière pour changer de régime et ne connaîtra pas la phase de non-croissance qu'aura connu les plus petites structures.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=8cm]{figs/perturb.png}
+		\caption{Synthèse de la croissance des perturbations. Un petit mode possède une taille caractéristique suffisemment petite pour passer sous l'horizon durant l'époque dominée par le rayonnement.}
+	\label{f:perturb}
+\end{figure}
+
+Grâce à cette synthèse on peut prédire l'amplitude d'un mode au moment de la recombinaison $\delta_f$ en fonction de son amplitude $\delta_i$ bien avant l'équivalence matière-rayonnement. Considérons d'abord le cas d'un grand mode, sans période de gel de croissance, son amplitude au moment de l'équivalence est donné par:
+\begin{equation}
+\delta_e=\frac{a_e^2}{a_i^2}\delta_i.
+\end{equation}
+Son amplitude finale est alors donnée par :
+\begin{equation}
+\delta_f=\frac{a_f}{a_e}\delta_e=\frac{a_f a_e}{a_i^2}\delta_i.
+\end{equation}
+La chose importante est l'indépendance du facteur reliant l'amplitude initiale et finale vis à vis de la taille du mode : tous les modes vont croître dans les même proportions entre les instants $i$ et $f$. 
+
+Pour les petits modes la situation est différente. L'amplitude au passage sous l'horizon est donnée par
+\begin{equation}
+\delta_L=\frac{a_L^2}{a_i^2}\delta_i.
+\end{equation}
+où $a_L$ est l'instant de passage sous l'horizon. L'amplitude au moment de l'équivalence est identique car la croissance est gelée et l'amplitude finale est alors donnée par:
+\begin{equation}
+\delta_f=\frac{a_f}{a_e}\delta_e=\frac{a_f}{a_e}\delta_L=\frac{a_L^2 a_f}{a_i^2 a_e}\delta_i.
+\end{equation}
+Ici le facteur de lien dépend de $a_L$ et donc de la taille du mode considéré. En effet cet instant est déterminé par $\lambda = \ell_{H,RD} \sim a_L$ donc 
+\begin{equation}
+\delta_f \sim \frac{1}{k^2} \delta_i.
+\end{equation}
+On a une coupure d'autant plus forte que la fréquence du mode est élevée, d'autant plus forte que la taille du mode considéré est petite.
+
+\newthought{Pour le spectre de puissance}, les conséquences sont simples. Pour les $k$ suffisamment faibles on a 
+\begin{equation}
+P_f(k)\sim\delta_k^2 \sim P_i(k),
+\end{equation}
+par contre pour les hautes fréquences le spectre de puissance est filtré suivant la relation:
+\begin{equation}
+P_f(k)\sim \frac{1}{k^4} P_i(k)
+\end{equation}
+Comme le spectre de puissance primordial est en loi de puissance tel que \sidenote{on parle de spectre invariant d'échelle, comme prédit par exemple par l'inflation}:
+\begin{equation}
+P_i(k)\sim k
+\end{equation}
+on obtient un spectre caractéristique aux hautes fréquences en 
+\begin{equation}
+P_f(k)\sim\frac{1}{k^3}.
+\end{equation}
+Le spectre de puissance résultant possède donc 2 régimes caractéristiques, l'un aux grandes échelles en $P(k)\sim k$ et l'autre aux petites échelles en $P(k)\sim k^{-3}$. La transition entre les deux correspond à l'échelle qui passe sous l'horizon exactement au moment de l'équivalence (cf. Fig \ref{f:pk}).
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=8cm]{figs/pk.png}
+		\caption{Schématique du filtrage du spectre de puissance des fluctuations initiales. Le spectre primordial est invariant d'échelle en $P(k)\sim k$ et le gel de la croissance des fluctuations sous l'horizon durant l'époque de domination du rayonnement produit un filtrage au hautes fréquences qui produit une pente caractéristique en $P(k)\sim k^{-3}$.}
+	\label{f:pk}
+\end{figure}
+
+\newthought{Pour résumer}, le spectre de puissance de la matière est une version filtrée du spectre de puissance primordial. Ce filtre opère sur les échelles suffisamment petites pour passer dans l'Horizon cosmologique tôt dans l'histoire de l'Univers, durant l'époque dominée par le rayonnement. Les échelles plus grandes ne permettant pas ce passage fréquence ont crû de façon indifférenciée et ont donc conservé les caractéristiques du spectre primordial.
+
+\newthought{Les oscillations baryoniques}, mentionnées dans le cas de la matière avec pression et vues dans le CMB, se manifestent également dans le spectre de puissance de la matière totale. Ces ondes sonores se propageant dans le gaz vont légèrement modifier la structure globale de la matière : même si les baryons ne représentent qu'une faible fraction\sidenote{$\frac{\Omega_b}{\Omega_m}\sim0.15$} de la masse totale, cette fraction est non nulle et joue sur la dynamique globale à l'oeuvre. Ces oscillations se manifestent à nouveau comme des modes légèrement privilégiés dans le spectre de puissance $P(k)$. Par ailleurs, ces modes privilégiés vont persister dans la distribution de matière bien au delà de la recombinaison, jusqu'à nos jours. Par exemple, le spectre de puissance de la distribution actuelle des galaxies\sidenote{mesurée à z=0 dans des grands relevés de millions de galaxies comme le Sloane Digital Sky Survey (SDSS)}  présente des modes privilégiés aux fréquences attendues. De même, la distribution du gaz diffus intergalactique à z=2\sidenote{sondée dans les spectres de Quasars distant} manifeste ces mêmes modes privilégiés. Ces ondes de pressions primordiales, on laissé leur empreinte dans toutes les structures qui ont émergé tout au long de l'histoire de l'Univers.
+
+
+\section{Et après ?}
+
+Une fois le mécanisme d'instabilité déclenché, tous les modes vont parvenir à des régimes de surdensité qui vont au delà du régime linéaire et qui sortent du cadre dans lequel nous nous sommes placés. Dans certains cas académiques, le régime non linéaire peut-être abordé analytiquement mais en toute généralité il requiert l'utilisation de simulations numériques. La culmination de ce régime non linéaire est la création de structure denses, dominées par les baryons et au sein duquel se forment les sources de rayonnement : ce sont les galaxies qui nous entourent. L'apparition de ces objets est donc conditionnée par un contexte cosmologique et par extension il n'est pas illogique d'affirmer que l'étude de la formation des galaxies est une extension naturelle de la cosmologie. Toutefois, des phénomènes astrophysiques commencent à rentrer en jeu aux échelles considérées : thermodynamique du gaz, processus physico-chimique de refroidissement, champ magnétique, formation et rétroaction stellaire, production et impact des éléments plus lourds que l'hélium, etc.... Chacun de ces phénomènes est un objet d'étude à part entière et chacun de ces phénomènes est compris de façon toute relative. On en décrira quelques uns dans un chapitre dédié, mais de façon générale on peut aisément avancer qu'aujourd'hui l'extension de la théorie cosmologique à celle de la formation des galaxies présente des défis majeurs. Ces défis, à l'heure où ces lignes sont écrites ne sont pas résolus.
