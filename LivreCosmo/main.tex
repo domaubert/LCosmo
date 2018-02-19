@@ -15,8 +15,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[]{tufte-book}
-
-\hypersetup{colorlinks}% uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
+%\hypersetup{colorlinks}% uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
 \usepackage[frenchb]{babel}
 \usepackage[utf8]{inputenc}
 %%
@@ -161,9 +160,13 @@
 \newcommand{\docfilehook}[2]{\texttt{#1}\index{file hooks!#2}\index{#1@\texttt{#1}}}
 \newcommand{\doccounter}[1]{\texttt{#1}\index{#1 counter@\texttt{#1} counter}}
 
+%\newcommand{\newthought}[1]{{#1}} 
+%\newcommand{\newthought}[1]{{#1}}
 % Generates the index
 \usepackage{makeidx}
+%\usepackage[toc]{glossaries}
 \makeindex
+%\makeglossaries
 
 \begin{document}
 
@@ -227,7 +230,6 @@ Manuscrit entamé le 29 Juin 2017 à l'observatoire astronomique de Strasbourg.
 
 % r.5 contents
 \tableofcontents
-
 %\listoffigures
 
 % \listoftables
@@ -248,12 +250,8 @@ Manuscrit entamé le 29 Juin 2017 à l'observatoire astronomique de Strasbourg.
 
 % r.9 introduction
 \cleardoublepage
-\chapter*{Introduction}
 
-This sample book discusses the design of Edward Tufte's
-books\cite{Tufte2001,Tufte1990,Tufte1997,Tufte2006}
-and the use of the \doccls{tufte-book} and \doccls{tufte-handout} document classes.
-
+\include{Intro}
 
 %%
 % Start the main matter (normal chapters)
@@ -271,6 +269,10 @@ and the use of the \doccls{tufte-book} and \doccls{tufte-handout} document class
 \include{simulation}
 \include{entropie}
 \include{inflation}
+\include{reionisation}
+
+%\glsaddall
+%\printglossaries
 
 %\chapter{The Design of Tufte's Books}
 %\label{ch:tufte-design}
@@ -1200,7 +1202,9 @@ and the use of the \doccls{tufte-book} and \doccls{tufte-handout} document class
 \bibliography{sample-handout}
 \bibliographystyle{plainnat}
 
-
+\cleardoublepage
 \printindex
+\cleardoublepage
+\listoffigures
 
 \end{document}

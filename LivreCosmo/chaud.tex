@@ -37,6 +37,8 @@ cette équation demande en toute généralité d'être résolue numériquement. 
 
 En règle générale $H$ et $\Gamma$ sont tous deux fonctions du temps et $\Gamma$ a tendance à dominer au début de l'histoire de l'Univers (qd les densités et températures sont très élevées) pour être ensuite dominé par $H$. Par conséquent l'histoire typique de l'abondance d'une espèce suit d'abord celle de l'équilibre avant d'être gelée et n'être plus modifiée que par la dilution cosmologique. Cette transition porte le nom de "gel" ou \textit{freeze-out} en anglais.
 
+
+
 \section{Statistique d'un gaz}
 La question qui se pose à présent est celle de déterminer l'abondance à l'équilibre d'une espèce (hydrogène, photons, neutrinos, etc....). Celle ci nous est donnée par la physique statistique.
 
@@ -51,6 +53,13 @@ Ces considérations nous permet d'évaluer le \textit{nombre d'états accessible
 N(E)dE=\frac{4\pi k^2 dk}{(2\pi/L)^3}.
 \label{e:densetat}
 \end{equation}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/k.png}
+	\caption{Comment calculer le nombre d'états d'énergie donnée ? Les états sont quantifiés et 'positionnés' sur une maille correspondant à des valeurs de $k_x$ et $k_y$ multiples de $2\pi/L$. Tous les états de même énergie partagent le même module $k$ : leur nombre est donc donné par la surface de la coquille ($2\pi k dk$) divisé par la surface d'un élément de la maille ($(2\pi/L)^2$). A 3D, ce nombre devient $4 \pi k^2 dk / (2\pi/L)^3$.}
+	\label{f:k}
+\end{figure}
 
 L'équation \ref{e:densetat} n'est pas suffisante pour calculer l'abondance d'une particule: elle nous renseigne sur la quantité d'états accessible mais reste à déterminer combien de particules résident sur un état donné. Le \textit{niveau d'occupation} dépend du type de particule: si celle-ci est un fermion alors elle est soumise au principe d'exclusion de Pauli qui stipule qu'un état quantique donné ne peut être occupé, au plus, que par une particule. Si celle-ci est un boson, cette restriction ne s'applique pas. Plus précisément, les niveaux d'occupation sont donnés par les statistiques de Fermi-Dirac et Bose-Einstein:
 \begin{equation}
@@ -174,6 +183,15 @@ Sachant que la température du rayonnement varie en $T_\gamma\sim (1+z)$ et qu'�
 
  
  \section{Abondances résiduelles}
+ 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/freeze.png}
+	\caption{Evolution schématique de l'abondance d'une particule relique. Dans le régime ultra-relativiste (UR), la particule se comporte comme un photon et son abondance est similaire. Le passage au régime non relativiste (NR) provoque la décroissance de l'abondance, exponentielle, typique d'une particule massive. Son abondance deviendrait négligeable sans le 'gel' (freeze-out)~: la dilution cosmologique ainsi que l'absence de réactifs ou la baisse de température vont stabiliser la densité numérique de la particule à une abondance non nulle. }
+	\label{f:freeze}
+\end{figure}
+ 
+ 
   En résumé, l'abondance à l'équilibre d'une particule passe par 2 étapes distinctes:
  \begin{itemize}
  \item à grand $z>z^*$, nous avons $k_B T \gg mc^2$ et $n\sim n_\gamma$

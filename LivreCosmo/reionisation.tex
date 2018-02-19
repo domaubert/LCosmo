@@ -1,0 +1,191 @@
+\chapter{La réionisation}
+
+Chronologiquement parlant, l'époque de Réionisation désigne la dernière grande transition cosmologique vécue par l'Univers. Ce terme de réionisation désigne la période durant laquelle le gaz d'hydrogène du milieu intergalactique\sidenote{on parle aussi de la réionisation de l'hélium, plus tardive et que l'on ne mentionnera pas dans ce chapitre} retourne pour l'essentiel à l'état ionisé après avoir recombiné lors de l'émission du fond diffus cosmologique. Cette période prend place environ 1 milliards d'années après le Big-Bang, et est le produit de l'apparition des première sources de lumières astrophysiques. Avec la naissance de ces premières sources au sein des précurseurs des galaxies actuelles, la réionisation marque ainsi le début de l'astrophysique non-linéaire, complexe.
+
+\section{Chronologie de la réionisation et propriétés globales}
+La recombinaison laisse place à un Univers rempli d'hydrogène neutre qui va refroidir sous l'effet de l'expansion. Cette période est désignée sous le terme 'd'âges sombres' car l'Univers est rempli de gaz n'ayant pas encore réussi à former les premières sources de rayonnement. Ces dernières apparaissent quelques centaines de millions d'années après le Big-Bang : on compte parmi ces sources les première étoiles et les premiers noyaux actifs de galaxies, dont le moteur central est un trou noir supermassif en accrétion.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=6cm]{figs/frisereion.png}
+		\caption[Chronologie de la réionisation]{La chronologie de l'époque de réionisation. Les régions neutre sont claires et les régions ionisées sont sombres. Les zones rouges tracent le gaz chauffé par les explosions de supernovae et le l'effondrement des structures.}
+	\label{f:frisereion}
+\end{figure}
+
+Ces sources de rayonnement vont produire entre autre du rayonnement ultra-violet, capable d'ioniser l'hydrogène cosmique, dont l'énergie de liaison vaut 13.6 eV. Chaque source va alors se voir entourée d'une région ionisée, une 'bulle' appelée région HII. Sous l'apport continu de photons ionisants par les sources, ces bulles vont grandir et sous l'apparition de plus en plus de sources, ces bulles vont devenir de plus en plus nombreuses. In fine, un réseau de région HII va s'établir puis percoler pour conduire à un Univers totalement ionisé, environ 1 milliards d'années après le Big-Bang. La fraction résiduelle d'atomes neutres est de l'ordre de $0.01\%$.
+
+En parallèle, cette ionisation va s'accompagner d'un réchauffement du gaz : chaque ionisation va également transmettre de l'énergie à la matière. La température typique du gaz diffus en fin de réionsiation est de l'ordre de 10 000 K ~: cette température correspond au seuil de refroidissement de l'atome d'hydrogène. Plus chaud, le gaz va évacuer de l'énergie via des processus atomiques, plus froid le gaz est libre de voir sa température augmenter.
+
+\section{Les régions HII}
+La création de 'bulles' ionisées autour des premières sources est le processus élémentaire à l'origine de la réionisation complète de l'Univers : ces bulles sont appelées régions HII\sidenote{HI étant une dénomination de l'hydrogène neutre. Par analogie on parle de HeI, HeII et HeIII pour désigner l'hélium neutre, ionisé une fois et deux fois.} L'étendue de ces régions est régie par la compétition entre 2 effets aux conséquences opposées:
+\begin{itemize}
+\item d'une part la production de photons ionisant par une source. Ces photons ionisant grignotent le gaz neutre et tendent à faire grandir la région HII
+\item d'autre part la tendance naturelle des électrons libres à recombiner avec les noyaux pour reconstituer des atomes. Cette recombinaison a tendance à l'inverse à réduire la taille de ces régions ionisées.
+\end{itemize}
+Une simple équation permet de faire la synthèse de cette compétition \sidenote{$N_H$ désigne la densité numérique d'atomes d'hydrogène neutres (en m$^{-3}$), $N_{H+}$ celle d'atomes ionisés, $N_e$ celle des électrons libres}:
+\begin{equation}
+\frac{d n_H}{dt}=\alpha n_{H+}n_e -\Gamma n_H.
+\end{equation}
+Ici $\alpha(T)$ est le taux de recombinaison de l'hydrogène : il dépend de la température\sidenote{un gaz froid a tendance à recombiner plus efficacement} et possède les dimensions d'un volume par unité de temps. Cette quantité, et donc le terme associé dans cette équation différentielle, encode la capacité du gaz ionisé à redevenir spontanément neutre.  A l'inverse $\Gamma$ est le taux de photoionisation et dépend du nombre de photons ionisants produits et présents dans la bulle ionisée.
+
+Plutôt que de raisonner en abondance de protons et d'électrons, il est d'usage d'introduire la fraction d'ionisation $x$:
+\begin{equation}
+x=\frac{n_{H+}}{n_{H+}+n_H}
+\end{equation}
+qui renvoie simplement le fraction d'atomes ionisés par rapport au nombre total de noyaux d'hydrogène disponibles (sous forme atomique ou non). Cette fraction ionisée sera une quantité centrale pour décrire la réionisation cosmologique. En négligeant la contribution des éléments autres que l'hydrogène au gaz cosmique\sidenote{on rappelle que son abondance est proche de $95\%$ en nombre} et en utilisant le principe d'équilibre des charges électriques le terme de recombinaison peut s'écrire:
+\begin{equation}
+n_\mathrm{rec}=\alpha x^2 n^2
+\end{equation}
+où $n=n_{H+}+n_H$ désigne la densité totale de protons. Si la région est complètement ionisée, $x=1$ et ce terme devient simplement:
+\begin{equation}
+n_\mathrm{rec}=\alpha n^2.
+\end{equation}
+Si on modélise la région HII par une sphère de rayon $R$, le nombre total de recombinaisons par seconde à l'intérieur est donné par:
+\begin{equation}
+N_\mathrm{rec}=\frac{4}{3}\pi R^3\alpha n^2.
+\end{equation}
+Si ce nombre de recombinaison est égal au nombre de photons ionisant produits par seconde$ \dot N_\mathrm{ion}$, la région ionisée ne peut s'agrandir et on obtient une sphère, stationnaire, dite de \textit{Strömgren}, dont le rayon $R_s$ satisfait:
+\begin{equation}
+\frac{4}{3}\pi R_s^3\alpha n^2=\dot N_\mathrm{ion}.
+\end{equation}
+Cette région HII, stationnaire, possède donc un rayon donné par :
+\begin{equation}
+R_s=\left(\frac{3 \dot N_\mathrm{ion}}{4\pi \alpha n^2}\right)^{1/3}.
+\end{equation}
+Plus la production de photons est importante, plus ce rayon est important et à l'inverse un milieu dense en atome, ou recombinant plus facilement à cause d'une basse température, présentera un rayon stationnaire plus petit.
+
+Le cas non-stationnaire, avec un front en cours de progression, est plus délicate à obtenir. Une approche possible consiste à considérer qu'un observateur lié au front d'ionisation voit d'un côté de ce front un flux de masse neutre et de l'autre un flux de masse ionisée, contraint par le flux de photons ionisant local. Ces 2 flux doivent être égaux \sidenote{$m$ désigne la masse d'un atome d'hydrogène, $v$ la vitesse du front et $F$ le flux de photons ionisants}:
+\begin{equation}
+m n v = m F_\mathrm{ion}.
+\end{equation}
+La vitesse du front satisfait donc:
+\begin{equation}
+v=\frac{1}{n}\frac{\dot N_\mathrm{ion}(r_f)}{4\pi r_f^2}.
+\end{equation}
+Le taux de photoionisation disponible au niveau du front est le taux de photoionisation total moins le nombre de recombinaison à l'intérieur du front:
+\begin{equation}
+\dot N_\mathrm{ion}(r_f)=\dot N_\mathrm{ion}(0)-\frac{4}{3}\pi r_f^3\alpha n^2=\frac{4}{3}\pi \alpha n^2 (R_s^3-r_f^3),
+\end{equation}
+d'où l'équation différentielle sur la position du front $r_f$ :
+\begin{equation}
+3r_f^2\frac{d r_f}{dt}=\frac{dr_f^3}{dt}=\alpha n  (R_s^3-r_f^3).
+\end{equation}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/strom.png}
+		\caption[Evolution temporelle de la position d'un front ionisant]{Evolution temporelle du rayon d'une région HII. Les rayons sont exprimés en unités du rayon de Strömgren, correspondant à l'état final stationnaire, tandis que les temps sont exprimés en temps de recombinaisons.}
+	\label{f:strom}
+\end{figure}
+
+La solution sur la position du front \sidenote{en posant $y=(r_f/R_s)^3$, on peut reconnaître une simple équation différentielle du premier ordre avec second membre constant} est alors donnée par:
+\begin{equation}
+r_f(t)=R_s(1-e^{-t/t_\mathrm{rec}})^{1/3},
+\end{equation}
+la position du front converge vers le rayon de la sphère de Strömgren, sur une durée caractéristique $t_\mathrm{rec}=(\alpha n)^{-1}$, qui n'est autre que le temps de recombinaison caractéristique du gaz. Si le gaz recombine rapidement, la rayon stoppe rapidement et à l'inverse un gaz diffus ou chaud, à faible pouvoir de recombinaison va voir ses fronts freiner lentement. Dans la figure \ref{f:strom}, on constate dans tous les cas que la progression des fronts est initiale toujours rapide puis tend à ralentir lorsque les recombinaisons commencent à faire effet (pour $t\sim t_\mathrm{rec}$). La température typique du gaz intergalactique est de l'ordre de $T=10 000 K$, tandis que les densités d'atomes pour des filaments de gaz intergalactiques sont environ de 1000 atomes/$m^3$. Dans ces conditions, les temps de recombinaison typiques sont de l'ordre de 100 millions d'années.
+
+\section{Elements de transfert radiatif}
+
+Bien sûr le cas de la région HII décrit précédemment est idéalisé : dans le cas cosmologique la densité d'atomes n'est pas homogène, le gaz réagit dynamiquement à la présence du front, la température n'est pas constante et bien sûr l'expansion de l'Univers conduit à une densité qui n'est pas constante au cours du temps. Par ailleurs, les sources de rayonnement ne sont pas stationnaire, elles vivent des histoires compliquées et s'influencent les unes les autres. Pour résoudre le problème dans toute sa complexité, il faut utiliser des simulations cosmologiques capables de modéliser la physique du \textit{transfert} radiatif, la physique de l'interaction de la matière avec le rayonnement. 
+
+La base du transfert du rayonnement est la résolution de l'équation du transfert radiatif qui décrit l'évolution de l'intensité du rayonnement $I_\nu({\bf x},{\bf n} ,t)$ \sidenote{$I_\nu$ désigne l'intensité spécifique du rayonnement, $S_\nu$ les sources de rayonnement et $\kappa_\nu$ l'absorption}:
+\begin{equation}
+\frac{1}{c}\frac{\partial I_\nu}{\partial t}+{\bf n} \frac{\partial I_\nu}{\partial {\bf x}}=S_\nu - \kappa_\nu I_\nu.
+\end{equation}
+En plus du temps, cette intensité dépend de la position $x$, de la fréquence $\nu$ et de la direction de propagation $\bf n$~: on se trouve donc face à un problème de très grande dimensionnalité (7 dimensions)~: l'équation du transfert est pour l'essentiel une équation de conservation de la fonction de distribution des photons dans l'espace des phases.
+
+Il existe plusieurs manière de 'simplifier' sa résolution, en réduisant sa dimensionnalité. L'une des plus communes consiste à considérer une source à l'origine seulement\sidenote{on néglige ainsi les sources diffuses, comme celles dues à la recombinaison atomique} et à supposer que la lumière est instantanément absorbée en chaque point. Le long de la direction de propagation, l'équation du transfert se réduit alors à:
+\begin{equation}
+ \frac{\partial I_\nu}{\partial {\bf x}}=- \kappa_\nu I_\nu.
+\end{equation}
+Le long du rayon, la solution est alors:
+\begin{equation}
+I_\nu(x)=I_\nu(x=0)e^{-\int_0^x \kappa_\nu dx}=I_\nu(x=0)e^{-\tau},
+\end{equation}
+cette solution est une classique exponentielle décroissante, dont la grandeur caractéristique est \textit{l'opacité} $\tau$ mesurée le long du rayon. Plus cette opacité est importante le long de la direction de propagation, plus le rayonnement est atténué. Si on dispose d'un modèle de distribution des sources dans l'espace, on peut donc tracer des rayons dans toutes les directions et calculer cette opacité le long de tous ces rayons~: cette donnée permet d'évaluer la quantité de rayonnement partout et donc le taux de photoionisation partout pour modéliser la réionisation.
+
+Une autre approche consiste à prendre les moments de l'équation du transfert radiatif, pour évaluer la densité ou le flux de rayonnement par exemple:
+\begin{eqnarray}
+N_\nu&\sim&\int I_\nu d^3{\bf n}\\
+{\bf F}_\nu&\sim&\int {\bf n} I_\nu d^3{\bf n}
+\end{eqnarray}
+Ces quantités ne dépendent plus que de la position et satisfont leurs propres équations de conservation\sidenote{en négligeant les termes sources}:
+\begin{eqnarray}
+\frac{1}{c}\frac{\partial N_\nu}{\partial t}+\frac{\partial {\bf F_\nu}}{\partial {\bf x}}&=&-\kappa N_\nu\\
+\frac{1}{c}\frac{\partial F_\nu}{\partial t}+\frac{\partial {\bf P_\nu}}{\partial {\bf x}}&=&-\kappa' F_\nu.
+\end{eqnarray}
+On a donc affaire à un système d'équations dites hyperboliques, similaires aux équations de l'hydrodynamique\sidenote{conservation de la masse et équation d'Euler} et qu'on peut alors résoudre à l'aide des même techniques. Toutefois, cela nécessite de fermer le système d'équation avec une équation d'état du rayonnement liant la pression radiative $\bf P$ avec la densité de rayonnement par exemple~: il existe toute une série de modèle qui fournissent ce type de relation en fonction du problème physique considéré. On peut par exemple se contenter de l'équation de conservation de la densité de rayonnement et imposer que le flux radiatif soit simplement lié au gradient de cette densité:
+\begin{equation}
+{\bf F_\nu}=-\nabla N_\nu,
+\end{equation}
+le rayonnement va alors 'couler' des régions brillantes aux régions éteintes. Simple à mettre en place, ce modèle souffre toutefois de l'impossibilité de créer des ombres derrières des absorbants denses par exemple.
+
+\section{Observer la réionisation de l'Univers}
+L'époque de réionisation s'achève à $z\sim 6$, correspondant à un Univers âgé environ de 1 milliard d'années. Son début est beaucoup plus incertain : la transition démarre avec l'apparition des premières sources, très probablement des étoiles, mais l'instant de leur apparition n'est pas connu. On pense aujourd'hui qu'il faut quelques centaines de millions d'années pour les gaz puisse acquérir les conditions lui permettant de former ces premières sources, correspondant à des redshift $z\sim 30- 50$. Ces époques sont particulièrement reculées, donc distantes, et sont donc particulièrement difficiles à observer.  On dispose aujourd'hui de 2 grandes observations qui démontrent que la transition a bien eu lieu : la forêt Lyman-$\alpha$ et l'étude du fond diffus cosmologique.
+
+\subsection{Le milieu intergalactique, la Forêt Lyman-Alpha}
+La première observation 'canonique' de la Réionisation est l'étude de la forêt Lyman-Alpha. Ce terme désigne les spectres de sources brillantes lointaines (généralement des quasars) qui présentent des systèmes de raies d'absorption denses aux fréquences plus élevées que la raie Lyman-Alpha de l'hydrogène\sidenote{dont la longeur d'onde est 121.6 nm}. Le principe qui conduit à l'apparition de ces raies est simple : ce sources possède un spectre continu et une raie Lyman-alpha en émission. Au cours de leur propagation les photons associés vont se décaler vers le rouge : si jamais il rencontre un nuage d'hydrogène neutre au sein du milieu intergalactique, ce dernier va générer une raie en absorption à 121.6 nm dans son référentiel. Toutefois, comme le spectre de la source lointaine perçu par le nuage est décalé vers le rouge, l'absorption va se faire à une fréquence plus élevée que celle de la raie en émission. Si jamais un second nuage se trouve sur la ligne de visée, une autre absorption va s'ajouter ~: comme le spectre de la source lointaine s'est encore d'avantage rougi, cette raie d'absorption supplémentaire se placera dans les parties plus bleues, à plus haute fréquence, que la celle crée par le premier nuage et que celle de la raie en émission. Par extension si de multiples nuages sont présents sur la ligne de visée, chacun d'entre eux va générer une raie en absorption qui prises globalement donne l'apparence d'une 'forêt' de raies.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/lya.png}
+		\caption[Principe de la forêt Lyman-$\alpha$]{La fôret Lyman-$\alpha$ est un ensemble de raies d'absorptions créées par des nuages neutres absorbants le long de la ligne de visée vers une source lointaine brillante. Chaque nuage perçoit le spectre de la source de façon décalée à cause de l'expansion cosmologique et va donc placer une raie d'absorption à sa propre fréquence correspondant à 121.6 nm dans son référentiel.}
+	\label{f:lya}
+\end{figure}
+
+La forêt Lyman-Alpha est un outil particulièrement puissant puisqu'elle permet de tracer la distribution spatiale des nuages de gaz neutres le long de la ligne de visée ou leur température. On a donc accès à l'état du milieu intergalactique sur toute une gamme d'époques. Si par ailleurs on dispose de multiples lignes de visées, il est possible de réaliser de la \textit{tomographie}, c'est à dire une reconstruction 3D de la structure du milieu intergalactique, entre ces sources et nous.
+
+Que se passe-t-il si la source émet ses photons dans une époque antérieure à la reionisation ? Au lieu d'avoir une discontinuité de nuages neutres absorbants, l'ensemble du milieu intergalactique est capable de produire une absorption. L'observateur constate alors une continuité d'absorption aux longueurs d'ondes plus courtes que l'émission Lyman-$\alpha$ et dans les cas les plus extrême, la transmission est proche de zéro : le spectre présente alors un \textit{Gunn-Peterson Through}\sidenote{on pourra le traduire par 'Tunnel' Gunn-Peterson}, caractérisé par une absence de signal sur une grande gamme de longueurs d'ondes. C'est précisément ce qui est observé lorsque l'on observe des spectres de quasars de plus en plus en lointains, de plus en plus enfouis dans l'époque de réionisation~: la disparition graduelle de la forêt indique la mise en place d'un Univers rempli de gaz neutre absorbant aux alentours d'un redshift $z\sim 6$.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/fan06.png}
+		\caption[Spectres de quasars durant la réionisation]{Un échantillon de spectres de quasars émettant durant l'époque de réionisation. Les quasars du bas émettent après la réionisation dans un Univers ionisé et transparent au rayonnement UV~: on observe du signal aux longueurs d'ondes plus courtes que la raie d'émission Lyman-$\alpha$. Ceux du haut en revanche sont situé avant la réionisation~: leurs spectres sont davantages décalés vers le rouge et surtout on constate pour certains d'entre eux une absence totale de signatures spectrales avant la raie d'émission. C'est la marque d'un Univers rempli de gaz neutre. Figure extraite de Fan et al. 06.}
+	\label{f:fan06}
+\end{figure}
+
+\subsection{L'opacité Thomson du CMB}
+La réionisation va produire des électrons libres aux alentours d'un redshift de 6. Or ces électrons vont naturellement avoir tendance à interagir avec les photons du fond diffus cosmologique tandis que ces derniers volent vers un observateur terrestre~: ce processus de diffusion dit Thomson va affecter la structure angulaire du fond diffus cosmologique, particulièrement aux grandes échelles. Cet effet peut-être évalué quantitativement et donc mettre des contraintes sur l'histoire de la réionisation.
+
+La quantité important s'appelle l'opacité Thomson et est calculée de la manière suivante:
+\begin{equation}
+\tau_\mathrm{th}=\int_{z_\mathrm{rec}}^{z=0} c \sigma_T n_e(z) dt
+\end{equation}
+et revient de fait à calculer une histoire intégrée de la production d'électrons libre $n_e$ au cours de l'histoire cosmique. En théorie, le calcul de la valeur de l'opacité dépend de l'histoire détaillée de réionisation mais il est facile de comprendre le comportement qualitatif de cette quantité à partir d'un modèle simple. En effet, supposons que la réionisation soit parfaite de telle manière à ce que tous les atomes d'hydrogènes soit ionisés et qu'elle soit instantanée. Dans ce cas la densité comobile d'électrons libres est simplement constante ~: elle est nulle avant la réionisation et vaut \sidenote{on considère que l'hélium est absent}:
+\begin{equation}
+n_\mathrm{e,com}=\frac{\Omega_b \rho_c}{m_p}
+\end{equation}.
+La densité \textit{physique} d'électrons, celle nécessaire au calcul de $\tau_\mathrm{th}$, est donc simplement nulle avant la réionisation et vaut:
+\begin{equation}
+n_e(z<z_\mathrm{reion})=\frac{\Omega_b \rho_c}{m_p} \frac{1}{(1+z)^3}.
+\end{equation}
+La valeur de l'opacité vaut donc:
+\begin{equation}
+\tau_\mathrm{th}=\int_{z_\mathrm{rerion}}^{z=0} c \sigma_T\frac{\Omega_b \rho_c}{m_p} \frac{1}{(1+z)^3}  |\frac{dt}{dz}| dz.
+\end{equation}
+Au vu de l'intégrand qui n'est autre qu'une loi de puissance, plus le redshift de réionisation est élevé (plus la transition est précoce) plus la valeur de $\tau_\mathrm{th}$ est importante. De fait les premières mesure de cette quantité par le satellite WMAP, donnait des valeurs de $\tau_\mathrm{th}\sim 0.12$ correspondant à des redshifts de réionisation proches de $17$. Comparé à ceux obtenus par la technique des spectres de quasars, la tension était particulièrement forte entre les types de sondes de la réionisation. Depuis les mesures successives, via le satellite WMAP ou Planck on ramené cette quantité à des valeurs plus raisonnables, de l'ordre de $\tau_\mathrm{th}\sim 0.068$ ce qui correspond à des redshifts de \textit{mi-réionisation} de l'ordre de 8 : cette valeur est bien plus compatible avec celle mesuré via la forêt Lyman-$\alpha$. Toutefois, et de façon un peu paradoxale, une faible valeur de $\tau_\mathrm{th}$, donc une réionisation plus tardive, a tendance à rendre le CMB moins pertinent pour l'étude de l'époque de réionisation~: en effet, une faible valeur indique un faible couplage entre les électrons de la réionisation et les photons du CMB, et par extension ces photons sont moins sensibles à cette réionisation. Physiquement la raison en est simple~: une réionisation tardive implique une densité physique d'électrons libres plus faibles que celle qui aurait été obtenue pour une réionisation précoce.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/tau.png}
+		\caption[L'opacité Thomson du CMB]{La distribution des valeurs possibles de $\tau_\mathrm{th}$ d'après les mesures du satellites Planck. Les différentes courbes représentent les différentes estimations en considérant soit les données Planck en température seules (courbes bleues) soit en les couplant à d'autres mesures (par exemple les BAOs dans la distribution des galaxies) pour contraindre davantage cette mesure. La meilleure estimation donne $\tau_\mathrm{th}\sim 0.066 \pm 0.016$ équivalant à un redshift de mi-réionisation proche de 8.8. Figure extraite de Planck XIII.}
+	\label{f:tau}
+\end{figure}
+
+\subsection{le signal à 21 cm}
+ Contrairement aux 2 mesures précédentes, celle-ci n'a pas encore été réalisée dans le cas de la réionisation mais elle est des plus prometteuses. Il s'agit de détecter le signal émis directement par le gaz d'hydrogène neutre, à la longueur d'onde de 21 cm. Ce signal radio correspond à la transition entre les 2 états de spin de l'électron sur le niveau fondamental\sidenote{on parle de transition hyperfine}~: clairement l'écart d'énergie entre les 2 configurations doit être très faible, et le rayonnement produit est à très basse énergie. Le signal à 21 cm du gaz neutre peut s'exprimer sous la forme d'une température de brillance:
+ \begin{equation}
+ \delta T_b \sim x_\mathrm{HI} (1+\delta) (1-\frac{T_\mathrm{CMB}}{T_S})(1+\frac{1}{H}\frac{d v_r}{dr})^{-1}.
+ \end{equation}
+ Ce signal est extrêmement riche physiquement. Il dépend de l'état d'ionisation de l'hydrogène : un gaz complètement ionisé ($x_\mathrm{HI}=0$) donne un signal nul, comme attendu~: au cours de la réionisation, la mise en place d'un réseau de bulles ionisées doit donc directement se manifester dans ce signal radio. Il dépend aussi directement de la densité locale de gaz (via la surdensité $\delta$). Plus subtil, il dépend de la température de spin, c'est à dire du niveau d'occupation des niveaux hyperfins~: c'est une mesure de l'efficacité du pompage des états vers le niveau excité. Le mécanisme de pompage le plus pertinent dans ce contexte est l'absorption et la réemmission de photons Lyman-$\alpha$.  En l'absence de photons Lyman-$\alpha$, les processus collisionnels peuvent également produire du pompage, mais le régime de densité requis pour que cela soit efficace n'existe que pour des redshifts au delà de ce qui est observable dans un futur proche ($z>40$) Notons que le signal se mesure comparativement à la température du CMB $T_\mathrm{CMB}$ ~: si la température de spin est égale à celle du fond diffus\sidenote{qui est de l'ordre de la dizaine de K aux redshifts considérés}, le signal à 21 cm est invisible. Si la température de spin est plus élevée que celle du CMB, alors le signal est vu en émission ($\delta T_b >0$). Il sera vu en absorption dans le cas contraire. Pour finir, il dépend de la vitesse du gaz le long de la ligne de visée, et permet donc potentiellement de remonter à cette dynamique.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/21cm.png}
+		\caption[L'histoire du signal à 21cm de la réionisation]{Les différentes phases de l'émission à 21cm au cours de la réionisation. Durant les âges sombres (\textit{Dark Ages}) le signal est d'abord vu en absorption avant de commencer à disparaître. Il redevient visible lorsque les premières galaxies apparaissent (\textit{First galaxies form}). Dès que le chauffage du gaz par les premières sources devient effectif (\textit{heating begins}) le signal va basculer dans une phase en émission. Puis il va redisparaître entre le début et la fin de la réionisation (\textit{Reionisation begins/ends}). Figure tirée de Pritchard \& Loeb 2012.}
+	\label{f:21cm}
+\end{figure} 
+
+Cette richesse physique se traduit par une histoire compliquée pour le signal à 21 cm moyen (cf Fig. \ref{f:21cm}). Dans un premier temps, durant les âges sombres, ce sont les collisions qui vont réaliser le couplage entre la température du gaz et celle de spin~: comme le gaz refroidit plus vite que le CMB \sidenote{la température du gaz évolue en $(1+z)^{-2}$ tandis que celle du CMB évolue en $(1+z)^{-1}$}, le signal est vu en absorption. Tandis que la densité de gaz diminue, la température de spin se découple de celle des collisions et se rapproche de celle du CMB, faisant disparaitre le signal. Il faut attendre que les premières sources se forment pour que la production de rayonnement Lyman-$\alpha$ puisse à nouveau écarter la température de spin de celle du CMB, pour produire un signal en absorption. La production de rayons X, va alors chauffer le gaz jusqu'à le faire passer dans un régime en émission. A ce stade, les premières régions HII vont apparaitre et grignoter le gaz, le signal va alors disparaitre jusqu'à ce que l'IGM soit complètement réionisé.
+
+La détection de ce signal, ainsi que la réalisation de cartes de 21cm sont un objectif majeur du futur grand interféromètre radio SKA. Prévu pour être installé sur 2 sites, un en Australie et l'autre en Afrique du Sud, cet instrument sera capable d'imagerie, afin de voir la réionisation en train de se faire, fournissant autant d'informations sur les sources de rayonnement, sur le milieu intergalactique, sur le processus de croissance des structures à ces époques, etc... On note qu'il suffit de changer de fréquence d'observation pour que l'instrument puisse accéder à un autre redshift et donc à une autre époque : non seulement SKA sera capable de cartographie, mais il sera en mesure d'extraire une évolution temporelle du processus.
+ 
