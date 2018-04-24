@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.16)  19 FEB 2018 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.16)  4 APR 2018 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -893,10 +893,13 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 
 
 Writing index file main.idx
-(./main.aux (./Intro.aux) (./connaissance.aux) (./newton.aux)
-(./fondamentaux.aux) (./homogene.aux) (./chaud.aux) (./thermique.aux)
-(./cmb.aux) (./dm.aux) (./structures.aux) (./simulation.aux) (./entropie.aux)
-(./inflation.aux) (./reionisation.aux))
+(./main.aux (./Intro.aux) (./connaissance.aux
+
+LaTeX Warning: Label `f:timeline' multiply defined.
+
+) (./newton.aux) (./fondamentaux.aux) (./homogene.aux) (./chaud.aux)
+(./thermique.aux) (./cmb.aux) (./dm.aux) (./structures.aux) (./simulation.aux)
+(./entropie.aux) (./inflation.aux) (./reionisation.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
@@ -1106,7 +1109,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
-\T1/pplj/m/n/8 et en-vi-rion deux tiers est sous la forme
+\T1/pplj/m/n/8 et en-vi-ron deux tiers est sous la forme
  []
 
 
@@ -1129,6 +1132,9 @@ LaTeX Warning: Marginpar on page 9 moved.
 LaTeX Warning: Marginpar on page 9 moved.
 
 
+LaTeX Warning: Marginpar on page 9 moved.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9])
@@ -1139,32 +1145,118 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout2 = `connaissance.aux'.
 
  (./connaissance.tex
-LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 4.
- [13
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[][]\T1/pplj/m/n/8 .en l'oc-cur-rence à aug-men-ter dans un
+ []
 
 
-] [14] [15] [16] [17] [18]
-<figs/timeline.png, id=416, 659.46375pt x 446.66875pt>
+LaTeX Warning: Marginpar on page 13 moved.
+
+[13
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[][]\T1/pplj/m/n/8 .Par exemple la tem-pé-ra-ture du 'gaz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\T1/pplj/m/n/8 de pho-tons cos-mi-que', le fond dif-fus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\T1/pplj/m/n/8 cos-mo-lo-gique, est au-jour-d'hui de 2.73 K
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\T1/pplj/m/n/8 mais était en-vi-ron 1000 fois plus chaud
+ []
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[][]\T1/pplj/m/n/8 .le sa-tel-lite Planck me-sure ainsi une
+ []
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+[15]
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[][]\T1/pplj/m/n/8 .c'est-à-dire le fait que les dis-tances
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+\T1/pplj/m/n/8 aug-mentent de plus en plus ra-pi-de-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[][]\T1/pplj/m/n/8 .on ren-con-trera aussi par-fois le terme
+ []
+
+[16]
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+<figs/pieplanck.png, id=400, 1405.25pt x 1405.25pt>
+File: figs/pieplanck.png Graphic file (type png)
+ <use figs/pieplanck.png>
+Package pdftex.def Info: figs/pieplanck.png used on input line 60.
+(pdftex.def)             Requested size: 284.51868pt x 284.51868pt.
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[][]\T1/pplj/m/n/8 .on parle aussi de pas-sage au ré-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\T1/pplj/m/n/8 gime non li-néaire, en ré-fé-rence à la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\T1/pplj/m/n/8 na-ture non li-néaire des équa-tions qui
+ []
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+[18 <./figs/pieplanck.png>]
+<figs/timeline.png, id=414, 659.46375pt x 446.66875pt>
 File: figs/timeline.png Graphic file (type png)
  <use figs/timeline.png>
-Package pdftex.def Info: figs/timeline.png used on input line 73.
+Package pdftex.def Info: figs/timeline.png used on input line 81.
 (pdftex.def)             Requested size: 312.01083pt x 211.33153pt.
 
-[19 <./figs/timeline.png>]) [20]
+[19] [20 <./figs/timeline.png>]) [21]
 \openout2 = `newton.aux'.
 
- (./newton.tex
-<figs/newton.png, id=438, 762.85pt x 421.575pt>
-File: figs/newton.png Graphic file (type png)
- <use figs/newton.png>
-Package pdftex.def Info: figs/newton.png used on input line 19.
-(pdftex.def)             Requested size: 308.91763pt x 170.71764pt.
- [21
+ (./newton.tex [22
 
 
 
 ]
+<figs/newton.png, id=446, 762.85pt x 421.575pt>
+File: figs/newton.png Graphic file (type png)
+ <use figs/newton.png>
+Package pdftex.def Info: figs/newton.png used on input line 19.
+(pdftex.def)             Requested size: 308.91763pt x 170.71764pt.
+ [23]
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
 [][]\T1/pplj/m/n/8 .se fai-sant on consi-dère que ce rayon
  []
@@ -1175,9 +1267,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--26
  []
 
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 24 moved.
 
-[22 <./figs/newton.png>]
+[24 <./figs/newton.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 ^^Z$ \T1/pplj/m/n/8 dé-signe la den-sité 
 mas-sique de
@@ -1190,7 +1282,7 @@ plj/m/n/8 , le
  []
 
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 25 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
@@ -1203,9 +1295,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
  []
 
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 25 moved.
 
-[23]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
 [][]\T1/pplj/m/n/8 .l'énergie po-ten-tielle de gra-vi-ta-tion
  []
@@ -1227,9 +1319,12 @@ m/it/8 < r\OT1/zplm/m/n/8 )$\T1/pplj/m/n/8 , la masse à
  []
 
 
-LaTeX Warning: Marginpar on page 24 moved.
+LaTeX Warning: Marginpar on page 26 moved.
 
-[24]
+
+LaTeX Warning: Marginpar on page 26 moved.
+
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 100--100
 [][]\T1/pplj/m/n/8 .ce choix est ar-bi-traire, le même rai-son-
  []
@@ -1276,17 +1371,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--100
  []
 
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
-[25]
+[27]
 
-LaTeX Warning: Marginpar on page 26 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--122
@@ -1300,7 +1395,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--122
  []
 
 
-LaTeX Warning: Marginpar on page 26 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 124--124
@@ -1313,7 +1408,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--124
  []
 
 
-LaTeX Warning: Marginpar on page 26 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 147--147
@@ -1321,74 +1416,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--147
 tuait l'in-
  []
 
-[26]
+[28]
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 29 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[][]\T1/pplj/m/n/8 .voir par exemple \T1/pplj/m/it/8 Phy-si-cal Cos-mo-lo-gye
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[][]\T1/pplj/m/n/8 .correspondant à un temps de Hubble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[][]\T1/pplj/m/n/8 .par exemple au sein d'amas glo-bu-
+ []
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[][]\T1/pplj/m/n/8 .voir par exemple \T1/pplj/m/it/8 Phy-si-cal Cos-mo-logy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 [][]\T1/pplj/m/n/8 .De la même fa-çon, quel est le champ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/pplj/m/n/8 new-to-nien de gra-vi-ta-tion crée à l'in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/pplj/m/n/8 té-rieur d'une sphère creuse. D'après
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/pplj/m/n/8 le théo-rème de Bir-khoff, la ré-ponse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/pplj/m/n/8 est un champ de gra-vi-ta-tion nul, dont
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 \T1/pplj/m/n/8 l'équi-valent re-la-ti-viste est une ab-sence
  []
 
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 29 moved.
 
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 29 moved.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 ^^O$ \T1/pplj/m/n/8 dé-signe la den-sité 
 d'éner-gie as-so-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 \T1/pplj/m/n/8 cié à l'éner-gie en ques-tion et $\OML/zplm/m/it/8 P$ \T1/pplj/m
 /n/8 est sa
  []
 
-[27]
 
-LaTeX Warning: Marginpar on page 28 moved.
+LaTeX Warning: Marginpar on page 30 moved.
 
 
-LaTeX Warning: Marginpar on page 28 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[][]\T1/pplj/m/n/8 .qui est l'exemple ty-pique d'un gaz
+ []
 
-) [28]
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+\T1/pplj/m/n/8 de pho-tons for-te-ment cou-plé avec la
+ []
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+) [30]
 \openout2 = `fondamentaux.aux'.
 
- (./fondamentaux.tex [29
+ (./fondamentaux.tex [31
 
 
 
@@ -1396,55 +1525,197 @@ LaTeX Warning: Marginpar on page 28 moved.
 
 Package hyperref Warning: Suppressing empty link on input line 20.
 
-[30] [31] [32] [33] [34]
-Overfull \hbox (16.70918pt too wide) in paragraph at lines 77--79
+[32] [33] [34] <figs/ascenceur.png, id=545, 734.745pt x 336.25626pt>
+File: figs/ascenceur.png Graphic file (type png)
+
+<use figs/ascenceur.png>
+Package pdftex.def Info: figs/ascenceur.png used on input line 65.
+(pdftex.def)             Requested size: 312.01024pt x 142.79156pt.
+
+<figs/ascradial.png, id=546, 486.81876pt x 471.7625pt>
+File: figs/ascradial.png Graphic file (type png)
+
+<use figs/ascradial.png>
+Package pdftex.def Info: figs/ascradial.png used on input line 75.
+(pdftex.def)             Requested size: 293.60887pt x 284.52817pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[][]\T1/pplj/m/n/8 .c'est le cas par exemple de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+\T1/pplj/m/n/8 tra-jec-toire bal-lis-tique stan-dard en
+ []
+
+[35 <./figs/ascenceur.png>]
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+[36 <./figs/ascradial.png>]
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[][]\T1/pplj/m/n/8 .c'est par exemple l'ap-proche adopté
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\T1/pplj/m/n/8 par S. Wein-berg dans le livre \T1/pplj/m/it/8 Gra-vi-ta-tion
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[][]\T1/pplj/m/n/8 .la no-ta-tion d'Ein-stein consiste à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T1/pplj/m/n/8 omettre le signe de som-ma-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\T1/pplj/m/n/8 sur les in-dices ré-pé-tés. Par exemple
+ []
+
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+Overfull \hbox (16.70918pt too wide) in paragraph at lines 100--102
 \T1/pplj/m/n/10 sca-laire don-nant la dis-tance cou-verte par un in-ter-valle $
 \OT1/zplm/m/n/10 (\OML/zplm/m/it/10 dx[]\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 dx
 []\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 dx[]\OT1/pplx/m/n/10 , \OML/zplm/m/it/10
  dx[]\OT1/zplm/m/n/10 )$\T1/pplj/m/n/10 . 
  []
 
-[35] [36] <figs/hubble.png, id=569, 1405.25pt x 1405.25pt>
+[38] [39] <figs/grille.png, id=583, 824.07875pt x 401.5pt>
+File: figs/grille.png Graphic file (type png)
+
+<use figs/grille.png>
+Package pdftex.def Info: figs/grille.png used on input line 159.
+(pdftex.def)             Requested size: 311.99632pt x 152.00795pt.
+ [40] <figs/hubble.png, id=596, 1405.25pt x 1405.25pt>
 File: figs/hubble.png Graphic file (type png)
 
 <use figs/hubble.png>
-Package pdftex.def Info: figs/hubble.png used on input line 158.
+Package pdftex.def Info: figs/hubble.png used on input line 188.
 (pdftex.def)             Requested size: 284.51868pt x 284.51868pt.
- [37]
 
-LaTeX Warning: Marginpar on page 38 moved.
 
-[38 <./figs/hubble.png>] [39] [40]
-Overfull \hbox (9.50972pt too wide) in paragraph at lines 222--223
+LaTeX Warning: Marginpar on page 41 moved.
+
+[41 <./figs/grille.png>] <figs/canard.png, id=609, 850.17625pt x 331.2375pt>
+File: figs/canard.png Graphic file (type png)
+
+<use figs/canard.png>
+Package pdftex.def Info: figs/canard.png used on input line 197.
+(pdftex.def)             Requested size: 312.00468pt x 121.56026pt.
+ [42 <./figs/hubble.png>] [43 <./figs/canard.png>]
+<figs/wSN.png, id=627, 1473.505pt x 549.05125pt>
+File: figs/wSN.png Graphic file (type png)
+ <use figs/wSN.png>
+Package pdftex.def Info: figs/wSN.png used on input line 231.
+(pdftex.def)             Requested size: 311.98586pt x 116.25085pt.
+ [44 <./figs/wSN.png>]
+Overfull \hbox (9.50972pt too wide) in paragraph at lines 264--265
 []\T1/pplj/m/n/10 En gé-né-ra-li-sant cette ex-pres-sion, on ob-tient le ten-se
 ur des contraintes 
  []
 
-[41] [42]) [43]
+[45] [46]) [47] [48]
 \openout2 = `homogene.aux'.
 
- (./homogene.tex [44
+ (./homogene.tex
 
+LaTeX Warning: Marginpar on page 49 moved.
 
-
-]
-<figs/fluides.png, id=641, 792.9625pt x 631.35875pt>
+<figs/fluides.png, id=669, 792.9625pt x 631.35875pt>
 File: figs/fluides.png Graphic file (type png)
  <use figs/fluides.png>
 Package pdftex.def Info: figs/fluides.png used on input line 15.
 (pdftex.def)             Requested size: 312.00073pt x 248.41577pt.
 
-[45] [46 <./figs/fluides.png>] [47] [48] [49]
-<figs/era.png, id=691, 578.16pt x 433.62pt>
+
+LaTeX Warning: Marginpar on page 49 moved.
+
+[49
+
+
+
+] [50 <./figs/fluides.png>] [51]
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[][]\T1/pplj/m/n/8 .voir aussi le cha-pitre dé-dié au mo-dèle
+ []
+
+
+LaTeX Warning: Marginpar on page 52 moved.
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[][]\T1/pplj/m/n/8 .on rap-pelle que le red-shift $\OML/zplm/m/it/8 z$ \T1/pplj
+/m/n/8 est re-lié
+ []
+
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+[53] <figs/era.png, id=719, 1505.625pt x 685.56125pt>
 File: figs/era.png Graphic file (type png)
  <use figs/era.png>
 Package pdftex.def Info: figs/era.png used on input line 141.
-(pdftex.def)             Requested size: 311.99884pt x 233.99913pt.
+(pdftex.def)             Requested size: 311.98634pt x 142.05777pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50] [51 <./figs/era.png>]
+[54]
+Underfull \hbox (badness 1755) in paragraph at lines 168--168
+[][]\T1/pplj/m/n/8 .en ef-fet nous avons $[] \OMS/zplm/m/n/8 ^^X \OML/zplm/m/it
+/8 ^^Z[]a$\T1/pplj/m/n/8 . Plus $\OML/zplm/m/it/8 a$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+\T1/pplj/m/n/8 aug-mente, plus sa crois-sance ac-cé-lère et
+ []
+
+
+LaTeX Warning: Marginpar on page 55 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[][]\T1/pplj/m/n/8 .l'équivalence est en place pour
+ []
+
+[55 <./figs/era.png>]
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[][]\T1/pplj/m/n/8 .cette tran-si-tion a eu lieu il y a en-vi-ron
+ []
+
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[][]\T1/pplj/m/n/8 .voir aussi le cha-pitre sur les fon-da-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 174--174
 [][]\T1/pplj/m/n/8 .de même que l'in-va-riance par trans-la-
  []
@@ -1465,117 +1736,407 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--174
  []
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
-[52] [53] [54] [55] [56] [57]
-<figs/a2t_cosmo.png, id=769, 578.16pt x 433.62pt>
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+[56] [57] [58] [59] [60] [61]
+<figs/a2t_cosmo.png, id=798, 578.16pt x 433.62pt>
 File: figs/a2t_cosmo.png Graphic file (type png)
  <use figs/a2t_cosmo.png>
-Package pdftex.def Info: figs/a2t_cosmo.png used on input line 301.
+Package pdftex.def Info: figs/a2t_cosmo.png used on input line 302.
 (pdftex.def)             Requested size: 311.99884pt x 233.99913pt.
 )
-[58 <./figs/a2t_cosmo.png>]
+[62 <./figs/a2t_cosmo.png>]
 \openout2 = `chaud.aux'.
 
- (./chaud.tex [59
+ (./chaud.tex [63
 
 
 
-] [60]
-<figs/k.png, id=789, 539.01375pt x 503.8825pt>
+] [64]
+Underfull \hbox (badness 5519) in paragraph at lines 45--45
+[][]\T1/pplj/m/n/8 .ici $[] \OT1/zplm/m/n/8 = []$ \T1/pplj/m/n/8 dé-signe la co
+nstante de
+ []
+
+
+LaTeX Warning: Marginpar on page 65 moved.
+
+<figs/k.png, id=818, 539.01375pt x 503.8825pt>
 File: figs/k.png Graphic file (type png)
  <use figs/k.png>
-Package pdftex.def Info: figs/k.png used on input line 59.
+Package pdftex.def Info: figs/k.png used on input line 67.
 (pdftex.def)             Requested size: 312.00311pt x 291.66772pt.
- [61] [62 <./figs/k.png>] [63] [64] [65] [66]
-<figs/freeze.png, id=840, 566.115pt x 423.5825pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[][]\T1/pplj/m/n/8 .une par-ti-cule dont le spin est demi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[][]\T1/pplj/m/n/8 .une par-ti-cule dont le spin est en-tier,
+ []
+
+
+LaTeX Warning: Marginpar on page 65 moved.
+
+
+LaTeX Warning: Marginpar on page 65 moved.
+
+[65] [66 <./figs/k.png>]
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[][]\T1/pplj/m/n/8 .en uti-li-sant l'ex-pres-sion de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+\T1/pplj/m/n/8 fonc-tion \T1/pplj/m/it/8 zéta \T1/pplj/m/n/8 de Rie-mann avec
+ []
+
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+[68]
+
+LaTeX Warning: Marginpar on page 69 moved.
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[][]\T1/pplj/m/n/8 .on rap-pelle que le $\OML/zplm/m/it/8 MeV$ \T1/pplj/m/n/8 d
+é-signe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/pplj/m/n/8 1 mil-lion d'électrons-volts consti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/pplj/m/n/8 tue une éner-gie équi-va-lente à
+ []
+
+
+LaTeX Warning: Marginpar on page 70 moved.
+
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[][]\T1/pplj/m/n/8 .généralement cette sta-tis-tique de-vient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+\T1/pplj/m/n/8 ci-dessous que ce ré-gime non re-la-ti-viste
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+\T1/pplj/m/n/8 est pré-ci-sé-ment dé-crit par une tem-pé-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+\T1/pplj/m/n/8 ra-ture faible de-vant l'éner-gie de masse
+ []
+
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[][]\T1/pplj/m/n/8 .on note que l'in-té-grale porte sur $\OMS/zplm/m/n/8 1$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T1/pplj/m/n/8 alors qu'elle de-vrait être bor-née pour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T1/pplj/m/n/8 sa-tis-faire l'hy-po-thèse non-relativiste.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T1/pplj/m/n/8 Tou-te-fois, l'in-té-grand est une gaus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T1/pplj/m/n/8 sienne dont la dé-crois-sance est très
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T1/pplj/m/n/8 ra-pide : l'er-reur est donc faible et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T1/pplj/m/n/8 per-met de re-con-naître l'ex-pres-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T1/pplj/m/n/8 de la (moi-tié de la) va-riance d'une
+ []
+
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+[71] <figs/freeze.png, id=882, 566.115pt x 423.5825pt>
 File: figs/freeze.png Graphic file (type png)
  <use figs/freeze.png>
-Package pdftex.def Info: figs/freeze.png used on input line 189.
+Package pdftex.def Info: figs/freeze.png used on input line 220.
 (pdftex.def)             Requested size: 312.00343pt x 233.44937pt.
 
-[67]) [68 <./figs/freeze.png>]
+[72]) [73 <./figs/freeze.png>]
 \openout2 = `thermique.aux'.
 
- (./thermique.tex [69
+ (./thermique.tex [74
 
 
 
-] [70] [71]
-<figs/helium.png, id=889, 643.40375pt x 191.71625pt>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+[][]\T1/pplj/m/n/8 .on rap-pelle que le $\OML/zplm/m/it/8 MeV$ \T1/pplj/m/n/8 d
+é-signe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/pplj/m/n/8 1 mil-lion d'électrons-volts consti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+\T1/pplj/m/n/8 tue une éner-gie équi-va-lente à
+ []
+
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[][]\T1/pplj/m/n/8 .Cette tem-pé-ra-ture est celle du rayon-
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 12--12
+\T1/pplj/m/n/8 ne-ment de fond dif-fus avec $\OML/zplm/m/it/8 T[] \OMS/zplm/m/n
+/8 ^^X \OT1/pplx/m/n/8 2.73$
+ []
+
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[][]\T1/pplj/m/n/8 .défini par le pro-duit de la sec-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/pplj/m/n/8 ef-fi-cace $\OML/zplm/m/it/8 ^^[$ \T1/pplj/m/n/8 et de la vi-tes
+se ty-pique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/pplj/m/n/8 de ren-contre des par-ti-cules $\OML/zplm/m/it/8 v$ \T1/pplj/m/n
+/8 pour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\T1/pplj/m/n/8 conduire à un vo-lume d'in-ter-ac-tion par
+ []
+
+
+LaTeX Warning: Marginpar on page 76 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[][]\T1/pplj/m/n/8 .on rap-pelle que la tem-pé-ra-ture dé-croit
+ []
+
+
+LaTeX Warning: Marginpar on page 76 moved.
+
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[][]\T1/pplj/m/n/8 .alternativement on a l'en-tro-pie qui
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/pplj/m/n/8 est le rap-port de l'éner-gie in-terne sur la
+ []
+
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[][]\T1/pplj/m/n/8 .c'est un iso-tope de l'hy-dro-gène à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+\T1/pplj/m/n/8 par-tir du-quel est fa-bri-quée l'eau lourde
+ []
+
+
+LaTeX Warning: Marginpar on page 78 moved.
+
+[78] <figs/helium.png, id=942, 643.40375pt x 191.71625pt>
 File: figs/helium.png Graphic file (type png)
- <use figs/helium.png>
-Package pdftex.def Info: figs/helium.png used on input line 99.
-(pdftex.def)             Requested size: 312.01117pt x 92.97057pt.
 
-[72] <figs/BBN.png, id=898, 1405.25pt x 1405.25pt>
+<use figs/helium.png>
+Package pdftex.def Info: figs/helium.png used on input line 125.
+(pdftex.def)             Requested size: 312.01117pt x 92.97057pt.
+ [79]
+<figs/binding.png, id=954, 806.01125pt x 534.99875pt>
+File: figs/binding.png Graphic file (type png)
+ <use figs/binding.png>
+Package pdftex.def Info: figs/binding.png used on input line 136.
+(pdftex.def)             Requested size: 311.99406pt x 207.08945pt.
+
+[80 <./figs/helium.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81 <./figs/binding.png>] <figs/BBN.png, id=966, 1405.25pt x 1405.25pt>
 File: figs/BBN.png Graphic file (type png)
- <use figs/BBN.png>
-Package pdftex.def Info: figs/BBN.png used on input line 110.
+
+<use figs/BBN.png>
+Package pdftex.def Info: figs/BBN.png used on input line 152.
 (pdftex.def)             Requested size: 311.98634pt x 311.98634pt.
- [73 <./figs/helium.png>] [74 <./figs/BBN.png>]) [75]
+) [82 <./figs/BBN.png>]
 \openout2 = `cmb.aux'.
 
- (./cmb.tex [76
+ (./cmb.tex [83
 
 
 
-] [77]
-<figs/recom.png, id=927, 578.16pt x 433.62pt>
+]
+<figs/recom.png, id=981, 578.16pt x 433.62pt>
 File: figs/recom.png Graphic file (type png)
  <use figs/recom.png>
 Package pdftex.def Info: figs/recom.png used on input line 37.
 (pdftex.def)             Requested size: 311.99884pt x 233.99913pt.
- [78]
-<figs/diffusion.png, id=937, 770.88pt x 442.65375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[][]\T1/pplj/m/n/8 .on rap-pelle que les contraintes de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/pplj/m/n/8 nu-cléo-syn-thèse pri-mor-diale in-diquent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/pplj/m/n/8 que le rap-port ba-ryons/photons vaut
+ []
+
+
+LaTeX Warning: Marginpar on page 84 moved.
+
+[84] <figs/diffusion.png, id=991, 770.88pt x 442.65375pt>
 File: figs/diffusion.png Graphic file (type png)
- <use figs/diffusion.png>
+
+<use figs/diffusion.png>
 Package pdftex.def Info: figs/diffusion.png used on input line 54.
 (pdftex.def)             Requested size: 311.99297pt x 179.15219pt.
-
-[79 <./figs/recom.png>] <figs/LSS.png, id=946, 704.6325pt x 502.87875pt>
+ [85 <./figs/recom.png>]
+<figs/LSS.png, id=1000, 704.6325pt x 502.87875pt>
 File: figs/LSS.png Graphic file (type png)
-
-<use figs/LSS.png>
+ <use figs/LSS.png>
 Package pdftex.def Info: figs/LSS.png used on input line 63.
 (pdftex.def)             Requested size: 311.9961pt x 222.66386pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./figs/diffusion.png>] <figs/bb.png, id=953, 722.7pt x 576.1525pt>
+ [86 <./figs/diffusion.png>] <figs/bb.png, id=1007, 722.7pt x 576.1525pt>
 File: figs/bb.png Graphic file (type png)
 
 <use figs/bb.png>
 Package pdftex.def Info: figs/bb.png used on input line 84.
 (pdftex.def)             Requested size: 312.00104pt x 248.73416pt.
- [81 <./figs/LSS.png>] [82 <./figs/bb.png>]
-<figs/planck2015.png, id=970, 3011.25pt x 1505.625pt>
+ [87 <./figs/LSS.png>] [88 <./figs/bb.png>]
+<figs/planck2015.png, id=1023, 3011.25pt x 1505.625pt>
 File: figs/planck2015.png Graphic file (type png)
 
 <use figs/planck2015.png>
 Package pdftex.def Info: figs/planck2015.png used on input line 107.
 (pdftex.def)             Requested size: 311.98634pt x 155.99316pt.
- [83 <./figs/planck2015.png>]
-<figs/cl2015.png, id=979, 796.9775pt x 511.9125pt>
+ [89 <./figs/planck2015.png>]
+<figs/cl2015.png, id=1032, 796.9775pt x 511.9125pt>
 File: figs/cl2015.png Graphic file (type png)
  <use figs/cl2015.png>
 Package pdftex.def Info: figs/cl2015.png used on input line 129.
 (pdftex.def)             Requested size: 311.99957pt x 200.40276pt.
 
-[84 <./figs/cl2015.png>] [85]
+[90 <./figs/cl2015.png>] [91]
+
+LaTeX Warning: Marginpar on page 92 moved.
+
+
 Overfull \hbox (2.16972pt too wide) in paragraph at lines 166--168
 \T1/pplj/m/n/10 Dans un ré-gime de fluc-tua-tions adia-ba-tiques, les ré-gions 
 plus chaudes 
  []
 
-[86] [87] [88]) [89] [90]
+[92] <figs/cmb_geom.png, id=1062, 734.745pt x 628.3475pt>
+File: figs/cmb_geom.png Graphic file (type png)
+
+<use figs/cmb_geom.png>
+Package pdftex.def Info: figs/cmb_geom.png used on input line 192.
+(pdftex.def)             Requested size: 199.61703pt x 170.71074pt.
+ [93]
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+ [94 <./figs/cmb_geom.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[][]\T1/pplj/m/n/8 .par le sa-tel-lite amé-ri-cain WMAP par
+ []
+
+
+LaTeX Warning: Marginpar on page 95 moved.
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[][]\T1/pplj/m/n/8 .on peut mon-trer que $\OML/zplm/m/it/8 g\OT1/zplm/m/n/8 (\O
+ML/zplm/m/it/8 x\OT1/zplm/m/n/8 ) =
+ []
+
+<figs/SZ.png, id=1085, 1356.06625pt x 1109.14375pt>
+File: figs/SZ.png Graphic file (type png)
+ <use figs/SZ.png>
+Package pdftex.def Info: figs/SZ.png used on input line 230.
+(pdftex.def)             Requested size: 311.99214pt x 255.18231pt.
+
+
+LaTeX Warning: Marginpar on page 96 moved.
+
+) [96] [97 <./figs/SZ.png>]
 \openout2 = `dm.aux'.
 
- (./dm.tex [91
+ (./dm.tex [98
 
 
 
-]
+] [99]
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
 [][]\T1/pplj/m/n/8 .par exemple un sys-tème de den-sité
  []
@@ -1593,13 +2154,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
  []
 
 
-LaTeX Warning: Marginpar on page 92 moved.
+LaTeX Warning: Marginpar on page 100 moved.
 
 
-LaTeX Warning: Marginpar on page 92 moved.
+LaTeX Warning: Marginpar on page 100 moved.
 
 
-LaTeX Warning: Marginpar on page 92 moved.
+LaTeX Warning: Marginpar on page 100 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
@@ -1612,24 +2173,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--19
  []
 
 
-LaTeX Warning: Marginpar on page 92 moved.
+LaTeX Warning: Marginpar on page 100 moved.
 
-<figs/rocurveMW.png, id=1040, 1786.675pt x 956.57375pt>
+<figs/rocurveMW.png, id=1111, 1786.675pt x 956.57375pt>
 File: figs/rocurveMW.png Graphic file (type png)
 
 <use figs/rocurveMW.png>
 Package pdftex.def Info: figs/rocurveMW.png used on input line 23.
 (pdftex.def)             Requested size: 311.99124pt x 167.03801pt.
- [92 <./figs/rocurveMW.png>]
+ [100 <./figs/rocurveMW.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
 [][]\T1/pplj/m/n/8 .donc en-vi-ron 100 fois plus grandes
  []
 
 
-LaTeX Warning: Marginpar on page 93 moved.
+LaTeX Warning: Marginpar on page 101 moved.
 
 
-LaTeX Warning: Marginpar on page 93 moved.
+LaTeX Warning: Marginpar on page 101 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
@@ -1657,7 +2218,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
  []
 
 
-LaTeX Warning: Marginpar on page 93 moved.
+LaTeX Warning: Marginpar on page 101 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
@@ -1665,9 +2226,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
  []
 
 
-LaTeX Warning: Marginpar on page 93 moved.
+LaTeX Warning: Marginpar on page 101 moved.
 
-[93]
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
 [][]\T1/pplj/m/n/8 .le fac-teur 3 dans l'éner-gie ci-né-tique
  []
@@ -1688,16 +2249,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--53
  []
 
 
-LaTeX Warning: Marginpar on page 94 moved.
+LaTeX Warning: Marginpar on page 102 moved.
 
-<figs/fbar.png, id=1055, 473.77pt x 500.87125pt>
+<figs/fbar.png, id=1126, 473.77pt x 500.87125pt>
 File: figs/fbar.png Graphic file (type png)
  <use figs/fbar.png>
 Package pdftex.def Info: figs/fbar.png used on input line 74.
 (pdftex.def)             Requested size: 215.30544pt x 227.62163pt.
- [94]
+ [102]
 
-LaTeX Warning: Marginpar on page 95 moved.
+LaTeX Warning: Marginpar on page 103 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
@@ -1706,7 +2267,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--84
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T1/pplj/m/n/8 les amas stel-laires dits glo-bu-laires qui
+\T1/pplj/m/n/8 les amas stel-laires dits glo-bu-laires[] qui
  []
 
 
@@ -1727,21 +2288,21 @@ el gra-vi-ta-tion-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T1/pplj/m/n/8 nel tan-dis que $\OML/zplm/m/it/8 ^^Z$ \T1/pplj/m/n/8 dé-signe l
-e champ de
+\T1/pplj/m/n/8 nel[] tan-dis que $\OML/zplm/m/it/8 ^^Z$ \T1/pplj/m/n/8 dé-signe
+ le champ de
  []
 
-[95 <./figs/fbar.png>]
+[103 <./figs/fbar.png>]
 
-LaTeX Warning: Marginpar on page 96 moved.
-
-
-LaTeX Warning: Marginpar on page 96 moved.
+LaTeX Warning: Marginpar on page 104 moved.
 
 
-LaTeX Warning: Marginpar on page 96 moved.
+LaTeX Warning: Marginpar on page 104 moved.
 
-<figs/poisson.png, id=1070, 823.075pt x 326.21875pt>
+
+LaTeX Warning: Marginpar on page 104 moved.
+
+<figs/poisson.png, id=1142, 823.075pt x 326.21875pt>
 File: figs/poisson.png Graphic file (type png)
  <use figs/poisson.png>
 Package pdftex.def Info: figs/poisson.png used on input line 95.
@@ -1752,34 +2313,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--102
  []
 
 
-LaTeX Warning: Marginpar on page 96 moved.
+LaTeX Warning: Marginpar on page 104 moved.
 
-[96 <./figs/poisson.png>]
+[104 <./figs/poisson.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 112--112
 [][]\T1/pplj/m/n/8 .la deuxième équi-va-lence s'ob-tient en
  []
 
 
-LaTeX Warning: Marginpar on page 97 moved.
+LaTeX Warning: Marginpar on page 105 moved.
 
 
-LaTeX Warning: Marginpar on page 97 moved.
+LaTeX Warning: Marginpar on page 105 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 126--126
 [][]\T1/pplj/m/n/8 .qui dé-coulent de l'in-ter-ac-tion elec-tro-
  []
 
-[97]
+[105]
 
-LaTeX Warning: Marginpar on page 98 moved.
+LaTeX Warning: Marginpar on page 106 moved.
 
-<figs/bullet.jpg, id=1089, 963.6pt x 696.6025pt>
+<figs/bullet.jpg, id=1160, 963.6pt x 696.6025pt>
 File: figs/bullet.jpg Graphic file (type jpg)
  <use figs/bullet.jpg>
 Package pdftex.def Info: figs/bullet.jpg used on input line 131.
 (pdftex.def)             Requested size: 311.99002pt x 225.54279pt.
- [98 <./figs/bullet.jpg>]
+ [106 <./figs/bullet.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
 [][]\T1/pplj/m/n/8 .Ici $\OT1/zplm/m/n/8 ^^F[]$ \T1/pplj/m/n/8 dé-signe une den
 -sité sur-fa-cique
@@ -1787,7 +2348,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
-\T1/pplj/m/n/8 'cri-ti-que' qui dé-pend de la confi-
+\T1/pplj/m/n/8 'cri-ti-que'[] qui dé-pend de la confi-
  []
 
 
@@ -1801,39 +2362,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
  []
 
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 107 moved.
 
-<figs/SPLHALO.png, id=1096, 946.53625pt x 959.585pt>
+<figs/SPLHALO.png, id=1166, 946.53625pt x 959.585pt>
 File: figs/SPLHALO.png Graphic file (type png)
  <use figs/SPLHALO.png>
 Package pdftex.def Info: figs/SPLHALO.png used on input line 161.
 (pdftex.def)             Requested size: 311.99686pt x 316.29797pt.
 
-[99]
+[107]
+
+LaTeX Warning: Marginpar on page 108 moved.
+
+
+LaTeX Warning: Marginpar on page 108 moved.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 170--170
 [][]\T1/pplj/m/n/8 .les 2 com-po-santes du ci-saille-ment
  []
 
+[108 <./figs/SPLHALO.png>]
 
-LaTeX Warning: Marginpar on page 100 moved.
+LaTeX Warning: Marginpar on page 109 moved.
 
-[100 <./figs/SPLHALO.png>] <figs/SPL.png, id=1111, 415.5525pt x 427.5975pt>
+
+LaTeX Warning: Marginpar on page 109 moved.
+
+<figs/SPL.png, id=1181, 415.5525pt x 427.5975pt>
 File: figs/SPL.png Graphic file (type png)
-
-<use figs/SPL.png>
+ <use figs/SPL.png>
 Package pdftex.def Info: figs/SPL.png used on input line 174.
 (pdftex.def)             Requested size: 312.01234pt x 321.05618pt.
 
 
-LaTeX Warning: Marginpar on page 101 moved.
+LaTeX Warning: Marginpar on page 109 moved.
 
-[101 <./figs/SPL.png>] <figs/cl_silk.png, id=1117, 908.39375pt x 475.7775pt>
+[109 <./figs/SPL.png>] <figs/cl_silk.png, id=1188, 908.39375pt x 475.7775pt>
 File: figs/cl_silk.png Graphic file (type png)
 
 <use figs/cl_silk.png>
 Package pdftex.def Info: figs/cl_silk.png used on input line 186.
 (pdftex.def)             Requested size: 311.99623pt x 163.41017pt.
- [102 <./figs/cl_silk.png>]
+ [110 <./figs/cl_silk.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 202--202
 [][]\T1/pplj/m/n/8 .on la re-trou-vera dans une ap-proche
  []
@@ -1843,15 +2414,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--202
 \T1/pplj/m/n/8 fluide dans le cha-pitre sur les grandes
  []
 
+[111]
 
-LaTeX Warning: Marginpar on page 103 moved.
-
-[103]
-
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 112 moved.
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 112 moved.
+
+
+LaTeX Warning: Marginpar on page 112 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 215--215
@@ -1876,15 +2447,15 @@ fi-ni-tion sa-
  []
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 112 moved.
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 112 moved.
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 112 moved.
 
-[104]
+[112]
 Underfull \hbox (badness 10000) in paragraph at lines 238--238
 [][]\T1/pplj/m/n/8 .qui trans-forme l'ex-po-nen-tielle com-
  []
@@ -1895,20 +2466,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--238
  []
 
 
-LaTeX Warning: Marginpar on page 105 moved.
+LaTeX Warning: Marginpar on page 113 moved.
 
 
-LaTeX Warning: Marginpar on page 105 moved.
+LaTeX Warning: Marginpar on page 113 moved.
 
 
-LaTeX Warning: Marginpar on page 105 moved.
+LaTeX Warning: Marginpar on page 113 moved.
 
-<figs/wdm.png, id=1140, 840.13875pt x 438.63875pt>
+<figs/wdm.png, id=1210, 840.13875pt x 438.63875pt>
 File: figs/wdm.png Graphic file (type png)
  <use figs/wdm.png>
 Package pdftex.def Info: figs/wdm.png used on input line 256.
 (pdftex.def)             Requested size: 312.00023pt x 162.89616pt.
- [105]
+ [113]
 Underfull \hbox (badness 10000) in paragraph at lines 266--266
 [][]\T1/pplj/m/n/8 .gravitation, hy-dro-dy-na-mique, chi-mie,
  []
@@ -1924,18 +2495,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--266
  []
 
 
-LaTeX Warning: Marginpar on page 106 moved.
+LaTeX Warning: Marginpar on page 114 moved.
 
-<figs/hmf.png, id=1151, 1405.25pt x 1405.25pt>
+[114 <./figs/wdm.png>] <figs/hmf.png, id=1226, 1405.25pt x 1405.25pt>
 File: figs/hmf.png Graphic file (type png)
- <use figs/hmf.png>
+
+<use figs/hmf.png>
 Package pdftex.def Info: figs/hmf.png used on input line 271.
 (pdftex.def)             Requested size: 311.98634pt x 311.98634pt.
- [106 <./figs/wdm.png>]
 
-LaTeX Warning: Marginpar on page 107 moved.
 
-[107 <./figs/hmf.png>] <figs/L.png, id=1166, 1405.25pt x 1405.25pt>
+LaTeX Warning: Marginpar on page 115 moved.
+
+[115 <./figs/hmf.png>] <figs/L.png, id=1237, 1405.25pt x 1405.25pt>
 File: figs/L.png Graphic file (type png)
 
 <use figs/L.png>
@@ -1946,24 +2518,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--288
 [][]\T1/pplj/m/n/8 .La cour-bure de la fonc-tion est plus
  []
 
-<figs/SilkMamon.png, id=1168, 715.67375pt x 443.6575pt>
+<figs/SilkMamon.png, id=1239, 715.67375pt x 443.6575pt>
 File: figs/SilkMamon.png Graphic file (type png)
 
 <use figs/SilkMamon.png>
 Package pdftex.def Info: figs/SilkMamon.png used on input line 291.
 (pdftex.def)             Requested size: 312.00354pt x 193.41594pt.
- [108 <./figs/L.png>]
+ [116 <./figs/L.png>]
 
-LaTeX Warning: Marginpar on page 109 moved.
+LaTeX Warning: Marginpar on page 117 moved.
 
-<figs/missing.png, id=1175, 711.65875pt x 635.37375pt>
+<figs/missing.png, id=1247, 711.65875pt x 635.37375pt>
 File: figs/missing.png Graphic file (type png)
  <use figs/missing.png>
 Package pdftex.def Info: figs/missing.png used on input line 301.
 (pdftex.def)             Requested size: 311.99062pt x 278.54733pt.
 
-[109 <./figs/SilkMamon.png>]
-<figs/planM31.png, id=1183, 479.7925pt x 239.89626pt>
+[117 <./figs/SilkMamon.png>]
+<figs/planM31.png, id=1254, 479.7925pt x 239.89626pt>
 File: figs/planM31.png Graphic file (type png)
  <use figs/planM31.png>
 Package pdftex.def Info: figs/planM31.png used on input line 308.
@@ -2013,31 +2585,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--313
 \T1/pplj/m/n/8 de leur dis-tance, ex-pli-quant l'éten-due
  []
 
+[118 <./figs/missing.png>]
 
-LaTeX Warning: Marginpar on page 110 moved.
+LaTeX Warning: Marginpar on page 119 moved.
 
-[110 <./figs/missing.png>]
 
-LaTeX Warning: Marginpar on page 111 moved.
+LaTeX Warning: Marginpar on page 119 moved.
 
-) [111 <./figs/planM31.png>]
+
+LaTeX Warning: Marginpar on page 119 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[][]\T1/pplj/m/n/8 .voir par exemple le mo-dèle phé-no-mé-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\T1/pplj/m/n/8 no-lo-gique MOND qui in-clut les ef-fets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\T1/pplj/m/n/8 d'une ac-cé-lé-ra-tion li-mite dans le ré-gime
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\T1/pplj/m/n/8 des faibles champs de gra-vi-ta-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\T1/pplj/m/n/8 si-mi-laire à l'ef-fet d'une dis-tri-bu-tion de
+ []
+
+)
+
+LaTeX Warning: Marginpar on page 119 moved.
+
+[119 <./figs/planM31.png>]
 \openout2 = `structures.aux'.
 
- (./structures.tex [112
+ (./structures.tex [120
 
 
 
-] [113] [114]
+] [121] [122]
 Underfull \vbox (badness 1077) has occurred while \output is active []
 
- [115]
-[116]
+ [123]
+[124]
 Overfull \hbox (14.32338pt too wide) in paragraph at lines 104--105
 \T1/pplj/m/n/10 mode cor-res-pond à une onde so-nore de pul-sa-tion $\OML/zplm/
 m/it/10 ! \OT1/zplm/m/n/10 = []$\T1/pplj/m/n/10 . 
  []
 
-[117]
+[125]
 Underfull \hbox (badness 10000) in paragraph at lines 116--116
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 ^^Z$ \T1/pplj/m/n/8 est la den-sité de ma
 -tière, $[]$ la
@@ -2050,7 +2654,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--116
  []
 
 
-LaTeX Warning: Marginpar on page 118 moved.
+LaTeX Warning: Marginpar on page 126 moved.
 
 
 Underfull \hbox (badness 1210) in paragraph at lines 124--124
@@ -2061,16 +2665,16 @@ m/m/it/8 t\OT1/zplm/m/n/8 )\OML/zplm/m/it/8 x\OT1/pplx/m/n/8 , \OML/zplm/m/it/8
  []
 
 
-LaTeX Warning: Marginpar on page 118 moved.
+LaTeX Warning: Marginpar on page 126 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--132
 [][]\T1/pplj/m/n/8 .le terme $[][]$ peut fa-ci-le-ment se ré-ecrire
  []
 
-[118]
+[126]
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 127 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 142--142
@@ -2078,22 +2682,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--142
  []
 
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 127 moved.
 
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 127 moved.
 
-[119]
+[127]
 
-LaTeX Warning: Marginpar on page 120 moved.
-
-
-LaTeX Warning: Marginpar on page 120 moved.
+LaTeX Warning: Marginpar on page 128 moved.
 
 
-LaTeX Warning: Marginpar on page 120 moved.
+LaTeX Warning: Marginpar on page 128 moved.
 
-[120]
+
+LaTeX Warning: Marginpar on page 128 moved.
+
+[128]
 Underfull \hbox (badness 10000) in paragraph at lines 224--224
 [][]\T1/pplj/m/n/8 .qui com-pose $\OT1/pplx/m/n/8 80%$ \T1/pplj/m/n/8 du bi-lan
  éner-gé-
@@ -2105,10 +2709,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--224
  []
 
 
-LaTeX Warning: Marginpar on page 121 moved.
+LaTeX Warning: Marginpar on page 129 moved.
 
 
-LaTeX Warning: Marginpar on page 121 moved.
+LaTeX Warning: Marginpar on page 129 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 232--232
@@ -2127,12 +2731,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--232
 \T1/pplj/m/n/8 ne-ment contri-buent de ma-nière égale
  []
 
-[121]
+[129]
 
-LaTeX Warning: Marginpar on page 122 moved.
+LaTeX Warning: Marginpar on page 130 moved.
 
 
-LaTeX Warning: Marginpar on page 122 moved.
+LaTeX Warning: Marginpar on page 130 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 249--249
@@ -2140,11 +2744,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--249
  []
 
 
-LaTeX Warning: Marginpar on page 122 moved.
+LaTeX Warning: Marginpar on page 130 moved.
 
-[122]
+[130]
 
-LaTeX Warning: Marginpar on page 123 moved.
+LaTeX Warning: Marginpar on page 131 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 271--271
@@ -2163,7 +2767,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--271
  []
 
 
-LaTeX Warning: Marginpar on page 123 moved.
+LaTeX Warning: Marginpar on page 131 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--284
@@ -2171,7 +2775,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
  []
 
 
-LaTeX Warning: Marginpar on page 123 moved.
+LaTeX Warning: Marginpar on page 131 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 286--286
@@ -2185,19 +2789,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--286
 e noire pour
  []
 
-[123]
+[131]
 
-LaTeX Warning: Marginpar on page 124 moved.
-
-
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 132 moved.
 
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 132 moved.
+
+
+LaTeX Warning: Marginpar on page 132 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 292--292
-[][]\T1/pplj/m/n/8 .on parle aussi d'amor-tis-se-ment Silk,
+[][]\T1/pplj/m/n/8 .on parle aussi d'amor-tis-se-ment Silk[],
  []
 
 
@@ -2211,13 +2815,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--292
  []
 
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 132 moved.
 
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 132 moved.
 
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 132 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--294
@@ -2230,15 +2834,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--294
  []
 
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 132 moved.
 
-<figs/bao1.png, id=1308, 538.01pt x 453.695pt>
+<figs/bao1.png, id=1379, 538.01pt x 453.695pt>
 File: figs/bao1.png Graphic file (type png)
  <use figs/bao1.png>
 Package pdftex.def Info: figs/bao1.png used on input line 298.
 (pdftex.def)             Requested size: 312.00496pt x 263.10867pt.
- [124]
-<figs/bao2.png, id=1314, 773.89125pt x 459.7175pt>
+ [132]
+<figs/bao2.png, id=1385, 773.89125pt x 459.7175pt>
 File: figs/bao2.png Graphic file (type png)
  <use figs/bao2.png>
 Package pdftex.def Info: figs/bao2.png used on input line 310.
@@ -2246,7 +2850,7 @@ Package pdftex.def Info: figs/bao2.png used on input line 310.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [125 <./figs/bao1.png>]
+ [133 <./figs/bao1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 332--332
 [][]\T1/pplj/m/n/8 .pour ces échelles plus grandes que
  []
@@ -2262,7 +2866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--332
  []
 
 
-LaTeX Warning: Marginpar on page 126 moved.
+LaTeX Warning: Marginpar on page 134 moved.
 
 
 Overfull \hbox (0.96979pt too wide) in paragraph at lines 334--335
@@ -2270,13 +2874,13 @@ Overfull \hbox (0.96979pt too wide) in paragraph at lines 334--335
  sub-horizon. 
  []
 
-[126 <./figs/bao2.png>] <figs/perturb.png, id=1330, 628.3475pt x 443.6575pt>
+[134 <./figs/bao2.png>] <figs/perturb.png, id=1402, 628.3475pt x 443.6575pt>
 File: figs/perturb.png Graphic file (type png)
 
 <use figs/perturb.png>
 Package pdftex.def Info: figs/perturb.png used on input line 350.
 (pdftex.def)             Requested size: 311.99654pt x 220.29147pt.
- [127 <./figs/perturb.png>]
+ [135 <./figs/perturb.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 387--387
 [][]\T1/pplj/m/n/8 .on parle de spectre in-va-riant
  []
@@ -2287,44 +2891,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--387
  []
 
 
-LaTeX Warning: Marginpar on page 128 moved.
+LaTeX Warning: Marginpar on page 136 moved.
 
-<figs/pk.png, id=1341, 716.6775pt x 263.98625pt>
+<figs/pk.png, id=1412, 716.6775pt x 263.98625pt>
 File: figs/pk.png Graphic file (type png)
  <use figs/pk.png>
 Package pdftex.def Info: figs/pk.png used on input line 399.
 (pdftex.def)             Requested size: 312.00372pt x 114.92574pt.
- [128]
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+ [136]
+<figs/pstegmark.png, id=1426, 453.695pt x 412.54124pt>
+File: figs/pstegmark.png Graphic file (type png)
+
+<use figs/pstegmark.png>
+Package pdftex.def Info: figs/pstegmark.png used on input line 408.
+(pdftex.def)             Requested size: 311.99762pt x 283.69695pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 [][]\T1/pplj/m/n/8 .mesurée à z=0 dans des grands re-le-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 \T1/pplj/m/n/8 vés de mil-lions de ga-laxies comme le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 [][]\T1/pplj/m/n/8 .sondée dans les spectres de Qua-sars
  []
 
 
-LaTeX Warning: Marginpar on page 129 moved.
+LaTeX Warning: Marginpar on page 137 moved.
 
 
-LaTeX Warning: Marginpar on page 129 moved.
+LaTeX Warning: Marginpar on page 137 moved.
 
 
-LaTeX Warning: Marginpar on page 129 moved.
+LaTeX Warning: Marginpar on page 137 moved.
 
 
-LaTeX Warning: Marginpar on page 129 moved.
+LaTeX Warning: Marginpar on page 137 moved.
 
-) [129 <./figs/pk.png>] [130]
+<figs/percival.png, id=1428, 408.52625pt x 425.59pt>
+File: figs/percival.png Graphic file (type png)
+ <use figs/percival.png>
+Package pdftex.def Info: figs/percival.png used on input line 418.
+(pdftex.def)             Requested size: 312.01665pt x 325.04926pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137 <./figs/pk.png>] [138 <./figs/pstegmark.png>] [139 <./figs/percival.png>]
+ [140]
 \openout2 = `simulation.aux'.
 
- (./simulation.tex
+
+(./simulation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 [][]\T1/pplj/m/n/8 .on peut men-tion-ner les os-cil-la-tions
  []
@@ -2348,22 +2969,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []
 
 
-LaTeX Warning: Marginpar on page 131 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 
-LaTeX Warning: Marginpar on page 131 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
-[131
+[141
 
 
 
-] <figs/simuemma.jpg, id=1368, 2055.68pt x 2055.68pt>
+] <figs/simuemma.jpg, id=1453, 2055.68pt x 2055.68pt>
 File: figs/simuemma.jpg Graphic file (type jpg)
 
 <use figs/simuemma.jpg>
 Package pdftex.def Info: figs/simuemma.jpg used on input line 10.
 (pdftex.def)             Requested size: 311.97728pt x 311.97728pt.
- [132 <./figs/simuemma.jpg>] [133]
+ [142 <./figs/simuemma.jpg>] [143]
 Overfull \hbox (11.42976pt too wide) in paragraph at lines 28--29
 []\T1/pplj/m/n/10 Considérons dans un pre-mier temps la com-po-sante non-collis
 ionnelle 
@@ -2390,10 +3011,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--32
  []
 
 
-LaTeX Warning: Marginpar on page 134 moved.
+LaTeX Warning: Marginpar on page 144 moved.
 
 
-LaTeX Warning: Marginpar on page 134 moved.
+LaTeX Warning: Marginpar on page 144 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--51
@@ -2412,17 +3033,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--51
 $
  []
 
-[134]
+[144]
 
-LaTeX Warning: Marginpar on page 135 moved.
+LaTeX Warning: Marginpar on page 145 moved.
 
-<figs/PM.png, id=1387, 450.68375pt x 356.33125pt>
+<figs/PM.png, id=1471, 450.68375pt x 356.33125pt>
 File: figs/PM.png Graphic file (type png)
  <use figs/PM.png>
 Package pdftex.def Info: figs/PM.png used on input line 72.
 (pdftex.def)             Requested size: 215.92pt x 170.71625pt.
- [135]
-[136 <./figs/PM.png>]
+ [145]
+[146 <./figs/PM.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--87
 [][]\T1/pplj/m/n/8 .représentées ici à 1D. On y dis-tingue
  []
@@ -2449,13 +3070,13 @@ m/m/it/8 x\OT1/pplx/m/n/8 , \OML/zplm/m/it/8 t\OT1/zplm/m/n/8 )$ \T1/pplj/m/n/8
 
 Underfull \hbox (badness 10000) in paragraph at lines 87--87
 \OML/zplm/m/it/8 P\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/pplx/m/n/8 , \OML/zpl
-m/m/it/8 t\OT1/zplm/m/n/8 )$ \T1/pplj/m/n/8 sa pres-sion et $\OML/zplm/m/it/8 ^
-^^\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/pplx/m/n/8 , \OML/zplm/m/it/8 t\OT1/z
-plm/m/n/8 )$ \T1/pplj/m/n/8 le po-ten-tiel
+m/m/it/8 t\OT1/zplm/m/n/8 )$ \T1/pplj/m/n/8 sa pres-sion[] et $\OML/zplm/m/it/8
+ ^^^\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x\OT1/pplx/m/n/8 , \OML/zplm/m/it/8 t\OT1
+/zplm/m/n/8 )$ \T1/pplj/m/n/8 le po-ten-tiel
  []
 
 
-LaTeX Warning: Marginpar on page 137 moved.
+LaTeX Warning: Marginpar on page 147 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 92--92
@@ -2467,11 +3088,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \T1/pplj/m/n/8 na-tive du prin-cipe fon-da-men-tal de la
  []
 
-[137]
+[147]
 
-LaTeX Warning: Marginpar on page 138 moved.
+LaTeX Warning: Marginpar on page 148 moved.
 
-[138]
+[148]
 Underfull \hbox (badness 10000) in paragraph at lines 131--131
 [][]\T1/pplj/m/n/8 .Notons que la même chose existe
  []
@@ -2497,9 +3118,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--131
  []
 
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 149 moved.
 
-[139]
+[149]
 Underfull \hbox (badness 10000) in paragraph at lines 142--142
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 e$ \T1/pplj/m/n/8 dé-signe l'éner-gie in-
 terne du gaz
@@ -2517,12 +3138,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--142
  []
 
 
-LaTeX Warning: Marginpar on page 140 moved.
+LaTeX Warning: Marginpar on page 150 moved.
 
 
-LaTeX Warning: Marginpar on page 140 moved.
+LaTeX Warning: Marginpar on page 150 moved.
 
-<figs/zoom.png, id=1425, 883.3pt x 659.46375pt>
+<figs/zoom.png, id=1510, 883.3pt x 659.46375pt>
 File: figs/zoom.png Graphic file (type png)
  <use figs/zoom.png>
 Package pdftex.def Info: figs/zoom.png used on input line 150.
@@ -2545,9 +3166,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--157
 a den-sité
  []
 
-[140]
+[150]
 
-LaTeX Warning: Marginpar on page 141 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 162--162
@@ -2586,16 +3207,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--162
  []
 
 
-LaTeX Warning: Marginpar on page 141 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
 
-LaTeX Warning: Marginpar on page 141 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
 
-LaTeX Warning: Marginpar on page 141 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
 
-LaTeX Warning: Marginpar on page 141 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 164--164
@@ -2609,7 +3230,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--164
  []
 
 
-LaTeX Warning: Marginpar on page 141 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 169--169
@@ -2623,9 +3244,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--169
  l'éner-gie
  []
 
-[141 <./figs/zoom.png>]
+[151 <./figs/zoom.png>]
 
-LaTeX Warning: Marginpar on page 142 moved.
+LaTeX Warning: Marginpar on page 152 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 173--173
@@ -2638,17 +3259,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--173
  []
 
 
-LaTeX Warning: Marginpar on page 142 moved.
+LaTeX Warning: Marginpar on page 152 moved.
 
 
-LaTeX Warning: Marginpar on page 142 moved.
+LaTeX Warning: Marginpar on page 152 moved.
 
-<figs/HM.png, id=1442, 1405.25pt x 1405.25pt>
+<figs/HM.png, id=1528, 1405.25pt x 1405.25pt>
 File: figs/HM.png Graphic file (type png)
  <use figs/HM.png>
 Package pdftex.def Info: figs/HM.png used on input line 177.
 (pdftex.def)             Requested size: 311.98634pt x 311.98634pt.
- [142] [143 <./figs/HM.png>]
+ [152] [153 <./figs/HM.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 188--188
 [][]\T1/pplj/m/n/8 .dans des vo-lumes cos-mo-lo-giques. Il
  []
@@ -2692,16 +3313,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--188
  []
 
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 154 moved.
 
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 154 moved.
 
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 154 moved.
 
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 154 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 203--203
@@ -2729,18 +3350,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--203
  []
 
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 154 moved.
 
-[144]
+[154]
 Underfull \hbox (badness 10000) in paragraph at lines 207--207
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 N\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 m\OT1/
 zplm/m/n/8 )$ \T1/pplj/m/n/8 dé-signe le nombre d'étoiles de
  []
 
 
-LaTeX Warning: Marginpar on page 145 moved.
+LaTeX Warning: Marginpar on page 155 moved.
 
-<figs/SN.png, id=1461, 435.6275pt x 634.37pt>
+<figs/SN.png, id=1547, 435.6275pt x 634.37pt>
 File: figs/SN.png Graphic file (type png)
  <use figs/SN.png>
 Package pdftex.def Info: figs/SN.png used on input line 215.
@@ -2750,19 +3371,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--221
 [][]\T1/pplj/m/n/8 .comme étant ex-pé-rience dé-pen-dant
  []
 
-) [145] [146 <./figs/SN.png>]
+) [155] [156 <./figs/SN.png>]
 
-LaTeX Warning: Marginpar on page 147 moved.
+LaTeX Warning: Marginpar on page 157 moved.
 
-[147]
+[157]
 \openout2 = `entropie.aux'.
 
- (./entropie.tex [148
+ (./entropie.tex [158
 
 
 
 ]
-<figs/micro.png, id=1483, 319.1925pt x 374.39874pt>
+<figs/micro.png, id=1568, 319.1925pt x 374.39874pt>
 File: figs/micro.png Graphic file (type png)
  <use figs/micro.png>
 Package pdftex.def Info: figs/micro.png used on input line 15.
@@ -2773,7 +3394,7 @@ Overfull \hbox (2.24973pt too wide) in paragraph at lines 12--19
 -canonique. 
  []
 
-[149]
+[159]
 Underfull \hbox (badness 10000) in paragraph at lines 22--22
 [][]\T1/pplj/m/n/8 .Par exemple, pour re-col-ler un verre
  []
@@ -2798,18 +3419,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--22
 \T1/pplj/m/n/8 cha-leur qui va glo-ba-le-ment aug-men-ter
  []
 
-[150 <./figs/micro.png>]
+[160 <./figs/micro.png>]
 
-LaTeX Warning: Marginpar on page 151 moved.
+LaTeX Warning: Marginpar on page 161 moved.
 
-<figs/dispersion.png, id=1495, 431.6125pt x 319.1925pt>
+<figs/dispersion.png, id=1580, 431.6125pt x 319.1925pt>
 File: figs/dispersion.png Graphic file (type png)
 
 <use figs/dispersion.png>
 Package pdftex.def Info: figs/dispersion.png used on input line 31.
 (pdftex.def)             Requested size: 269.31589pt x 199.16849pt.
 
-<figs/equiconfig.png, id=1497, 792.9625pt x 225.84375pt>
+<figs/equiconfig.png, id=1582, 792.9625pt x 225.84375pt>
 File: figs/equiconfig.png Graphic file (type png)
 
 <use figs/equiconfig.png>
@@ -2818,7 +3439,7 @@ Package pdftex.def Info: figs/equiconfig.png used on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [151 <./figs/dispersion.png>]
+ [161 <./figs/dispersion.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
 [][]\T1/pplj/m/n/8 .intuitivement cette du-rée $\OML/zplm/m/it/8 t[]$\T1/pplj/m
 /n/8 est liée à la
@@ -2840,7 +3461,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \T1/pplj/m/n/8 tant plus ra-pi-de-ment at-teint que la
  []
 
-<figs/equientro.png, id=1506, 556.0775pt x 231.86626pt>
+<figs/equientro.png, id=1590, 556.0775pt x 231.86626pt>
 File: figs/equientro.png Graphic file (type png)
 
 <use figs/equientro.png>
@@ -2848,9 +3469,9 @@ Package pdftex.def Info: figs/equientro.png used on input line 52.
 (pdftex.def)             Requested size: 312.00371pt x 130.0954pt.
 
 
-LaTeX Warning: Marginpar on page 152 moved.
+LaTeX Warning: Marginpar on page 162 moved.
 
-[152 <./figs/equiconfig.png>]
+[162 <./figs/equiconfig.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
 [][]\T1/pplj/m/n/8 .on dit aussi que l'\T1/pplj/m/it/8 on trouve le temps
  []
@@ -2861,25 +3482,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
  []
 
 
-LaTeX Warning: Marginpar on page 153 moved.
+LaTeX Warning: Marginpar on page 163 moved.
 
 
-LaTeX Warning: Marginpar on page 153 moved.
+LaTeX Warning: Marginpar on page 163 moved.
 
-<figs/melange.png, id=1513, 826.08624pt x 200.75pt>
+<figs/melange.png, id=1597, 826.08624pt x 200.75pt>
 File: figs/melange.png Graphic file (type png)
  <use figs/melange.png>
 Package pdftex.def Info: figs/melange.png used on input line 64.
 (pdftex.def)             Requested size: 312.00006pt x 75.82018pt.
 
-[153 <./figs/equientro.png>]
+[163 <./figs/equientro.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 74--74
 [][]\T1/pplj/m/n/8 .étudiée en dé-tail dans la sec-tion
  []
 
-[154 <./figs/melange.png>]
+[164 <./figs/melange.png>]
 
-LaTeX Warning: Marginpar on page 155 moved.
+LaTeX Warning: Marginpar on page 165 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--76
@@ -2887,9 +3508,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--76
  []
 
 
-LaTeX Warning: Marginpar on page 155 moved.
+LaTeX Warning: Marginpar on page 165 moved.
 
-[155]
+[165]
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
 [][]\T1/pplj/m/n/8 .cette pro-duc-tion est ré-gie par la
  []
@@ -2910,15 +3531,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--80
  []
 
 
-LaTeX Warning: Marginpar on page 156 moved.
+LaTeX Warning: Marginpar on page 166 moved.
 
-<figs/fluctuation.png, id=1530, 699.61375pt x 229.85875pt>
+<figs/fluctuation.png, id=1615, 699.61375pt x 229.85875pt>
 File: figs/fluctuation.png Graphic file (type png)
 
 <use figs/fluctuation.png>
 Package pdftex.def Info: figs/fluctuation.png used on input line 90.
 (pdftex.def)             Requested size: 312.00502pt x 102.50952pt.
- [156]
+ [166]
 Underfull \hbox (badness 10000) in paragraph at lines 104--104
 [][]\T1/pplj/m/n/8 .on com-prend ai-sé-ment qu'un état à
  []
@@ -2933,11 +3554,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--104
 \T1/pplj/m/n/8 plus pro-bable qu'un autre à moins de
  []
 
+
+LaTeX Warning: Marginpar on page 167 moved.
+
+[167 <./figs/fluctuation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[][]\T1/pplj/m/n/8 .à la ma-nière de ré-ser-voirs de gaz en
+ []
+
 )
 
-LaTeX Warning: Marginpar on page 157 moved.
+LaTeX Warning: Marginpar on page 168 moved.
 
-[157 <./figs/fluctuation.png>] [158]
+[168]
 \openout2 = `inflation.aux'.
 
  (./inflation.tex
@@ -2951,7 +3580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
  []
 
 
-LaTeX Warning: Marginpar on page 159 moved.
+LaTeX Warning: Marginpar on page 169 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -2959,9 +3588,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
  []
 
 
-LaTeX Warning: Marginpar on page 159 moved.
+LaTeX Warning: Marginpar on page 169 moved.
 
-[159
+[169
 
 
 
@@ -2970,9 +3599,9 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 22.
 
 
-LaTeX Warning: Reference `inflation' on page 160 undefined on input line 22.
+LaTeX Warning: Reference `inflation' on page 170 undefined on input line 22.
 
-<figs/inflation.png, id=1552, 764.8575pt x 400.49625pt>
+<figs/inflation.png, id=1638, 764.8575pt x 400.49625pt>
 File: figs/inflation.png Graphic file (type png)
 
 <use figs/inflation.png>
@@ -2994,9 +3623,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--35
  []
 
 
-LaTeX Warning: Marginpar on page 160 moved.
+LaTeX Warning: Marginpar on page 170 moved.
 
-[160] [161 <./figs/inflation.png>]
+[170] [171 <./figs/inflation.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
 [][]\T1/pplj/m/n/8 .ces mo-no-pôles ma-gné-tiques se-raient
  []
@@ -3043,17 +3672,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--64
 lle du
  []
 
-[162]
+[172]
 
-LaTeX Warning: Marginpar on page 163 moved.
-
-
-LaTeX Warning: Marginpar on page 163 moved.
+LaTeX Warning: Marginpar on page 173 moved.
 
 
-LaTeX Warning: Marginpar on page 163 moved.
+LaTeX Warning: Marginpar on page 173 moved.
 
-[163]
+
+LaTeX Warning: Marginpar on page 173 moved.
+
+[173]
 Underfull \hbox (badness 10000) in paragraph at lines 92--92
 [][]\T1/pplj/m/n/8 .de fa-çon tout à fait ana-logue à la dy-
  []
@@ -3074,28 +3703,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--92
  []
 
 
-LaTeX Warning: Marginpar on page 164 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
-LaTeX Warning: Marginpar on page 164 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
-LaTeX Warning: Marginpar on page 164 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
-[164] <figs/slowroll.png, id=1590, 732.7375pt x 375.4025pt>
+[174] <figs/slowroll.png, id=1675, 732.7375pt x 375.4025pt>
 File: figs/slowroll.png Graphic file (type png)
 
 <use figs/slowroll.png>
 Package pdftex.def Info: figs/slowroll.png used on input line 114.
 (pdftex.def)             Requested size: 311.9963pt x 159.84468pt.
- [165 <./figs/slowroll.png>]
+ [175 <./figs/slowroll.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
 [][]\T1/pplj/m/n/8 .ici $\OML/zplm/m/it/8 i$ \T1/pplj/m/n/8 et $\OML/zplm/m/it/
 8 f$ \T1/pplj/m/n/8 dé-si-gnent res-pec-ti-ve-ment les
  []
 
 
-LaTeX Warning: Marginpar on page 166 moved.
+LaTeX Warning: Marginpar on page 176 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 142--142
@@ -3108,17 +3737,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--142
  []
 
 
-LaTeX Warning: Marginpar on page 166 moved.
+LaTeX Warning: Marginpar on page 176 moved.
 
-[166]
+[176]
 Underfull \hbox (badness 10000) in paragraph at lines 164--164
 [][]\T1/pplj/m/n/8 .notamment dans les cartes me-su-rant
  []
 
 
-LaTeX Warning: Marginpar on page 167 moved.
+LaTeX Warning: Marginpar on page 177 moved.
 
-[167]) [168]
+[177]) [178]
 \openout2 = `reionisation.aux'.
 
  (./reionisation.tex
@@ -3132,15 +3761,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []
 
 
-LaTeX Warning: Marginpar on page 169 moved.
+LaTeX Warning: Marginpar on page 179 moved.
 
-<figs/frisereion.png, id=1623, 711.65875pt x 369.38pt>
+<figs/frisereion.png, id=1708, 711.65875pt x 369.38pt>
 File: figs/frisereion.png Graphic file (type png)
 
 <use figs/frisereion.png>
 Package pdftex.def Info: figs/frisereion.png used on input line 10.
 (pdftex.def)             Requested size: 311.99062pt x 161.93588pt.
- [169
+ [179
 
 
 
@@ -3165,7 +3794,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
  []
 
 
-LaTeX Warning: Marginpar on page 170 moved.
+LaTeX Warning: Marginpar on page 180 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
@@ -3185,7 +3814,7 @@ ni-sés, $\OML/zplm/m/it/8 N[]$
  []
 
 
-LaTeX Warning: Marginpar on page 170 moved.
+LaTeX Warning: Marginpar on page 180 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
@@ -3193,15 +3822,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
  []
 
 
-LaTeX Warning: Marginpar on page 170 moved.
+LaTeX Warning: Marginpar on page 180 moved.
 
-[170 <./figs/frisereion.png>]
+[180 <./figs/frisereion.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
 [][]\T1/pplj/m/n/8 .on rap-pelle que son abon-dance est
  []
 
 
-LaTeX Warning: Marginpar on page 171 moved.
+LaTeX Warning: Marginpar on page 181 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
@@ -3212,13 +3841,13 @@ atome d'hy-
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \T1/pplj/m/n/8 dro-gène, $\OML/zplm/m/it/8 v$ \T1/pplj/m/n/8 la vi-tesse du fro
-nt et $\OML/zplm/m/it/8 F$ \T1/pplj/m/n/8 le
+nt[] et $\OML/zplm/m/it/8 F$ \T1/pplj/m/n/8 le
  []
 
 
-LaTeX Warning: Marginpar on page 171 moved.
+LaTeX Warning: Marginpar on page 181 moved.
 
-[171] <figs/strom.png, id=1646, 1658.195pt x 867.24pt>
+[181] <figs/strom.png, id=1731, 1658.195pt x 867.24pt>
 File: figs/strom.png Graphic file (type png)
  <use figs/strom.png>
 Package pdftex.def Info: figs/strom.png used on input line 76.
@@ -3241,9 +3870,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--81
  []
 
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 182 moved.
 
-[172 <./figs/strom.png>]
+[182 <./figs/strom.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--91
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 I[]$ \T1/pplj/m/n/8 dé-signe l'in-ten-sit
 é spé-ci-fique
@@ -3256,7 +3885,7 @@ ces de
  []
 
 
-LaTeX Warning: Marginpar on page 173 moved.
+LaTeX Warning: Marginpar on page 183 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 97--97
@@ -3269,11 +3898,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--97
  []
 
 
-LaTeX Warning: Marginpar on page 173 moved.
+LaTeX Warning: Marginpar on page 183 moved.
 
-[173]
+[183]
 
-LaTeX Warning: Marginpar on page 174 moved.
+LaTeX Warning: Marginpar on page 184 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--117
@@ -3281,59 +3910,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--117
  []
 
 
-LaTeX Warning: Marginpar on page 174 moved.
+LaTeX Warning: Marginpar on page 184 moved.
 
-[174]
+[184]
 
-LaTeX Warning: Marginpar on page 175 moved.
+LaTeX Warning: Marginpar on page 185 moved.
 
-<figs/lya.png, id=1671, 620.3175pt x 389.455pt>
+<figs/lya.png, id=1757, 620.3175pt x 389.455pt>
 File: figs/lya.png Graphic file (type png)
  <use figs/lya.png>
 Package pdftex.def Info: figs/lya.png used on input line 131.
 (pdftex.def)             Requested size: 311.99425pt x 195.87988pt.
- [175 <./figs/lya.png>]
+ [185 <./figs/lya.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 138--138
 [][]\T1/pplj/m/n/8 .on pourra le tra-duire par 'Tun-nel'
  []
 
-<figs/fan06.png, id=1679, 363.3575pt x 453.695pt>
+<figs/fan06.png, id=1764, 363.3575pt x 453.695pt>
 File: figs/fan06.png Graphic file (type png)
  <use figs/fan06.png>
 Package pdftex.def Info: figs/fan06.png used on input line 141.
 (pdftex.def)             Requested size: 273.4489pt x 341.43344pt.
 
 
-LaTeX Warning: Marginpar on page 176 moved.
+LaTeX Warning: Marginpar on page 186 moved.
 
 
 Underfull \vbox (badness 1132) has occurred while \output is active []
 
- [176 <./figs/fan06.png>]
+ [186 <./figs/fan06.png>]
 
-LaTeX Warning: Marginpar on page 177 moved.
+LaTeX Warning: Marginpar on page 187 moved.
 
-[177] <figs/tau.png, id=1694, 485.815pt x 377.41pt>
+[187] <figs/tau.png, id=1780, 485.815pt x 377.41pt>
 File: figs/tau.png Graphic file (type png)
  <use figs/tau.png>
 Package pdftex.def Info: figs/tau.png used on input line 169.
 (pdftex.def)             Requested size: 311.9954pt x 242.3766pt.
 
 
-LaTeX Warning: Marginpar on page 178 moved.
+LaTeX Warning: Marginpar on page 188 moved.
 
 
 Underfull \vbox (badness 3525) has occurred while \output is active []
 
- [178 <./figs/tau.png>]
+ [188 <./figs/tau.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 179--179
 [][]\T1/pplj/m/n/8 .qui est de l'ordre de la di-zaine de K
  []
 
 
-LaTeX Warning: Marginpar on page 179 moved.
+LaTeX Warning: Marginpar on page 189 moved.
 
-<figs/21cm.png, id=1701, 582.175pt x 164.615pt>
+<figs/21cm.png, id=1787, 582.175pt x 164.615pt>
 File: figs/21cm.png Graphic file (type png)
  <use figs/21cm.png>
 Package pdftex.def Info: figs/21cm.png used on input line 183.
@@ -3350,9 +3979,9 @@ m/m/n/8 )[]$ \T1/pplj/m/n/8 tan-dis que celle du CMB
  []
 
 
-LaTeX Warning: Marginpar on page 179 moved.
+LaTeX Warning: Marginpar on page 189 moved.
 
-[179 <./figs/21cm.png>]) [180] (./main.bbl
+[189 <./figs/21cm.png>]) [190] (./main.bbl
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 40.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/bera/t1fvm.fd
@@ -3360,1159 +3989,175 @@ File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 40.
-) [181
+) [191
 
 
 
-] [182
+] [192
 
 ]
-(./main.ind [183] [184
+(./main.ind [193] [194
 
-]) [185] [186
+] [195] [196]) [197] [198
 
 ] (./main.lof
-Overfull \hbox (9.87976pt too wide) in paragraph at lines 3--3
- [][] [][]\T1/pplj/m/n/10 Les grandes étapes dans l'his-toire du cos-mos. Cette
- frise couvre en-
- []
-
-
-Overfull \hbox (26.51982pt too wide) in paragraph at lines 3--3
- \T1/pplj/m/n/10 vi-ron 13.8 mil-liards d'an-nées d'évo-lu-tion de-puis le Big-
-Bang (à gauche)
- []
-
-
-Overfull \hbox (4.09976pt too wide) in paragraph at lines 5--5
- [][] [][]\T1/pplj/m/n/10 Le mo-dèle new-to-nien. La sphère re-pré-sente une po
-r-tion de gaz de
- []
-
-
-Overfull \hbox (17.69966pt too wide) in paragraph at lines 5--5
- \T1/pplj/m/n/10 ga-laxies, uni-forme et iso-trope cen-trée sur $\OML/zplm/m/it
-/10 O$\T1/pplj/m/n/10 . Seules quelques ga-laxies
- []
-
-
-Overfull \hbox (11.96974pt too wide) in paragraph at lines 5--5
- \T1/pplj/m/n/10 sont re-pré-sen-tées ici sous formes d'el-lipses : la plus élo
-i-gnée d'entre
- []
-
-
-Overfull \hbox (7.37984pt too wide) in paragraph at lines 5--5
- \T1/pplj/m/n/10 elles fourni le rayon maxi-mum de notre \T1/pplj/m/it/10 vo-lu
-me de controle \T1/pplj/m/n/10 (mon-trée
- []
-
-
-Overfull \hbox (8.49973pt too wide) in paragraph at lines 5--5
- \T1/pplj/m/n/10 ici sous la forme d'une double flèche). Deux ins-tants sont re
--pré-sen-
- []
-
-
-Overfull \hbox (2.41982pt too wide) in paragraph at lines 5--5
- \T1/pplj/m/n/10 tés ici, le temps s'écou-lant de la gauche vers la droite et l
-e vo-lume
- []
-
-
-Overfull \hbox (4.70975pt too wide) in paragraph at lines 5--5
- \T1/pplj/m/n/10 su-bit alors une trans-for-ma-tion ho-mo-thé-tique. No-tée que
- la ga-laxie
- []
-
-
-Overfull \hbox (13.38979pt too wide) in paragraph at lines 7--7
- [][] [][]\T1/pplj/m/n/10 Diagramme de Hubble re-pré-sen-tant la vi-tesse de fu
-ite de dif-fé-rentes
- []
-
-
-Overfull \hbox (5.8699pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10 à par-tir des don-nées de Freed-man et al. (2000). La ligne tr
-ace la re-
- []
-
-
-Overfull \hbox (27.17505pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10 la-tion at-ten-due pour une va-leur $\OML/zplm/m/it/10 H[] \OT
-1/zplm/m/n/10 = \OT1/pplx/m/n/10 72$ \T1/pplj/m/n/10 km/s/Mpc tan-dis que chaqu
-e
- []
-
-
-Overfull \hbox (2.27974pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10 point re-pré-sente un ob-jet dont la dis-tance et la fuite son
-t connues.
- []
-
-
-Overfull \hbox (14.53969pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10 Les ob-jets consi-dé-rés sont soit des su-per-no-vae (points b
-leus) soit des
- []
-
-
-Overfull \hbox (6.6498pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10 ga-laxies (points orange, vert et rouge) dont la dis-tance est
- dé-ter-mi-
- []
-
-
-Overfull \hbox (4.47969pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10 née avec 3 tech-niques dif-fé-rentes. On note que les su-per-n
-o-vae per-
- []
-
-
-Overfull \hbox (2.88977pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10 mettent de son-der les dis-tances les plus loin-taines et sont
- donc les
- []
-
-
-Overfull \hbox (14.82979pt too wide) in paragraph at lines 7--7
- \T1/pplj/m/n/10 plus contrai-gnantes pour la me-sure du pa-ra-mètre de Hubble.
- [] 38 
- []
-
-
-Overfull \hbox (2.30972pt too wide) in paragraph at lines 9--9
- [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique des 3 fluides cos-mo-lo-gique
-s sous l'ef-fet de
- []
-
-
-Overfull \hbox (6.05983pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10 l'ex-pan-sion. Pour la ma-tière non-relativiste (a), le nombre
- de par-ti-
- []
-
-
-Overfull \hbox (16.79973pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10 cules reste constant, l'éner-gie to-tale est constante et la d
-en-sité d'éner-
- []
-
-
-Overfull \hbox (16.44983pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10 gie di-mi-nue avec le vo-lume. Pour la ma-tière re-la-ti-viste
- (b), le nombre
- []
-
-
-Overfull \hbox (4.2498pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10 de par-ti-cules reste constant mais l'éner-gie in-di-vi-duelle
- de cha-cune
- []
-
-
-Overfull \hbox (9.98979pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10 tale di-mi-nue et la den-sité d'éner-gie di-mi-nue sous le dou
-ble ef-fet du
- []
-
-
-Overfull \hbox (17.39978pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10 rou-gis-se-ment et de la di-lu-tion. Pour le 'vo-lu-me' (c), l
-a den-sité d'éner-
- []
-
-
-Overfull \hbox (18.16972pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10 gie est constante dans chaque élé-ment de vo-lume (re-pré-sent
-é par une
- []
-
-
-Overfull \hbox (15.29976pt too wide) in paragraph at lines 9--9
- \T1/pplj/m/n/10 case) et l'éner-gie to-tale à l'in-té-rieur du vo-lume de cont
-rôle aug-mente
- []
-
-
-Overfull \hbox (7.58978pt too wide) in paragraph at lines 10--10
- [][] [][]\T1/pplj/m/n/10 Evolution tem-po-relle de la den-sité d'éner-gie des 
-3 fluides cos-mo-lo-
- []
-
-
-Overfull \hbox (14.89977pt too wide) in paragraph at lines 10--10
- \T1/pplj/m/n/10 giques pour une cos-mo-lo-gie stan-dard. Le temps s'écoule de 
-la droite
- []
-
-
-Overfull \hbox (11.03976pt too wide) in paragraph at lines 10--10
- \T1/pplj/m/n/10 vers la gauche, avec une do-mi-na-tion suc-ces-sive du rayon-n
-e-ment, de
- []
-
-
-Underfull \vbox (badness 1902) has occurred while \output is active []
-
- [187
-
-]
-Overfull \hbox (7.42966pt too wide) in paragraph at lines 11--11
- [][] [][]\T1/pplj/m/n/10 Evolution tem-po-relle du fac-teur d'échelle $\OML/zp
-lm/m/it/10 a\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 )$ \T1/pplj/m
-/n/10 pour dif-fé-rentes cos-
- []
-
-
-Overfull \hbox (12.03986pt too wide) in paragraph at lines 11--11
- \T1/pplj/m/n/10 mo-lo-gies. Ici om dé-signe le pa-ra-mètre de den-sité de la m
-a-tière et ov
- []
-
-
-Overfull \hbox (0.2298pt too wide) in paragraph at lines 11--11
- \T1/pplj/m/n/10 dé-signe ce-lui de l'éner-gie noire. No-tez que le fac-teur d'
-échelle est
- []
-
-
-Overfull \hbox (18.9565pt too wide) in paragraph at lines 13--13
- [][] [][]\T1/pplj/m/n/10 Comment cal-cu-ler le nombre d'états d'éner-gie don-n
-ée? Les états sont
- []
-
-
-Overfull \hbox (17.27971pt too wide) in paragraph at lines 13--13
- \T1/pplj/m/n/10 quan-ti-fiés et 'po-si-tion-nés' sur une maille cor-res-pon-da
-nt à des va-leurs
- []
-
-
-Overfull \hbox (5.80478pt too wide) in paragraph at lines 13--13
- \T1/pplj/m/n/10 de $\OML/zplm/m/it/10 k[]$ \T1/pplj/m/n/10 et $\OML/zplm/m/it/
-10 k[]$ \T1/pplj/m/n/10 mul-tiples de $\OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ^^Y\
-OT1/zplm/m/n/10 /\OML/zplm/m/it/10 L$\T1/pplj/m/n/10 . Tous les états de même é
-ner-gie par-
- []
-
-
-Overfull \hbox (4.19981pt too wide) in paragraph at lines 13--13
- \T1/pplj/m/n/10 tagent le même mo-dule $\OML/zplm/m/it/10 k$ \T1/pplj/m/n/10 :
- leur nombre est donc donné par la sur-
- []
-
-
-Overfull \hbox (4.00975pt too wide) in paragraph at lines 13--13
- \T1/pplj/m/n/10 face de la co-quille ($\OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ^^Y
-kdk$\T1/pplj/m/n/10 ) di-visé par la sur-face d'un élé-ment de la
- []
-
-
-Overfull \hbox (9.94948pt too wide) in paragraph at lines 13--13
- \T1/pplj/m/n/10 maille ($\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 2\OML/zplm/m/it/10
- ^^Y\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 L\OT1/zplm/m/n/10 )[]$\T1/pplj/m/n/10 )
-. A 3D, ce nombre de-vient $\OT1/pplx/m/n/10 4\OML/zplm/m/it/10 ^^Yk[]dk\OT1/zp
-lm/m/n/10 /(\OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ^^Y\OT1/zplm/m/n/10 /\OML/zplm/
-m/it/10 L\OT1/zplm/m/n/10 )[]$\T1/pplj/m/n/10 .[] 62 
- []
-
-
-Overfull \hbox (12.90976pt too wide) in paragraph at lines 14--14
+Overfull \hbox (17.19978pt too wide) in paragraph at lines 20--20
  [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique de l'abon-dance d'une par-ti-
-cule re-lique. Dans
+cule re-lique.[] 73 
  []
 
 
-Overfull \hbox (7.02985pt too wide) in paragraph at lines 14--14
- \T1/pplj/m/n/10 le ré-gime ultra-relativiste (UR), la par-ti-cule se com-porte
- comme un
- []
-
-
-Overfull \hbox (13.23979pt too wide) in paragraph at lines 14--14
- \T1/pplj/m/n/10 pho-ton et son abon-dance est si-mi-laire. Le pas-sage au ré-g
-ime non re-
- []
-
-
-Overfull \hbox (20.12976pt too wide) in paragraph at lines 14--14
- \T1/pplj/m/n/10 la-ti-viste (NR) pro-voque la dé-crois-sance de l'abon-dance, 
-ex-po-nen-tielle,
- []
-
-
-Overfull \hbox (6.29979pt too wide) in paragraph at lines 14--14
- \T1/pplj/m/n/10 ty-pique d'une par-ti-cule mas-sive. Son abon-dance de-vien-dr
-ait né-gli-
- []
-
-
-Overfull \hbox (7.64981pt too wide) in paragraph at lines 14--14
- \T1/pplj/m/n/10 geable sans le 'gel' (freeze-out) : la di-lu-tion cos-mo-lo-gi
-que ainsi que
- []
-
-
-Overfull \hbox (22.1898pt too wide) in paragraph at lines 14--14
- \T1/pplj/m/n/10 l'ab-sence de ré-ac-tifs ou la baisse de tem-pé-ra-ture vont s
-ta-bi-li-ser la den-
- []
-
-
-Overfull \hbox (0.82982pt too wide) in paragraph at lines 14--14
- \T1/pplj/m/n/10 sité nu-mé-rique de la par-ti-cule à une abon-dance non nulle.
- [] 68 
- []
-
-
-Overfull \hbox (6.20972pt too wide) in paragraph at lines 16--16
- [][] [][]\T1/pplj/m/n/10 La si-tua-tion après la fin du gou-lot du 'Deu-té-riu
-m'. Chaque groupe
- []
-
-
-Overfull \hbox (7.46971pt too wide) in paragraph at lines 16--16
- \T1/pplj/m/n/10 de 8 nu-cléons contient en-vi-ron 1 neu-tron : un noyau d'hé-l
-ium peut
- []
-
-
-Overfull \hbox (7.04976pt too wide) in paragraph at lines 16--16
- \T1/pplj/m/n/10 donc être fa-bri-qué pour 16 nu-cléons, don-nant un rap-port d
-e masse
- []
-
-
-Overfull \hbox (15.50975pt too wide) in paragraph at lines 17--17
+Overfull \hbox (6.58978pt too wide) in paragraph at lines 24--24
  [][] [][]\T1/pplj/m/n/10 Comparaison des abon-dances ob-ser-vées des élé-ments
- lé-gers (ré-gions
+ lé-gers[] 82 
  []
 
 
-Overfull \hbox (8.32985pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10 bleues ho-ri-zon-tales, Fields et al. (2015)), des mo-dèles (l
-ignes) et des
+Overfull \hbox (11.95605pt too wide) in paragraph at lines 26--26
+ [][] [][]\T1/pplj/m/n/10 Evolution tem-po-relle de frac-tion d'io-ni-sa-tion $
+\OML/zplm/m/it/10 x[]$ \T1/pplj/m/n/10 pour trois va-leur de
  []
 
 
-Overfull \hbox (23.2898pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10 contraintes Planck (ré-gion orange ver-ti-cale). Ces abon-danc
-es sont don-
+Overfull \hbox (0.8184pt too wide) in paragraph at lines 26--26
+ \OT1/zplm/m/n/10 
+[]$\T1/pplj/m/n/10 . L'âge ty-pique de l'Uni-vers aux red-shifts concer-nés est
+ d'en-vi-
  []
 
 
-Overfull \hbox (12.72974pt too wide) in paragraph at lines 17--17
- \T1/pplj/m/n/10 nées en fonc-tion du rap-port ba-ryon sur pho-ton $\OML/zplm/m
-/it/10 ^^Q$\T1/pplj/m/n/10 . Abon-dances théo-
+Overfull \hbox (28.09137pt too wide) in paragraph at lines 26--26
+ \T1/pplj/m/n/10 ron 380 000 ans. Les atomes sont to-ta-le-ment io-ni-sés, $\OM
+L/zplm/m/it/10 x[] \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 1$ \T1/pplj/m/n/10 aux g
+randes
  []
 
 
-Overfull \hbox (48.15839pt too wide) in paragraph at lines 19--19
- [][] [][]\T1/pplj/m/n/10 Evolution tem-po-relle de frac-tion d'io-ni-sa-tion p
-our trois va-leur de $\OT1/zplm/m/n/10 
-[]$\T1/pplj/m/n/10 .[] 79 
+Overfull \hbox (10.39978pt too wide) in paragraph at lines 26--26
+ \T1/pplj/m/n/10 va-leurs de $\OML/zplm/m/it/10 z$\T1/pplj/m/n/10 , et le gaz c
+os-mique est sous la forme d'un plasma. Pro-
  []
 
 
-Overfull \hbox (16.2698pt too wide) in paragraph at lines 20--20
- [][] [][]\T1/pplj/m/n/10 Avant la re-com-bi-nai-son, la pré-sence d'élec-trons
- libres dans le plasma
+Overfull \hbox (19.77974pt too wide) in paragraph at lines 26--26
+ \T1/pplj/m/n/10 gres-si-ve-ment, sous l'ef-fet de la baisse de tem-pé-ra-ture,
+ les atomes vont
  []
 
 
-Overfull \hbox (14.96974pt too wide) in paragraph at lines 20--20
- \T1/pplj/m/n/10 cos-mique est à l'ori-gine d'un pro-ces-sus de dif-fu-sion des
- pho-tons im-
+Overfull \hbox (7.33974pt too wide) in paragraph at lines 26--26
+ \T1/pplj/m/n/10 re-com-bi-ner pour don-ner un Uni-vers neutre, op-ti-que-ment 
+mince au
  []
 
 
-Overfull \hbox (13.71979pt too wide) in paragraph at lines 20--20
- \T1/pplj/m/n/10 por-tant. Le plasma peut alors être consi-déré comme opaque, c
-ompte
- []
-
-
-Overfull \hbox (1.66982pt too wide) in paragraph at lines 20--20
- \T1/pplj/m/n/10 tenu de l'im-pos-si-bi-lité d'ex-traire de l'in-for-ma-tion su
-r des grandes
- []
-
-
-Overfull \hbox (1.59981pt too wide) in paragraph at lines 20--20
- \T1/pplj/m/n/10 dis-tances. La seule in-for-ma-tion dis-po-nible pro-vient de 
-la der-nière
- []
-
-
-Overfull \hbox (4.0098pt too wide) in paragraph at lines 20--20
- \T1/pplj/m/n/10 dif-fu-sion. Après la re-com-bi-nai-son, l'ab-sence d'élec-tro
-ns libres per-
- []
-
-
-Overfull \hbox (3.40979pt too wide) in paragraph at lines 20--20
- \T1/pplj/m/n/10 met en-fin au rayon-ne-ment de se pro-pa-ger li-bre-ment, l'Un
-i-vers de-
- []
-
-
-Overfull \hbox (27.03973pt too wide) in paragraph at lines 20--20
- \T1/pplj/m/n/10 vient trans-pa-rent pour les pho-tons du fond dif-fus cos-mo-l
-o-gique.[] 80 
- []
-
-
-Overfull \hbox (13.96976pt too wide) in paragraph at lines 21--21
- [][] [][]\T1/pplj/m/n/10 Les pho-tons du fond dif-fus ont pu se pro-pa-ger li-
-bre-ment à par-tir du
- []
-
-
-Overfull \hbox (3.29984pt too wide) in paragraph at lines 21--21
- \T1/pplj/m/n/10 même ins-tant, cor-res-pon-dant à un Uni-vers âgé de 380 000 a
-ns. Un
- []
-
-
-Overfull \hbox (14.70976pt too wide) in paragraph at lines 21--21
- \T1/pplj/m/n/10 même ins-tant cor-res-pond à une même dis-tance : tous les pho
--tons re-
- []
-
-
-Overfull \hbox (15.80965pt too wide) in paragraph at lines 21--21
- \T1/pplj/m/n/10 çus au-jour-d'hui pro-viennent de ré-gions si-tuées sur une su
-r-face sphé-
- []
-
-
-Overfull \hbox (12.63971pt too wide) in paragraph at lines 21--21
- \T1/pplj/m/n/10 rique, dont nous sommes le centre. Son rayon est tel que le pa
-r-cours
- []
-
-
-Overfull \hbox (7.61978pt too wide) in paragraph at lines 21--21
- \T1/pplj/m/n/10 des pho-tons est d'en-vi-ron 13 mil-liards d'an-nées de vol. L
-es ré-gions
- []
-
-
-Overfull \hbox (13.80971pt too wide) in paragraph at lines 21--21
- \T1/pplj/m/n/10 plus dis-tantes que cette 'sur-face de der-nière dif-fu-sion' 
-sont opaques,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [188]
-Overfull \hbox (8.20975pt too wide) in paragraph at lines 22--22
- [][] [][]\T1/pplj/m/n/10 Le spectre du fond dif-fus cos-mo-lo-gique : les sym-
-boles re-pré-sentent
- []
-
-
-Overfull \hbox (7.72978pt too wide) in paragraph at lines 22--22
- \T1/pplj/m/n/10 les me-sures de l'ins-tru-ment FI-RAS, la ligne le spectre de 
-corps noir
- []
-
-
-Overfull \hbox (47.745pt too wide) in paragraph at lines 22--22
- \T1/pplj/m/n/10 pour une tem-pé-ra-ture de $\OML/zplm/m/it/10 T[] \OT1/zplm/m/
-n/10 = \OT1/pplx/m/n/10 2.725$\T1/pplj/m/n/10 K. Fi-gure ex-traite de Fix-sen 2
-009.[] 82 
- []
-
-
-Overfull \hbox (7.39978pt too wide) in paragraph at lines 23--23
- [][] [][]\T1/pplj/m/n/10 La carte des ani-so-tro-pies du fond dif-fus ob-te-nu
-e par la mis-sion eu-
- []
-
-
-Overfull \hbox (5.0797pt too wide) in paragraph at lines 23--23
- \T1/pplj/m/n/10 ro-péenne \T1/pplj/m/it/10 Planck\T1/pplj/m/n/10 . Les zones j
-aunes sont plus chaudes que les zones
- []
-
-
-Overfull \hbox (58.80972pt too wide) in paragraph at lines 23--23
- \T1/pplj/m/n/10 bleues. Le ni-veau des fluc-tua-tions re-pré-sen-tées est de l
-'ordre de 0.001%.[] 83 
- []
-
-
-Overfull \hbox (20.31973pt too wide) in paragraph at lines 24--24
+Overfull \hbox (20.31973pt too wide) in paragraph at lines 31--31
  [][] [][]\T1/pplj/m/n/10 Le spectre de puis-sance des ani-so-tro-pies du fond 
 dif-fus cos-mo-lo-gique
  []
 
 
-Overfull \hbox (18.33423pt too wide) in paragraph at lines 24--24
- \T1/pplj/m/n/10 ob-tenu par \T1/pplj/m/it/10 Planck\T1/pplj/m/n/10 . Le pan-ne
-au su-pé-rieur re-pré-sente $\OML/zplm/m/it/10 D[] \OT1/zplm/m/n/10 = \OML/zplm
-/m/it/10 `\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ` \OT1/zplm/m/n/10 + \OT1/pplx/m/
-n/10 1\OT1/zplm/m/n/10 )\OML/zplm/m/it/10 C[]$ \T1/pplj/m/n/10 :
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [199
 
-Overfull \hbox (21.3897pt too wide) in paragraph at lines 24--24
- \T1/pplj/m/n/10 les points sont les don-nées et la ligne re-pré-sente le spect
-re prévu pour
- []
-
-
-Overfull \hbox (0.37976pt too wide) in paragraph at lines 24--24
- \T1/pplj/m/n/10 un mo-dèle $\OT1/zplm/m/n/10 ^^C$\T1/pplj/m/n/10 CDM. Le pan-n
-eau in-fé-rieur montre les ré-si-dus entre
- []
-
-
-Overfull \hbox (5.97984pt too wide) in paragraph at lines 26--26
- [][] [][]\T1/pplj/m/n/10 La vi-tesse de ro-ta-tion de la ma-tière dans la Voie
- Lac-tée en fonc-tion
- []
-
-
-Overfull \hbox (7.73978pt too wide) in paragraph at lines 26--26
- \T1/pplj/m/n/10 de sa dis-tance au centre, avec leurs in-cer-ti-tudes. Les poi
-nts de don-
- []
-
-
-Overfull \hbox (4.72978pt too wide) in paragraph at lines 26--26
- \T1/pplj/m/n/10 nées sont is-sus de So-fue (2013). Cette \T1/pplj/m/it/10 cour
-be de ro-ta-tion \T1/pplj/m/n/10 plate est re-
- []
-
-
-Overfull \hbox (17.76982pt too wide) in paragraph at lines 26--26
- \T1/pplj/m/n/10 pré-sen-ta-tive de la ci-né-ma-tique de la très grande ma-jo-r
-ité des ga-laxies
- []
-
-
-Overfull \hbox (20.87976pt too wide) in paragraph at lines 27--27
+]
+Overfull \hbox (18.60979pt too wide) in paragraph at lines 36--36
  [][] [][]\T1/pplj/m/n/10 La frac-tion ba-ryo-nique pré-dite par une si-mu-la-t
-ion nu-mé-rique (points)
+ion nu-mé-rique[] 103 
  []
 
 
-Overfull \hbox (3.86989pt too wide) in paragraph at lines 27--27
- \T1/pplj/m/n/10 et par un mo-dèle de Oka-moto+08 (ligne) en-vi-ron 1 mil-liard
-s d'an-
- []
-
-
-Overfull \hbox (2.01987pt too wide) in paragraph at lines 27--27
- \T1/pplj/m/n/10 nées après le Big-Bang. On note le dé-part de cette frac-tion 
-à la va-
- []
-
-
-Overfull \hbox (5.97978pt too wide) in paragraph at lines 28--28
+Overfull \hbox (5.97978pt too wide) in paragraph at lines 37--37
  [][] [][]\T1/pplj/m/n/10 Une illus-tra-tion du lien entre den-sité et po-ten-t
 iel, via l'équa-tion de
  []
 
 
-Overfull \hbox (0.89981pt too wide) in paragraph at lines 28--28
- \T1/pplj/m/n/10 Pois-son. La vi-gnette de gauche montre la den-sité de ma-tièr
-e dans
- []
-
-
-Overfull \hbox (27.0598pt too wide) in paragraph at lines 28--28
- \T1/pplj/m/n/10 une si-mu-la-tion cos-mo-lo-gique de 12 Mpc de côté, celle de 
-droite montre
- []
-
-
-Overfull \hbox (13.78978pt too wide) in paragraph at lines 28--28
- \T1/pplj/m/n/10 la carte du po-ten-tiel gra-vi-ta-tion-nel pro-duite par cette
- den-sité. Le po-
- []
-
-
-Overfull \hbox (6.58984pt too wide) in paragraph at lines 29--29
- [][] [][]\T1/pplj/m/n/10 Le \T1/pplj/m/it/10 Bul-let Clus-ter\T1/pplj/m/n/10 .
- Cette image su-per-pose l'image op-tique de 2 amas
- []
-
-
-Overfull \hbox (18.43987pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 en col-li-sions, la carte de la dis-tri-bu-tion de masse (en v
-io-let) et la carte
- []
-
-
-Overfull \hbox (15.90984pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 de la dis-tri-bu-tion de gaz (en rose). On dis-tingue par-fai-
-te-ment le choc
- []
-
-
-Overfull \hbox (11.8698pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 hy-dro-dy-na-mique dû à la col-li-sion et la sé-pa-ra-tion en 
-2 com-po-santes
- []
-
-
-Overfull \hbox (0.1398pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 l'une ayant cho-qué (les ba-ryons), l'autre n'ayant pas subi d
-e col-li-
- []
-
-
-Overfull \hbox (0.79984pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 sion forte comme at-tendu pour la ma-tière noire. Cre-dit : Ca
-rte X :
- []
-
-
-Overfull \hbox (1.81325pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 NASA/CXC/CfA/ M. Mar-ke-vitch et al.; Len-sing : NASA/STScI;
- []
-
-
-Overfull \hbox (32.96324pt too wide) in paragraph at lines 29--29
- \T1/pplj/m/n/10 ESO WFI; Ma-gel-lan/U.Arizona/ D.Clowe et al. Op-tique : NASA/
-STScI;
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [189]
-Overfull \hbox (12.67976pt too wide) in paragraph at lines 32--32
+Overfull \hbox (12.67976pt too wide) in paragraph at lines 41--41
  [][] [][]\T1/pplj/m/n/10 Deux mo-dèles de spectre de puis-sance an-gu-laire du
  fond dif-fus cos-
  []
 
 
-Overfull \hbox (12.97978pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 mo-lo-gique. L'un pos-sède une frac-tion de ba-ryon faible, co
-nforme au
- []
-
-
-Overfull \hbox (22.90974pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 mo-dèle stan-dard $\OT1/zplm/m/n/10 ^^C\OML/zplm/m/it/10 CDM$\
-T1/pplj/m/n/10 , l'autre pos-sède une frac-tion de ba-ryon forte,
- []
-
-
-Overfull \hbox (8.8898pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 où la contri-bu-tion de la ma-tière noire et celle des ba-ryon
-s est in-ver-
- []
-
-
-Overfull \hbox (5.90982pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 sée par rap-port au mo-dèle stan-dard. On note l'ef-fet de l'a
-mor-tis-se-
- []
-
-
-Overfull \hbox (18.1798pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 ment Silk im-por-tant aux grandes fré-quences an-gu-laire (gra
-nd $\OML/zplm/m/it/10 `$\T1/pplj/m/n/10 ) dans
- []
-
-
-Overfull \hbox (3.83984pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 le cas d'un Uni-vers do-miné par les ba-ryons. A l'in-verse, l
-e mo-dèle
- []
-
-
-Overfull \hbox (3.70978pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 stan-dard pré-sente des pics se-con-daires im-por-tants tra-du
-i-sant l'en-
- []
-
-
-Overfull \hbox (18.53983pt too wide) in paragraph at lines 32--32
- \T1/pplj/m/n/10 tre-tien des os-cil-la-tions ba-ryo-niques par le champ de gra
--vité de la ma-
- []
-
-
-Overfull \hbox (13.32979pt too wide) in paragraph at lines 33--33
+Overfull \hbox (13.32979pt too wide) in paragraph at lines 42--42
  [][] [][]\T1/pplj/m/n/10 Deux si-mu-la-tions de la den-sité de gaz dans un vo-
 lume d'Uni-vers de
  []
 
 
-Overfull \hbox (12.32983pt too wide) in paragraph at lines 33--33
- \T1/pplj/m/n/10 8 Mpc de côté, l'un avec de la ma-tière noire froide (à gauche
-) l'autre
- []
-
-
-Overfull \hbox (3.2998pt too wide) in paragraph at lines 33--33
- \T1/pplj/m/n/10 avec de la ma-tière noire chaude (à droite). On constate une g
-ra-nu-
- []
-
-
-Overfull \hbox (3.80983pt too wide) in paragraph at lines 33--33
- \T1/pplj/m/n/10 lo-sité plus im-por-tante dans le cas de la mtière noire froid
-e. Les ré-
- []
-
-
-Overfull \hbox (19.74968pt too wide) in paragraph at lines 33--33
- \T1/pplj/m/n/10 gions bleues sont io-ni-sées et les jaunes sont neutres, sans 
-im-pact pour
- []
-
-
-Overfull \hbox (17.5698pt too wide) in paragraph at lines 34--34
+Overfull \hbox (17.5698pt too wide) in paragraph at lines 43--43
  [][] [][]\T1/pplj/m/n/10 La fonc-tion de masse des ha-los de ma-tière noires p
 our dif-fé-rents red-
  []
 
 
-Overfull \hbox (10.30974pt too wide) in paragraph at lines 34--34
- \T1/pplj/m/n/10 shifts. On constate que les ha-los les plus mas-sifs n'ap-pa-r
-aissent que
- []
-
-
-Overfull \hbox (13.61967pt too wide) in paragraph at lines 34--34
- \T1/pplj/m/n/10 pour des époques tar-dives : les struc-tures né-ces-sitent du 
-temps pour
- []
-
-
-Overfull \hbox (21.07976pt too wide) in paragraph at lines 35--35
+Overfull \hbox (21.07976pt too wide) in paragraph at lines 44--44
  [][] [][]\T1/pplj/m/n/10 Quelle échelle d'Uni-vers faut-il-sonder pour trou-ve
 r un halo de masse
  []
 
 
-Overfull \hbox (16.61969pt too wide) in paragraph at lines 35--35
- \T1/pplj/m/n/10 don-née à une époque don-née. Cette courbe in-dique que plus u
-n halo
- []
-
-
-Overfull \hbox (8.74983pt too wide) in paragraph at lines 35--35
- \T1/pplj/m/n/10 lé-ger, plus il est fa-cile de le trou-ver et plus la taille d
-'Uni-vers à son-
- []
-
-
-Overfull \hbox (7.2498pt too wide) in paragraph at lines 36--36
+Overfull \hbox (7.2498pt too wide) in paragraph at lines 45--45
  [][] [][]\T1/pplj/m/n/10 Schéma illus-trant la dif-fé-rence entre la fonc-tion
  de masse des ha-los
  []
 
 
-Overfull \hbox (14.43977pt too wide) in paragraph at lines 36--36
- \T1/pplj/m/n/10 et la dis-tri-bu-tion des lu-mi-no-sité des ga-laxies. Deux mé
--ca-nismes sont
- []
-
-
-Overfull \hbox (9.71977pt too wide) in paragraph at lines 36--36
- \T1/pplj/m/n/10 sus-cep-tibles de pré-ve-nir la for-ma-tion d'étoile : les ex-
-plo-sions de su-
- []
-
-
-Overfull \hbox (26.83975pt too wide) in paragraph at lines 36--36
- \T1/pplj/m/n/10 per-no-vae aux faibles masses et les noyaux ac-tifs de ga-laxi
-e aux grandes
- []
-
-
-Overfull \hbox (7.87982pt too wide) in paragraph at lines 37--37
+Overfull \hbox (20.92984pt too wide) in paragraph at lines 46--46
  [][] [][]\T1/pplj/m/n/10 Distribution du nombre de ga-laxies sa-te-liites de l
-a Voie Lac-tée pos-
+a Voie Lac-tée[] 118 
  []
 
 
-Overfull \hbox (7.12213pt too wide) in paragraph at lines 37--37
- \T1/pplj/m/n/10 sé-dant une masse su-pé-rieure à une masse don-née (la quan-ti
-té $\OML/zplm/m/it/10 v[]$
- []
-
-
-Overfull \hbox (6.66975pt too wide) in paragraph at lines 37--37
- \T1/pplj/m/n/10 est une me-sure di-recte de la masse d'un sa-tel-lite). Les ob
--ser-va-tions
- []
-
-
-Overfull \hbox (19.37971pt too wide) in paragraph at lines 37--37
- \T1/pplj/m/n/10 sont pré-sen-tées par les points noirs tan-dis que la pré-dic-
-tion théo-rique
- []
-
-
-Overfull \hbox (25.11977pt too wide) in paragraph at lines 37--37
- \T1/pplj/m/n/10 à base de ma-tière noire est don-née par les courbes grises. O
-n constante
- []
-
-
-Overfull \hbox (7.29974pt too wide) in paragraph at lines 37--37
- \T1/pplj/m/n/10 que les mo-dèles sur-es-times très lar-ge-ment le nombre ob-se
-rvé d'ob-
- []
-
-
-Overfull \hbox (2.4598pt too wide) in paragraph at lines 38--38
- [][] [][]\T1/pplj/m/n/10 Distribution des sa-tel-lites de la Ga-laxie d'An-dro
--mède, vue de-puis
- []
-
-
-Overfull \hbox (19.71976pt too wide) in paragraph at lines 38--38
- \T1/pplj/m/n/10 cette ga-laxie. Une quin-zaine de sa-tel-lites sont très proch
-es d'un grand
- []
-
-
-Overfull \hbox (59.58975pt too wide) in paragraph at lines 38--38
- \T1/pplj/m/n/10 cercle sur le ciel, in-di-quant que ces ob-jets sont dis-tri-b
-ués dans un plan.[] 111 
- []
-
-
-Overfull \hbox (12.64967pt too wide) in paragraph at lines 40--40
+Overfull \hbox (12.64967pt too wide) in paragraph at lines 49--49
  [][] [][]\T1/pplj/m/n/10 Les os-cil-la-tions ba-ryo-niques évo-luent sur des f
 ré-quences dif-fé-rentes,
  []
 
 
-Overfull \hbox (10.10977pt too wide) in paragraph at lines 40--40
- \T1/pplj/m/n/10 dé-pen-dant de leur taille. Les grandes struc-tures os-cil-len
-t len-te-ment,
- []
-
-
-Overfull \hbox (14.62978pt too wide) in paragraph at lines 40--40
- \T1/pplj/m/n/10 les pe-tites ra-pi-de-ment. Cer-tains modes vont être en ex-tr
-e-mum d'am-
- []
-
-
-Overfull \hbox (0.67986pt too wide) in paragraph at lines 40--40
- \T1/pplj/m/n/10 pli-tude au mo-ment de la re-com-bi-nai-son et donc au mo-ment
- de la
- []
-
-
-Overfull \hbox (21.36975pt too wide) in paragraph at lines 40--40
- \T1/pplj/m/n/10 der-nière dif-fu-sion du fond dif-fus cos-mo-lo-gique. Ces mod
-es vont donc
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [190]
-Overfull \hbox (0.32976pt too wide) in paragraph at lines 41--41
- [][] [][]\T1/pplj/m/n/10 Les pics ac-cous-tiques du spectre de puis-sance du f
-ond dif-fus cos-
- []
-
-
-Overfull \hbox (4.06975pt too wide) in paragraph at lines 41--41
- \T1/pplj/m/n/10 mo-lo-gique cor-res-pondent aux modes qui sont en ex-tre-mum d
-'am-
- []
-
-
-Overfull \hbox (10.26984pt too wide) in paragraph at lines 41--41
- \T1/pplj/m/n/10 pli-tude au mo-ment de la re-com-bi-nai-son. Le pre-mier pic c
-or-res-pond
- []
-
-
-Overfull \hbox (16.08974pt too wide) in paragraph at lines 41--41
- \T1/pplj/m/n/10 à une com-pres-sion, le se-cond une com-pres-sion + une dé-ten
-te, le troi-
- []
-
-
-Overfull \hbox (8.15973pt too wide) in paragraph at lines 41--41
- \T1/pplj/m/n/10 sième une com-pres-sion + une dé-tente + une com-pres-sion, et
-c.... Au
- []
-
-
-Overfull \hbox (13.51974pt too wide) in paragraph at lines 41--41
- \T1/pplj/m/n/10 pre-mier ordre, nous voyons des har-mo-niques d'un même mode f
-on-
- []
-
-
-Overfull \hbox (10.23975pt too wide) in paragraph at lines 42--42
- [][] [][]\T1/pplj/m/n/10 Synthèse de la crois-sance des per-tur-ba-tions. Un p
-e-tit mode pos-sède
- []
-
-
-Overfull \hbox (9.26973pt too wide) in paragraph at lines 42--42
- \T1/pplj/m/n/10 une taille ca-rac-té-ris-tique suf-fi-sem-ment pe-tite pour pa
-s-ser sous l'ho-
- []
-
-
-Overfull \hbox (15.40971pt too wide) in paragraph at lines 43--43
+Overfull \hbox (15.40971pt too wide) in paragraph at lines 52--52
  [][] [][]\T1/pplj/m/n/10 Schématique du fil-trage du spectre de puis-sance des
  fluc-tua-tions ini-
  []
 
 
-Overfull \hbox (18.35973pt too wide) in paragraph at lines 43--43
- \T1/pplj/m/n/10 le gel de la crois-sance des fluc-tua-tions sous l'ho-ri-zon d
-u-rant l'époque
- []
-
-
-Overfull \hbox (32.0997pt too wide) in paragraph at lines 43--43
- \T1/pplj/m/n/10 de do-mi-na-tion du rayon-ne-ment pro-duit un fil-trage au hau
-tes fré-quences
- []
-
-
-Overfull \hbox (34.40977pt too wide) in paragraph at lines 45--45
- [][] [][]\T1/pplj/m/n/10 Un exemple de pro-duit de si-mu-la-tion cos-mo-lo-giq
-ue. Cette image montre
- []
-
-
-Overfull \hbox (13.37982pt too wide) in paragraph at lines 45--45
- \T1/pplj/m/n/10 une pré-dic-tion nu-mé-rique de l'état de l'Uni-vers 1 mil-lia
-rds d'an-nées
- []
-
-
-Overfull \hbox (7.18982pt too wide) in paragraph at lines 45--45
- \T1/pplj/m/n/10 après le Big-Bang : les teintes vertes en-codent la den-sité d
-u gaz, les
- []
-
-
-Overfull \hbox (11.12979pt too wide) in paragraph at lines 45--45
- \T1/pplj/m/n/10 rouges la tem-pé-ra-ture du gaz et l'opa-cité trace l'état d'i
-o-ni-sa-tion du
- []
-
-
-Overfull \hbox (10.18983pt too wide) in paragraph at lines 46--46
+Overfull \hbox (4.63985pt too wide) in paragraph at lines 57--57
  [][] [][]\T1/pplj/m/n/10 schématique de la mé-thode de cal-cul des forces sur 
-grilles. No-tez la
+grilles.[] 146 
  []
 
 
-Overfull \hbox (25.65976pt too wide) in paragraph at lines 46--46
- \T1/pplj/m/n/10 na-ture hy-bride du schéma qui fait in-ter-ve-nir une des-crip
--tion en termes
- []
-
-
-Overfull \hbox (19.48978pt too wide) in paragraph at lines 46--46
- \T1/pplj/m/n/10 de par-ti-cules (ou la-gran-gienne à gauche) et une des-crip-t
-ion en termes
- []
-
-
-Overfull \hbox (9.89977pt too wide) in paragraph at lines 47--47
+Overfull \hbox (9.89977pt too wide) in paragraph at lines 58--58
  [][] [][]\T1/pplj/m/n/10 Exemple de dy-na-mique dans une si-mu-la-tion hy-dro-
 dy-na-mique avec
  []
 
 
-Overfull \hbox (8.5998pt too wide) in paragraph at lines 47--47
- \T1/pplj/m/n/10 re-froi-dis-se-ment. L'image de droite re-pré-sente la dis-tri
--bu-tion de gaz
- []
-
-
-Overfull \hbox (10.60979pt too wide) in paragraph at lines 47--47
- \T1/pplj/m/n/10 dans les 2 cadres de gauches. On note la pré-sence de disque g
-a-zeux
- []
-
-
-Overfull \hbox (44.32974pt too wide) in paragraph at lines 47--47
- \T1/pplj/m/n/10 crées par le gaz ef-fon-dré sous l'ef-fet du re-froi-dis-se-me
-nt en ro-ta-tion.[] 141 
- []
-
-
-Overfull \hbox (26.25975pt too wide) in paragraph at lines 48--48
- [][] [][]\T1/pplj/m/n/10 Evolution en red-shift du taux de pho-to-io-ni-sa-tio
-n crée par le fond ultra-
- []
-
-
-Overfull \hbox (7.53983pt too wide) in paragraph at lines 48--48
- \T1/pplj/m/n/10 violet du mo-dèle de Haardt & Ma-dau. Ce mo-dèle sup-pose un U
-ni-
- []
-
-
-Overfull \hbox (2.33975pt too wide) in paragraph at lines 48--48
- \T1/pplj/m/n/10 vers op-ti-que-ment mince et sort de son do-maine d'hy-po-thès
-e pour
- []
-
-
-Overfull \hbox (12.43976pt too wide) in paragraph at lines 48--48
- \T1/pplj/m/n/10 z>6, lorsque l'Uni-vers n'est pas com-plè-te-ment ré-io-nisé. 
-On note une
- []
-
-
-Overfull \hbox (18.17973pt too wide) in paragraph at lines 48--48
- \T1/pplj/m/n/10 aug-men-ta-tion suivi d'une baisse du taux de pho-to-io-ni-sa-
-tion qui trace
- []
-
-
-Overfull \hbox (14.1698pt too wide) in paragraph at lines 49--49
+Overfull \hbox (14.1698pt too wide) in paragraph at lines 60--60
  [][] [][]\T1/pplj/m/n/10 Exemples d'in-jec-tion d'éner-gie par une par-ti-cule
  stel-laire mo-dé-li-sant
  []
 
 
-Overfull \hbox (10.35976pt too wide) in paragraph at lines 49--49
- \T1/pplj/m/n/10 l'ex-plo-sion d'une su-per-no-vae. La co-lonne de gauche montr
-e la den-
+Overfull \hbox (15.18979pt too wide) in paragraph at lines 62--62
+ [][] [][]\T1/pplj/m/n/10 micro-états dis-po-nibles dans un sys-tème simple com
+-pre-nant 2 paires
  []
 
 
-Overfull \hbox (8.96982pt too wide) in paragraph at lines 49--49
- \T1/pplj/m/n/10 sité de gaz au-tour d'une ga-laxies pe-sant $\OT1/pplx/m/n/10 
-1\OT1/zplm/m/n/10 /\OT1/pplx/m/n/10 10$\T1/pplj/m/n/10 ème de la masse de la
- []
-
-
-Overfull \hbox (9.15984pt too wide) in paragraph at lines 49--49
- \T1/pplj/m/n/10 Voie Lac-tée. La co-lonne de droite montre la tem-pé-ra-ture d
-u gaz. La
- []
-
-
-Overfull \hbox (12.70972pt too wide) in paragraph at lines 49--49
- \T1/pplj/m/n/10 ligne su-pé-rieur montre une si-mu-la-tion sans ex-plo-sion ta
-n-dis que les
- []
-
-
-Overfull \hbox (17.5698pt too wide) in paragraph at lines 49--49
- \T1/pplj/m/n/10 2 lignes in-fé-rieures montrent 2 mo-dèles d'ex-plo-sion. On n
-ote la mon-
- []
-
-
-Overfull \hbox (8.86977pt too wide) in paragraph at lines 49--49
- \T1/pplj/m/n/10 tée en tem-pé-ra-ture du gaz lors de la pré-sence d'ex-plo-sio
-n ainsi que
+Overfull \hbox (23.70982pt too wide) in paragraph at lines 63--63
+ [][] [][]\T1/pplj/m/n/10 Le lien entre la dis-per-sion de vi-tesse et la tem-p
+é-ra-ture du gaz. [] 161 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [191]
-Overfull \hbox (2.30972pt too wide) in paragraph at lines 51--51
- [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique des 3 fluides cos-mo-lo-gique
-s sous l'ef-fet de
- []
-
-
-Overfull \hbox (2.30972pt too wide) in paragraph at lines 52--52
- [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique des 3 fluides cos-mo-lo-gique
-s sous l'ef-fet de
- []
-
-
-Overfull \hbox (2.30972pt too wide) in paragraph at lines 53--53
- [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique des 3 fluides cos-mo-lo-gique
-s sous l'ef-fet de
- []
-
-
-Overfull \hbox (2.30972pt too wide) in paragraph at lines 54--54
- [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique des 3 fluides cos-mo-lo-gique
-s sous l'ef-fet de
- []
-
-
-Overfull \hbox (2.30972pt too wide) in paragraph at lines 55--55
- [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique des 3 fluides cos-mo-lo-gique
-s sous l'ef-fet de
- []
-
-
-Overfull \hbox (2.30972pt too wide) in paragraph at lines 56--56
- [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique des 3 fluides cos-mo-lo-gique
-s sous l'ef-fet de
- []
-
-
-Overfull \hbox (32.40964pt too wide) in paragraph at lines 58--58
+ [200]
+Overfull \hbox (67.40964pt too wide) in paragraph at lines 69--69
  [][] [][]\T1/pplj/m/n/10 Histoire d'évo-lu-tion de quelques lon-geurs phy-siqu
-es au cours du temps.
- []
-
-
-Overfull \hbox (18.80983pt too wide) in paragraph at lines 58--58
- \T1/pplj/m/n/10 l'in-fla-tion, tan-dis que $\OML/zplm/m/it/10 L$ \T1/pplj/m/n/
-10 dé-signe la taille phy-sique d'un mode de taille
- []
-
-
-Overfull \hbox (10.86967pt too wide) in paragraph at lines 58--58
- \T1/pplj/m/n/10 co-mo-bile donnée.$\OML/zplm/m/it/10 RD$ \T1/pplj/m/n/10 et $\
-OML/zplm/m/it/10 MD$ \T1/pplj/m/n/10 dé-signe les pé-riodes de do-mi-na-tion du
-
- []
-
-
-Overfull \hbox (31.07976pt too wide) in paragraph at lines 59--59
- [][] [][]\T1/pplj/m/n/10 Un exemple de po-ten-tiel pos-sible pour l'in-fla-ton
-. On dis-tingue 2 phases.
- []
-
-
-Overfull \hbox (16.81976pt too wide) in paragraph at lines 59--59
- \T1/pplj/m/n/10 D'abord une phase où le po-ten-tiel est très plat et du-rant l
-a-quelle l'in-
- []
-
-
-Overfull \hbox (5.43968pt too wide) in paragraph at lines 59--59
- \T1/pplj/m/n/10 fla-ton 'rou-le' dou-ce-ment pour pro-duire une phase d'ex-pan
--sion ex-
- []
-
-
-Overfull \hbox (4.22974pt too wide) in paragraph at lines 59--59
- \T1/pplj/m/n/10 po-nen-tielle. Dans un se-cond temps, l'in-fla-ton se trouve p
-iégé dans
- []
-
-
-Overfull \hbox (0.21976pt too wide) in paragraph at lines 59--59
- \T1/pplj/m/n/10 un puit de po-ten-tiel, stop-pant l'in-fla-tion et du-rant la-
-quelle l'éner-
- []
-
-
-Overfull \hbox (7.81976pt too wide) in paragraph at lines 59--59
- \T1/pplj/m/n/10 gie li-bé-rée est ré-in-jec-tée dans les autres com-po-santes 
-du cos-mos (le
+es au cours du temps.[] 171 
  []
 
 )
@@ -4520,7 +4165,7 @@ du cos-mos (le
 \openout7 = `main.lof'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1210.
- [192]
+ [201]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1210.
  (./main.aux (./Intro.aux) (./connaissance.aux) (./newton.aux)
 (./fondamentaux.aux) (./homogene.aux) (./chaud.aux) (./thermique.aux)
@@ -4535,16 +4180,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1210.
  ) 
 Here is how much of TeX's memory you used:
- 15752 strings out of 493089
- 220745 string characters out of 6134841
- 431439 words of memory out of 5000000
- 18029 multiletter control sequences out of 15000+600000
- 113832 words of font info for 180 fonts, out of 8000000 for 9000
+ 15864 strings out of 493089
+ 222417 string characters out of 6134841
+ 438209 words of memory out of 5000000
+ 18104 multiletter control sequences out of 15000+600000
+ 117676 words of font info for 193 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,13n,58p,3044b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,13n,58p,3092b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -4557,12 +4205,12 @@ xmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2015/texmf-dist
 type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palat
 ino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/upl
-bi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (192 pages, 14202455 bytes).
+r8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
+b>
+Output written on main.pdf (201 pages, 15903311 bytes).
 PDF statistics:
- 2220 PDF objects out of 2487 (max. 8388607)
- 1877 compressed objects within 19 object streams
- 707 named destinations out of 1000 (max. 500000)
- 11565 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 2700 PDF objects out of 2984 (max. 8388607)
+ 2322 compressed objects within 24 object streams
+ 732 named destinations out of 1000 (max. 500000)
+ 11620 words of extra memory for PDF output out of 12000 (max. 10000000)
 

@@ -2,23 +2,23 @@
 
 \chapter{Formation des grandes structures}
 \label{s:struct}
-Les grandes structures de l'Univers désignent de façon générique la matière diffuse, les galaxies et amas de galaxies qui s'organisent sous l'effet de la gravitation. Aujourd'hui ces grandes structures produisent une distribution de matière 'filamentaire' où des surdensités côtoient des vides, reliées entre elles par des ponts de matériels. Elles résultent de l'action du mécanisme d'instabilité gravitationnelle sur les faibles fluctuations de densité présentes dans l'Univers jeune et tracées par exemple par le CMB. Au cours des 13.8 milliards d'années, des surdensité de 0.001\% parviennent ainsi à croître pour atteindre des contrastes de densité mesurés aujourd'hui dans les galaxies d'au moins plusieurs centaines. Si un grande partie des processus à l'œuvre lors de la formation des grandes structures peut être saisis par une approche analytique, le problème ne peut être abordé dans toute sa complexité que via l'utilisation de simulations numériques, dites simulation cosmologiques.
+Les grandes structures de l'Univers\index{grandes structures} désignent de façon générique la matière diffuse, les galaxies et amas de galaxies qui s'organisent sous l'effet de la gravitation. Aujourd'hui ces grandes structures produisent une distribution de matière 'filamentaire' où des surdensités côtoient des vides, reliées entre elles par des ponts de matériels. Elles résultent de l'action du mécanisme d'instabilité gravitationnelle\index{instabilité gravitationnelle} sur les faibles fluctuations de densité présentes dans l'Univers jeune et tracées par exemple par le CMB. Au cours des 13.8 milliards d'années, des surdensité de 0.001\% parviennent ainsi à croître pour atteindre des contrastes de densité mesurés aujourd'hui dans les galaxies d'au moins plusieurs centaines. Si un grande partie des processus à l'œuvre lors de la formation des grandes structures peut être saisis par une approche analytique, le problème ne peut être abordé dans toute sa complexité que via l'utilisation de simulations numériques, dites simulation cosmologiques.
 
 \section{Densité et spectre de puissance}
-L'un des objectifs de l'étude de la formation des grandes structures est de prédire comme la matière va s'organiser au cours de l'histoire de l'Univers. La quantité généralement suivie est le contraste de densité :
+L'un des objectifs de l'étude de la formation des grandes structures est de prédire comme la matière va s'organiser au cours de l'histoire de l'Univers. La quantité généralement suivie est le contraste de densité\index{contraste de densité} :
 \begin{equation}
 \delta(x,t) =\frac{\rho-\bar\rho}{\bar\rho}.
 \end{equation}
 En l'absence de création de masse et dans un Univers homogène et isotrope, la densité moyenne $\bar{\rho}$ est une quantité de référence constante dans l'espace et pour laquelle la variation temporelle est seulement due à la dilution cosmologique. 
 
-Toutefois, le contraste de densité a une position $x$ donnée à un instant donné $t$ est finalement porteur d'assez peu d'information cosmologique, puisque l'on cherche à obtenir des contraintes qui ont une valeur 'cosmologique', i.e. globales et génériques. La première étape vers un traitement cosmologique consisté à raisonner dans l'espace de Fourier et à considérer les \textit{modes} $\delta_k(t)$ d'une réalisation donnée de $\delta(x,t)$:
+Toutefois, le contraste de densité a une position $x$ donnée à un instant donné $t$ est finalement porteur d'assez peu d'information cosmologique, puisque l'on cherche à obtenir des contraintes qui ont une valeur 'cosmologique', i.e. globales et génériques. La première étape vers un traitement cosmologique consisté à raisonner dans l'espace de Fourier\index{transformée de Fourier} et à considérer les \textit{modes} $\delta_k(t)$ d'une réalisation donnée de $\delta(x,t)$:
 \begin{equation}
 \delta(x,t)\sim\int_{k=-\infty}^\infty \delta_k(t) e^{ikx} dk
 \label{e:fourdelta}
 \end{equation}
-L'équation \ref{e:fourdelta} représente la décomposition en série de Fourier du contraste de densité : en pratique cela revient à décomposer le champ de densité en une série de modes sinusoïdaux et dont les contributions des différentes fréquences sont données par $\delta_k$. En plus d'un intérêt mathématique, cette décomposition constitue une mise en pratique de 'cosmologisation' de la densité : on se met à suivre des modes sinusoïdaux délocalisés, de taille caractéristique $\lambda=2\pi/k$, la position $x$ perd de l'importance. L'amplitude d'un mode $k$ est donné tout simplement par $|\delta_k|^2$: l'étude de cette amplitude et son éventuelle évolution temporelle nous renseigne globalement sur l'évolution des structures d'échelle caractéristique $\lambda$ au cours du temps et sur leurs contribution relatives. Cette amplitude est aussi appelée \textit{puissance} et l'ensemble des puissances de tous les modes $k$ est appelé \textit{spectre de puissance}.
+L'équation \ref{e:fourdelta} représente la décomposition en série de Fourier du contraste de densité : en pratique cela revient à décomposer le champ de densité en une série de modes sinusoïdaux et dont les contributions des différentes fréquences sont données par $\delta_k$. En plus d'un intérêt mathématique, cette décomposition constitue une mise en pratique de 'cosmologisation' de la densité : on se met à suivre des modes sinusoïdaux délocalisés, de taille caractéristique $\lambda=2\pi/k$, la position $x$ perd de l'importance. L'amplitude d'un mode $k$ est donné tout simplement par $|\delta_k|^2$: l'étude de cette amplitude et son éventuelle évolution temporelle nous renseigne globalement sur l'évolution des structures d'échelle caractéristique $\lambda$ au cours du temps et sur leurs contribution relatives. Cette amplitude est aussi appelée \textit{puissance} et l'ensemble des puissances de tous les modes $k$ est appelé \textit{spectre de puissance}\index{spectre de puissance}.
 
-\paragraph{Champ aléatoire Gaussien} Le champ de matière cosmologique appartient semble-t-il à la classe des champs aléatoires gaussiens. C'est une prédiction des théories inflationnaires, il semble observationnellement que ce soit le cas et in fine cela constitue une base de travail et éventuellement on pourra être amené à mesure des départs à cette gaussianité. Un champ aléatoire gaussien $\delta(\vec x)$ se caractérise par une densité de probabilité de type:
+\paragraph{Champ aléatoire Gaussien} Le champ de matière cosmologique appartient semble-t-il à la classe des champs aléatoires gaussiens\index{champs aléatoire gaussien}. C'est une prédiction des théories inflationnaires, il semble observationnellement que ce soit le cas et in fine cela constitue une base de travail et éventuellement on pourra être amené à mesure des départs à cette gaussianité. Un champ aléatoire gaussien $\delta(\vec x)$ se caractérise par une densité de probabilité de type:
 \begin{equation}
 p(\delta(\vec x)) \sim \exp( -\delta (\vec x) C^{-1} \delta (\vec x)),
 \end{equation}
@@ -32,26 +32,26 @@ Une propriété encore plus intéressante est que $\tilde C$ est diagonale si $\
 \end{equation}
 Cette mesure de la variance ne dépend que la norme du mode considéré (plusieurs modes partage donc la même variance) et constitue le spectre de puissance $P(k)$ du champ de matière.
 
-Cette quantité est destinée à être mesurée au cours du temps et nous renseigne sur la croissance des structures. Si certaines échelles bénéficient d'une croissance plus rapide que d'autres, cela se manifestera par une déformation du spectre de puissance aux échelles concernées.  Si le champ est vraiment un champ aléatoire gaussien, la connaissance de $P(k)$ suffit à complètement le définir : si des corrélations anisotropes sont détectées (dans les relevés de galaxies ou dans le CMB), elles confirmeront soit la nature non-gaussienne des fluctuations primordiales soit l'existence de processus physiques qui génèrent de la non-gaussianité.
+Cette quantité est destinée à être mesurée au cours du temps et nous renseigne sur la croissance des structures. Si certaines échelles bénéficient d'une croissance plus rapide que d'autres, cela se manifestera par une déformation du spectre de puissance aux échelles concernées.  Si le champ est vraiment un champ aléatoire gaussien, la connaissance de $P(k)$ suffit à complètement le définir : si des corrélations anisotropes sont détectées (dans les relevés de galaxies ou dans le CMB), elles confirmeront soit la nature non-gaussienne\index{non-gaussianité} des fluctuations primordiales soit l'existence de processus physiques qui génèrent de la non-gaussianité.
 
-Une quantité reliée au spectre de puissance est la fonction de corrélation à deux points $\xi (r)$: elle exprime l'excès de probabilité de trouver de la matière en deux points séparés d'une certaine distance $r$ par rapport à une distribution aléatoire. On peut démontrer que la fonction de corrélation à deux points est simplement la représentation du spectre de puissance dans l'espace des positions (donc sa transformée de Fourier):
+Une quantité reliée au spectre de puissance est la fonction de corrélation à deux points\index{fonction de corrélation} $\xi (r)$: elle exprime l'excès de probabilité de trouver de la matière en deux points séparés d'une certaine distance $r$ par rapport à une distribution aléatoire. On peut démontrer que la fonction de corrélation à deux points est simplement la représentation du spectre de puissance dans l'espace des positions (donc sa transformée de Fourier):
 \begin{equation}
 \xi (r)\sim \int d\vec k P(k) e^{i k r}.
 \end{equation}
 Notons qu'à nouveau cette excès de probabilité de dépend que de la distance $r$ et non pas d'une orientation ou de positions spécifiques des 2 points considérés. Généralement, la fonction de corrélation à 2 points est utilisée si l'on a une description discrète du champ de densité: c'est le cas par exemple lorsque l'on utilise des galaxies comme traceurs de la matière dans les grands relevés. Si l'on travaille avec un champ continu (comme dans des travaux analytique), on passe directement dans une représentation en mode de Fourier en utilisant le spectre de puissance $P(k)$: ce dernier présente l'avantage d'explicitement séparer les modes de tailles différentes, là où la fonction de corrélation à 2 points "mélange" les modes et peut donc être dominé par une échelle au détriment des autres, qui peuvent pourtant contenir une information pertinente.
 
 \section{Longueur de Jeans}
-Une quantité centrale dans l'étude de l'instabilité gravitationnelle est la longueur de Jeans, notée $\lambda_J$. Elle correspond à la longueur minimale  que doit avoir une structure pour s'effondrer sous l'effet de la gravitation. On y associe également une masse (la masse de Jeans) $M_J$ donnée simplement par:
+Une quantité centrale dans l'étude de l'instabilité gravitationnelle est la longueur de Jeans\index{longueur de Jeans}, notée $\lambda_J$. Elle correspond à la longueur minimale  que doit avoir une structure pour s'effondrer sous l'effet de la gravitation. On y associe également une masse (la masse de Jeans\index{masse de Jeans}) $M_J$ donnée simplement par:
 \begin{equation}
 M_J=\frac{4\pi}{3}\bar\rho\lambda_J^3,
 \end{equation}
-,où $\bar \rho$ est la densité moyenne du milieu et une structure de masse supérieure à la masse de Jeans va s'effondrer. L'existence du grandeur critique pour que l'effondrement se réalise traduit l'existence d'une compétition entre la gravité et un autre processus que la gravité doit 'vaincre' pour que la structure collapse. En général cet autre processus est l'existence d'un support thermique qui fournit une pression à même de s'opposer à la gravitation. Pour du gaz, il s'agit généralement de la pression interne du gaz, pour des systèmes non collisionnels (type gaz d'étoiles) c'est la dispersion de vitesse interne qui agit comme une barrière à l'effondrement.
+,où $\bar \rho$ est la densité moyenne du milieu et une structure de masse supérieure à la masse de Jeans va s'effondrer. L'existence du grandeur critique pour que l'effondrement se réalise traduit l'existence d'une compétition entre la gravité et un autre processus que la gravité doit 'vaincre' pour que la structure collapse. En général cet autre processus est l'existence d'un support thermique qui fournit une pression à même de s'opposer à la gravitation. Pour du gaz, il s'agit généralement de la pression interne du gaz, pour des systèmes non-collisionnels (type gaz d'étoiles) c'est la dispersion de vitesse interne qui agit comme une barrière à l'effondrement.
 
-L'expression de la longueur de Jeans peut s'obtenir avec un simple raisonnement: pour qu'une structure s'effondre il faut que l'information gravitationnelle se répartisse plus rapidement au sein d'une structure que l'information de support thermique. Dans un milieu de densité $\rho$ l'information gravitationnelle est transportée en un temps dynamique:
+L'expression de la longueur de Jeans peut s'obtenir avec un simple raisonnement: pour qu'une structure s'effondre il faut que l'information gravitationnelle se répartisse plus rapidement au sein d'une structure que l'information de support thermique. Dans un milieu de densité $\rho$ l'information gravitationnelle est transportée en un temps dynamique\index{temps!dynamique}
 \begin{equation}
 t_G\approx \frac{1}{\sqrt{G\rho}}.
 \end{equation}
-Pour un gaz la transmission de l'information de support thermique dépend de la vitesse du son $c_s$ et de la taille de la structure $\lambda$:
+Pour un gaz la transmission de l'information de support thermique dépend de la vitesse du son\index{vitesse!du son} $c_s$ et de la taille de la structure $\lambda$:
 \begin{equation}
 t_p\approx\frac{\lambda}{c_s}.
 \end{equation}
@@ -66,15 +66,15 @@ Une dérivation plus rigoureuse peut être obtenue par un traitement perturbatif
 \begin{equation}
 \frac{dP}{d\rho}=c_s^2.
 \end{equation}
-Ce gaz obéit aux équation de Poisson, qui est l'équation de champ de la gravité newtonienne:
+Ce gaz obéit aux équation de Poisson\index{equation@équation!de Poisson}, qui est l'équation de champ de la gravité newtonienne:
 \begin{equation}
 \Delta \phi(x,t) = 4 \pi G \rho
 \end{equation}
- et aux équations fluides, conservation de la masse:
+ et aux équations fluides, conservation de la masse\index{conservation de la masse}
  \begin{equation}
  \frac{\partial \rho}{\partial t} + \vec \nabla \rho \vec u=0,
  \end{equation}
- et conservation de l'impulsion
+ et conservation de l'impulsion\index{conservation de l'impulsion}
  \begin{equation}
  \frac{\partial \vec v}{\partial t} +\vec u \vec \nabla \vec u = -\frac{\vec \nabla P}{\rho}-\vec \nabla \phi.
  \end{equation}
@@ -119,7 +119,7 @@ Ce gaz obéit aux équation de Poisson, qui est l'équation de champ de la gravi
 \frac{\partial \vec u}{\partial t}+\vec u \cdot \frac{\partial \vec u}{\partial \vec r}&=&-\frac{1}{\rho}\frac{\partial P}{\partial \vec r}-\frac{\partial \phi}{\partial \vec r}\\
 \frac{\partial^2 \phi}{\partial \vec r^2}&=&4\pi G \rho.
 \end{eqnarray}
- La principale difficulté découle de la dépendance temporelle de la distance physique $\vec r=a(t) \vec x(t)$ où $\vec x$ désigne la position comobile : la dérivée par rapport à $\vec r$ doit donc être prise avec précaution. Par commodité on préfère généralement écrire ces équations en fonction de données comobiles pour extraire au moins l'effet de flot cosmologique encodé par le facteur d'expansion $a(t)$.
+ La principale difficulté découle de la dépendance temporelle de la distance physique\index{distance!physique} $\vec r=a(t) \vec x(t)$ où $\vec x$ désigne la position comobile\index{distance!comobile} : la dérivée par rapport à $\vec r$ doit donc être prise avec précaution. Par commodité on préfère généralement écrire ces équations en fonction de données comobiles pour extraire au moins l'effet de flot cosmologique encodé par le facteur d'expansion $a(t)$.
  
 La première étape consiste à transformer les dérivée temporelles prises à $\vec r$ constant en dérivée prises à $\vec x$ constant\sidenote{on rappelle que pour $f(r=a(t)x,t)$ alors $\left(\frac{\partial f}{\partial t}\right)_x=\left(\frac{\partial f}{\partial t}\right)_r+\frac{\partial f}{\partial \vec r}\frac{\partial \vec r}{\partial t}$}:
 \begin{equation}
@@ -129,7 +129,7 @@ de même les dérivée spatiales deviennent:
 \begin{equation}
 \frac{\partial }{\partial \vec r}=\frac{1}{a}\frac{\partial}{\partial \vec x}.
 \end{equation}
- Pour finir, il faut établir que la vitesse comporte une partie liée au flot de Hubble \sidenote{ le terme $\dot a \vec x$ peut facilement se réecrire sous la forme $H \vec r$, i.e. la loi de Hubble}:
+ Pour finir, il faut établir que la vitesse comporte une partie liée au flot de Hubble\index{Hubble!flot} \sidenote{ le terme $\dot a \vec x$ peut facilement se réecrire sous la forme $H \vec r$, i.e. la loi de Hubble}:
 \begin{equation}
 \dot {\vec u}=\dot a \vec x + a \dot {\vec x}= \dot a \vec x + \vec v
 \end{equation}
@@ -163,7 +163,7 @@ En rassemblant le tout on obtient l'équation de conservation de la masse dans s
 \frac{\partial \delta}{\partial t}+\frac{1}{a}\frac{\partial}{\partial \vec x}((1+\delta)\vec v)=0
 \end{equation}
 
- \newthought{L'équation d'Euler comobile} se dérive de la même manière. Prenons le premier terme de dérivée temporelle de la vitesse:
+ \newthought{L'équation d'Euler comobile} \index{equation@équation!d'Euler} se dérive de la même manière. Prenons le premier terme de dérivée temporelle de la vitesse:
  \begin{eqnarray}
  \left(\frac{\partial \vec u}{\partial t}\right)_r&=&\left(\frac{\partial \vec u}{\partial t}\right)_x-\frac{\dot a }{a}\vec x \cdot \frac{\partial \vec u}{\partial \vec x}.
 \end{eqnarray}  
@@ -185,7 +185,7 @@ tandis que le terme de Hubble donne \sidenote{on utilise ${\vec e} \cdot \frac{\
  \left(\frac{\partial \vec v}{\partial t}\right)_x +\frac{\dot a}{a}\vec v+\frac{1}{a}\vec v \cdot \frac{\partial \vec v}{\partial \vec x} + \ddot a {\vec x}. 
  \label{e:geuler}
  \end{equation}
- Le terme correspondant aux forces de pressions de pose pas de difficulté tandis que le terme correspondant aux forces de gravitation peut être modifié en lui incluant le terme en $\ddot a {\vec x}$ de l'équation \ref{e:geuler}:
+ Le terme correspondant aux forces de pressions\index{pression} de pose pas de difficulté tandis que le terme correspondant aux forces de gravitation peut être modifié en lui incluant le terme en $\ddot a {\vec x}$ de l'équation \ref{e:geuler}:
  \begin{eqnarray}
   \frac{\partial \phi}{\partial \vec r}&=&\frac{1}{a}(\frac{\partial \phi}{\partial \vec x}+a\ddot a \vec x)\\
   &=&\frac{1}{a}\frac{\partial \Phi}{\partial \vec x},
@@ -199,13 +199,13 @@ En rassemblant partie différentielle et termes sources, on obtient une équatio
 \left(\frac{\partial \vec v}{\partial t}\right)_x +\frac{\dot a}{a}\vec v+\frac{1}{a}\vec v \cdot \frac{\partial \vec v}{\partial \vec x}=-\frac{1}{a\bar \rho (1+\delta)}\frac{\partial P}{\partial \vec x}-\frac{1}{a}\frac{\partial \Phi}{\partial \vec x}.
 \end{equation}
 
-\newthought{L'équation de Poisson} doit également être reformulée en faisant notamment intervenir le potentiel effectif $\Phi$\sidenote{en utilisant $\frac{\partial^2}{\partial \vec x^2} {\vec x}^2=6$}:
+\newthought{L'équation de Poisson}\index{equation@équation!Poisson} doit également être reformulée en faisant notamment intervenir le potentiel effectif $\Phi$\sidenote{en utilisant $\frac{\partial^2}{\partial \vec x^2} {\vec x}^2=6$}:
 \begin{eqnarray}
 \Delta \phi &=&\frac{1}{a}\frac{\partial^2 \phi}{\partial \vec x^2}\\
 &=&\frac{1}{a^2}\frac{\partial \Phi}{\partial \vec x^2}-3\frac{\ddot a}{a}\\
 &=&4\pi G \bar \rho(1+\delta).
 \end{eqnarray}
-Or l'équation de Friedmann\sidenote{$\frac{\ddot a}{a}=-\frac{4}{3}\pi G \bar \rho$} permet de relier l'évolution du facteur d'expansion avec la densité du fond et permet notamment d'établir que:
+Or l'équation de Friedmann\index{equation@équation!Friedmann}\sidenote{$\frac{\ddot a}{a}=-\frac{4}{3}\pi G \bar \rho$} permet de relier l'évolution du facteur d'expansion avec la densité du fond et permet notamment d'établir que:
 \begin{equation}
 4\pi G \bar \rho a^2+3 a \ddot a=0,
 \end{equation}
@@ -219,7 +219,7 @@ Or l'équation de Friedmann\sidenote{$\frac{\ddot a}{a}=-\frac{4}{3}\pi G \bar \
   \ddot \delta_k +2H\dot \delta_k+ (\frac{c_s^2k ^2}{a^2}-4\pi G \bar \rho) \delta_k= 0.
   \label{e:epert}
  \end{equation}
- où toutes les quantités sont des quantités comobiles. On retrouve essentiellement la même équation et les mêmes conclusions s'imposent, à savoir instabilité si $\lambda >\lambda_J$ et oscillations sonores dans le cas inverse. On note toutefois la présence du terme $2H\dot \delta_k$ qui s'apparente à un terme d'amortissement dû à l'expansion. On montrera qu'a cause de ce terme qui tempère les solutions, les modes instables ne seront plus exponentiels mais en loi de puissance et les modes stables oscillants seront amortis sur des temps caractéristiques de l'ordre du temps de Hubble.
+ où toutes les quantités sont des quantités comobiles. On retrouve essentiellement la même équation et les mêmes conclusions s'imposent, à savoir instabilité si $\lambda >\lambda_J$ et oscillations sonores dans le cas inverse. On note toutefois la présence du terme $2H\dot \delta_k$ qui s'apparente à un terme d'amortissement dû à l'expansion. On montrera qu'a cause de ce terme qui tempère les solutions, les modes instables\index{modes instables} ne seront plus exponentiels mais en loi de puissance et les modes stables oscillants seront amortis sur des temps caractéristiques de l'ordre du temps de Hubble.
  
  A ce stade il faut rappeler, que le traitement décrit juste ici est approché. Par exemple la matière noire \sidenote{qui compose $80\%$ du bilan énergétique de la matière} ne peut pas, à priori, être correctement décrite par les équations 'fluides' utilisées ici. Comme ses particules sont non collisionelles, on ne peut réduire la pression\sidenote{qui est une mesure des propriétés du tenseur des dispersions de vitesses} à un scalaire et elle peut être anisotrope. La question se pose dans les même termes pour le rayonnement. Un traitement rigoureux doit passer par l'utilisation de l'équation de Boltzmann qui encode directement l'évolution de la fonction de distribution des ces fluides dans l'espace des phases et non celle des ses moments (densité, impulsion, etc...).  Heureusement le résultat obtenu reste très similaire à celui présenté dans l'équation \ref{e:epert} et elle fera donc l'affaire pour les raisonnement à suivre.
  
@@ -289,31 +289,31 @@ La solution est oscillante avec un amortissement induit par l'expansion\sidenote
 \end{equation}
 On a donc un terme source de fond, mais ce terme n'est pas en mesure de produire une augmentation de l'amplitude des oscillations: ce terme évolue lentement par rapport aux temps caractéristiques d'oscillations et ne peut donc produire de résonances par exemple. Ce terme de forçage n'implique pas de croissance incontrôlée de l'amplitude des fluctuations baryoniques qui sont toujours dans un régime oscillant comme précédemment.
 
-\newthought{Ces oscillations} constituent de notre point de vue une 'absence de croissance': les ondes de pressions passent mais ne 'grossissent pas'. En pratique c'est même l'opposé qui va se produire : à cause du couplage imparfait entre photons et rayonnement, la pression apportée par les photons ne garantit pas un entretien perpétuel des oscillations et elles vont s'amortir \sidenote{on parle aussi d'amortissement Silk, du nom du physicien anglais à l'origine de la découverte de cet effet}. L'effet d'amortissement est même catastrophique au sens où toute structure baryonique contenant une masse inférieure à $10^{13} M_\odot$ \sidenote{et donc de taille inférieure à une certaine taille critique} doit être 'effacée' du spectre des fluctuations. Cette masse est supérieure à celle de la Voie Lactée actuellement : il faut donc trouver un mécanisme pour entretenir les fluctuations de masse inférieure à cette limite pour pouvoir expliquer les structures observées aujourd'hui.
+\newthought{Ces oscillations} constituent de notre point de vue une 'absence de croissance': les ondes de pressions passent mais ne 'grossissent pas'. En pratique c'est même l'opposé qui va se produire : à cause du couplage imparfait entre photons et rayonnement, la pression apportée par les photons ne garantit pas un entretien perpétuel des oscillations et elles vont s'amortir \sidenote{on parle aussi d'amortissement Silk\index{amortissement Silk}, du nom du physicien anglais à l'origine de la découverte de cet effet}. L'effet d'amortissement est même catastrophique au sens où toute structure baryonique contenant une masse inférieure à $10^{13} M_\odot$ \sidenote{et donc de taille inférieure à une certaine taille critique} doit être 'effacée' du spectre des fluctuations. Cette masse est supérieure à celle de la Voie Lactée actuellement : il faut donc trouver un mécanisme pour entretenir les fluctuations de masse inférieure à cette limite pour pouvoir expliquer les structures observées aujourd'hui.
 
-\newthought{La matière noire} va fournir ce mécanisme: comme vu précédemment, la matière sans pression va voir ses fluctuations croître de façon permanente durant l'époque dominée par la matière. Au moment de la recombinaison, les baryons auront vu une grande partie de leurs fluctuations être amorties par l'amortissement que nous venons juste de mentionner. Toutefois la recombinaison s'accompagne de la perte de support de pression offert par le rayonnement \sidenote{permettant aux photons de s'échapper sous forme du rayonnement de fond diffus}: les baryons sont alors libres de s'effondrer dans les puits de potentiels crées par la matière noire. Vers un redshift $z\sim 100$ les fluctuations baryoniques ont convergé vers les fluctuations de la matière noire, autorisant la formation de structures de masses plus légères que la masse limite mentionnée précédemment.
+\newthought{La matière noire}\index{matière noire} va fournir ce mécanisme: comme vu précédemment, la matière sans pression va voir ses fluctuations croître de façon permanente durant l'époque dominée par la matière. Au moment de la recombinaison, les baryons auront vu une grande partie de leurs fluctuations être amorties par l'amortissement que nous venons juste de mentionner. Toutefois la recombinaison s'accompagne de la perte de support de pression offert par le rayonnement \sidenote{permettant aux photons de s'échapper sous forme du rayonnement de fond diffus}: les baryons sont alors libres de s'effondrer dans les puits de potentiels crées par la matière noire. Vers un redshift $z\sim 100$ les fluctuations baryoniques ont convergé vers les fluctuations de la matière noire, autorisant la formation de structures de masses plus légères que la masse limite mentionnée précédemment.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=12cm]{figs/bao1.png}
-	\caption{Les oscillations baryoniques évoluent sur des fréquences différentes, dépendant de leur taille. Les grandes structures oscillent lentement, les petites rapidement. Certains modes vont être en extremum d'amplitude au moment de la recombinaison et donc au moment de la dernière diffusion du fond diffus cosmologique. Ces modes vont donc être privilégiés dans la carte du CMB.}
+	\caption[Les oscillations baryoniques évoluent sur des fréquences différentes, dépendant de leur taille.]{Les oscillations baryoniques évoluent sur des fréquences différentes, dépendant de leur taille. Les grandes structures oscillent lentement, les petites rapidement. Certains modes vont être en extremum d'amplitude au moment de la recombinaison et donc au moment de la dernière diffusion du fond diffus cosmologique. Ces modes vont donc être privilégiés dans la carte du CMB.}
 	\label{f:bao1}
 \end{figure}
 
 
-\newthought{Ces oscillations baryoniques}  sont des ondes accoustiques (BAOs, de l'anglais \textit{baryonic accoustic oscillations}) car elles sont entretenues par l'entrejeu entre gravité et pression (de rayonnement dans le cas présent). Par simple inspection de l'équation différentielle maîtresse, on peut constater que la fréquence d'oscillation dépend de la taille du mode étudié : un mode à grande fréquence spatiale implique une grande fréquence temporelle et vice-versa. Par conséquent, l'amplitude du mode au moment de la recombinaison va dépendre du mode en question : au moment de l'émission du fond diffus, certains modes seront en amplitude maximale, d'autres en amplitude plus modérés. En simplifiant, on peut imaginer que certains modes vont osciller un nombre de fois entier entre leur déclenchement et la recombinaison, parvenant ainsi à un extremum d'amplitude tandis que d'autres seront dans une phase quelconques avec des amplitudes moins remarquables. Les échelles qui se détachent sous la forme de 'pics' dans le spectre de puissance du fond diffus cosmologique sont la manifestation de ces modes qui parviennent en extremum d'amplitude au moment où le rayonnement fossile est produit.
+\newthought{Ces oscillations baryoniques}  sont des ondes accoustiques (BAOs, de l'anglais \textit{baryonic accoustic oscillations})\index{BAO} car elles sont entretenues par l'entrejeu entre gravité et pression (de rayonnement dans le cas présent). Par simple inspection de l'équation différentielle maîtresse, on peut constater que la fréquence d'oscillation dépend de la taille du mode étudié : un mode à grande fréquence spatiale implique une grande fréquence temporelle et vice-versa. Par conséquent, l'amplitude du mode au moment de la recombinaison va dépendre du mode en question : au moment de l'émission du fond diffus, certains modes seront en amplitude maximale, d'autres en amplitude plus modérée. En simplifiant, on peut imaginer que certains modes vont osciller un nombre de fois entier entre leur déclenchement et la recombinaison, parvenant ainsi à un extremum d'amplitude tandis que d'autres seront dans une phase quelconque avec des amplitudes moins remarquables. Les échelles qui se détachent sous la forme de 'pics' dans le spectre de puissance du fond diffus cosmologique sont la manifestation de ces modes qui parviennent en extremum d'amplitude au moment où le rayonnement fossile est produit.
 
 
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=12cm]{figs/bao2.png}
-	\caption{Les pics accoustiques du spectre de puissance du fond diffus cosmologique correspondent aux modes qui sont en extremum d'amplitude au moment de la recombinaison. Le premier pic correspond à une compression, le second une compression + une détente, le troisième une compression + une détente + une compression, etc.... Au premier ordre, nous voyons des harmoniques d'un même mode fondamental. }
+	\caption[Les pics accoustiques sont des extrema]{Les pics accoustiques du spectre de puissance du fond diffus cosmologique correspondent aux modes qui sont en extremum d'amplitude au moment de la recombinaison. Le premier pic correspond à une compression, le second une compression + une détente, le troisième une compression + une détente + une compression, etc.... Au premier ordre, nous voyons des harmoniques d'un même mode fondamental. }
 	\label{f:bao2}
 \end{figure}
 
 \section{Croissance des perturbations : cas super-horizon}
-\newthought{L'horizon} désigne la plus grande échelle sur laquelle un phénomène de propagation peut opérer. Sa valeur est simplement donnée par :
+\newthought{L'horizon}\index{horizon} désigne la plus grande échelle sur laquelle un phénomène de propagation peut opérer. Sa valeur est simplement donnée par :
 \begin{equation}
 L_H=\frac{c}{H}
 \end{equation}
@@ -348,7 +348,7 @@ La synthèse des résultats précédents pour le cas de la matière noire est pr
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=8cm]{figs/perturb.png}
-		\caption{Synthèse de la croissance des perturbations. Un petit mode possède une taille caractéristique suffisemment petite pour passer sous l'horizon durant l'époque dominée par le rayonnement.}
+		\caption[Synthèse de la croissance des perturbations]{Synthèse de la croissance des perturbations. Un petit mode possède une taille caractéristique suffisemment petite pour passer sous l'horizon durant l'époque dominée par le rayonnement.}
 	\label{f:perturb}
 \end{figure}
 
@@ -376,7 +376,7 @@ Ici le facteur de lien dépend de $a_L$ et donc de la taille du mode considéré
 \end{equation}
 On a une coupure d'autant plus forte que la fréquence du mode est élevée, d'autant plus forte que la taille du mode considéré est petite.
 
-\newthought{Pour le spectre de puissance}, les conséquences sont simples. Pour les $k$ suffisamment faibles on a 
+\newthought{Pour le spectre de puissance}\index{spectre de Puissance}, les conséquences sont simples. Pour les $k$ suffisamment faibles on a 
 \begin{equation}
 P_f(k)\sim\delta_k^2 \sim P_i(k),
 \end{equation}
@@ -397,15 +397,28 @@ Le spectre de puissance résultant possède donc 2 régimes caractéristiques, l
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=8cm]{figs/pk.png}
-		\caption{Schématique du filtrage du spectre de puissance des fluctuations initiales. Le spectre primordial est invariant d'échelle en $P(k)\sim k$ et le gel de la croissance des fluctuations sous l'horizon durant l'époque de domination du rayonnement produit un filtrage au hautes fréquences qui produit une pente caractéristique en $P(k)\sim k^{-3}$.}
+		\caption[Schématique du filtrage du spectre de puissance des fluctuations initiales.]{Schématique du filtrage du spectre de puissance des fluctuations initiales. Le spectre primordial est invariant d'échelle en $P(k)\sim k$ et le gel de la croissance des fluctuations sous l'horizon durant l'époque de domination du rayonnement produit un filtrage au hautes fréquences qui produit une pente caractéristique en $P(k)\sim k^{-3}$.}
 	\label{f:pk}
 \end{figure}
 
-\newthought{Pour résumer}, le spectre de puissance de la matière est une version filtrée du spectre de puissance primordial. Ce filtre opère sur les échelles suffisamment petites pour passer dans l'Horizon cosmologique tôt dans l'histoire de l'Univers, durant l'époque dominée par le rayonnement. Les échelles plus grandes ne permettant pas ce passage fréquence ont crû de façon indifférenciée et ont donc conservé les caractéristiques du spectre primordial.
+\newthought{Pour résumer}, le spectre de puissance de la matière est une version filtrée du spectre de puissance primordial. Ce filtre opère sur les échelles suffisamment petites pour passer dans l'Horizon cosmologique tôt dans l'histoire de l'Univers, durant l'époque dominée par le rayonnement. Les échelles plus grandes ne permettant pas ce passage fréquence ont crû de façon indifférenciée et ont donc conservé les caractéristiques du spectre primordial. L'ensemble des prédictions développées dans ce chapitre, et notamment la mise en place du spectre de puissance $P(k)$ est fermement confirmée par de multiples observations (voir Fig. \ref{f:pktegmark})~: c'est un des grands succès du modèle $\Lambda$CDM aux grandes échelles.
 
-\newthought{Les oscillations baryoniques}, mentionnées dans le cas de la matière avec pression et vues dans le CMB, se manifestent également dans le spectre de puissance de la matière totale. Ces ondes sonores se propageant dans le gaz vont légèrement modifier la structure globale de la matière : même si les baryons ne représentent qu'une faible fraction\sidenote{$\frac{\Omega_b}{\Omega_m}\sim0.15$} de la masse totale, cette fraction est non nulle et joue sur la dynamique globale à l'oeuvre. Ces oscillations se manifestent à nouveau comme des modes légèrement privilégiés dans le spectre de puissance $P(k)$. Par ailleurs, ces modes privilégiés vont persister dans la distribution de matière bien au delà de la recombinaison, jusqu'à nos jours. Par exemple, le spectre de puissance de la distribution actuelle des galaxies\sidenote{mesurée à z=0 dans des grands relevés de millions de galaxies comme le Sloane Digital Sky Survey (SDSS)}  présente des modes privilégiés aux fréquences attendues. De même, la distribution du gaz diffus intergalactique à z=2\sidenote{sondée dans les spectres de Quasars distant} manifeste ces mêmes modes privilégiés. Ces ondes de pressions primordiales, on laissé leur empreinte dans toutes les structures qui ont émergé tout au long de l'histoire de l'Univers.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/pstegmark.png}
+		\caption[Le spectre de puissance observé]{Le spectre de puissance $P(k)$ $\Lambda CDM$ théorique est représenté ici avec une compilation des estimations observationnelles issues de différentes sondes~: lensing, relevés de galaxies, CMB, comptage d'amas, Forêt Lyman-$\alpha$. On note l'excellent accord en théorie et prédiction.  Figure extraite de Tegmark et al. 2003. }
+	\label{f:pktegmark}
+\end{figure}
 
 
+\newthought{Les oscillations baryoniques}\index{BAO}, mentionnées dans le cas de la matière avec pression et vues dans le CMB, se manifestent également dans le spectre de puissance de la matière totale. Ces ondes sonores se propageant dans le gaz vont légèrement modifier la structure globale de la matière : même si les baryons ne représentent qu'une faible fraction\sidenote{$\frac{\Omega_b}{\Omega_m}\sim0.15$} de la masse totale, cette fraction est non nulle et joue sur la dynamique globale à l'oeuvre. Ces oscillations se manifestent à nouveau comme des modes légèrement privilégiés dans le spectre de puissance $P(k)$. Par ailleurs, ces modes privilégiés vont persister dans la distribution de matière bien au delà de la recombinaison, jusqu'à nos jours. Par exemple, le spectre de puissance de la distribution actuelle des galaxies\sidenote{mesurée à z=0 dans des grands relevés de millions de galaxies comme le Sloane Digital Sky Survey (SDSS)}  présente des modes privilégiés aux fréquences attendues (voir Fig. \ref{f:percival}). De même, la distribution du gaz diffus intergalactique\index{IGM} à z=2\sidenote{sondée dans les spectres de Quasars distant} manifeste ces mêmes modes privilégiés. Ces ondes de pressions primordiales, on laissé leur empreinte dans toutes les structures qui ont émergé tout au long de l'histoire de l'Univers.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/percival.png}
+		\caption[Les BAOs dans les relevés de galaxies]{Détection des BAOs dans le spectre de puissance du grand relevé de galaxies SDSS. Les courbes représentées sont le rapport du spectre mesuré dans les données sur le spectre lissé, sans BAO, pour 3 échantillons de galaxies différents. Les BAOs sont très clairement apparent (points) aux positions prédites par la théorie (lignes). Figure extraite de Percival et al. 2007.}
+	\label{f:percival}
+\end{figure}
 \section{Et après ?}
 
 Une fois le mécanisme d'instabilité déclenché, tous les modes vont parvenir à des régimes de surdensité qui vont au delà du régime linéaire et qui sortent du cadre dans lequel nous nous sommes placés. Dans certains cas académiques, le régime non linéaire peut-être abordé analytiquement mais en toute généralité il requiert l'utilisation de simulations numériques. La culmination de ce régime non linéaire est la création de structure denses, dominées par les baryons et au sein duquel se forment les sources de rayonnement : ce sont les galaxies qui nous entourent. L'apparition de ces objets est donc conditionnée par un contexte cosmologique et par extension il n'est pas illogique d'affirmer que l'étude de la formation des galaxies est une extension naturelle de la cosmologie. Toutefois, des phénomènes astrophysiques commencent à rentrer en jeu aux échelles considérées : thermodynamique du gaz, processus physico-chimique de refroidissement, champ magnétique, formation et rétroaction stellaire, production et impact des éléments plus lourds que l'hélium, etc.... Chacun de ces phénomènes est un objet d'étude à part entière et chacun de ces phénomènes est compris de façon toute relative. On en décrira quelques uns dans un chapitre dédié, mais de façon générale on peut aisément avancer qu'aujourd'hui l'extension de la théorie cosmologique à celle de la formation des galaxies présente des défis majeurs. Ces défis, à l'heure où ces lignes sont écrites ne sont pas résolus.
