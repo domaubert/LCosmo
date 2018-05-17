@@ -32,49 +32,54 @@
 \contentsline {figure}{\numberline {24}{\ignorespaces CMB et g\IeC {\'e}om\IeC {\'e}trie}}{94}{equation.0.0.190}
 \contentsline {figure}{\numberline {25}{\ignorespaces L'effet SZ}}{97}{equation.0.0.193}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {26}{\ignorespaces La vitesse de rotation de la mati\IeC {\`e}re dans la Voie Lact\IeC {\'e}e}}{100}{equation.0.0.195}
-\contentsline {figure}{\numberline {27}{\ignorespaces La fraction baryonique pr\IeC {\'e}dite par une simulation num\IeC {\'e}rique}}{103}{equation.0.0.205}
-\contentsline {figure}{\numberline {28}{\ignorespaces Une illustration du lien entre densit\IeC {\'e} et potentiel, via l'\IeC {\'e}quation de Poisson.}}{104}{equation.0.0.207}
-\contentsline {figure}{\numberline {29}{\ignorespaces Le \textit {Bullet Cluster}}}{106}{equation.0.0.212}
-\contentsline {figure}{\numberline {30}{\ignorespaces Les quantit\IeC {\'e}s pertinentes d'une lentille gravitationnelle}}{108}{equation.0.0.216}
-\contentsline {figure}{\numberline {31}{\ignorespaces Exemple de calcul de lentilles gravitationnelles}}{109}{equation.0.0.217}
-\contentsline {figure}{\numberline {32}{\ignorespaces Deux mod\IeC {\`e}les de spectre de puissance angulaire du fond diffus cosmologique}}{110}{section*.98}
-\contentsline {figure}{\numberline {33}{\ignorespaces Deux simulations de la densit\IeC {\'e} de gaz dans un volume d'Univers de 8 Mpc de c\IeC {\^o}t\IeC {\'e}}}{114}{equation.0.0.230}
-\contentsline {figure}{\numberline {34}{\ignorespaces La fonction de masse des halos de mati\IeC {\`e}re noires pour diff\IeC {\'e}rents redshifts}}{115}{subsection*.102}
-\contentsline {figure}{\numberline {35}{\ignorespaces Quelle \IeC {\'e}chelle d'Univers faut-il-sonder pour trouver un halo de masse donn\IeC {\'e}e \IeC {\`a} une \IeC {\'e}poque donn\IeC {\'e}e}}{116}{equation.0.0.231}
-\contentsline {figure}{\numberline {36}{\ignorespaces Sch\IeC {\'e}ma illustrant la diff\IeC {\'e}rence entre la fonction de masse des halos et la distribution des luminosit\IeC {\'e} des galaxies}}{117}{equation.0.0.231}
-\contentsline {figure}{\numberline {37}{\ignorespaces Distribution du nombre de galaxies sateliites de la Voie Lact\IeC {\'e}e}}{118}{subsection*.103}
-\contentsline {figure}{\numberline {38}{\ignorespaces Distribution des satellites de la Galaxie d'Androm\IeC {\`e}de}}{119}{subsection*.103}
+\contentsline {figure}{\numberline {26}{\ignorespaces La vitesse de rotation des plan\IeC {\`e}tes du syst\IeC {\`e}me solaire}}{100}{equation.0.0.194}
+\contentsline {figure}{\numberline {27}{\ignorespaces La vitesse de rotation de la mati\IeC {\`e}re dans la Voie Lact\IeC {\'e}e}}{101}{equation.0.0.195}
+\contentsline {figure}{\numberline {28}{\ignorespaces La fraction baryonique pr\IeC {\'e}dite par une simulation num\IeC {\'e}rique}}{104}{equation.0.0.205}
+\contentsline {figure}{\numberline {29}{\ignorespaces Une illustration du lien entre densit\IeC {\'e} et potentiel, via l'\IeC {\'e}quation de Poisson.}}{105}{equation.0.0.207}
+\contentsline {figure}{\numberline {30}{\ignorespaces Le \textit {Bullet Cluster}}}{107}{equation.0.0.212}
+\contentsline {figure}{\numberline {31}{\ignorespaces Les quantit\IeC {\'e}s pertinentes d'une lentille gravitationnelle}}{109}{equation.0.0.216}
+\contentsline {figure}{\numberline {32}{\ignorespaces Exemple de calcul de lentilles gravitationnelles}}{110}{equation.0.0.217}
+\contentsline {figure}{\numberline {33}{\ignorespaces Deux mod\IeC {\`e}les de spectre de puissance angulaire du fond diffus cosmologique}}{112}{section*.98}
+\contentsline {figure}{\numberline {34}{\ignorespaces Deux simulations de la densit\IeC {\'e} de gaz dans un volume d'Univers de 8 Mpc de c\IeC {\^o}t\IeC {\'e}}}{115}{equation.0.0.230}
+\contentsline {figure}{\numberline {35}{\ignorespaces La fonction de masse des halos de mati\IeC {\`e}re noires pour diff\IeC {\'e}rents redshifts}}{116}{subsection*.102}
+\contentsline {figure}{\numberline {36}{\ignorespaces Quelle \IeC {\'e}chelle d'Univers faut-il-sonder pour trouver un halo de masse donn\IeC {\'e}e \IeC {\`a} une \IeC {\'e}poque donn\IeC {\'e}e}}{118}{equation.0.0.231}
+\contentsline {figure}{\numberline {37}{\ignorespaces Sch\IeC {\'e}ma illustrant la diff\IeC {\'e}rence entre la fonction de masse des halos et la distribution des luminosit\IeC {\'e} des galaxies}}{118}{equation.0.0.231}
+\contentsline {figure}{\numberline {38}{\ignorespaces Distribution du nombre de galaxies sateliites de la Voie Lact\IeC {\'e}e}}{120}{subsection*.103}
+\contentsline {figure}{\numberline {39}{\ignorespaces Distribution des satellites de la Galaxie d'Androm\IeC {\`e}de}}{120}{subsection*.103}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {39}{\ignorespaces Les oscillations baryoniques \IeC {\'e}voluent sur des fr\IeC {\'e}quences diff\IeC {\'e}rentes, d\IeC {\'e}pendant de leur taille.}}{133}{equation.0.0.297}
-\contentsline {figure}{\numberline {40}{\ignorespaces Les pics accoustiques sont des extrema}}{134}{equation.0.0.297}
-\contentsline {figure}{\numberline {41}{\ignorespaces Synth\IeC {\`e}se de la croissance des perturbations}}{135}{section*.115}
-\contentsline {figure}{\numberline {42}{\ignorespaces Sch\IeC {\'e}matique du filtrage du spectre de puissance des fluctuations initiales.}}{137}{equation.0.0.312}
-\contentsline {figure}{\numberline {43}{\ignorespaces Le spectre de puissance observ\IeC {\'e}}}{138}{equation.0.0.312}
-\contentsline {figure}{\numberline {44}{\ignorespaces Les BAOs dans les relev\IeC {\'e}s de galaxies}}{139}{equation.0.0.312}
+\contentsline {figure}{\numberline {40}{\ignorespaces Les oscillations baryoniques \IeC {\'e}voluent sur des fr\IeC {\'e}quences diff\IeC {\'e}rentes, d\IeC {\'e}pendant de leur taille.}}{135}{equation.0.0.297}
+\contentsline {figure}{\numberline {41}{\ignorespaces Les pics accoustiques sont des extrema}}{136}{equation.0.0.297}
+\contentsline {figure}{\numberline {42}{\ignorespaces Synth\IeC {\`e}se de la croissance des perturbations}}{137}{section*.115}
+\contentsline {figure}{\numberline {43}{\ignorespaces Sch\IeC {\'e}matique du filtrage du spectre de puissance des fluctuations initiales.}}{139}{equation.0.0.312}
+\contentsline {figure}{\numberline {44}{\ignorespaces Le spectre de puissance observ\IeC {\'e}}}{140}{equation.0.0.312}
+\contentsline {figure}{\numberline {45}{\ignorespaces Les BAOs dans les relev\IeC {\'e}s de galaxies}}{141}{equation.0.0.312}
+\contentsline {figure}{\numberline {46}{\ignorespaces Les solutions param\IeC {\'e}triques de l'effondrement sph\IeC {\'e}rique}}{144}{equation.0.0.320}
+\contentsline {figure}{\numberline {47}{\ignorespaces Evolution temporelle du contraste de densit\IeC {\'e} pour l'effondrement sph\IeC {\'e}rique}}{147}{equation.0.0.341}
+\contentsline {figure}{\numberline {48}{\ignorespaces Le profil de densit\IeC {\'e} NFW}}{148}{equation.0.0.342}
+\contentsline {figure}{\numberline {49}{\ignorespaces La fonction de refroidissement du gaz}}{151}{equation.0.0.346}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {45}{\ignorespaces Un exemple de produit de simulation cosmologique}}{142}{chapter*.117}
-\contentsline {figure}{\numberline {46}{\ignorespaces sch\IeC {\'e}matique de la m\IeC {\'e}thode de calcul des forces sur grilles.}}{146}{equation.0.0.322}
-\contentsline {figure}{\numberline {47}{\ignorespaces Exemple de dynamique dans une simulation hydrodynamique avec refroidissement.}}{151}{equation.0.0.336}
-\contentsline {figure}{\numberline {48}{\ignorespaces mod\IeC {\`e}le de Haardt \& Madau}}{153}{equation.0.0.339}
-\contentsline {figure}{\numberline {49}{\ignorespaces Exemples d'injection d'\IeC {\'e}nergie par une particule stellaire mod\IeC {\'e}lisant l'explosion d'une supernovae. }}{156}{equation.0.0.343}
+\contentsline {figure}{\numberline {50}{\ignorespaces Un exemple de produit de simulation cosmologique}}{154}{chapter*.119}
+\contentsline {figure}{\numberline {51}{\ignorespaces sch\IeC {\'e}matique de la m\IeC {\'e}thode de calcul des forces sur grilles.}}{158}{equation.0.0.357}
+\contentsline {figure}{\numberline {52}{\ignorespaces Exemple de dynamique dans une simulation hydrodynamique avec refroidissement.}}{163}{equation.0.0.371}
+\contentsline {figure}{\numberline {53}{\ignorespaces mod\IeC {\`e}le de Haardt \& Madau}}{165}{equation.0.0.374}
+\contentsline {figure}{\numberline {54}{\ignorespaces Exemples d'injection d'\IeC {\'e}nergie par une particule stellaire mod\IeC {\'e}lisant l'explosion d'une supernovae. }}{168}{equation.0.0.378}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {50}{\ignorespaces micro-\IeC {\'e}tats disponibles dans un syst\IeC {\`e}me simple comprenant 2 paires de boules de couleurs identiques}}{160}{equation.0.0.344}
-\contentsline {figure}{\numberline {51}{\ignorespaces Le lien entre la dispersion de vitesse et la temp\IeC {\'e}rature du gaz. }}{161}{equation.0.0.345}
-\contentsline {figure}{\numberline {52}{\ignorespaces Remplissage d'une cuve par un gaz}}{162}{section*.125}
-\contentsline {figure}{\numberline {53}{\ignorespaces Evolution vers un maximum d'entropie}}{163}{section*.125}
-\contentsline {figure}{\numberline {54}{\ignorespaces Entropie \& Complexit\IeC {\'e}}}{164}{section*.126}
-\contentsline {figure}{\numberline {55}{\ignorespaces fluctuation d'entropie}}{167}{section*.128}
+\contentsline {figure}{\numberline {55}{\ignorespaces micro-\IeC {\'e}tats disponibles dans un syst\IeC {\`e}me simple comprenant 2 paires de boules de couleurs identiques}}{172}{equation.0.0.381}
+\contentsline {figure}{\numberline {56}{\ignorespaces Le lien entre la dispersion de vitesse et la temp\IeC {\'e}rature du gaz. }}{173}{equation.0.0.382}
+\contentsline {figure}{\numberline {57}{\ignorespaces Remplissage d'une cuve par un gaz}}{174}{section*.127}
+\contentsline {figure}{\numberline {58}{\ignorespaces Evolution vers un maximum d'entropie}}{175}{section*.127}
+\contentsline {figure}{\numberline {59}{\ignorespaces Entropie \& Complexit\IeC {\'e}}}{176}{section*.128}
+\contentsline {figure}{\numberline {60}{\ignorespaces fluctuation d'entropie}}{179}{section*.130}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {56}{\ignorespaces Histoire d'\IeC {\'e}volution de quelques longeurs physiques au cours du temps.}}{171}{equation.0.0.350}
-\contentsline {figure}{\numberline {57}{\ignorespaces Un exemple de potentiel possible pour l'inflaton. }}{175}{equation.0.0.363}
+\contentsline {figure}{\numberline {61}{\ignorespaces Histoire d'\IeC {\'e}volution de quelques longeurs physiques au cours du temps.}}{183}{equation.0.0.387}
+\contentsline {figure}{\numberline {62}{\ignorespaces Un exemple de potentiel possible pour l'inflaton. }}{187}{equation.0.0.400}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {58}{\ignorespaces Chronologie de la r\IeC {\'e}ionisation}}{180}{section*.139}
-\contentsline {figure}{\numberline {59}{\ignorespaces Evolution temporelle de la position d'un front ionisant}}{182}{equation.0.0.384}
-\contentsline {figure}{\numberline {60}{\ignorespaces Principe de la for\IeC {\^e}t Lyman-$\alpha $}}{185}{subsection*.143}
-\contentsline {figure}{\numberline {61}{\ignorespaces Spectres de quasars durant la r\IeC {\'e}ionisation}}{186}{subsection*.143}
-\contentsline {figure}{\numberline {62}{\ignorespaces L'opacit\IeC {\'e} Thomson du CMB}}{188}{equation.0.0.397}
-\contentsline {figure}{\numberline {63}{\ignorespaces L'histoire du signal \IeC {\`a} 21cm de la r\IeC {\'e}ionisation}}{189}{equation.0.0.398}
+\contentsline {figure}{\numberline {63}{\ignorespaces Chronologie de la r\IeC {\'e}ionisation}}{192}{section*.141}
+\contentsline {figure}{\numberline {64}{\ignorespaces Evolution temporelle de la position d'un front ionisant}}{194}{equation.0.0.421}
+\contentsline {figure}{\numberline {65}{\ignorespaces Principe de la for\IeC {\^e}t Lyman-$\alpha $}}{197}{subsection*.145}
+\contentsline {figure}{\numberline {66}{\ignorespaces Spectres de quasars durant la r\IeC {\'e}ionisation}}{198}{subsection*.145}
+\contentsline {figure}{\numberline {67}{\ignorespaces L'opacit\IeC {\'e} Thomson du CMB}}{200}{equation.0.0.434}
+\contentsline {figure}{\numberline {68}{\ignorespaces L'histoire du signal \IeC {\`a} 21cm de la r\IeC {\'e}ionisation}}{201}{equation.0.0.435}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
