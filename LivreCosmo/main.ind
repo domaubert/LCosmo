@@ -1,481 +1,446 @@
 \begin{theindex}
 
-  \item $\Lambda$ CDM, \hyperpage{57}
-  \item \IeC {\'e}quilibre, \hyperpage{61}
-    \subitem thermodynamique, \hyperpage{67}
+  \item $\Lambda$ CDM, \hyperpage{63}
+  \item $\Lambda$CDM, \hyperpage{103}
+  \item \IeC {\'e}quilibre, \hyperpage{66}
+    \subitem thermodynamique, \hyperpage{72}
 
   \indexspace
 
-  \item abondance, \hyperpage{61}, \hyperpage{68}
-    \subitem \IeC {\`a} l'\IeC {\'e}quilibre, \hyperpage{69}
-  \item acc\IeC {\'e}l\IeC {\'e}ration, \hyperpage{17}, \hyperpage{32}, 
-		\hyperpage{51}
-  \item acc\IeC {\'e}leration, \hyperpage{57}
+  \item abondance, \hyperpage{65}, \hyperpage{72}
+    \subitem \IeC {\`a} l'\IeC {\'e}quilibre, \hyperpage{74}
+  \item abondance \IeC {\`a} l'\IeC {\'e}quilibre, \hyperpage{65}
+  \item acc\IeC {\'e}l\IeC {\'e}ration, \hyperpage{33}
+    \subitem expansion, \hyperpage{17}, \hyperpage{56, 57}, 
+		\hyperpage{64}
+  \item acc\IeC {\'e}leration
+    \subitem expansion, \hyperpage{63}
   \item \IeC {\^a}ge
-    \subitem Univers, \hyperpage{38}, \hyperpage{55}
-  \item \IeC {\^a}ge 
-    \subitem Univers, \hyperpage{26}
-  \item \IeC {\^a}ges sombres, \hyperpage{173}
-  \item age 
-    \subitem  Univers, \hyperpage{20}
-  \item \IeC {\^a}ges sombres, \hyperpage{183}
-  \item \IeC {\^a}ges sombres, \hyperpage{20}
-  \item amas globulaires, \hyperpage{56}, \hyperpage{98}
-  \item amortissement Silk, \hyperpage{90}, \hyperpage{104}, 
-		\hyperpage{126}
-  \item annihilation, \hyperpage{71}
-  \item anti-particule, \hyperpage{65}
-  \item atome, \hyperpage{61}
+    \subitem Univers, \hyperpage{61}
+  \item \IeC {\^a}ge de l'Univers, \hyperpage{21}, \hyperpage{28}, 
+		\hyperpage{41, 42}
+  \item \IeC {\^a}ges sombres, \hyperpage{21}
+  \item amas de galaxies, \hyperpage{19}, \hyperpage{21}, 
+		\hyperpage{105}, \hyperpage{122}
+  \item amas globulaire, \hyperpage{29}, \hyperpage{109}
+  \item amas globulaires, \hyperpage{61}
+  \item amortissement Silk, \hyperpage{98}, \hyperpage{116}
+  \item annihilation, \hyperpage{75}
+  \item antimati\IeC {\`e}re, \hyperpage{75}
+  \item antiparticule, \hyperpage{70}
+  \item asym\IeC {\'e}trie mati\IeC {\`e}re-antimati\IeC {\`e}re, 
+		\hyperpage{75}
+  \item atome, \hyperpage{65}
 
   \indexspace
 
-  \item b\IeC {\'e}ryllium, \hyperpage{74}
-  \item BAO, \hyperpage{17, 18}, \hyperpage{89}, \hyperpage{126}, 
-		\hyperpage{131}, \hyperpage{163}
-  \item baryog\IeC {\'e}n\IeC {\`e}se, \hyperpage{20}
-  \item baryons, \hyperpage{15}, \hyperpage{17}, \hyperpage{47}, 
-		\hyperpage{54}, \hyperpage{75}
-  \item Big Bang, \hyperpage{14}
-  \item Big-Bang, \hyperpage{37}, \hyperpage{45}, \hyperpage{54}, 
-		\hyperpage{57}, \hyperpage{161}, \hyperpage{163}
-  \item Bose-Einstein, \hyperpage{63}, \hyperpage{66}
-  \item boson, \hyperpage{34}, \hyperpage{68}
-  \item Bullet cluster, \hyperpage{100}
+  \item b\IeC {\'e}ryllium, \hyperpage{84}
+  \item BAO, \hyperpage{19}, \hyperpage{97}
+  \item Baryog\IeC {\'e}n\IeC {\`e}se, \hyperpage{76}
+  \item baryog\IeC {\'e}n\IeC {\`e}se, \hyperpage{21}
+  \item baryon, \hyperpage{15}, \hyperpage{17}
+  \item baryons, \hyperpage{53}, \hyperpage{60}, \hyperpage{85}
+  \item Big-Bang, \hyperpage{14}, \hyperpage{20}, \hyperpage{41}, 
+		\hyperpage{51}, \hyperpage{60}, \hyperpage{63}
+  \item Bose-Einstein, \hyperpage{69}
+    \subitem statistique, \hyperpage{69, 70}
+  \item boson, \hyperpage{38}, \hyperpage{68}, \hyperpage{73}
+  \item Bullet cluster, \hyperpage{111}
 
   \indexspace
 
   \item C\IeC {\'e}ph\IeC {\'e}ides, \hyperpage{16}
-  \item catastrophe gravo-thermale, \hyperpage{159}
-  \item champ al\IeC {\'e}atoire gaussien, \hyperpage{87}
-  \item champ physique, \hyperpage{168}
-  \item champs al\IeC {\'e}atoire gaussien, \hyperpage{116}
-  \item choc, \hyperpage{100}
+  \item champ al\IeC {\'e}atoire gaussien, \hyperpage{95}
+  \item choc, \hyperpage{112}
+  \item chute libre, \hyperpage{35}
+  \item conditions de Sakharov, \hyperpage{76}
   \item conservation
-    \subitem \IeC {\'e}nergie, \hyperpage{42}, \hyperpage{52}
-  \item conservation de l'impulsion, \hyperpage{119}
-  \item conservation de la masse, \hyperpage{119}
-  \item constante cosmologique, \hyperpage{17}, \hyperpage{50}
-  \item contraction, \hyperpage{37}
-  \item contraste de densit\IeC {\'e}, \hyperpage{115}
-  \item corps noir, \hyperpage{66, 67}, \hyperpage{79}, 
-		\hyperpage{82, 83}
-  \item cosmologie newtonienne, \hyperpage{21}
-  \item courbe de rotation, \hyperpage{94}
-  \item courbure, \hyperpage{16}, \hyperpage{26}, \hyperpage{34}, 
-		\hyperpage{36}, \hyperpage{53}, \hyperpage{167}
+    \subitem \IeC {\'e}nergie, \hyperpage{58}
+  \item conservation de l'\IeC {\'e}nergie, \hyperpage{47}
+  \item constante cosmologique, \hyperpage{17}, \hyperpage{48}, 
+		\hyperpage{56}
+  \item contraction, \hyperpage{41}
+  \item corps noir, \hyperpage{30}, \hyperpage{70, 71}, \hyperpage{87}, 
+		\hyperpage{90, 91}
+    \subitem pression, \hyperpage{30}
+    \subitem temp\IeC {\'e}rature, \hyperpage{30}
+  \item cosmologie Newtonienne, \hyperpage{23}
+  \item cosmologie primordiale, \hyperpage{9}
+  \item courbe de luminosit\IeC {\'e}, \hyperpage{17}
+  \item courbe de rotation, \hyperpage{103, 104}
+  \item courbure, \hyperpage{16}, \hyperpage{28}, \hyperpage{37}, 
+		\hyperpage{39, 40}, \hyperpage{59}
 
   \indexspace
 
-  \item d\IeC {\'e}c\IeC {\'e}l\IeC {\'e}ration, \hyperpage{51}
-  \item d\IeC {\'e}g\IeC {\'e}nerescence, \hyperpage{65}
-  \item de Sitter, \hyperpage{56}
+  \item d\IeC {\'e}c\IeC {\'e}l\IeC {\'e}ration
+    \subitem expansion, \hyperpage{57}
+  \item d\IeC {\'e}g\IeC {\'e}nerescence, \hyperpage{69}
+  \item d\IeC {\'e}lais temporels, \hyperpage{44}
+  \item de Sitter, \hyperpage{62}
+    \subitem mod\IeC {\`e}le d'Univers, \hyperpage{62}
   \item densit\IeC {\'e}
     \subitem  \IeC {\'e}nergie des esp\IeC {\`e}ces relativistes, 
-		\hyperpage{77}
-    \subitem critique, \hyperpage{24, 25}, \hyperpage{53}
-    \subitem d'\IeC {\'e}nergie, \hyperpage{46}
-    \subitem mati\IeC {\`e}re, \hyperpage{41}
-    \subitem param\IeC {\`e}tre, \hyperpage{25}
-  \item densit\IeC {\'e} critique, \hyperpage{15}
-  \item densit\IeC {\'e} d'\IeC {\'e}tats, \hyperpage{63}
-  \item derni\IeC {\`e}re diffusion, \hyperpage{81}
-    \subitem surface, \hyperpage{82}
-  \item Deut\IeC {\'e}rium, \hyperpage{73}
-    \subitem bottleneck, \hyperpage{74}
+		\hyperpage{86}
+    \subitem d'\IeC {\'e}nergie, \hyperpage{52}
+    \subitem mati\IeC {\`e}re, \hyperpage{46}
+  \item densit\IeC {\'e} critique, \hyperpage{15}, \hyperpage{26, 27}, 
+		\hyperpage{59}
+  \item densit\IeC {\'e} d'\IeC {\'e}tats, \hyperpage{68}
+  \item derni\IeC {\`e}re diffusion
+    \subitem surface, \hyperpage{90}
+  \item Deut\IeC {\'e}rium, \hyperpage{82}
+    \subitem bottleneck, \hyperpage{83}
   \item deut\IeC {\'e}rium
-    \subitem bottleneck, \hyperpage{80}
-  \item diffusion, \hyperpage{17}
-  \item diffusion Thompson, \hyperpage{79}, \hyperpage{81, 82}, 
-		\hyperpage{90}, \hyperpage{181}
-  \item dip\IeC {\^o}le, \hyperpage{86}
-  \item dipole, \hyperpage{87}
-  \item distance, \hyperpage{35}, \hyperpage{45}
-    \subitem comobile, \hyperpage{22}, \hyperpage{35}, \hyperpage{120}
-    \subitem physique, \hyperpage{22}, \hyperpage{36}, \hyperpage{120}
+    \subitem bottleneck, \hyperpage{88}
+  \item diffusion Thomson, \hyperpage{87}, \hyperpage{89, 90}, 
+		\hyperpage{99}
+  \item dip\IeC {\^o}le, \hyperpage{94}
+  \item dipole, \hyperpage{95}
+  \item distance, \hyperpage{38}
+    \subitem comobile, \hyperpage{24}, \hyperpage{39}, \hyperpage{51}
+    \subitem physique, \hyperpage{24}, \hyperpage{39}, \hyperpage{51}
+  \item distance de parcours lumineux, \hyperpage{40}
   \item domination
-    \subitem p\IeC {\'e}riode, \hyperpage{52}
+    \subitem p\IeC {\'e}riode, \hyperpage{57}
 
   \indexspace
 
-  \item \IeC {\'e}chelle angulaire, \hyperpage{86}
-  \item \IeC {\'e}chelles angulaires, \hyperpage{85}
-  \item effet Sachs-Wolf, \hyperpage{88}
-  \item Effet SZ, \hyperpage{18}
-  \item effet SZ, \hyperpage{91}
-  \item Einstein-de Sitter, \hyperpage{55}
-  \item \IeC {\'e}lectrons, \hyperpage{15}, \hyperpage{71}
-  \item \IeC {\'e}nergie, \hyperpage{41}
-    \subitem \IeC {\'e}nergie-impulsion, \hyperpage{41}
-    \subitem cin\IeC {\'e}tique, \hyperpage{23}, \hyperpage{47}, 
-		\hyperpage{68}
-    \subitem m\IeC {\'e}canique, \hyperpage{24}
-    \subitem masse, \hyperpage{47}, \hyperpage{68, 69}
-    \subitem potentielle, \hyperpage{24}, \hyperpage{27}
-    \subitem vide, \hyperpage{50}
-  \item \IeC {\'e}nergie cin\IeC {\'e}tique, \hyperpage{95}
-  \item \IeC {\'e}nergie de liaison, \hyperpage{73}
-  \item \IeC {\'e}nergie potentielle, \hyperpage{95}, \hyperpage{168}
-  \item \IeC {\'e}nergie-impulsion, \hyperpage{42}
-  \item \IeC {\'e}nergie noire, \hyperpage{17}
-  \item \IeC {\'e}nergie noire, \hyperpage{15}, \hyperpage{20}
-  \item entropie, \hyperpage{72}, \hyperpage{153}
-    \subitem cerveaux de Boltzmann, \hyperpage{161}
-    \subitem complexit\IeC {\'e}, \hyperpage{157}
-    \subitem configuration, \hyperpage{154}
-    \subitem fluctuation, \hyperpage{160}
-    \subitem information, \hyperpage{154}
-    \subitem initiale, \hyperpage{160}
-    \subitem maximum, \hyperpage{156}
-    \subitem mort thermale, \hyperpage{160}
-    \subitem rayonnement, \hyperpage{159}
+  \item \IeC {\'e}chelle angulaire, \hyperpage{94}
+  \item \IeC {\'e}chelles angulaires, \hyperpage{93}
+  \item effet Sachs-Wolf, \hyperpage{96}
+  \item Effet Sunyaev-Zeldovich, \hyperpage{19}
+  \item effet SZ, \hyperpage{99}
+  \item Einstein- de Sitter, \hyperpage{28}
+  \item Einstein-de Sitter, \hyperpage{61}
+  \item \IeC {\'e}lectron, \hyperpage{16}, \hyperpage{72}
+  \item \IeC {\'e}lectrons, \hyperpage{80}
+  \item \IeC {\'e}l\IeC {\'e}ment l\IeC {\'e}gers, \hyperpage{65}
+  \item \IeC {\'e}nergie, \hyperpage{46}
+    \subitem \IeC {\'e}nergie-impulsion, \hyperpage{46}
+    \subitem cin\IeC {\'e}tique, \hyperpage{25}, \hyperpage{53}, 
+		\hyperpage{72}
+    \subitem m\IeC {\'e}canique, \hyperpage{26}
+    \subitem masse, \hyperpage{53}, \hyperpage{72}, \hyperpage{74}
+    \subitem potentielle, \hyperpage{26}, \hyperpage{29}
+    \subitem vide, \hyperpage{56}
+  \item \IeC {\'e}nergie cin\IeC {\'e}tique, \hyperpage{106}
+  \item \IeC {\'e}nergie de liaison, \hyperpage{82}
+  \item \IeC {\'e}nergie potentielle, \hyperpage{106}
+  \item \IeC {\'e}nergie-impulsion, \hyperpage{48}
+  \item \IeC {\'e}nergie noire, \hyperpage{15}, \hyperpage{17}, 
+		\hyperpage{21}, \hyperpage{56}
+  \item entropie, \hyperpage{10}, \hyperpage{81}
   \item \IeC {\'e}quation
-    \subitem  de Boltzmann, \hyperpage{106}
-    \subitem d'Euler, \hyperpage{121}
-    \subitem de Boltzmann, \hyperpage{106}
-    \subitem de Poisson, \hyperpage{119}
-    \subitem des lentilles, \hyperpage{101}
-    \subitem Einstein, \hyperpage{40}
-    \subitem Friedmann, \hyperpage{26}, \hyperpage{43}, \hyperpage{122}
-    \subitem Poisson, \hyperpage{40}, \hyperpage{42}, \hyperpage{98}, 
-		\hyperpage{122}
-  \item \IeC {\'e}quation de Saha, \hyperpage{73}
-  \item \IeC {\'e}quations
-    \subitem conservation, \hyperpage{142}
-    \subitem Euler, \hyperpage{141}
-    \subitem Poisson, \hyperpage{140}
-  \item \IeC {\'e}quivalence 
-    \subitem  mati\IeC {\`e}re-rayonnement, \hyperpage{20}
-  \item espace 
-    \subitem  plat, \hyperpage{27}
-  \item espace-temps, \hyperpage{29}
-  \item \IeC {\'e}tat d'\IeC {\'e}quilibre, \hyperpage{156}
-  \item \IeC {\'e}tats microscopique, \hyperpage{153}
-  \item \IeC {\'e}toiles, \hyperpage{20}, \hyperpage{138}, 
-		\hyperpage{141}, \hyperpage{145, 146}, \hyperpage{148}, 
-		\hyperpage{159}, \hyperpage{173}
-  \item expansion, \hyperpage{22}, \hyperpage{37}, \hyperpage{45}, 
-		\hyperpage{62}
+    \subitem  de Boltzmann, \hyperpage{119}
+    \subitem de Boltzmann, \hyperpage{118}
+    \subitem des lentilles, \hyperpage{112}
+    \subitem Poisson, \hyperpage{109}
+  \item \IeC {\'e}quation de Friedmann, \hyperpage{28}
+  \item \IeC {\'e}quation de Saha, \hyperpage{82}
+  \item \IeC {\'e}quation d'Einstein, \hyperpage{45}
+  \item \IeC {\'e}quation de Friedmann, \hyperpage{48}, \hyperpage{52}
+  \item \IeC {\'e}quation de Poisson, \hyperpage{45}, \hyperpage{119}
+    \subitem lentille gravitationnelle, \hyperpage{113}
+  \item \IeC {\'e}quationde Poisson, \hyperpage{47}
+  \item \IeC {\'e}quivalence mati\IeC {\`e}re-rayonnement, 
+		\hyperpage{21}
+  \item espace-temps, \hyperpage{31}, \hyperpage{37, 38}
+    \subitem plat, \hyperpage{29}
+  \item \IeC {\'e}toiles, \hyperpage{21}
+  \item expansion, \hyperpage{9}, \hyperpage{13}, \hyperpage{24}, 
+		\hyperpage{41}, \hyperpage{51}, \hyperpage{66}
+    \subitem acc\IeC {\'e}l\IeC {\'e}ration, \hyperpage{21}
 
   \indexspace
 
-  \item facteur d'\IeC {\'e}chelle, \hyperpage{21}, \hyperpage{25}, 
-		\hyperpage{45}
-  \item Fermi-Dirac, \hyperpage{63}
-  \item fermion, \hyperpage{68}
-  \item fluctuations adiabatiques, \hyperpage{87}
+  \item facteur d'\IeC {\'e}chelle, \hyperpage{23}, \hyperpage{27}, 
+		\hyperpage{39}, \hyperpage{51}
+  \item Fermi-Dirac, \hyperpage{69}
+    \subitem statistique, \hyperpage{69}
+  \item fermion, \hyperpage{68}, \hyperpage{73}
+  \item fluctuations adiabatiques, \hyperpage{95}
   \item fluctuations de densit\IeC {\'e}, \hyperpage{15}
-  \item fluide
-    \subitem cosmologique, \hyperpage{45}
-  \item flux, \hyperpage{23}, \hyperpage{40}, \hyperpage{143}
-    \subitem rayonnement, \hyperpage{178}
-  \item fonction de corr\IeC {\'e}lation, \hyperpage{117}
-  \item fonction de distribution, \hyperpage{106}
-    \subitem Maxwell, \hyperpage{107}
-  \item fonction de masse des halos, \hyperpage{109}
-  \item fonction de refroidissement, \hyperpage{144}
-  \item fond diffus, \hyperpage{16, 17}, \hyperpage{20}, \hyperpage{71}, 
-		\hyperpage{79}, \hyperpage{103}, \hyperpage{181}
-    \subitem anisotropies, \hyperpage{84}
-    \subitem avant-plan, \hyperpage{87}
-    \subitem signal \IeC {\`a} 21 cm, \hyperpage{183}
-  \item fond UV, \hyperpage{97}, \hyperpage{146}, \hyperpage{173}
-  \item for\IeC {\^e}t \IeC {\`a} 21cm, \hyperpage{184}
-  \item for\IeC {\^e}t Lyman-$\alpha$, \hyperpage{18}, \hyperpage{179}
-  \item force, \hyperpage{31}
-  \item formation hi\IeC {\'e}rarchique, \hyperpage{20}, 
-		\hyperpage{110}
-  \item fraction baryonique, \hyperpage{97}
-  \item fraction ionis\IeC {\'e}e, \hyperpage{80}
+  \item fluide cosmologique, \hyperpage{51}
+  \item fluide parfait, \hyperpage{48}
+  \item flux, \hyperpage{25}, \hyperpage{44}
+  \item fonction de distribution, \hyperpage{118}
+    \subitem Maxwell, \hyperpage{119}
+  \item fonction de masse des halos, \hyperpage{122}
+  \item fond diffus, \hyperpage{80}
+    \subitem anisotropies, \hyperpage{92}
+    \subitem avant-plan, \hyperpage{95}
+  \item fond diffus cosmologique, \hyperpage{9}, \hyperpage{16, 17}, 
+		\hyperpage{21}, \hyperpage{64}, \hyperpage{71}, 
+		\hyperpage{87}, \hyperpage{116}
+    \subitem de neutrinos, \hyperpage{81}
+  \item fond UV, \hyperpage{108}
+  \item for\IeC {\^e}t Lyman-$\alpha$, \hyperpage{19}
+  \item force, \hyperpage{33}
+  \item formation des galaxies, \hyperpage{9}, \hyperpage{21}
+  \item formation hi\IeC {\'e}rarchique, \hyperpage{21}, 
+		\hyperpage{122}
+  \item fr\IeC {\'e}quence
+    \subitem rayonnement \IeC {\'e}lectromagn\IeC {\'e}tique, 
+		\hyperpage{13}
+  \item fraction baryonique, \hyperpage{108}
+  \item fraction ionis\IeC {\'e}e, \hyperpage{88}
+  \item Friedmann-Robertson-Walker
+    \subitem m\IeC {\'e}trique, \hyperpage{39}, \hyperpage{43}, 
+		\hyperpage{45}, \hyperpage{48}
 
   \indexspace
 
-  \item g\IeC {\'e}om\IeC {\'e}trie 
-    \subitem  euclidienne, \hyperpage{35}
-    \subitem  Minkowski, \hyperpage{35}
-  \item galaxies, \hyperpage{17}, \hyperpage{20, 21}, \hyperpage{159}
-    \subitem amas, \hyperpage{95}
-    \subitem Androm\IeC {\`e}de, \hyperpage{112}
-    \subitem courbes de rotation, \hyperpage{93}
-    \subitem fonction de luminosit\IeC {\'e}, \hyperpage{110}
-    \subitem noyaux actifs, \hyperpage{111}
-    \subitem satellites, \hyperpage{112}
-    \subitem Voie Lact\IeC {\'e}e, \hyperpage{94}
-  \item galaxies 
-    \subitem  amas, \hyperpage{18}, \hyperpage{20}
-  \item gel des r\IeC {\'e}actions, \hyperpage{63}, \hyperpage{70, 71}, 
-		\hyperpage{81}
-  \item grandes structures, \hyperpage{19}, \hyperpage{115}
-  \item grands relev\IeC {\'e}s, \hyperpage{17}, \hyperpage{93}
-  \item gravitation, \hyperpage{31}
-  \item gravitation modifi\IeC {\'e}e, \hyperpage{113}
-  \item Gunn-Peterson, \hyperpage{180}
+  \item g\IeC {\'e}om\IeC {\'e}trie, \hyperpage{37}
+    \subitem euclidienne, \hyperpage{38}
+    \subitem Minkowski, \hyperpage{38}
+  \item g\IeC {\'e}om\IeC {\'e}trie de l'Univers, \hyperpage{17}
+  \item g\IeC {\'e}om\IeC {\'e}trie diff\IeC {\'e}rentielle, 
+		\hyperpage{38}
+  \item galaxie, \hyperpage{17}, \hyperpage{23}
+  \item galaxie d'Androm\IeC {\`e}de, \hyperpage{124}
+  \item galaxies
+    \subitem fonction de luminosit\IeC {\'e}, \hyperpage{122}
+    \subitem satellites, \hyperpage{124}
+  \item gel des r\IeC {\'e}actions, \hyperpage{65}, \hyperpage{67}, 
+		\hyperpage{74}, \hyperpage{79}, \hyperpage{89}
+  \item grande structure de l'Univers, \hyperpage{18}, \hyperpage{21}
+  \item grands relev\IeC {\'e}s, \hyperpage{18}, \hyperpage{103}
+  \item gravitation, \hyperpage{33}
+  \item gravitation modifi\IeC {\'e}e, \hyperpage{126}
+  \item gravitation quantique, \hyperpage{37}
 
   \indexspace
 
-  \item h\IeC {\'e}lium, \hyperpage{20}, \hyperpage{72}, 
-		\hyperpage{144}
-    \subitem fraction de masse, \hyperpage{74}
-  \item harmoniques sph\IeC {\'e}riques, \hyperpage{85}
-  \item homog\IeC {\'e}n\IeC {\'e}it\IeC {\'e}, \hyperpage{23}, 
-		\hyperpage{31}, \hyperpage{35}, \hyperpage{84}
-  \item horizon, \hyperpage{27}, \hyperpage{89}, \hyperpage{128}, 
-		\hyperpage{163}, \hyperpage{168}
+  \item h\IeC {\'e}lium, \hyperpage{21}, \hyperpage{81}
+    \subitem fraction de masse, \hyperpage{83}
+  \item halo de mati\IeC {\`e}re noire, \hyperpage{121}
+  \item harmoniques sph\IeC {\'e}riques, \hyperpage{93}
+  \item homog\IeC {\'e}n\IeC {\'e}it\IeC {\'e}, \hyperpage{25}, 
+		\hyperpage{33}, \hyperpage{39}, \hyperpage{92}
+  \item horizon, \hyperpage{29}, \hyperpage{97}
   \item Hubble
-    \subitem diagramme, \hyperpage{38}
-    \subitem flot, \hyperpage{121}
-    \subitem fonction, \hyperpage{23}
-    \subitem loi, \hyperpage{23}, \hyperpage{37}
-    \subitem param\IeC {\`e}tre, \hyperpage{15}, \hyperpage{26}, 
-		\hyperpage{37}, \hyperpage{53, 54}, \hyperpage{62}
-    \subitem temps, \hyperpage{27}, \hyperpage{38}, \hyperpage{62}
-  \item hydrodynamique, \hyperpage{141}
-  \item hydrog\IeC {\`e}ne, \hyperpage{61}, \hyperpage{144}, 
-		\hyperpage{173}, \hyperpage{179}
-    \subitem densit\IeC {\'e}, \hyperpage{66}
+    \subitem diagramme, \hyperpage{42}
+    \subitem fonction, \hyperpage{25}, \hyperpage{28}, \hyperpage{41}, 
+		\hyperpage{53}, \hyperpage{59}, \hyperpage{66}
+    \subitem loi, \hyperpage{25}, \hyperpage{42}
+    \subitem param\IeC {\`e}tre, \hyperpage{15}, \hyperpage{60}
+    \subitem temps, \hyperpage{29}, \hyperpage{42}, \hyperpage{66}
+  \item hydrog\IeC {\`e}ne, \hyperpage{65}
+    \subitem densit\IeC {\'e}, \hyperpage{70}
 
   \indexspace
 
-  \item IGM, \hyperpage{18}, \hyperpage{131}, \hyperpage{173}, 
-		\hyperpage{179, 180}, \hyperpage{184}
-    \subitem fraction ionis\IeC {\'e}e, \hyperpage{173}
-    \subitem temp\IeC {\'e}rature, \hyperpage{174}, \hyperpage{176}
-  \item inflation, \hyperpage{17}, \hyperpage{19}, \hyperpage{57}, 
-		\hyperpage{89}, \hyperpage{163}
-    \subitem \IeC {\'e}nergie, \hyperpage{171}
-    \subitem fluctuations, \hyperpage{166}
-    \subitem g\IeC {\'e}om\IeC {\'e}trie plane, \hyperpage{165}
-    \subitem homog\IeC {\'e}n\IeC {\'e}it\IeC {\'e}, \hyperpage{163}
-    \subitem inflaton, \hyperpage{168}
-    \subitem monop\IeC {\^o}le magn\IeC {\'e}tique, \hyperpage{167}
-    \subitem potentiel, \hyperpage{168}
-    \subitem r\IeC {\'e}chauffage, \hyperpage{170}
-    \subitem slow-roll, \hyperpage{170}
-    \subitem spectre, \hyperpage{171}
-  \item information, \hyperpage{39}
-  \item instabilit\IeC {\'e} gravitationnelle, \hyperpage{20}, 
-		\hyperpage{115}
-  \item intervalle, \hyperpage{35}
-  \item invariance, \hyperpage{52}
-  \item ionisation, \hyperpage{15}, \hyperpage{20}, \hyperpage{61}, 
-		\hyperpage{144, 145}, \hyperpage{173, 174}
-  \item isotropie, \hyperpage{31}, \hyperpage{35}
-    \subitem du fond diffus, \hyperpage{86}
+  \item Inflation, \hyperpage{9}, \hyperpage{15}, \hyperpage{17}, 
+		\hyperpage{20}, \hyperpage{63}
+  \item inflation, \hyperpage{97}
+  \item information, \hyperpage{43}
+  \item instabilit\IeC {\'e}, \hyperpage{119}
+  \item instabilit\IeC {\'e} gravitationnelle, \hyperpage{21}
+  \item interaction fondamentale, \hyperpage{33}
+  \item intervalle, \hyperpage{38}
+  \item invariance, \hyperpage{58}
+  \item ionisation, \hyperpage{16}, \hyperpage{21}, \hyperpage{65}
+  \item isotropie, \hyperpage{33}, \hyperpage{39}
+    \subitem du fond diffus, \hyperpage{95}
 
   \indexspace
 
-  \item leapfrog, \hyperpage{138}
+  \item lentille gravitationnelle, \hyperpage{19}, \hyperpage{100}, 
+		\hyperpage{112}
   \item lentilles gravitationnelle
-    \subitem convergence, \hyperpage{101}
-    \subitem potentiel, \hyperpage{101}
-  \item Lentilles gravitationnelles, \hyperpage{18}
-  \item lentilles gravitationnelles, \hyperpage{90, 91}, 
-		\hyperpage{101}
-    \subitem angle de d\IeC {\'e}flection, \hyperpage{101}
-    \subitem caustiques, \hyperpage{103}
-    \subitem cisaillement, \hyperpage{103}
-    \subitem densit\IeC {\'e} critique, \hyperpage{101}
-    \subitem grossissement, \hyperpage{103}
-    \subitem lignes critiques, \hyperpage{103}
-  \item LHC, \hyperpage{67}
-  \item libre parcours moyen, \hyperpage{98}
-  \item ligne de vis\IeC {\'e}e, \hyperpage{36}
-  \item lin\IeC {\'e}aire, \hyperpage{23}
-  \item lithium, \hyperpage{74}
-  \item Loi de Schmidt, \hyperpage{148}
-  \item longueur d'onde, \hyperpage{13}, \hyperpage{40}
-  \item longueur de Jeans, \hyperpage{107}, \hyperpage{117}
-  \item luminosit\IeC {\'e}, \hyperpage{38}
+    \subitem convergence, \hyperpage{113}
+    \subitem potentiel, \hyperpage{112}
+  \item lentilles gravitationnelles, \hyperpage{99}
+    \subitem angle de d\IeC {\'e}flection, \hyperpage{112}
+    \subitem caustiques, \hyperpage{113}
+    \subitem cisaillement, \hyperpage{113}
+    \subitem densit\IeC {\'e} critique, \hyperpage{113}
+    \subitem grossissement, \hyperpage{113}
+    \subitem lignes critiques, \hyperpage{113}
+  \item LHC, \hyperpage{72}
+  \item libre parcours moyen, \hyperpage{110}
+  \item ligne de vis\IeC {\'e}e, \hyperpage{39}
+  \item lin\IeC {\'e}aire, \hyperpage{25}
+  \item lithium, \hyperpage{83}
+  \item longueur d'onde, \hyperpage{13}, \hyperpage{45}
+  \item longueur de Jeans, \hyperpage{120}
+  \item luminosit\IeC {\'e}, \hyperpage{42}
 
   \indexspace
 
-  \item m\IeC {\'e}trique, \hyperpage{35}
-    \subitem FRW, \hyperpage{39, 40}, \hyperpage{43}
-  \item m\IeC {\'e}trique 
-    \subitem  FRW, \hyperpage{35}
-  \item masse 
-    \subitem  inertielle, \hyperpage{32}
-    \subitem grave, \hyperpage{32}
-  \item masse de Jeans, \hyperpage{106}, \hyperpage{117}
+  \item m\IeC {\'e}trique, \hyperpage{38}
+  \item masse de Jeans, \hyperpage{118}
+  \item masse dynamique, \hyperpage{105}
+  \item masse grave, \hyperpage{34}
+  \item masse inertielle, \hyperpage{34}
   \item mati\IeC {\`e}re
-    \subitem non relativiste, \hyperpage{50}
-    \subitem relativiste, \hyperpage{50}
-  \item mati\IeC {\`e}re noire, \hyperpage{15}, \hyperpage{90}, 
-		\hyperpage{93, 94}, \hyperpage{100, 101}, 
-		\hyperpage{104}, \hyperpage{126}, \hyperpage{138}, 
-		\hyperpage{141}
-    \subitem chaude, \hyperpage{105}
-    \subitem froide, \hyperpage{47}, \hyperpage{105}
-    \subitem halo, \hyperpage{96}, \hyperpage{108}, \hyperpage{111}
-    \subitem sous-structures, \hyperpage{111}
-  \item mati\IeC {\`e}re relativiste, \hyperpage{48}
-  \item Maxwell-Boltzmann, \hyperpage{69}, \hyperpage{73}
-  \item micro-canonique, \hyperpage{153}
-  \item mod\IeC {\`e}le
-    \subitem Einstein- de Sitter, \hyperpage{26}
-  \item modes instables, \hyperpage{123}
-  \item muons, \hyperpage{71}
+    \subitem non relativiste, \hyperpage{56}
+    \subitem relativiste, \hyperpage{56}
+  \item mati\IeC {\`e}re noire, \hyperpage{15}, \hyperpage{17}, 
+		\hyperpage{98}, \hyperpage{103}, \hyperpage{105}, 
+		\hyperpage{111, 112}, \hyperpage{116}
+    \subitem chaude, \hyperpage{118}
+    \subitem froide, \hyperpage{53}, \hyperpage{117}
+    \subitem halo, \hyperpage{107}, \hyperpage{124}
+    \subitem sous-structures, \hyperpage{124}
+  \item mati\IeC {\`e}re noire chaude, \hyperpage{120}
+  \item mati\IeC {\`e}re noire froide, \hyperpage{120}
+  \item mati\IeC {\`e}re relativiste, \hyperpage{54}
+  \item Maxwell-Boltzmann, \hyperpage{82}
+    \subitem statistique, \hyperpage{73}
+  \item milieu intergalactique, \hyperpage{19}
+  \item mod\IeC {\`e}le standard, \hyperpage{8}, \hyperpage{13}, 
+		\hyperpage{16}, \hyperpage{20}
+    \subitem $\Lambda $CDM, \hyperpage{63}
+  \item muons, \hyperpage{80}
 
   \indexspace
 
-  \item N-Corps
-    \subitem arbre, \hyperpage{139}
-    \subitem direct, \hyperpage{139}
-  \item neutralit\IeC {\'e} \IeC {\'e}lectrique, \hyperpage{29}, 
+  \item neutralit\IeC {\'e} \IeC {\'e}lectrique, \hyperpage{31}, 
+		\hyperpage{88}
+  \item neutrino, \hyperpage{21}, \hyperpage{51}, \hyperpage{81}, 
+		\hyperpage{118}, \hyperpage{120}
+  \item neutrinos, \hyperpage{55}, \hyperpage{74}, \hyperpage{79, 80}
+    \subitem nombre, \hyperpage{86}
+  \item neutron, \hyperpage{82}
+  \item niveau d'occupation d'un \IeC {\'e}tat, \hyperpage{68}
+  \item nombre d'\IeC {\'e}tats, \hyperpage{68}
+  \item nombre d'onde, \hyperpage{67}
+  \item notation d'Einstein, \hyperpage{38}
+  \item noyau actif de galaxie, \hyperpage{124}
+  \item nucl\IeC {\'e}osynth\IeC {\`e}se, \hyperpage{21}, 
 		\hyperpage{80}
-  \item neutrino, \hyperpage{105}
-  \item neutrinos, \hyperpage{20}, \hyperpage{49}, \hyperpage{70--72}
-    \subitem nombre, \hyperpage{77}
-  \item neutron, \hyperpage{73}
-  \item niveau d'occupation d'un \IeC {\'e}tat, \hyperpage{63}
-  \item nombre d'onde, \hyperpage{63}
-  \item non-gaussianit\IeC {\'e}, \hyperpage{117}
-  \item notation d'Einstein, \hyperpage{35}
-  \item nucl\IeC {\'e}osynth\IeC {\`e}se, \hyperpage{71}
 
   \indexspace
 
-  \item ondes gravitationnelles, \hyperpage{15}, \hyperpage{19}
-    \subitem inflation, \hyperpage{171}
-  \item opacit\IeC {\'e}, \hyperpage{177}
-    \subitem fond diffus, \hyperpage{181}
+  \item onde gravitationnelle, \hyperpage{21}
+  \item ondes gravitationnelles, \hyperpage{15}
+  \item ondes sonores, \hyperpage{116}
+  \item oscillation baryonique accoustique, \hyperpage{97}, 
+		\hyperpage{116}
+  \item oscillation baryonique acoustique, \hyperpage{18}
 
   \indexspace
 
+  \item p\IeC {\'e}riode
+    \subitem rayonnement electromagn\IeC {\'e}tique, \hyperpage{13}
   \item param\IeC {\`e}tre
-    \subitem densit\IeC {\'e}, \hyperpage{52}
-  \item param\IeC {\`e}tre 
-    \subitem  densit\IeC {\'e}, \hyperpage{15}
-  \item particule libre, \hyperpage{63}, \hyperpage{68}
-  \item particules reliques, \hyperpage{70}, \hyperpage{167}
-  \item photon, \hyperpage{36}, \hyperpage{39}, \hyperpage{61}, 
-		\hyperpage{65}
-    \subitem densit\IeC {\'e}, \hyperpage{66}
-  \item photons, \hyperpage{15}, \hyperpage{159}, \hyperpage{175}
-    \subitem distribution, \hyperpage{177}
-    \subitem Lyman-$\alpha$, \hyperpage{183}
-  \item pions, \hyperpage{71}
+    \subitem densit\IeC {\'e}, \hyperpage{58}
+  \item param\IeC {\`e}tre cosmologique, \hyperpage{14}
+  \item param\IeC {\`e}tre d'impact, \hyperpage{110}
+  \item param\IeC {\`e}tre de densit\IeC {\'e}, \hyperpage{15}, 
+		\hyperpage{27}
+  \item particule
+    \subitem non-relativiste, \hyperpage{73}
+    \subitem ultra-relativiste, \hyperpage{72, 73}
+  \item particule libre, \hyperpage{67}, \hyperpage{72}
+  \item particule relique, \hyperpage{65}
+  \item particules reliques, \hyperpage{75}
+  \item photon, \hyperpage{14}, \hyperpage{16, 17}, \hyperpage{39}, 
+		\hyperpage{43}, \hyperpage{69}
+    \subitem densit\IeC {\'e}, \hyperpage{70}
+    \subitem diffusion, \hyperpage{17}
+    \subitem UV, \hyperpage{65}
+  \item pions, \hyperpage{79}
   \item Planck
-    \subitem distribution, \hyperpage{66}
-    \subitem satellite, \hyperpage{75}, \hyperpage{104}, 
-		\hyperpage{181}
-  \item potentiel
-    \subitem gravitationnel, \hyperpage{40}
-  \item potentiel chimique, \hyperpage{65}, \hyperpage{80}
-  \item potentiel gravitationnel, \hyperpage{98}, \hyperpage{139}
-  \item pression, \hyperpage{41}, \hyperpage{47}, \hyperpage{49}, 
-		\hyperpage{51}, \hyperpage{122}, \hyperpage{141}
-    \subitem de rayonnement, \hyperpage{104}
-    \subitem rayonnement, \hyperpage{178}
-  \item principe cosmologique, \hyperpage{29}, \hyperpage{35}, 
-		\hyperpage{38}, \hyperpage{135}, \hyperpage{163}
-  \item principe d'\IeC {\'e}quivalence, \hyperpage{31, 32}
-  \item principe d'exclusion, \hyperpage{65}
-  \item probl\IeC {\`e}me de Riemann, \hyperpage{142}
-  \item proton, \hyperpage{73}
+    \subitem distribution, \hyperpage{70, 71}
+    \subitem satellite, \hyperpage{86}, \hyperpage{116}
+  \item potentiel chimique, \hyperpage{69}, \hyperpage{88}
+  \item potentiel gravitationnel, \hyperpage{45}, \hyperpage{109}, 
+		\hyperpage{119}
+  \item pression, \hyperpage{46}, \hyperpage{53}, \hyperpage{55}, 
+		\hyperpage{57}
+    \subitem de rayonnement, \hyperpage{116}
+  \item principe cosmologique, \hyperpage{31, 32}, \hyperpage{39}, 
+		\hyperpage{43}
+  \item principe d'\IeC {\'e}quivalence, \hyperpage{33, 34}
+  \item principe d'exclusion, \hyperpage{69}
+  \item principe fondamental de la dynamique, \hyperpage{27}, 
+		\hyperpage{106}
+  \item proton, \hyperpage{82}
 
   \indexspace
 
-  \item quantification, \hyperpage{34}
-  \item quarks, \hyperpage{20}, \hyperpage{71}, \hyperpage{73}
-  \item quasars, \hyperpage{18}, \hyperpage{145}
+  \item quantification, \hyperpage{38}
+  \item quark, \hyperpage{21}
+  \item quarks, \hyperpage{79}, \hyperpage{82}
+  \item quasar, \hyperpage{19}, \hyperpage{99}
 
   \indexspace
 
-  \item r\IeC {\'e}f\IeC {\'e}rentiel, \hyperpage{33}
-  \item r\IeC {\'e}f\IeC {\'e}rentiel 
-    \subitem  inertiel, \hyperpage{33}
-  \item r\IeC {\'e}gions HII, \hyperpage{173, 174}
-  \item r\IeC {\'e}ionisation, \hyperpage{18}, \hyperpage{90}, 
-		\hyperpage{146}, \hyperpage{178}
-    \subitem fond diffus, \hyperpage{181}
-  \item r\IeC {\'e}ionisatoin, \hyperpage{173}
-  \item radioactivit\IeC {\'e}, \hyperpage{74}
-  \item raie d'absorption, \hyperpage{179}
-  \item recombinaison, \hyperpage{17}, \hyperpage{71}, 
-		\hyperpage{79, 80}, \hyperpage{82}, \hyperpage{104}, 
-		\hyperpage{145}, \hyperpage{174}
-  \item redshift, \hyperpage{13}, \hyperpage{38}, \hyperpage{40}
-  \item relativit\IeC {\'e} g\IeC {\'e}n\IeC {\'e}rale, \hyperpage{28}, 
-		\hyperpage{31}
-  \item rougissement, \hyperpage{179}
+  \item r\IeC {\'e}f\IeC {\'e}rentiel, \hyperpage{35}
+  \item r\IeC {\'e}f\IeC {\'e}rentiel inertiel, \hyperpage{35}
+  \item R\IeC {\'e}ionisation, \hyperpage{16}, \hyperpage{19}
+  \item r\IeC {\'e}ionisation, \hyperpage{99}
+  \item radioactivit\IeC {\'e}, \hyperpage{83}
+  \item rapport baryon/photon, \hyperpage{70}
+  \item Recombinaison, \hyperpage{17, 18}, \hyperpage{21}, 
+		\hyperpage{116}
+  \item recombinaison, \hyperpage{80}, \hyperpage{87, 88}, 
+		\hyperpage{90}
+  \item redshift, \hyperpage{13}, \hyperpage{42}, \hyperpage{45}, 
+		\hyperpage{55}
+  \item relativit\IeC {\'e} g\IeC {\'e}n\IeC {\'e}rale, \hyperpage{14}, 
+		\hyperpage{30}, \hyperpage{33}, \hyperpage{37}
 
   \indexspace
 
-  \item sch\IeC {\'e}ma d'Euler, \hyperpage{138}
-  \item sch\IeC {\'e}ma explicite, \hyperpage{143}
-  \item sch\IeC {\'e}ma implicite, \hyperpage{143}
-  \item second principe, \hyperpage{153}
-  \item signal \IeC {\`a} 21 cm, \hyperpage{182}
-  \item signal \IeC {\`a} 21cm
-    \subitem r\IeC {\'e}ionisation, \hyperpage{183}
-    \subitem SKA, \hyperpage{184}
-  \item simulations num\IeC {\'e}rique
-    \subitem r\IeC {\'e}solution, \hyperpage{146}
-  \item simulations num\IeC {\'e}riques, \hyperpage{135}
-    \subitem discr\IeC {\'e}tisation, \hyperpage{137}
-    \subitem grille, \hyperpage{137}, \hyperpage{139}
-    \subitem particules, \hyperpage{137}
-  \item SKA, \hyperpage{184}
-  \item spectre 
+  \item simulations cosmologiques, \hyperpage{9}
+  \item spectre, \hyperpage{13}
+  \item spectre de puissance, \hyperpage{15}, \hyperpage{17}, 
+		\hyperpage{19}, \hyperpage{116}, \hyperpage{122}
     \subitem  amplitude, \hyperpage{15}
-    \subitem  inflation, \hyperpage{15}
-    \subitem  puissance, \hyperpage{15}, \hyperpage{18}
-  \item spectre de Puissance, \hyperpage{130}
-  \item spectre de puissance, \hyperpage{116}
-  \item spectre primordial, \hyperpage{171}
-  \item SPH, \hyperpage{143}
-  \item sph\IeC {\`e}re de Str\IeC {\"o}mgren, \hyperpage{175, 176}
-  \item statistique d'un gaz, \hyperpage{63}
-  \item supernovae, \hyperpage{17}, \hyperpage{40}, \hyperpage{97}, 
-		\hyperpage{111}, \hyperpage{141}, \hyperpage{149}
-  \item supraluminique, \hyperpage{39}
-  \item syst\IeC {\`e}me auto-gravitant, \hyperpage{24}
-  \item syst\IeC {\`e}me non collisionnel, \hyperpage{97}
-  \item syst\IeC {\`e}me non-collisionnel, \hyperpage{98}
+  \item stabilit\IeC {\'e}, \hyperpage{119}
+  \item statistique d'un gaz, \hyperpage{67}
+  \item supernovae, \hyperpage{17}, \hyperpage{44}, \hyperpage{108}, 
+		\hyperpage{122}
+  \item supraluminique, \hyperpage{43}
+  \item surface de derni\IeC {\`e}re diffusion, \hyperpage{89}
+  \item syst\IeC {\`e}me auto-gravitant, \hyperpage{26}
+  \item syst\IeC {\`e}me non collisionnel, \hyperpage{109}
+  \item syst\IeC {\`e}me non-collisionnel, \hyperpage{109}
 
   \indexspace
 
-  \item taux de formation d'\IeC {\'e}toiles, \hyperpage{148}
-  \item taux de r\IeC {\'e}action, \hyperpage{61}
-  \item temp\IeC {\'e}rature, \hyperpage{19}, \hyperpage{69}, 
-		\hyperpage{71}, \hyperpage{145}
-    \subitem entropie, \hyperpage{155}
-    \subitem fluctuations, \hyperpage{84}
-    \subitem gaz de photons, \hyperpage{66}, \hyperpage{84}
-    \subitem neutrinos, \hyperpage{72}
-    \subitem photon, \hyperpage{67}
-    \subitem rayonnement, \hyperpage{69}
+  \item taux de r\IeC {\'e}action, \hyperpage{65}
+  \item temp\IeC {\'e}rature, \hyperpage{14}, \hyperpage{20}, 
+		\hyperpage{69}, \hyperpage{73}, \hyperpage{79}
+    \subitem fluctuations, \hyperpage{92}
+    \subitem gaz de photons, \hyperpage{70}, \hyperpage{92}
+    \subitem neutrino, \hyperpage{81}
+    \subitem photon, \hyperpage{71}
+    \subitem rayonnement, \hyperpage{74}
   \item temps
-    \subitem de collision, \hyperpage{99}
-    \subitem de croisement, \hyperpage{99}
-    \subitem de relaxation, \hyperpage{99}
-    \subitem dynamique, \hyperpage{118}, \hyperpage{148}
-    \subitem entropie, \hyperpage{157}
-    \subitem recombinaison, \hyperpage{176}
-  \item th\IeC {\'e}or\IeC {\`e}me de Birkhoff, \hyperpage{27}
-  \item Th\IeC {\'e}or\IeC {\`e}me du Viriel, \hyperpage{96}
-  \item tomographie, \hyperpage{180}
-  \item transfert radiatif, \hyperpage{177}
-    \subitem lancer de rayons, \hyperpage{177}
-    \subitem moments, \hyperpage{178}
-  \item transform\IeC {\'e}e de Fourier, \hyperpage{85}, \hyperpage{98}, 
-		\hyperpage{115}, \hyperpage{140}
-  \item transition hyperfine, \hyperpage{182}
-  \item travail, \hyperpage{47}
-  \item triple-$\alpha$, \hyperpage{75}
-  \item trou noir, \hyperpage{111}
-  \item trous noirs, \hyperpage{173}
+    \subitem de collision, \hyperpage{110}
+    \subitem de croisement, \hyperpage{110}
+    \subitem de relaxation, \hyperpage{111}
+  \item temps de Planck, \hyperpage{20}
+  \item tenseur d'Einstein, \hyperpage{47}
+  \item tenseur d'inertie, \hyperpage{106}
+  \item tenseur de Ricci, \hyperpage{47}
+  \item th\IeC {\'e}or\IeC {\`e}me de Birkhoff, \hyperpage{29}
+  \item th\IeC {\'e}or\IeC {\`e}me du viriel, \hyperpage{105, 106}
+  \item transform\IeC {\'e}e de Fourier, \hyperpage{93}, 
+		\hyperpage{109}
+  \item travail, \hyperpage{53}
+  \item triple-$\alpha$, \hyperpage{84}
+  \item trou noir, \hyperpage{124}
 
   \indexspace
 
+  \item Univers Lumi\IeC {\`e}re, \hyperpage{62}
+  \item Univers Poussi\IeC {\`e}re, \hyperpage{61}
+
+  \indexspace
+
+  \item vecteur d'onde, \hyperpage{67}
   \item vitesse
-    \subitem dispersion, \hyperpage{95}, \hyperpage{105}
-    \subitem distribution, \hyperpage{155}
-    \subitem du son, \hyperpage{118}
-    \subitem front d'ionisation, \hyperpage{175}
-    \subitem rotation, \hyperpage{93}
-  \item vitesse 
-    \subitem  fuite, \hyperpage{23}
-  \item volumes finis, \hyperpage{142}
+    \subitem dispersion, \hyperpage{105}, \hyperpage{117}
+    \subitem fuite, \hyperpage{25}
+    \subitem r\IeC {\'e}cession, \hyperpage{25}
+    \subitem rotation, \hyperpage{103}
+  \item Voie Lact\IeC {\'e}e, \hyperpage{104}, \hyperpage{107}, 
+		\hyperpage{124}
 
 \end{theindex}
