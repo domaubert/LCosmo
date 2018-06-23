@@ -5,7 +5,7 @@
 \indexentry{formation des galaxies|hyperpage}{9}
 \indexentry{simulations cosmologiques|hyperpage}{9}
 \indexentry{Inflation|hyperpage}{9}
-\indexentry{entropie|hyperpage}{10}
+\indexentry{entropie|hyperpage}{9}
 \indexentry{mod\IeC {\`e}le standard|hyperpage}{13}
 \indexentry{spectre|hyperpage}{13}
 \indexentry{redshift|hyperpage}{13}
@@ -111,23 +111,23 @@
 \indexentry{energie@\IeC {\'e}nergie!potentielle|hyperpage}{26}
 \indexentry{energie@\IeC {\'e}nergie!m\IeC {\'e}canique|hyperpage}{26}
 \indexentry{syst\IeC {\`e}me auto-gravitant|hyperpage}{26}
-\indexentry{densit\IeC {\'e} critique|hyperpage}{26}
+\indexentry{densit\IeC {\'e} critique|hyperpage}{27}
 \indexentry{param\IeC {\`e}tre de densit\IeC {\'e}|hyperpage}{27}
 \indexentry{facteur d'\IeC {\'e}chelle|hyperpage}{27}
 \indexentry{principe fondamental de la dynamique|hyperpage}{27}
-\indexentry{densit\IeC {\'e} critique|hyperpage}{27}
+\indexentry{densit\IeC {\'e} critique|hyperpage}{28}
 \indexentry{Hubble!fonction|hyperpage}{28}
 \indexentry{courbure|hyperpage}{28}
 \indexentry{equation@\IeC {\'e}quation de Friedmann|hyperpage}{28}
 \indexentry{Einstein- de Sitter|hyperpage}{28}
-\indexentry{age de l'Univers@\IeC {\^a}ge de l'Univers|hyperpage}{28}
+\indexentry{age de l'Univers@\IeC {\^a}ge de l'Univers|hyperpage}{29}
 \indexentry{Hubble!temps|hyperpage}{29}
 \indexentry{Hubble!temps|hyperpage}{29}
 \indexentry{amas globulaire|hyperpage}{29}
 \indexentry{th\IeC {\'e}or\IeC {\`e}me de Birkhoff|hyperpage}{29}
 \indexentry{espace-temps!plat|hyperpage}{29}
 \indexentry{energie@\IeC {\'e}nergie!potentielle|hyperpage}{29}
-\indexentry{horizon|hyperpage}{29}
+\indexentry{horizon|hyperpage}{30}
 \indexentry{relativit\IeC {\'e} g\IeC {\'e}n\IeC {\'e}rale|hyperpage}{30}
 \indexentry{corps noir|hyperpage}{30}
 \indexentry{corps noir!pression|hyperpage}{30}
@@ -274,567 +274,567 @@
 \indexentry{Big-Bang|hyperpage}{63}
 \indexentry{acc\IeC {\'e}l\IeC {\'e}ration!expansion|hyperpage}{64}
 \indexentry{fond diffus cosmologique|hyperpage}{64}
-\indexentry{particule relique|hyperpage}{65}
-\indexentry{element l\IeC {\'e}gers@\IeC {\'e}l\IeC {\'e}ment l\IeC {\'e}gers|hyperpage}{65}
-\indexentry{abondance|hyperpage}{65}
-\indexentry{abondance \IeC {\`a} l'\IeC {\'e}quilibre|hyperpage}{65}
-\indexentry{gel des r\IeC {\'e}actions|hyperpage}{65}
-\indexentry{atome|hyperpage}{65}
-\indexentry{ionisation|hyperpage}{65}
-\indexentry{hydrog\IeC {\`e}ne|hyperpage}{65}
-\indexentry{photon!UV|hyperpage}{65}
-\indexentry{taux de r\IeC {\'e}action|hyperpage}{65}
-\indexentry{\IeC {\'e}quilibre|hyperpage}{66}
-\indexentry{expansion|hyperpage}{66}
-\indexentry{Hubble!fonction|hyperpage}{66}
-\indexentry{Hubble!temps|hyperpage}{66}
+\indexentry{particule relique|hyperpage}{67}
+\indexentry{element l\IeC {\'e}gers@\IeC {\'e}l\IeC {\'e}ment l\IeC {\'e}gers|hyperpage}{67}
+\indexentry{abondance|hyperpage}{67}
+\indexentry{abondance \IeC {\`a} l'\IeC {\'e}quilibre|hyperpage}{67}
 \indexentry{gel des r\IeC {\'e}actions|hyperpage}{67}
-\indexentry{statistique d'un gaz|hyperpage}{67}
-\indexentry{particule libre|hyperpage}{67}
-\indexentry{vecteur d'onde|hyperpage}{67}
-\indexentry{nombre d'onde|hyperpage}{67}
-\indexentry{nombre d'\IeC {\'e}tats|hyperpage}{68}
-\indexentry{densit\IeC {\'e} d'\IeC {\'e}tats|hyperpage}{68}
-\indexentry{niveau d'occupation d'un \IeC {\'e}tat|hyperpage}{68}
-\indexentry{fermion|hyperpage}{68}
-\indexentry{boson|hyperpage}{68}
-\indexentry{Fermi-Dirac|hyperpage}{69}
-\indexentry{Bose-Einstein|hyperpage}{69}
-\indexentry{Fermi-Dirac!statistique|hyperpage}{69}
-\indexentry{Bose-Einstein!statistique|hyperpage}{69}
-\indexentry{temp\IeC {\'e}rature|hyperpage}{69}
-\indexentry{potentiel chimique|hyperpage}{69}
-\indexentry{d\IeC {\'e}g\IeC {\'e}nerescence|hyperpage}{69}
-\indexentry{principe d'exclusion|hyperpage}{69}
-\indexentry{photon|hyperpage}{69}
-\indexentry{antiparticule|hyperpage}{70}
-\indexentry{Bose-Einstein!statistique|hyperpage}{70}
-\indexentry{Planck!distribution|hyperpage}{70}
-\indexentry{corps noir|hyperpage}{70}
-\indexentry{temp\IeC {\'e}rature!gaz de photons|hyperpage}{70}
-\indexentry{hydrog\IeC {\`e}ne!densit\IeC {\'e}|hyperpage}{70}
-\indexentry{rapport baryon/photon|hyperpage}{70}
-\indexentry{photon!densit\IeC {\'e}|hyperpage}{70}
-\indexentry{temp\IeC {\'e}rature!photon|hyperpage}{71}
-\indexentry{Planck!distribution|hyperpage}{71}
-\indexentry{fond diffus cosmologique|hyperpage}{71}
-\indexentry{corps noir|hyperpage}{71}
-\indexentry{\IeC {\'e}quilibre!thermodynamique|hyperpage}{72}
-\indexentry{LHC|hyperpage}{72}
-\indexentry{electron@\IeC {\'e}lectron|hyperpage}{72}
-\indexentry{abondance|hyperpage}{72}
-\indexentry{particule libre|hyperpage}{72}
-\indexentry{particule!ultra-relativiste|hyperpage}{72}
-\indexentry{energie@\IeC {\'e}nergie!masse|hyperpage}{72}
-\indexentry{energie@\IeC {\'e}nergie!cin\IeC {\'e}tique|hyperpage}{72}
-\indexentry{particule!non-relativiste|hyperpage}{73}
-\indexentry{particule!ultra-relativiste|hyperpage}{73}
-\indexentry{boson|hyperpage}{73}
-\indexentry{fermion|hyperpage}{73}
-\indexentry{particule!non-relativiste|hyperpage}{73}
-\indexentry{Maxwell-Boltzmann!statistique|hyperpage}{73}
-\indexentry{temp\IeC {\'e}rature|hyperpage}{73}
+\indexentry{atome|hyperpage}{67}
+\indexentry{ionisation|hyperpage}{67}
+\indexentry{hydrog\IeC {\`e}ne|hyperpage}{67}
+\indexentry{photon!UV|hyperpage}{67}
+\indexentry{taux de r\IeC {\'e}action|hyperpage}{67}
+\indexentry{\IeC {\'e}quilibre|hyperpage}{68}
+\indexentry{expansion|hyperpage}{68}
+\indexentry{Hubble!fonction|hyperpage}{68}
+\indexentry{Hubble!temps|hyperpage}{68}
+\indexentry{gel des r\IeC {\'e}actions|hyperpage}{69}
+\indexentry{statistique d'un gaz|hyperpage}{69}
+\indexentry{particule libre|hyperpage}{69}
+\indexentry{vecteur d'onde|hyperpage}{69}
+\indexentry{nombre d'onde|hyperpage}{69}
+\indexentry{nombre d'\IeC {\'e}tats|hyperpage}{70}
+\indexentry{densit\IeC {\'e} d'\IeC {\'e}tats|hyperpage}{70}
+\indexentry{niveau d'occupation d'un \IeC {\'e}tat|hyperpage}{70}
+\indexentry{fermion|hyperpage}{70}
+\indexentry{boson|hyperpage}{70}
+\indexentry{Fermi-Dirac|hyperpage}{71}
+\indexentry{Bose-Einstein|hyperpage}{71}
+\indexentry{Fermi-Dirac!statistique|hyperpage}{71}
+\indexentry{Bose-Einstein!statistique|hyperpage}{71}
+\indexentry{temp\IeC {\'e}rature|hyperpage}{71}
+\indexentry{potentiel chimique|hyperpage}{71}
+\indexentry{d\IeC {\'e}g\IeC {\'e}nerescence|hyperpage}{71}
+\indexentry{principe d'exclusion|hyperpage}{71}
+\indexentry{photon|hyperpage}{71}
+\indexentry{antiparticule|hyperpage}{72}
+\indexentry{Bose-Einstein!statistique|hyperpage}{72}
+\indexentry{Planck!distribution|hyperpage}{72}
+\indexentry{corps noir|hyperpage}{72}
+\indexentry{temp\IeC {\'e}rature!gaz de photons|hyperpage}{72}
+\indexentry{hydrog\IeC {\`e}ne!densit\IeC {\'e}|hyperpage}{72}
+\indexentry{rapport baryon/photon|hyperpage}{72}
+\indexentry{photon!densit\IeC {\'e}|hyperpage}{72}
+\indexentry{temp\IeC {\'e}rature!photon|hyperpage}{73}
+\indexentry{Planck!distribution|hyperpage}{73}
+\indexentry{fond diffus cosmologique|hyperpage}{73}
+\indexentry{corps noir|hyperpage}{73}
+\indexentry{\IeC {\'e}quilibre!thermodynamique|hyperpage}{74}
+\indexentry{LHC|hyperpage}{74}
+\indexentry{electron@\IeC {\'e}lectron|hyperpage}{74}
+\indexentry{abondance|hyperpage}{74}
+\indexentry{particule libre|hyperpage}{74}
+\indexentry{particule!ultra-relativiste|hyperpage}{74}
 \indexentry{energie@\IeC {\'e}nergie!masse|hyperpage}{74}
-\indexentry{temp\IeC {\'e}rature!rayonnement|hyperpage}{74}
-\indexentry{abondance!\IeC {\`a} l'\IeC {\'e}quilibre|hyperpage}{74}
-\indexentry{gel des r\IeC {\'e}actions|hyperpage}{74}
-\indexentry{neutrinos|hyperpage}{74}
-\indexentry{particules reliques|hyperpage}{75}
-\indexentry{asym\IeC {\'e}trie mati\IeC {\`e}re-antimati\IeC {\`e}re|hyperpage}{75}
-\indexentry{antimati\IeC {\`e}re|hyperpage}{75}
-\indexentry{annihilation|hyperpage}{75}
-\indexentry{Baryog\IeC {\'e}n\IeC {\`e}se|hyperpage}{76}
-\indexentry{conditions de Sakharov|hyperpage}{76}
-\indexentry{gel des r\IeC {\'e}actions|hyperpage}{79}
-\indexentry{temp\IeC {\'e}rature|hyperpage}{79}
-\indexentry{quarks|hyperpage}{79}
-\indexentry{neutrinos|hyperpage}{79}
-\indexentry{pions|hyperpage}{79}
-\indexentry{muons|hyperpage}{80}
-\indexentry{electrons@\IeC {\'e}lectrons|hyperpage}{80}
-\indexentry{nucl\IeC {\'e}osynth\IeC {\`e}se|hyperpage}{80}
-\indexentry{recombinaison|hyperpage}{80}
-\indexentry{fond diffus|hyperpage}{80}
-\indexentry{neutrinos|hyperpage}{80}
-\indexentry{entropie|hyperpage}{81}
-\indexentry{neutrino|hyperpage}{81}
-\indexentry{temp\IeC {\'e}rature!neutrino|hyperpage}{81}
-\indexentry{fond diffus cosmologique!de neutrinos|hyperpage}{81}
-\indexentry{h\IeC {\'e}lium|hyperpage}{81}
-\indexentry{Maxwell-Boltzmann|hyperpage}{82}
-\indexentry{proton|hyperpage}{82}
-\indexentry{quarks|hyperpage}{82}
-\indexentry{neutron|hyperpage}{82}
-\indexentry{Deut\IeC {\'e}rium|hyperpage}{82}
-\indexentry{equation@\IeC {\'e}quation de Saha|hyperpage}{82}
-\indexentry{energie@\IeC {\'e}nergie de liaison|hyperpage}{82}
-\indexentry{Deut\IeC {\'e}rium!bottleneck|hyperpage}{83}
-\indexentry{radioactivit\IeC {\'e}|hyperpage}{83}
-\indexentry{h\IeC {\'e}lium!fraction de masse|hyperpage}{83}
-\indexentry{lithium|hyperpage}{83}
-\indexentry{b\IeC {\'e}ryllium|hyperpage}{84}
-\indexentry{triple-$\alpha$|hyperpage}{84}
-\indexentry{baryons|hyperpage}{85}
-\indexentry{Planck!satellite|hyperpage}{86}
-\indexentry{densit\IeC {\'e}! \IeC {\'e}nergie des esp\IeC {\`e}ces relativistes|hyperpage}{86}
-\indexentry{neutrinos!nombre|hyperpage}{86}
-\indexentry{fond diffus cosmologique|hyperpage}{87}
-\indexentry{corps noir|hyperpage}{87}
-\indexentry{recombinaison|hyperpage}{87}
-\indexentry{diffusion Thomson|hyperpage}{87}
-\indexentry{neutralit\IeC {\'e} \IeC {\'e}lectrique|hyperpage}{88}
-\indexentry{potentiel chimique|hyperpage}{88}
-\indexentry{fraction ionis\IeC {\'e}e|hyperpage}{88}
-\indexentry{fraction ionis\IeC {\'e}e|hyperpage}{88}
-\indexentry{deut\IeC {\'e}rium!bottleneck|hyperpage}{88}
-\indexentry{recombinaison|hyperpage}{88}
+\indexentry{energie@\IeC {\'e}nergie!cin\IeC {\'e}tique|hyperpage}{74}
+\indexentry{particule!non-relativiste|hyperpage}{75}
+\indexentry{particule!ultra-relativiste|hyperpage}{75}
+\indexentry{boson|hyperpage}{75}
+\indexentry{fermion|hyperpage}{75}
+\indexentry{particule!non-relativiste|hyperpage}{75}
+\indexentry{Maxwell-Boltzmann!statistique|hyperpage}{75}
+\indexentry{temp\IeC {\'e}rature|hyperpage}{75}
+\indexentry{energie@\IeC {\'e}nergie!masse|hyperpage}{76}
+\indexentry{temp\IeC {\'e}rature!rayonnement|hyperpage}{76}
+\indexentry{abondance!\IeC {\`a} l'\IeC {\'e}quilibre|hyperpage}{76}
+\indexentry{gel des r\IeC {\'e}actions|hyperpage}{76}
+\indexentry{neutrinos|hyperpage}{76}
+\indexentry{particules reliques|hyperpage}{77}
+\indexentry{asym\IeC {\'e}trie mati\IeC {\`e}re-antimati\IeC {\`e}re|hyperpage}{77}
+\indexentry{antimati\IeC {\`e}re|hyperpage}{77}
+\indexentry{annihilation|hyperpage}{77}
+\indexentry{Baryog\IeC {\'e}n\IeC {\`e}se|hyperpage}{78}
+\indexentry{conditions de Sakharov|hyperpage}{78}
+\indexentry{gel des r\IeC {\'e}actions|hyperpage}{81}
+\indexentry{temp\IeC {\'e}rature|hyperpage}{81}
+\indexentry{quarks|hyperpage}{81}
+\indexentry{neutrinos|hyperpage}{81}
+\indexentry{pions|hyperpage}{81}
+\indexentry{muons|hyperpage}{82}
+\indexentry{electrons@\IeC {\'e}lectrons|hyperpage}{82}
+\indexentry{nucl\IeC {\'e}osynth\IeC {\`e}se|hyperpage}{82}
+\indexentry{recombinaison|hyperpage}{82}
+\indexentry{fond diffus|hyperpage}{82}
+\indexentry{neutrinos|hyperpage}{82}
+\indexentry{entropie|hyperpage}{83}
+\indexentry{neutrino|hyperpage}{83}
+\indexentry{temp\IeC {\'e}rature!neutrino|hyperpage}{83}
+\indexentry{fond diffus cosmologique!de neutrinos|hyperpage}{83}
+\indexentry{h\IeC {\'e}lium|hyperpage}{83}
+\indexentry{Maxwell-Boltzmann|hyperpage}{84}
+\indexentry{proton|hyperpage}{84}
+\indexentry{quarks|hyperpage}{84}
+\indexentry{neutron|hyperpage}{84}
+\indexentry{Deut\IeC {\'e}rium|hyperpage}{84}
+\indexentry{equation@\IeC {\'e}quation de Saha|hyperpage}{84}
+\indexentry{energie@\IeC {\'e}nergie de liaison|hyperpage}{84}
+\indexentry{Deut\IeC {\'e}rium!bottleneck|hyperpage}{85}
+\indexentry{radioactivit\IeC {\'e}|hyperpage}{85}
+\indexentry{h\IeC {\'e}lium!fraction de masse|hyperpage}{85}
+\indexentry{lithium|hyperpage}{85}
+\indexentry{b\IeC {\'e}ryllium|hyperpage}{86}
+\indexentry{triple-$\alpha$|hyperpage}{86}
+\indexentry{baryons|hyperpage}{87}
+\indexentry{Planck!satellite|hyperpage}{88}
+\indexentry{densit\IeC {\'e}! \IeC {\'e}nergie des esp\IeC {\`e}ces relativistes|hyperpage}{88}
+\indexentry{neutrinos!nombre|hyperpage}{88}
+\indexentry{fond diffus cosmologique|hyperpage}{89}
+\indexentry{corps noir|hyperpage}{89}
+\indexentry{recombinaison|hyperpage}{89}
 \indexentry{diffusion Thomson|hyperpage}{89}
-\indexentry{gel des r\IeC {\'e}actions|hyperpage}{89}
-\indexentry{surface de derni\IeC {\`e}re diffusion|hyperpage}{89}
-\indexentry{surface de derni\IeC {\`e}re diffusion|hyperpage}{89}
-\indexentry{diffusion Thomson|hyperpage}{90}
+\indexentry{neutralit\IeC {\'e} \IeC {\'e}lectrique|hyperpage}{90}
+\indexentry{potentiel chimique|hyperpage}{90}
+\indexentry{fraction ionis\IeC {\'e}e|hyperpage}{90}
+\indexentry{fraction ionis\IeC {\'e}e|hyperpage}{90}
+\indexentry{deut\IeC {\'e}rium!bottleneck|hyperpage}{90}
 \indexentry{recombinaison|hyperpage}{90}
-\indexentry{derni\IeC {\`e}re diffusion!surface|hyperpage}{90}
-\indexentry{corps noir|hyperpage}{90}
-\indexentry{corps noir|hyperpage}{91}
-\indexentry{temp\IeC {\'e}rature!gaz de photons|hyperpage}{92}
-\indexentry{homog\IeC {\'e}n\IeC {\'e}it\IeC {\'e}|hyperpage}{92}
-\indexentry{fond diffus!anisotropies|hyperpage}{92}
-\indexentry{temp\IeC {\'e}rature!fluctuations|hyperpage}{92}
-\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{93}
-\indexentry{echelles@\IeC {\'e}chelles angulaires|hyperpage}{93}
-\indexentry{harmoniques sph\IeC {\'e}riques|hyperpage}{93}
-\indexentry{echelle@\IeC {\'e}chelle angulaire|hyperpage}{94}
-\indexentry{dip\IeC {\^o}le|hyperpage}{94}
-\indexentry{isotropie!du fond diffus|hyperpage}{95}
-\indexentry{champ al\IeC {\'e}atoire gaussien|hyperpage}{95}
-\indexentry{fond diffus!avant-plan|hyperpage}{95}
-\indexentry{dipole|hyperpage}{95}
-\indexentry{fluctuations adiabatiques|hyperpage}{95}
-\indexentry{effet Sachs-Wolf|hyperpage}{96}
-\indexentry{horizon|hyperpage}{97}
-\indexentry{inflation|hyperpage}{97}
-\indexentry{BAO|hyperpage}{97}
-\indexentry{oscillation baryonique accoustique|hyperpage}{97}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{98}
-\indexentry{amortissement Silk|hyperpage}{98}
-\indexentry{lentilles gravitationnelles|hyperpage}{99}
-\indexentry{r\IeC {\'e}ionisation|hyperpage}{99}
-\indexentry{quasar|hyperpage}{99}
-\indexentry{diffusion Thomson|hyperpage}{99}
-\indexentry{effet SZ|hyperpage}{99}
-\indexentry{lentille gravitationnelle|hyperpage}{100}
-\indexentry{$\Lambda$CDM|hyperpage}{103}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{103}
-\indexentry{grands relev\IeC {\'e}s|hyperpage}{103}
-\indexentry{courbe de rotation|hyperpage}{103}
-\indexentry{vitesse!rotation|hyperpage}{103}
-\indexentry{Voie Lact\IeC {\'e}e|hyperpage}{104}
-\indexentry{courbe de rotation|hyperpage}{104}
+\indexentry{diffusion Thomson|hyperpage}{91}
+\indexentry{gel des r\IeC {\'e}actions|hyperpage}{91}
+\indexentry{surface de derni\IeC {\`e}re diffusion|hyperpage}{91}
+\indexentry{surface de derni\IeC {\`e}re diffusion|hyperpage}{91}
+\indexentry{diffusion Thomson|hyperpage}{92}
+\indexentry{recombinaison|hyperpage}{92}
+\indexentry{derni\IeC {\`e}re diffusion!surface|hyperpage}{92}
+\indexentry{corps noir|hyperpage}{92}
+\indexentry{corps noir|hyperpage}{93}
+\indexentry{temp\IeC {\'e}rature!gaz de photons|hyperpage}{94}
+\indexentry{homog\IeC {\'e}n\IeC {\'e}it\IeC {\'e}|hyperpage}{94}
+\indexentry{fond diffus!anisotropies|hyperpage}{94}
+\indexentry{temp\IeC {\'e}rature!fluctuations|hyperpage}{94}
+\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{95}
+\indexentry{echelles@\IeC {\'e}chelles angulaires|hyperpage}{95}
+\indexentry{harmoniques sph\IeC {\'e}riques|hyperpage}{95}
+\indexentry{echelle@\IeC {\'e}chelle angulaire|hyperpage}{96}
+\indexentry{dip\IeC {\^o}le|hyperpage}{96}
+\indexentry{isotropie!du fond diffus|hyperpage}{96}
+\indexentry{champ al\IeC {\'e}atoire gaussien|hyperpage}{97}
+\indexentry{fond diffus!avant-plan|hyperpage}{97}
+\indexentry{dipole|hyperpage}{97}
+\indexentry{fluctuations adiabatiques|hyperpage}{97}
+\indexentry{effet Sachs-Wolf|hyperpage}{98}
+\indexentry{horizon|hyperpage}{99}
+\indexentry{inflation|hyperpage}{99}
+\indexentry{BAO|hyperpage}{99}
+\indexentry{oscillation baryonique accoustique|hyperpage}{99}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{100}
+\indexentry{amortissement Silk|hyperpage}{100}
+\indexentry{lentilles gravitationnelles|hyperpage}{101}
+\indexentry{r\IeC {\'e}ionisation|hyperpage}{101}
+\indexentry{quasar|hyperpage}{101}
+\indexentry{diffusion Thomson|hyperpage}{101}
+\indexentry{effet SZ|hyperpage}{101}
+\indexentry{lentille gravitationnelle|hyperpage}{102}
+\indexentry{$\Lambda$CDM|hyperpage}{105}
 \indexentry{mati\IeC {\`e}re noire|hyperpage}{105}
-\indexentry{masse dynamique|hyperpage}{105}
-\indexentry{amas de galaxies|hyperpage}{105}
-\indexentry{th\IeC {\'e}or\IeC {\`e}me du viriel|hyperpage}{105}
-\indexentry{amas de galaxies|hyperpage}{105}
-\indexentry{vitesse!dispersion|hyperpage}{105}
-\indexentry{principe fondamental de la dynamique|hyperpage}{106}
-\indexentry{energie@\IeC {\'e}nergie potentielle|hyperpage}{106}
-\indexentry{energie@\IeC {\'e}nergie cin\IeC {\'e}tique|hyperpage}{106}
-\indexentry{tenseur d'inertie|hyperpage}{106}
-\indexentry{th\IeC {\'e}or\IeC {\`e}me du viriel|hyperpage}{106}
-\indexentry{mati\IeC {\`e}re noire!halo|hyperpage}{107}
-\indexentry{Voie Lact\IeC {\'e}e|hyperpage}{107}
-\indexentry{fraction baryonique|hyperpage}{108}
-\indexentry{supernovae|hyperpage}{108}
-\indexentry{fond UV|hyperpage}{108}
-\indexentry{syst\IeC {\`e}me non collisionnel|hyperpage}{109}
-\indexentry{amas globulaire|hyperpage}{109}
-\indexentry{equation@\IeC {\'e}quation!Poisson|hyperpage}{109}
-\indexentry{potentiel gravitationnel|hyperpage}{109}
-\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{109}
-\indexentry{syst\IeC {\`e}me non-collisionnel|hyperpage}{109}
-\indexentry{libre parcours moyen|hyperpage}{110}
-\indexentry{temps!de collision|hyperpage}{110}
-\indexentry{temps!de croisement|hyperpage}{110}
-\indexentry{param\IeC {\`e}tre d'impact|hyperpage}{110}
-\indexentry{temps!de relaxation|hyperpage}{111}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{111}
-\indexentry{Bullet cluster|hyperpage}{111}
-\indexentry{choc|hyperpage}{112}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{112}
-\indexentry{lentille gravitationnelle|hyperpage}{112}
-\indexentry{lentille gravitationnelle|hyperpage}{112}
-\indexentry{equation@\IeC {\'e}quation!des lentilles|hyperpage}{112}
-\indexentry{lentilles gravitationnelles!angle de d\IeC {\'e}flection|hyperpage}{112}
-\indexentry{lentilles gravitationnelle!potentiel|hyperpage}{112}
-\indexentry{equation de Poisson@\IeC {\'e}quation de Poisson!lentille gravitationnelle|hyperpage}{113}
-\indexentry{lentilles gravitationnelle!convergence|hyperpage}{113}
-\indexentry{lentilles gravitationnelles!densit\IeC {\'e} critique|hyperpage}{113}
-\indexentry{lentilles gravitationnelles!grossissement|hyperpage}{113}
-\indexentry{lentilles gravitationnelles!cisaillement|hyperpage}{113}
-\indexentry{lentilles gravitationnelles!grossissement|hyperpage}{113}
-\indexentry{lentilles gravitationnelles!lignes critiques|hyperpage}{113}
-\indexentry{lentilles gravitationnelles!caustiques|hyperpage}{113}
-\indexentry{fond diffus cosmologique|hyperpage}{116}
-\indexentry{ondes sonores|hyperpage}{116}
-\indexentry{oscillation baryonique accoustique|hyperpage}{116}
-\indexentry{pression!de rayonnement|hyperpage}{116}
-\indexentry{Recombinaison|hyperpage}{116}
-\indexentry{amortissement Silk|hyperpage}{116}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{116}
-\indexentry{spectre de puissance|hyperpage}{116}
-\indexentry{Planck!satellite|hyperpage}{116}
-\indexentry{mati\IeC {\`e}re noire!froide|hyperpage}{117}
-\indexentry{vitesse!dispersion|hyperpage}{117}
-\indexentry{mati\IeC {\`e}re noire!chaude|hyperpage}{118}
-\indexentry{neutrino|hyperpage}{118}
-\indexentry{masse de Jeans|hyperpage}{118}
-\indexentry{equation@\IeC {\'e}quation!de Boltzmann|hyperpage}{118}
-\indexentry{fonction de distribution|hyperpage}{118}
-\indexentry{potentiel gravitationnel|hyperpage}{119}
-\indexentry{equation@\IeC {\'e}quation! de Boltzmann|hyperpage}{119}
-\indexentry{equation de Poisson@\IeC {\'e}quation de Poisson|hyperpage}{119}
-\indexentry{stabilit\IeC {\'e}|hyperpage}{119}
-\indexentry{instabilit\IeC {\'e}|hyperpage}{119}
-\indexentry{fonction de distribution!Maxwell|hyperpage}{119}
-\indexentry{longueur de Jeans|hyperpage}{120}
-\indexentry{mati\IeC {\`e}re noire froide|hyperpage}{120}
-\indexentry{mati\IeC {\`e}re noire chaude|hyperpage}{120}
+\indexentry{grands relev\IeC {\'e}s|hyperpage}{105}
+\indexentry{courbe de rotation|hyperpage}{105}
+\indexentry{vitesse!rotation|hyperpage}{105}
+\indexentry{Voie Lact\IeC {\'e}e|hyperpage}{106}
+\indexentry{courbe de rotation|hyperpage}{106}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{107}
+\indexentry{masse dynamique|hyperpage}{107}
+\indexentry{amas de galaxies|hyperpage}{107}
+\indexentry{th\IeC {\'e}or\IeC {\`e}me du viriel|hyperpage}{107}
+\indexentry{amas de galaxies|hyperpage}{107}
+\indexentry{vitesse!dispersion|hyperpage}{107}
+\indexentry{principe fondamental de la dynamique|hyperpage}{108}
+\indexentry{energie@\IeC {\'e}nergie potentielle|hyperpage}{108}
+\indexentry{energie@\IeC {\'e}nergie cin\IeC {\'e}tique|hyperpage}{108}
+\indexentry{tenseur d'inertie|hyperpage}{108}
+\indexentry{th\IeC {\'e}or\IeC {\`e}me du viriel|hyperpage}{108}
+\indexentry{mati\IeC {\`e}re noire!halo|hyperpage}{109}
+\indexentry{Voie Lact\IeC {\'e}e|hyperpage}{109}
+\indexentry{fraction baryonique|hyperpage}{110}
+\indexentry{supernovae|hyperpage}{110}
+\indexentry{fond UV|hyperpage}{110}
+\indexentry{syst\IeC {\`e}me non collisionnel|hyperpage}{111}
+\indexentry{amas globulaire|hyperpage}{111}
+\indexentry{equation@\IeC {\'e}quation!Poisson|hyperpage}{111}
+\indexentry{potentiel gravitationnel|hyperpage}{111}
+\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{111}
+\indexentry{syst\IeC {\`e}me non-collisionnel|hyperpage}{111}
+\indexentry{libre parcours moyen|hyperpage}{112}
+\indexentry{temps!de collision|hyperpage}{112}
+\indexentry{temps!de croisement|hyperpage}{112}
+\indexentry{param\IeC {\`e}tre d'impact|hyperpage}{112}
+\indexentry{temps!de relaxation|hyperpage}{113}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{113}
+\indexentry{Bullet cluster|hyperpage}{113}
+\indexentry{choc|hyperpage}{114}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{114}
+\indexentry{lentille gravitationnelle|hyperpage}{114}
+\indexentry{lentille gravitationnelle|hyperpage}{114}
+\indexentry{equation@\IeC {\'e}quation!des lentilles|hyperpage}{114}
+\indexentry{lentilles gravitationnelles!angle de d\IeC {\'e}flection|hyperpage}{114}
+\indexentry{lentilles gravitationnelle!potentiel|hyperpage}{114}
+\indexentry{equation de Poisson@\IeC {\'e}quation de Poisson!lentille gravitationnelle|hyperpage}{115}
+\indexentry{lentilles gravitationnelle!convergence|hyperpage}{115}
+\indexentry{lentilles gravitationnelles!densit\IeC {\'e} critique|hyperpage}{115}
+\indexentry{lentilles gravitationnelles!grossissement|hyperpage}{115}
+\indexentry{lentilles gravitationnelles!cisaillement|hyperpage}{115}
+\indexentry{lentilles gravitationnelles!grossissement|hyperpage}{115}
+\indexentry{lentilles gravitationnelles!lignes critiques|hyperpage}{115}
+\indexentry{lentilles gravitationnelles!caustiques|hyperpage}{115}
+\indexentry{fond diffus cosmologique|hyperpage}{118}
+\indexentry{ondes sonores|hyperpage}{118}
+\indexentry{oscillation baryonique accoustique|hyperpage}{118}
+\indexentry{pression!de rayonnement|hyperpage}{118}
+\indexentry{Recombinaison|hyperpage}{118}
+\indexentry{amortissement Silk|hyperpage}{118}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{118}
+\indexentry{spectre de puissance|hyperpage}{118}
+\indexentry{Planck!satellite|hyperpage}{118}
+\indexentry{mati\IeC {\`e}re noire!froide|hyperpage}{119}
+\indexentry{vitesse!dispersion|hyperpage}{119}
+\indexentry{mati\IeC {\`e}re noire!chaude|hyperpage}{120}
 \indexentry{neutrino|hyperpage}{120}
-\indexentry{halo de mati\IeC {\`e}re noire|hyperpage}{121}
-\indexentry{spectre de puissance|hyperpage}{122}
-\indexentry{fonction de masse des halos|hyperpage}{122}
-\indexentry{formation hi\IeC {\'e}rarchique|hyperpage}{122}
-\indexentry{amas de galaxies|hyperpage}{122}
-\indexentry{galaxies!fonction de luminosit\IeC {\'e}|hyperpage}{122}
-\indexentry{supernovae|hyperpage}{122}
-\indexentry{noyau actif de galaxie|hyperpage}{124}
-\indexentry{trou noir|hyperpage}{124}
-\indexentry{mati\IeC {\`e}re noire!sous-structures|hyperpage}{124}
-\indexentry{mati\IeC {\`e}re noire!halo|hyperpage}{124}
-\indexentry{Voie Lact\IeC {\'e}e|hyperpage}{124}
-\indexentry{galaxie d'Androm\IeC {\`e}de|hyperpage}{124}
-\indexentry{galaxies!satellites|hyperpage}{124}
-\indexentry{galaxie d'Androm\IeC {\`e}de|hyperpage}{124}
-\indexentry{gravitation modifi\IeC {\'e}e|hyperpage}{126}
-\indexentry{grandes structures de l'Univers|hyperpage}{127}
-\indexentry{instabilit\IeC {\'e} gravitationnelle|hyperpage}{127}
-\indexentry{simulation cosmologique|hyperpage}{127}
-\indexentry{contraste de densit\IeC {\'e}|hyperpage}{129}
-\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{129}
-\indexentry{spectre de puissance|hyperpage}{129}
-\indexentry{champs al\IeC {\'e}atoire gaussien|hyperpage}{129}
-\indexentry{densit\IeC {\'e} de probabilit\IeC {\'e}|hyperpage}{129}
-\indexentry{spectre de puissance|hyperpage}{130}
-\indexentry{non-gaussianit\IeC {\'e}|hyperpage}{130}
-\indexentry{fonction de corr\IeC {\'e}lation|hyperpage}{130}
-\indexentry{longueur de Jeans|hyperpage}{131}
-\indexentry{masse de Jeans|hyperpage}{131}
-\indexentry{temps!dynamique|hyperpage}{131}
-\indexentry{vitesse!du son|hyperpage}{131}
-\indexentry{equation@\IeC {\'e}quation!de Poisson|hyperpage}{132}
-\indexentry{conservation de la masse|hyperpage}{132}
-\indexentry{conservation de l'impulsion|hyperpage}{132}
-\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{133}
-\indexentry{oscillateur harmonique|hyperpage}{133}
-\indexentry{instabilit\IeC {\'e} gravitationnelle|hyperpage}{133}
-\indexentry{temps dynamique|hyperpage}{133}
+\indexentry{masse de Jeans|hyperpage}{120}
+\indexentry{equation@\IeC {\'e}quation!de Boltzmann|hyperpage}{120}
+\indexentry{fonction de distribution|hyperpage}{120}
+\indexentry{potentiel gravitationnel|hyperpage}{121}
+\indexentry{equation@\IeC {\'e}quation! de Boltzmann|hyperpage}{121}
+\indexentry{equation de Poisson@\IeC {\'e}quation de Poisson|hyperpage}{121}
+\indexentry{stabilit\IeC {\'e}|hyperpage}{121}
+\indexentry{instabilit\IeC {\'e}|hyperpage}{121}
+\indexentry{fonction de distribution!Maxwell|hyperpage}{121}
+\indexentry{longueur de Jeans|hyperpage}{122}
+\indexentry{mati\IeC {\`e}re noire froide|hyperpage}{122}
+\indexentry{mati\IeC {\`e}re noire chaude|hyperpage}{122}
+\indexentry{neutrino|hyperpage}{122}
+\indexentry{halo de mati\IeC {\`e}re noire|hyperpage}{123}
+\indexentry{spectre de puissance|hyperpage}{124}
+\indexentry{fonction de masse des halos|hyperpage}{124}
+\indexentry{formation hi\IeC {\'e}rarchique|hyperpage}{124}
+\indexentry{amas de galaxies|hyperpage}{124}
+\indexentry{galaxies!fonction de luminosit\IeC {\'e}|hyperpage}{124}
+\indexentry{supernovae|hyperpage}{124}
+\indexentry{noyau actif de galaxie|hyperpage}{126}
+\indexentry{trou noir|hyperpage}{126}
+\indexentry{mati\IeC {\`e}re noire!sous-structures|hyperpage}{126}
+\indexentry{mati\IeC {\`e}re noire!halo|hyperpage}{126}
+\indexentry{Voie Lact\IeC {\'e}e|hyperpage}{126}
+\indexentry{galaxie d'Androm\IeC {\`e}de|hyperpage}{126}
+\indexentry{galaxies!satellites|hyperpage}{126}
+\indexentry{galaxie d'Androm\IeC {\`e}de|hyperpage}{126}
+\indexentry{gravitation modifi\IeC {\'e}e|hyperpage}{128}
+\indexentry{grandes structures de l'Univers|hyperpage}{129}
+\indexentry{instabilit\IeC {\'e} gravitationnelle|hyperpage}{129}
+\indexentry{simulation cosmologique|hyperpage}{129}
+\indexentry{contraste de densit\IeC {\'e}|hyperpage}{131}
+\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{131}
+\indexentry{spectre de puissance|hyperpage}{131}
+\indexentry{champs al\IeC {\'e}atoire gaussien|hyperpage}{131}
+\indexentry{densit\IeC {\'e} de probabilit\IeC {\'e}|hyperpage}{131}
+\indexentry{spectre de puissance|hyperpage}{132}
+\indexentry{non-gaussianit\IeC {\'e}|hyperpage}{132}
+\indexentry{fonction de corr\IeC {\'e}lation|hyperpage}{132}
 \indexentry{longueur de Jeans|hyperpage}{133}
-\indexentry{distance!physique|hyperpage}{133}
-\indexentry{distance!comobile|hyperpage}{133}
-\indexentry{Hubble!flot|hyperpage}{134}
-\indexentry{loi de Hubble|hyperpage}{134}
+\indexentry{masse de Jeans|hyperpage}{133}
+\indexentry{temps!dynamique|hyperpage}{133}
+\indexentry{vitesse!du son|hyperpage}{133}
+\indexentry{equation@\IeC {\'e}quation!de Poisson|hyperpage}{134}
 \indexentry{conservation de la masse|hyperpage}{134}
-\indexentry{equation@\IeC {\'e}quation!d'Euler|hyperpage}{135}
-\indexentry{pression|hyperpage}{135}
-\indexentry{equation@\IeC {\'e}quation!Euler|hyperpage}{135}
-\indexentry{equation@\IeC {\'e}quation!Poisson|hyperpage}{136}
-\indexentry{equation@\IeC {\'e}quation!Friedmann|hyperpage}{136}
-\indexentry{expansion!amortissement|hyperpage}{136}
-\indexentry{modes instables|hyperpage}{136}
-\indexentry{Hubble!temps|hyperpage}{136}
-\indexentry{equation@\IeC {\'e}quation!Boltzmann|hyperpage}{136}
-\indexentry{Recombinaison|hyperpage}{137}
-\indexentry{Equivalence|hyperpage}{137}
-\indexentry{Horizon|hyperpage}{137}
-\indexentry{Equivalence|hyperpage}{137}
-\indexentry{Hubble!fonction|hyperpage}{137}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{138}
-\indexentry{vitesse du son|hyperpage}{139}
-\indexentry{onde acoustique baryonique|hyperpage}{139}
-\indexentry{amortissement Silk|hyperpage}{139}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{140}
-\indexentry{onde acoustique baryonique|hyperpage}{140}
-\indexentry{BAO|hyperpage}{140}
-\indexentry{fond diffus cosmologique|hyperpage}{141}
-\indexentry{spectre de puissance|hyperpage}{141}
-\indexentry{horizon|hyperpage}{141}
-\indexentry{horizon|hyperpage}{141}
-\indexentry{horizon|hyperpage}{142}
-\indexentry{Equivalence|hyperpage}{143}
-\indexentry{spectre de Puissance|hyperpage}{144}
-\indexentry{Inflation|hyperpage}{144}
+\indexentry{conservation de l'impulsion|hyperpage}{134}
+\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{135}
+\indexentry{oscillateur harmonique|hyperpage}{135}
+\indexentry{instabilit\IeC {\'e} gravitationnelle|hyperpage}{135}
+\indexentry{temps dynamique|hyperpage}{135}
+\indexentry{longueur de Jeans|hyperpage}{135}
+\indexentry{distance!physique|hyperpage}{135}
+\indexentry{distance!comobile|hyperpage}{135}
+\indexentry{Hubble!flot|hyperpage}{136}
+\indexentry{loi de Hubble|hyperpage}{136}
+\indexentry{conservation de la masse|hyperpage}{136}
+\indexentry{equation@\IeC {\'e}quation!d'Euler|hyperpage}{137}
+\indexentry{pression|hyperpage}{137}
+\indexentry{equation@\IeC {\'e}quation!Euler|hyperpage}{137}
+\indexentry{equation@\IeC {\'e}quation!Poisson|hyperpage}{137}
+\indexentry{equation@\IeC {\'e}quation!Friedmann|hyperpage}{138}
+\indexentry{expansion!amortissement|hyperpage}{138}
+\indexentry{modes instables|hyperpage}{138}
+\indexentry{Hubble!temps|hyperpage}{138}
+\indexentry{equation@\IeC {\'e}quation!Boltzmann|hyperpage}{138}
+\indexentry{Recombinaison|hyperpage}{139}
+\indexentry{Equivalence|hyperpage}{139}
+\indexentry{Horizon|hyperpage}{139}
+\indexentry{Equivalence|hyperpage}{139}
+\indexentry{Hubble!fonction|hyperpage}{139}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{139}
+\indexentry{vitesse du son|hyperpage}{140}
+\indexentry{onde acoustique baryonique|hyperpage}{141}
+\indexentry{amortissement Silk|hyperpage}{141}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{141}
+\indexentry{onde acoustique baryonique|hyperpage}{142}
+\indexentry{BAO|hyperpage}{142}
+\indexentry{fond diffus cosmologique|hyperpage}{142}
+\indexentry{spectre de puissance|hyperpage}{143}
+\indexentry{horizon|hyperpage}{143}
+\indexentry{horizon|hyperpage}{143}
+\indexentry{horizon|hyperpage}{144}
 \indexentry{Equivalence|hyperpage}{144}
-\indexentry{BAO|hyperpage}{145}
-\indexentry{IGM|hyperpage}{146}
-\indexentry{r\IeC {\'e}gime non-lin\IeC {\'e}aire|hyperpage}{146}
-\indexentry{formation des galaxies|hyperpage}{146}
-\indexentry{effondrement sph\IeC {\'e}rique|hyperpage}{149}
-\indexentry{halo|hyperpage}{149}
-\indexentry{Einstein- de Sitter|hyperpage}{149}
-\indexentry{effondrement sph\IeC {\'e}rique|hyperpage}{149}
-\indexentry{haut-de-forme|hyperpage}{149}
-\indexentry{cosmologie newtonienne|hyperpage}{149}
-\indexentry{principe fondamental de la dynamique|hyperpage}{149}
-\indexentry{Einstein-de Sitter|hyperpage}{150}
-\indexentry{energie!m\IeC {\'e}canique|hyperpage}{150}
-\indexentry{r\IeC {\'e}gime non-lin\IeC {\'e}aire|hyperpage}{151}
-\indexentry{expansion!d\IeC {\'e}couplage|hyperpage}{151}
+\indexentry{spectre de Puissance|hyperpage}{146}
+\indexentry{Inflation|hyperpage}{146}
+\indexentry{Equivalence|hyperpage}{146}
+\indexentry{BAO|hyperpage}{148}
+\indexentry{IGM|hyperpage}{148}
+\indexentry{r\IeC {\'e}gime non-lin\IeC {\'e}aire|hyperpage}{148}
+\indexentry{formation des galaxies|hyperpage}{148}
 \indexentry{effondrement sph\IeC {\'e}rique|hyperpage}{151}
-\indexentry{croisement de coquille|hyperpage}{152}
-\indexentry{th\IeC {\'e}or\IeC {\`e}me du viriel|hyperpage}{152}
-\indexentry{energie cin\IeC {\'e}tique|hyperpage}{152}
-\indexentry{energie potentielle|hyperpage}{152}
-\indexentry{rayon de viriel|hyperpage}{152}
-\indexentry{rayon de viriel|hyperpage}{153}
-\indexentry{effondrement sph\IeC {\'e}rique!extrapolation lin\IeC {\'e}aire|hyperpage}{153}
-\indexentry{halo|hyperpage}{155}
-\indexentry{profil NFW|hyperpage}{155}
-\indexentry{halo!concentration|hyperpage}{155}
-\indexentry{supernova|hyperpage}{156}
-\indexentry{temp\IeC {\'e}rature!de viriel|hyperpage}{156}
-\indexentry{th\IeC {\'e}or\IeC {\`e}me du viriel|hyperpage}{156}
-\indexentry{fonction de refroidissement|hyperpage}{157}
+\indexentry{halo|hyperpage}{151}
+\indexentry{Einstein- de Sitter|hyperpage}{151}
+\indexentry{effondrement sph\IeC {\'e}rique|hyperpage}{151}
+\indexentry{haut-de-forme|hyperpage}{151}
+\indexentry{cosmologie newtonienne|hyperpage}{151}
+\indexentry{principe fondamental de la dynamique|hyperpage}{151}
+\indexentry{Einstein-de Sitter|hyperpage}{152}
+\indexentry{energie!m\IeC {\'e}canique|hyperpage}{152}
+\indexentry{r\IeC {\'e}gime non-lin\IeC {\'e}aire|hyperpage}{153}
+\indexentry{expansion!d\IeC {\'e}couplage|hyperpage}{153}
+\indexentry{effondrement sph\IeC {\'e}rique|hyperpage}{153}
+\indexentry{croisement de coquille|hyperpage}{154}
+\indexentry{th\IeC {\'e}or\IeC {\`e}me du viriel|hyperpage}{154}
+\indexentry{energie cin\IeC {\'e}tique|hyperpage}{154}
+\indexentry{energie potentielle|hyperpage}{154}
+\indexentry{rayon de viriel|hyperpage}{154}
+\indexentry{rayon de viriel|hyperpage}{155}
+\indexentry{effondrement sph\IeC {\'e}rique!extrapolation lin\IeC {\'e}aire|hyperpage}{155}
 \indexentry{halo|hyperpage}{157}
-\indexentry{moment angulaire|hyperpage}{157}
-\indexentry{temps! de refroidissement|hyperpage}{157}
-\indexentry{temps! de r\IeC {\'e}\IeC {\'e}quilibrage|hyperpage}{157}
-\indexentry{temps!dynamique|hyperpage}{157}
-\indexentry{processus atomique|hyperpage}{158}
-\indexentry{processus mol\IeC {\'e}culaire|hyperpage}{158}
-\indexentry{m\IeC {\'e}tal|hyperpage}{158}
-\indexentry{supernovae|hyperpage}{158}
-\indexentry{fond UV|hyperpage}{158}
-\indexentry{principe cosmologique|hyperpage}{161}
-\indexentry{simulations num\IeC {\'e}riques|hyperpage}{161}
-\indexentry{simulations num\IeC {\'e}riques!grille|hyperpage}{163}
-\indexentry{eul\IeC {\'e}rienne!discr\IeC {\'e}tisation|hyperpage}{163}
-\indexentry{simulations num\IeC {\'e}riques!particules|hyperpage}{163}
-\indexentry{lagrangienne!discr\IeC {\'e}tisation|hyperpage}{163}
-\indexentry{simulations num\IeC {\'e}riques!discr\IeC {\'e}tisation|hyperpage}{163}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{164}
-\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{164}
-\indexentry{principe fondamental de la dynamique|hyperpage}{164}
-\indexentry{sch\IeC {\'e}ma d'avancement|hyperpage}{164}
-\indexentry{sch\IeC {\'e}ma d'Euler|hyperpage}{164}
-\indexentry{leapfrog|hyperpage}{164}
-\indexentry{sch\IeC {\'e}ma symplectique|hyperpage}{165}
-\indexentry{N-Corps!direct|hyperpage}{165}
-\indexentry{sommation directe|hyperpage}{165}
-\indexentry{sommation|hyperpage}{165}
-\indexentry{N-Corps!arbre|hyperpage}{165}
+\indexentry{profil NFW|hyperpage}{157}
+\indexentry{halo!concentration|hyperpage}{157}
+\indexentry{supernova|hyperpage}{158}
+\indexentry{temp\IeC {\'e}rature!de viriel|hyperpage}{158}
+\indexentry{th\IeC {\'e}or\IeC {\`e}me du viriel|hyperpage}{158}
+\indexentry{fonction de refroidissement|hyperpage}{159}
+\indexentry{halo|hyperpage}{159}
+\indexentry{moment angulaire|hyperpage}{159}
+\indexentry{temps! de refroidissement|hyperpage}{159}
+\indexentry{temps! de r\IeC {\'e}\IeC {\'e}quilibrage|hyperpage}{159}
+\indexentry{temps!dynamique|hyperpage}{159}
+\indexentry{processus atomique|hyperpage}{160}
+\indexentry{processus mol\IeC {\'e}culaire|hyperpage}{160}
+\indexentry{m\IeC {\'e}tal|hyperpage}{160}
+\indexentry{supernovae|hyperpage}{160}
+\indexentry{fond UV|hyperpage}{160}
+\indexentry{principe cosmologique|hyperpage}{163}
+\indexentry{simulations num\IeC {\'e}riques|hyperpage}{163}
 \indexentry{simulations num\IeC {\'e}riques!grille|hyperpage}{165}
-\indexentry{potentiel gravitationnel|hyperpage}{165}
-\indexentry{\IeC {\'e}quation de Poisson@equation de Poisson|hyperpage}{166}
-\indexentry{equation@\IeC {\'e}quations!Poisson|hyperpage}{166}
-\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{166}
-\indexentry{m\IeC {\'e}thodes de relaxation|hyperpage}{166}
-\indexentry{relaxation|hyperpage}{167}
-\indexentry{m\IeC {\'e}thode de Jacobi|hyperpage}{167}
-\indexentry{mati\IeC {\`e}re noire|hyperpage}{167}
-\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{167}
-\indexentry{supernovae|hyperpage}{168}
-\indexentry{hydrodynamique|hyperpage}{168}
-\indexentry{equation@\IeC {\'e}quations!Euler|hyperpage}{168}
-\indexentry{pression|hyperpage}{168}
-\indexentry{equation@\IeC {\'e}quation de conservation|hyperpage}{169}
-\indexentry{equation@\IeC {\'e}quations!conservation|hyperpage}{169}
-\indexentry{terme source|hyperpage}{169}
-\indexentry{volumes finis|hyperpage}{169}
-\indexentry{probl\IeC {\`e}me de Riemann|hyperpage}{169}
-\indexentry{flux|hyperpage}{170}
-\indexentry{sch\IeC {\'e}ma explicite|hyperpage}{170}
-\indexentry{sch\IeC {\'e}ma implicite|hyperpage}{170}
-\indexentry{SPH|hyperpage}{170}
-\indexentry{refroidissement|hyperpage}{172}
-\indexentry{energie@\IeC {\'e}nergie interne|hyperpage}{172}
-\indexentry{chauffage|hyperpage}{172}
-\indexentry{fonction de refroidissement|hyperpage}{172}
-\indexentry{hydrog\IeC {\`e}ne|hyperpage}{172}
-\indexentry{h\IeC {\'e}lium|hyperpage}{172}
-\indexentry{synchrotron|hyperpage}{172}
-\indexentry{Compton|hyperpage}{172}
-\indexentry{fond diffus cosmologique|hyperpage}{172}
-\indexentry{ionisation|hyperpage}{172}
-\indexentry{recombinaison|hyperpage}{172}
-\indexentry{photoionisation|hyperpage}{172}
-\indexentry{chimie!hors-\IeC {\'e}quilibre|hyperpage}{172}
-\indexentry{chimie!\IeC {\`a} l'\IeC {\'e}quilibre|hyperpage}{172}
-\indexentry{temp\IeC {\'e}rature|hyperpage}{172}
-\indexentry{section efficace!d'ionisation|hyperpage}{172}
-\indexentry{ionisation|hyperpage}{172}
-\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{172}
-\indexentry{quasars|hyperpage}{172}
-\indexentry{fond UV|hyperpage}{173}
-\indexentry{R\IeC {\'e}ionisation|hyperpage}{173}
-\indexentry{fond UV|hyperpage}{173}
-\indexentry{chauffage|hyperpage}{173}
-\indexentry{ionisation|hyperpage}{173}
-\indexentry{transfert radiatif|hyperpage}{173}
-\indexentry{etoiles@\IeC {\'e}toiles!formation|hyperpage}{173}
-\indexentry{simulations num\IeC {\'e}rique!r\IeC {\'e}solution|hyperpage}{173}
-\indexentry{nuage mol\IeC {\'e}culaire|hyperpage}{173}
+\indexentry{eul\IeC {\'e}rienne!discr\IeC {\'e}tisation|hyperpage}{165}
+\indexentry{simulations num\IeC {\'e}riques!particules|hyperpage}{165}
+\indexentry{lagrangienne!discr\IeC {\'e}tisation|hyperpage}{165}
+\indexentry{simulations num\IeC {\'e}riques!discr\IeC {\'e}tisation|hyperpage}{165}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{166}
+\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{166}
+\indexentry{principe fondamental de la dynamique|hyperpage}{166}
+\indexentry{sch\IeC {\'e}ma d'avancement|hyperpage}{166}
+\indexentry{sch\IeC {\'e}ma d'Euler|hyperpage}{166}
+\indexentry{leapfrog|hyperpage}{166}
+\indexentry{sch\IeC {\'e}ma symplectique|hyperpage}{167}
+\indexentry{N-Corps!direct|hyperpage}{167}
+\indexentry{sommation directe|hyperpage}{167}
+\indexentry{sommation|hyperpage}{167}
+\indexentry{N-Corps!arbre|hyperpage}{167}
+\indexentry{simulations num\IeC {\'e}riques!grille|hyperpage}{167}
+\indexentry{potentiel gravitationnel|hyperpage}{167}
+\indexentry{\IeC {\'e}quation de Poisson@equation de Poisson|hyperpage}{168}
+\indexentry{equation@\IeC {\'e}quations!Poisson|hyperpage}{168}
+\indexentry{transform\IeC {\'e}e de Fourier|hyperpage}{168}
+\indexentry{m\IeC {\'e}thodes de relaxation|hyperpage}{168}
+\indexentry{relaxation|hyperpage}{169}
+\indexentry{m\IeC {\'e}thode de Jacobi|hyperpage}{169}
+\indexentry{mati\IeC {\`e}re noire|hyperpage}{169}
+\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{169}
+\indexentry{supernovae|hyperpage}{170}
+\indexentry{hydrodynamique|hyperpage}{170}
+\indexentry{equation@\IeC {\'e}quations!Euler|hyperpage}{170}
+\indexentry{pression|hyperpage}{170}
+\indexentry{equation@\IeC {\'e}quation de conservation|hyperpage}{171}
+\indexentry{equation@\IeC {\'e}quations!conservation|hyperpage}{171}
+\indexentry{terme source|hyperpage}{171}
+\indexentry{volumes finis|hyperpage}{171}
+\indexentry{probl\IeC {\`e}me de Riemann|hyperpage}{171}
+\indexentry{flux|hyperpage}{172}
+\indexentry{sch\IeC {\'e}ma explicite|hyperpage}{172}
+\indexentry{sch\IeC {\'e}ma implicite|hyperpage}{172}
+\indexentry{SPH|hyperpage}{172}
+\indexentry{refroidissement|hyperpage}{174}
+\indexentry{energie@\IeC {\'e}nergie interne|hyperpage}{174}
+\indexentry{chauffage|hyperpage}{174}
+\indexentry{fonction de refroidissement|hyperpage}{174}
+\indexentry{hydrog\IeC {\`e}ne|hyperpage}{174}
+\indexentry{h\IeC {\'e}lium|hyperpage}{174}
+\indexentry{synchrotron|hyperpage}{174}
+\indexentry{Compton|hyperpage}{174}
+\indexentry{fond diffus cosmologique|hyperpage}{174}
+\indexentry{ionisation|hyperpage}{174}
+\indexentry{recombinaison|hyperpage}{174}
+\indexentry{photoionisation|hyperpage}{174}
+\indexentry{chimie!hors-\IeC {\'e}quilibre|hyperpage}{174}
+\indexentry{chimie!\IeC {\`a} l'\IeC {\'e}quilibre|hyperpage}{174}
+\indexentry{temp\IeC {\'e}rature|hyperpage}{174}
+\indexentry{section efficace!d'ionisation|hyperpage}{174}
+\indexentry{ionisation|hyperpage}{174}
+\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{174}
+\indexentry{quasars|hyperpage}{174}
+\indexentry{fond UV|hyperpage}{175}
+\indexentry{R\IeC {\'e}ionisation|hyperpage}{175}
+\indexentry{fond UV|hyperpage}{175}
+\indexentry{chauffage|hyperpage}{175}
+\indexentry{ionisation|hyperpage}{175}
+\indexentry{transfert radiatif|hyperpage}{175}
 \indexentry{etoiles@\IeC {\'e}toiles!formation|hyperpage}{175}
-\indexentry{temps!dynamique|hyperpage}{175}
-\indexentry{temps!dynamique|hyperpage}{175}
-\indexentry{taux de formation stellaire|hyperpage}{175}
-\indexentry{loi de Schmidt|hyperpage}{175}
-\indexentry{efficacit\IeC {\'e} de formation stellaire|hyperpage}{175}
-\indexentry{loi de Schmidt|hyperpage}{175}
-\indexentry{supernovae|hyperpage}{176}
-\indexentry{r\IeC {\'e}troaction|hyperpage}{176}
-\indexentry{fonction de masse initiale|hyperpage}{176}
-\indexentry{loi de Salpeter|hyperpage}{176}
-\indexentry{trou noir!supermassif|hyperpage}{176}
-\indexentry{noyau actif de galaxie|hyperpage}{176}
-\indexentry{accr\IeC {\'e}tion de Bondi|hyperpage}{176}
-\indexentry{halo de mati\IeC {\`e}re noire|hyperpage}{178}
-\indexentry{entropie|hyperpage}{179}
-\indexentry{second principe de la thermodynamique|hyperpage}{179}
-\indexentry{etats@\IeC {\'e}tats microscopique|hyperpage}{179}
-\indexentry{micro-canonique|hyperpage}{179}
-\indexentry{second principe|hyperpage}{179}
-\indexentry{fl\IeC {\`e}che du temps|hyperpage}{180}
-\indexentry{entropie!configuration|hyperpage}{181}
-\indexentry{entropie!information|hyperpage}{181}
-\indexentry{temp\IeC {\'e}rature!entropie|hyperpage}{181}
-\indexentry{vitesse!distribution|hyperpage}{181}
-\indexentry{thermalisation|hyperpage}{182}
-\indexentry{etat@\IeC {\'e}tat d'\IeC {\'e}quilibre|hyperpage}{182}
-\indexentry{entropie!maximum|hyperpage}{183}
-\indexentry{temps!entropie|hyperpage}{184}
-\indexentry{entropie!complexit\IeC {\'e}|hyperpage}{184}
-\indexentry{information|hyperpage}{184}
-\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{185}
-\indexentry{galaxies|hyperpage}{185}
-\indexentry{entropie!rayonnement|hyperpage}{186}
-\indexentry{photons|hyperpage}{186}
-\indexentry{refroidissement|hyperpage}{186}
-\indexentry{amas globulaire|hyperpage}{186}
-\indexentry{catastrophe gravo-thermale|hyperpage}{186}
-\indexentry{halo|hyperpage}{186}
-\indexentry{effondrement sph\IeC {\'e}rique|hyperpage}{186}
-\indexentry{expansion!acc\IeC {\'e}l\IeC {\'e}ration|hyperpage}{187}
-\indexentry{entropie!mort thermique|hyperpage}{187}
-\indexentry{entropie!initiale|hyperpage}{187}
-\indexentry{perfection|hyperpage}{187}
-\indexentry{entropie!fluctuation|hyperpage}{187}
-\indexentry{fluctuation d'entropie|hyperpage}{188}
-\indexentry{Big-Bang|hyperpage}{188}
-\indexentry{micro-canonique|hyperpage}{188}
-\indexentry{entropie!cerveaux de Boltzmann|hyperpage}{189}
-\indexentry{Inflation|hyperpage}{191}
-\indexentry{Big-Bang|hyperpage}{191}
-\indexentry{principe cosmologique|hyperpage}{191}
-\indexentry{Inflation!homog\IeC {\'e}n\IeC {\'e}it\IeC {\'e}|hyperpage}{191}
-\indexentry{fond diffus cosmologique|hyperpage}{191}
-\indexentry{BAO|hyperpage}{191}
-\indexentry{onde baryonique acoustique|hyperpage}{191}
-\indexentry{horizon|hyperpage}{191}
-\indexentry{surface de derni\IeC {\`e}re diffusion|hyperpage}{192}
-\indexentry{g\IeC {\'e}om\IeC {\'e}trie!platitude|hyperpage}{193}
+\indexentry{simulations num\IeC {\'e}rique!r\IeC {\'e}solution|hyperpage}{175}
+\indexentry{nuage mol\IeC {\'e}culaire|hyperpage}{175}
+\indexentry{etoiles@\IeC {\'e}toiles!formation|hyperpage}{177}
+\indexentry{temps!dynamique|hyperpage}{177}
+\indexentry{temps!dynamique|hyperpage}{177}
+\indexentry{taux de formation stellaire|hyperpage}{177}
+\indexentry{loi de Schmidt|hyperpage}{177}
+\indexentry{efficacit\IeC {\'e} de formation stellaire|hyperpage}{177}
+\indexentry{loi de Schmidt|hyperpage}{177}
+\indexentry{supernovae|hyperpage}{178}
+\indexentry{r\IeC {\'e}troaction|hyperpage}{178}
+\indexentry{fonction de masse initiale|hyperpage}{178}
+\indexentry{loi de Salpeter|hyperpage}{178}
+\indexentry{trou noir!supermassif|hyperpage}{178}
+\indexentry{noyau actif de galaxie|hyperpage}{178}
+\indexentry{accr\IeC {\'e}tion de Bondi|hyperpage}{178}
+\indexentry{halo de mati\IeC {\`e}re noire|hyperpage}{180}
+\indexentry{entropie|hyperpage}{181}
+\indexentry{second principe de la thermodynamique|hyperpage}{181}
+\indexentry{etats@\IeC {\'e}tats microscopique|hyperpage}{181}
+\indexentry{micro-canonique|hyperpage}{181}
+\indexentry{second principe|hyperpage}{181}
+\indexentry{fl\IeC {\`e}che du temps|hyperpage}{182}
+\indexentry{entropie!configuration|hyperpage}{183}
+\indexentry{entropie!information|hyperpage}{183}
+\indexentry{temp\IeC {\'e}rature!entropie|hyperpage}{183}
+\indexentry{vitesse!distribution|hyperpage}{183}
+\indexentry{thermalisation|hyperpage}{184}
+\indexentry{etat@\IeC {\'e}tat d'\IeC {\'e}quilibre|hyperpage}{184}
+\indexentry{entropie!maximum|hyperpage}{185}
+\indexentry{temps!entropie|hyperpage}{186}
+\indexentry{entropie!complexit\IeC {\'e}|hyperpage}{186}
+\indexentry{information|hyperpage}{186}
+\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{187}
+\indexentry{galaxies|hyperpage}{187}
+\indexentry{entropie!rayonnement|hyperpage}{188}
+\indexentry{photons|hyperpage}{188}
+\indexentry{refroidissement|hyperpage}{188}
+\indexentry{amas globulaire|hyperpage}{188}
+\indexentry{catastrophe gravo-thermale|hyperpage}{188}
+\indexentry{halo|hyperpage}{188}
+\indexentry{effondrement sph\IeC {\'e}rique|hyperpage}{188}
+\indexentry{expansion!acc\IeC {\'e}l\IeC {\'e}ration|hyperpage}{189}
+\indexentry{entropie!mort thermique|hyperpage}{189}
+\indexentry{entropie!initiale|hyperpage}{189}
+\indexentry{perfection|hyperpage}{189}
+\indexentry{entropie!fluctuation|hyperpage}{189}
+\indexentry{fluctuation d'entropie|hyperpage}{190}
+\indexentry{Big-Bang|hyperpage}{190}
+\indexentry{micro-canonique|hyperpage}{190}
+\indexentry{entropie!cerveaux de Boltzmann|hyperpage}{191}
+\indexentry{Inflation|hyperpage}{193}
+\indexentry{Big-Bang|hyperpage}{193}
+\indexentry{principe cosmologique|hyperpage}{193}
+\indexentry{Inflation!homog\IeC {\'e}n\IeC {\'e}it\IeC {\'e}|hyperpage}{193}
+\indexentry{fond diffus cosmologique|hyperpage}{193}
+\indexentry{BAO|hyperpage}{193}
 \indexentry{onde baryonique acoustique|hyperpage}{193}
-\indexentry{grand relev\IeC {\'e}|hyperpage}{193}
-\indexentry{Inflation!g\IeC {\'e}om\IeC {\'e}trie plane|hyperpage}{193}
-\indexentry{courbure|hyperpage}{194}
-\indexentry{courbure!rayon|hyperpage}{194}
-\indexentry{Inflation!fluctuations|hyperpage}{194}
-\indexentry{instabilit\IeC {\'e} gravitationnelle|hyperpage}{194}
-\indexentry{fluctuations quantiques|hyperpage}{194}
-\indexentry{particules reliques|hyperpage}{195}
-\indexentry{Inflation!monop\IeC {\^o}le magn\IeC {\'e}tique|hyperpage}{195}
-\indexentry{particules reliques|hyperpage}{195}
-\indexentry{courbure|hyperpage}{195}
-\indexentry{courbure|hyperpage}{195}
-\indexentry{energie@\IeC {\'e}nergie du vide|hyperpage}{195}
-\indexentry{horizon|hyperpage}{196}
-\indexentry{Inflation!inflaton|hyperpage}{196}
-\indexentry{champ physique|hyperpage}{196}
-\indexentry{Inflation!inflaton|hyperpage}{196}
-\indexentry{Inflation!potentiel|hyperpage}{196}
-\indexentry{energie@\IeC {\'e}nergie potentielle|hyperpage}{196}
-\indexentry{Inflation!slow-roll|hyperpage}{198}
-\indexentry{Inflation!r\IeC {\'e}chauffage|hyperpage}{198}
-\indexentry{Inflation!\IeC {\'e}nergie|hyperpage}{199}
-\indexentry{LHC|hyperpage}{199}
-\indexentry{rayon cosmique|hyperpage}{199}
-\indexentry{spectre primordial|hyperpage}{199}
-\indexentry{Inflation!spectre primordial|hyperpage}{199}
-\indexentry{Inflation!slow-roll|hyperpage}{199}
-\indexentry{ondes gravitationnelles!Inflation|hyperpage}{199}
-\indexentry{fond diffus cosmologique|hyperpage}{199}
-\indexentry{onde gravitationnelle|hyperpage}{199}
-\indexentry{R\IeC {\'e}ionisation|hyperpage}{201}
-\indexentry{hydrog\IeC {\`e}ne|hyperpage}{201}
-\indexentry{IGM|hyperpage}{201}
-\indexentry{Recombinaison|hyperpage}{201}
-\indexentry{age@\IeC {\^a}ges sombres|hyperpage}{201}
-\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{201}
-\indexentry{noyau actif de galaxie|hyperpage}{201}
-\indexentry{trou noir|hyperpage}{201}
-\indexentry{fond UV|hyperpage}{201}
-\indexentry{ionisation|hyperpage}{201}
-\indexentry{r\IeC {\'e}gion HII|hyperpage}{201}
-\indexentry{IGM!fraction ionis\IeC {\'e}e|hyperpage}{201}
-\indexentry{IGM!temp\IeC {\'e}rature|hyperpage}{202}
-\indexentry{r\IeC {\'e}gion HII|hyperpage}{202}
-\indexentry{ionisation|hyperpage}{202}
-\indexentry{recombinaison|hyperpage}{202}
-\indexentry{taux de recombinaison|hyperpage}{202}
-\indexentry{taux de photoionisation|hyperpage}{203}
-\indexentry{fraction d'ionisation|hyperpage}{203}
-\indexentry{sph\IeC {\`e}re de Str\IeC {\"o}mgren|hyperpage}{204}
-\indexentry{photons|hyperpage}{204}
-\indexentry{vitesse!front d'ionisation|hyperpage}{204}
-\indexentry{sph\IeC {\`e}re de Str\IeC {\"o}mgren|hyperpage}{204}
-\indexentry{temps!recombinaison|hyperpage}{205}
-\indexentry{IGM!temp\IeC {\'e}rature|hyperpage}{205}
-\indexentry{transfert radiatif|hyperpage}{206}
-\indexentry{photons!distribution|hyperpage}{206}
-\indexentry{libre parcours moyen|hyperpage}{206}
-\indexentry{opacit\IeC {\'e}|hyperpage}{206}
-\indexentry{transfert radiatif!lancer de rayons|hyperpage}{206}
-\indexentry{transfert radiatif!moments|hyperpage}{206}
-\indexentry{flux!rayonnement|hyperpage}{206}
-\indexentry{pression!rayonnement|hyperpage}{207}
-\indexentry{R\IeC {\'e}ionisation|hyperpage}{207}
-\indexentry{for\IeC {\^e}t Lyman-$\alpha$|hyperpage}{207}
-\indexentry{hydrog\IeC {\`e}ne|hyperpage}{208}
-\indexentry{raie d'absorption|hyperpage}{208}
-\indexentry{rougissement|hyperpage}{208}
-\indexentry{IGM|hyperpage}{208}
-\indexentry{tomographie|hyperpage}{209}
-\indexentry{IGM|hyperpage}{209}
-\indexentry{Gunn-Peterson|hyperpage}{209}
-\indexentry{quasar|hyperpage}{209}
-\indexentry{R\IeC {\'e}ionisation!fond diffus|hyperpage}{210}
-\indexentry{fond diffus|hyperpage}{210}
-\indexentry{fond diffus cosmologique|hyperpage}{210}
-\indexentry{diffusion Thompson|hyperpage}{210}
-\indexentry{opacit\IeC {\'e}!fond diffus|hyperpage}{210}
-\indexentry{Planck!satellite|hyperpage}{211}
-\indexentry{signal \IeC {\`a} 21 cm|hyperpage}{211}
-\indexentry{transition hyperfine|hyperpage}{211}
-\indexentry{temp\IeC {\'e}rature!spin|hyperpage}{212}
-\indexentry{photons!Lyman-$\alpha$|hyperpage}{212}
-\indexentry{fond diffus!signal \IeC {\`a} 21 cm|hyperpage}{212}
-\indexentry{signal \IeC {\`a} 21cm!R\IeC {\'e}ionisation|hyperpage}{213}
-\indexentry{ages@\IeC {\^a}ges sombres|hyperpage}{213}
-\indexentry{noyau actif de galaxie|hyperpage}{213}
-\indexentry{IGM|hyperpage}{213}
-\indexentry{SKA|hyperpage}{213}
-\indexentry{signal \IeC {\`a} 21 cm!SKA|hyperpage}{213}
-\indexentry{for\IeC {\^e}t \IeC {\`a} 21cm|hyperpage}{214}
-\indexentry{mati\IeC {\`e}re noire ti\IeC {\`e}de|hyperpage}{214}
-\indexentry{fond UV|hyperpage}{214}
-\indexentry{temp\IeC {\'e}rature de viriel|hyperpage}{214}
+\indexentry{horizon|hyperpage}{193}
+\indexentry{surface de derni\IeC {\`e}re diffusion|hyperpage}{194}
+\indexentry{g\IeC {\'e}om\IeC {\'e}trie!platitude|hyperpage}{195}
+\indexentry{onde baryonique acoustique|hyperpage}{195}
+\indexentry{grand relev\IeC {\'e}|hyperpage}{195}
+\indexentry{Inflation!g\IeC {\'e}om\IeC {\'e}trie plane|hyperpage}{195}
+\indexentry{courbure|hyperpage}{196}
+\indexentry{courbure!rayon|hyperpage}{196}
+\indexentry{Inflation!fluctuations|hyperpage}{196}
+\indexentry{instabilit\IeC {\'e} gravitationnelle|hyperpage}{196}
+\indexentry{fluctuations quantiques|hyperpage}{196}
+\indexentry{particules reliques|hyperpage}{197}
+\indexentry{Inflation!monop\IeC {\^o}le magn\IeC {\'e}tique|hyperpage}{197}
+\indexentry{particules reliques|hyperpage}{197}
+\indexentry{courbure|hyperpage}{197}
+\indexentry{courbure|hyperpage}{197}
+\indexentry{energie@\IeC {\'e}nergie du vide|hyperpage}{197}
+\indexentry{horizon|hyperpage}{198}
+\indexentry{Inflation!inflaton|hyperpage}{198}
+\indexentry{champ physique|hyperpage}{198}
+\indexentry{Inflation!inflaton|hyperpage}{198}
+\indexentry{Inflation!potentiel|hyperpage}{198}
+\indexentry{energie@\IeC {\'e}nergie potentielle|hyperpage}{198}
+\indexentry{Inflation!slow-roll|hyperpage}{200}
+\indexentry{Inflation!r\IeC {\'e}chauffage|hyperpage}{200}
+\indexentry{Inflation!\IeC {\'e}nergie|hyperpage}{201}
+\indexentry{LHC|hyperpage}{201}
+\indexentry{rayon cosmique|hyperpage}{201}
+\indexentry{spectre primordial|hyperpage}{201}
+\indexentry{Inflation!spectre primordial|hyperpage}{201}
+\indexentry{Inflation!slow-roll|hyperpage}{201}
+\indexentry{ondes gravitationnelles!Inflation|hyperpage}{201}
+\indexentry{fond diffus cosmologique|hyperpage}{201}
+\indexentry{onde gravitationnelle|hyperpage}{201}
+\indexentry{R\IeC {\'e}ionisation|hyperpage}{203}
+\indexentry{hydrog\IeC {\`e}ne|hyperpage}{203}
+\indexentry{IGM|hyperpage}{203}
+\indexentry{Recombinaison|hyperpage}{203}
+\indexentry{age@\IeC {\^a}ges sombres|hyperpage}{203}
+\indexentry{etoiles@\IeC {\'e}toiles|hyperpage}{203}
+\indexentry{noyau actif de galaxie|hyperpage}{203}
+\indexentry{trou noir|hyperpage}{203}
+\indexentry{fond UV|hyperpage}{203}
+\indexentry{ionisation|hyperpage}{203}
+\indexentry{r\IeC {\'e}gion HII|hyperpage}{203}
+\indexentry{IGM!fraction ionis\IeC {\'e}e|hyperpage}{203}
+\indexentry{IGM!temp\IeC {\'e}rature|hyperpage}{204}
+\indexentry{r\IeC {\'e}gion HII|hyperpage}{204}
+\indexentry{ionisation|hyperpage}{204}
+\indexentry{recombinaison|hyperpage}{204}
+\indexentry{taux de recombinaison|hyperpage}{204}
+\indexentry{taux de photoionisation|hyperpage}{205}
+\indexentry{fraction d'ionisation|hyperpage}{205}
+\indexentry{sph\IeC {\`e}re de Str\IeC {\"o}mgren|hyperpage}{206}
+\indexentry{photons|hyperpage}{206}
+\indexentry{vitesse!front d'ionisation|hyperpage}{206}
+\indexentry{sph\IeC {\`e}re de Str\IeC {\"o}mgren|hyperpage}{206}
+\indexentry{temps!recombinaison|hyperpage}{207}
+\indexentry{IGM!temp\IeC {\'e}rature|hyperpage}{207}
+\indexentry{transfert radiatif|hyperpage}{208}
+\indexentry{photons!distribution|hyperpage}{208}
+\indexentry{libre parcours moyen|hyperpage}{208}
+\indexentry{opacit\IeC {\'e}|hyperpage}{208}
+\indexentry{transfert radiatif!lancer de rayons|hyperpage}{208}
+\indexentry{transfert radiatif!moments|hyperpage}{208}
+\indexentry{flux!rayonnement|hyperpage}{208}
+\indexentry{pression!rayonnement|hyperpage}{209}
+\indexentry{R\IeC {\'e}ionisation|hyperpage}{209}
+\indexentry{for\IeC {\^e}t Lyman-$\alpha$|hyperpage}{209}
+\indexentry{hydrog\IeC {\`e}ne|hyperpage}{210}
+\indexentry{raie d'absorption|hyperpage}{210}
+\indexentry{rougissement|hyperpage}{210}
+\indexentry{IGM|hyperpage}{210}
+\indexentry{tomographie|hyperpage}{211}
+\indexentry{IGM|hyperpage}{211}
+\indexentry{Gunn-Peterson|hyperpage}{211}
+\indexentry{quasar|hyperpage}{211}
+\indexentry{R\IeC {\'e}ionisation!fond diffus|hyperpage}{211}
+\indexentry{fond diffus|hyperpage}{211}
+\indexentry{fond diffus cosmologique|hyperpage}{211}
+\indexentry{diffusion Thompson|hyperpage}{211}
+\indexentry{opacit\IeC {\'e}!fond diffus|hyperpage}{212}
+\indexentry{Planck!satellite|hyperpage}{213}
+\indexentry{signal \IeC {\`a} 21 cm|hyperpage}{213}
+\indexentry{transition hyperfine|hyperpage}{213}
+\indexentry{temp\IeC {\'e}rature!spin|hyperpage}{213}
+\indexentry{photons!Lyman-$\alpha$|hyperpage}{214}
+\indexentry{fond diffus!signal \IeC {\`a} 21 cm|hyperpage}{214}
+\indexentry{signal \IeC {\`a} 21cm!R\IeC {\'e}ionisation|hyperpage}{214}
+\indexentry{ages@\IeC {\^a}ges sombres|hyperpage}{214}
+\indexentry{noyau actif de galaxie|hyperpage}{214}
+\indexentry{IGM|hyperpage}{215}
+\indexentry{SKA|hyperpage}{215}
+\indexentry{signal \IeC {\`a} 21 cm!SKA|hyperpage}{215}
+\indexentry{for\IeC {\^e}t \IeC {\`a} 21cm|hyperpage}{215}
+\indexentry{mati\IeC {\`e}re noire ti\IeC {\`e}de|hyperpage}{215}
+\indexentry{fond UV|hyperpage}{216}
+\indexentry{temp\IeC {\'e}rature de viriel|hyperpage}{216}

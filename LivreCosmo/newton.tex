@@ -4,7 +4,7 @@ Ce chapitre est à la fois optionnel et indispensable : optionnel car le reste d
 
 Ce prélude porte sur un modèle \textit{Newtonien} de cosmologie\index{cosmologie Newtonienne}. Ce modèle possède une portée limitée mais permet une introduction progressive à certains concepts et à certains modes de raisonnements propres à la cosmologie. On discutera de sa validité et des hypothèses sous-jacentes en fin de chapitre, après en avoir exploré tous les recoins.
 
-\newthought{Considérons} un 'gaz de galaxies' \index{galaxie} homogène et isotrope au sein duquel on trace un volume sphérique de rayon $R$ et d'origine $O$. Au sein de ce volume chacune de ces galaxies est repérée grâce à un rayon vecteur $r(t)$, variable au cours du temps. Ce modèle repose sur l'hypothèse que toutes ces galaxies vont voir leur position évoluer \textit{radialement} par rapport à $O$ suivant une loi homothétique:
+\newthought{Considérons} un 'gaz de galaxies' \index{galaxie} homogène et isotrope au sein duquel on trace un volume sphérique de rayon $R$ et d'origine $O$. Au sein de ce volume chacune de ces galaxies est repérée grâce à un rayon vecteur $r(t)$, variable au cours du temps (voir Fig. \ref{f:newton}). Ce modèle repose sur l'hypothèse que toutes ces galaxies vont voir leur position évoluer \textit{radialement} par rapport à $O$ suivant une loi homothétique:
 \begin{equation}
 r(t)=a(t)r_0.
 \end{equation}
@@ -48,7 +48,7 @@ Dans ce cadre Newtonien, cette fonction est l'analogue à la fonction de Hubble 
 v=Hr
 \label{e:hubblenewt}
 \end{equation}
-Cette loi est linéaire\index{linéaire}, ce qui a une grande importance. En effet, si la loi avait été quadratique ($v\sim r^2$) ou bien à vitesse de récession constante ($v\sim r^0$), on peut aisément montrer que l'homogénéité\index{homogénéité} initiale est détruite, ce qui n'est pas une propriété désirable de notre modèle d'Univers. Par ailleurs, on peut également démontrer que cette hétérogénéité serait dépendante du point de vue, de l'origine utilisée, ce qui est une autre propriété indésirable. Cette loi de Hubble\index{Hubble!loi}, linéaire, est la seule qui permette de conserver une homogénéité et une égalité des points de vues.
+Cette loi dite \textit{de Hubble} est linéaire\index{linéaire}, ce qui a une grande importance. En effet, si la loi avait été quadratique ($v\sim r^2$) ou bien à vitesse de récession constante ($v\sim r^0$), on peut aisément montrer que l'homogénéité\index{homogénéité} initiale est détruite, ce qui n'est pas une propriété désirable de notre modèle d'Univers. Par ailleurs, on peut également démontrer que cette hétérogénéité serait dépendante du point de vue ou de l'origine utilisée, ce qui est une autre propriété indésirable. Cette loi de Hubble\index{Hubble!loi}, linéaire, est la seule qui permette de conserver une homogénéité et une égalité des points de vues.
 
 \newthought{L'énergétique} du système nous est à présent accessible. Calculons la quantité d'énergie disponible dans ce gaz de galaxies, que ce soit sous forme cinétique ou potentielle. L' énergie cinétique \index{energie@énergie!cinétique} est obtenue en sommant l'énergie cinétique de chaque coquille de rayon $r$ et d'épaisseur $dr$ en récession \sidenote{$\rho$ désigne la densité massique de galaxies. Elle est indépendante de $r$, le système étant homogène}:
 \begin{equation}
@@ -75,7 +75,7 @@ E=E_c+E_p=\frac{3}{10} M H^2 R^2 - \frac{3}{5}\frac{GM^2}{R}.
 \end{equation}
 Comme tout système auto-gravitant\index{système auto-gravitant}, sa stabilité nous est donnée par le signe de son énergie mécanique. Une énergie totale positive va conduire à un système libre, avec une expansion infinie (voire asymptotiquement infinie si elle est exactement nulle) tandis qu'une énergie négative correspond à celle d'un système lié, voué à s'effondrer au bout d'un certain temps.
 
-\newthought{Quelle condition} faut-il satisfaire pour avoir un système lié ? Ecrivons l'inégalité correspondante:
+\newthought{Quelle condition} faut-il satisfaire pour avoir un système lié ? Écrivons l'inégalité correspondante:
 \begin{equation}
 \frac{3}{10} M H^2 R^2 <\frac{3}{5}\frac{GM^2}{R}.
 \end{equation}
@@ -115,7 +115,7 @@ On reconnaît l'expression de la densité critique\index{densité critique} pris
 H^2=H_0^2(\frac{\Omega_m}{a^3}+\frac{\Omega_K}{a^2}).
 \label{e:friednewt}
 \end{equation}
-qui donne l'évolution du paramètre de Hubble\index{Hubble!fonction} au cours du temps \sidenote{via la dépendance temporelle en $a(t)$}, en fonction du contenu en masse, $\Omega_m$, de notre modèle d'Univers. La constante $K$ a généré un terme supplémentaire qui ne dépend que des conditions aux limites et qui doit satisfaire :
+qui donne l'évolution du paramètre de Hubble\index{Hubble!fonction} au cours du temps \sidenote{via la dépendance temporelle en $a(t)$}, en fonction du contenu en masse, $\Omega_m$, de notre modèle d'Univers. La constante $K$ a généré un terme supplémentaire qui ne dépend que des conditions aux limites et qui doit satisfaire\sidenote{avec $H(a_0=1)=H_0$} :
 \begin{equation}
 \Omega_m+\Omega_K=1.
 \end{equation}
@@ -150,7 +150,7 @@ t_H=H_0^{-1}.
 \end{equation} 
 Dans tous les modèles d'Univers, cette quantité constitue une bonne approximation de l'âge de l'Univers. De fait toute quantité temporelle qui est désignée comme étant de l'ordre du temps de Hubble \index{Hubble!temps} est implicitement désignée comme une quantité longue ou lente en évolution. C'est l'ordre de grandeur du temps caractéristique d'évolution de l'Univers.
 
-Remarquons d'emblée que l'âge de l'Univers prédit par ce modèle simple est problématique. Pour une valeur typique de $H_0\sim 70$ km/s/Mpc \sidenote{correspondant à un temps de Hubble $t_H\sim 14$ Gyrs}, le modèle d'Einstein-de Sitter conduit à un âge actuel d'Univers d'environ 9.2 milliards d'années, or il existe des populations d'étoiles\sidenote{par exemple au sein d'amas globulaires\index{amas globulaire}} qui présentent des âges de plus de 13 milliards d'années. Ne pouvant avoir un Univers plus jeune que son contenu, il faut envisager autre chose qu'un Univers composé uniquement de matière avec une densité critique.
+Remarquons d'emblée que l'âge de l'Univers prédit par ce modèle simple est problématique. Pour une valeur typique de $H_0\sim 70$ km/s/Mpc \sidenote{correspondant à un temps de Hubble $t_H\sim 14$ Gyrs}, le modèle d'Einstein-de Sitter conduit à un âge actuel d'Univers d'environ 9.2 milliards d'années or il existe des populations d'étoiles\sidenote{par exemple au sein d'amas globulaires\index{amas globulaire}} qui présentent des âges de plus de 13 milliards d'années. Ne pouvant avoir un Univers plus jeune que son contenu, il faut envisager autre chose qu'un Univers composé uniquement de matière avec une densité critique.
 
 \section{Commentaire sur la validité du modèle}
 A ce stade, on peut s'interroger sur les conditions d'applications de ce modèle Newtonien. Rappelons que nous considérons une sphère de "gaz" de galaxies dans un Univers homogène : il s'avère que dans certains cas, le traitement Newtonien est exact \sidenote{voir par exemple \textit{Physical Cosmology} de P.J.E Peebles}. En effet, faisons l'expérience de pensée qui consiste à retirer une sphère de matériau à cet ensemble homogène : quelle est la structure de l'espace-temps au sein de ce creux nouvellement créé ? La solution est donnée par le théorème de Birkhoff\index{théorème de Birkhoff} : l'espace-temps y est plat \sidenote{De la même façon, quel est le champ Newtonien de gravitation crée à l'intérieur d'une sphère creuse? D'après le théorème de Birkhoff, la réponse est un champ de gravitation nul, dont l'équivalent relativiste est une absence de courbure de l'espace temps.}. Par conséquent lorsque la matière est remise dans ce creux la mécanique y est celle d'un espace plat\index{espace-temps!plat}, à savoir Newtonienne.

@@ -5,7 +5,7 @@
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=12cm]{figs/2MASSLSS.png}
-		\caption[Le relevé de galaxies 2MASS]{La distribution sur le ciel de 550 000 galaxies du grand relevé infrarouge 2MASS, telle qu'elle serait vue par un observateur au centre de la Voie Lactée. Chaque point est une galaxie distante : ces galaxies sont distribuées le long des \textit{grandes structures de l'Univers} qui combinent régions denses, grands vides et filaments de matière. On note un déficit d'objets au centre de l'image, due à la présence de la Voie Lactée qui bloque les lignes de visées.}
+		\caption[Le relevé de galaxies 2MASS]{La distribution sur le ciel de 550 000 galaxies du grand relevé infrarouge 2MASS, telle qu'elle serait vue par un observateur au centre de la Voie Lactée. Chaque point est une galaxie distante : ces galaxies sont distribuées le long des \textit{grandes structures de l'Univers} qui combinent régions denses, grands vides et filaments de matière. On note un déficit d'objets au centre de l'image, due à la présence de la Voie Lactée qui bloque les lignes de visée.}
 	\label{f:2MASS}
 \end{figure}
 
@@ -15,7 +15,7 @@ Les grandes structures de l'Univers\index{grandes structures de l'Univers} dési
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=12cm]{figs/simLSS.png}
-		\caption[Simulation des grandes structures de l'Univers]{La distribution de la matière telle qu'elle est prédite par une simulation cosmologique de formation des grandes structures. Ce carré fait environ 100 Mpc de côté et correspond à un Univers jeune, 1 milliards d'années après le Big-Bang ($z\sim 6$). On retrouve la distribution typique en vides, amas et filaments qui est observée dans le ciel}
+		\caption[Simulation des grandes structures de l'Univers]{La distribution de la matière telle qu'elle est prédite par une simulation cosmologique de formation des grandes structures. Ce carré fait environ 100 Mpc de côté et correspond à un Univers jeune, 1 milliard d'années après le Big-Bang ($z\sim 6$). On retrouve la distribution typique en vides, amas et filaments qui est observée dans le ciel}
 	\label{f:simLSS}
 \end{figure}
 
@@ -27,9 +27,9 @@ L'un des objectifs de l'étude de la formation des grandes structures est de pr�
 \end{equation}
 En l'absence de création de masse et dans un Univers homogène et isotrope, la densité moyenne $\bar{\rho}$ est une quantité de référence constante dans l'espace et pour laquelle la variation temporelle est seulement due à la dilution cosmologique \sidenote{dont on rappelle qu'elle fait varier la densité en $a^{-3}$.}
 
-Toutefois, le contraste de densité à une position $x$ donnée et à un instant donné $t$ est finalement porteur d'assez peu d'information cosmologique, puisque l'on cherche à obtenir des contraintes qui ont une valeur 'cosmologique', i.e. globales et génériques. La première étape vers un traitement cosmologique consiste à raisonner dans l'espace de Fourier\index{transformée de Fourier} et à considérer les \textit{modes} $\delta_k(t)$ d'une réalisation donnée de $\delta(x,t)$:
+Toutefois, le contraste de densité à une position $x$ donnée et à un instant donné $t$ est finalement porteur d'assez peu d'information cosmologique, puisque l'on cherche à obtenir des contraintes qui ont des valeurs globales et génériques. La première étape vers un traitement cosmologique consiste à raisonner dans l'espace de Fourier\index{transformée de Fourier} et à considérer les \textit{modes} $\delta_k(t)$ d'une réalisation donnée de $\delta(x,t)$:
 \begin{equation}
-\delta(x,t)\sim\int_{k=-\infty}^\infty \delta_k(t) e^{ikx} dk
+\delta(x,t)\sim\int_{k=-\infty}^\infty \delta_k(t) e^{ikx} dk.
 \label{e:fourdelta}
 \end{equation}
 L'équation \ref{e:fourdelta} représente la décomposition en série de Fourier du contraste de densité : en pratique cela revient à décomposer le champ de densité en une série de modes sinusoïdaux et dont les contributions des différentes fréquences sont données par $\delta_k$. En plus d'un intérêt mathématique, cette décomposition constitue une mise en pratique de 'cosmologisation' de la densité : on se met à suivre des modes sinusoïdaux délocalisés, de taille caractéristique $\lambda=2\pi/k$\sidenote{$\lambda$ qui est donc la longueur d'onde} et la position $x$ perd de l'importance en tant que telle. L'amplitude d'un mode $k$ est donné tout simplement par $|\delta_k|^2$: l'étude de cette amplitude et son éventuelle évolution temporelle nous renseigne globalement sur l'évolution des structures d'échelle caractéristique $\lambda$ au cours du temps et sur leurs contribution relatives. Cette amplitude est aussi appelée \textit{puissance} et l'ensemble des puissances de tous les modes $k$ est appelé \textit{spectre de puissance}\index{spectre de puissance}.
@@ -38,7 +38,7 @@ L'équation \ref{e:fourdelta} représente la décomposition en série de Fourier
 \begin{equation}
 p(\delta(\vec x)) \sim \exp( -\delta (\vec x) C^{-1} \delta (\vec x)),
 \end{equation}
-où $C$ est une matrice de corrélation, généralement non diagonale. Cette matrice encode les corrélations qui peuvent apparaître dans le champ de matière : celui-ci possède généralement des structures possédant une certaine cohérence spatiale et cette dernière se manifeste en couplant le champ $\delta$ entre différentes positions via $C$ \sidenote{par exemple la structuration de la matière dans l'Univers est telle que les régions denses se trouvent plutôt à proximité d'autres régions denses.}. Une propriété intéressante est que la probabilité de la transformée de Fourier de $\delta (\vec x)$ suit le même type de PDF:
+où $C$ est une matrice de corrélation, généralement non diagonale. Cette matrice encode les corrélations qui peuvent apparaître dans le champ de matière : celui-ci possède généralement des structures possédant une certaine cohérence spatiale et cette dernière se manifeste en couplant le champ $\delta$ entre différentes positions via $C$ \sidenote{par exemple la structuration de la matière dans l'Univers est telle que les régions denses se trouvent plutôt à proximité d'autres régions denses.}. Une propriété intéressante est que la densité de probabilité de la transformée de Fourier de $\delta (\vec x)$ suit le même type de PDF:
 \begin{equation}
 p'(\delta_{\vec k})\sim \exp( -\delta_{\vec k}^* \tilde C^{-1} \delta_{\vec k}).
 \end{equation}
@@ -235,7 +235,7 @@ Or l'équation de Friedmann\index{equation@équation!Friedmann}\sidenote{$\frac{
   \ddot \delta_k +2H\dot \delta_k+ (c_s^2k ^2-4\pi G \bar \rho) \delta_k= 0.
   \label{e:epert}
  \end{equation}
- où toutes les quantités sont des quantités comobiles\sidenote{avec $k=2\pi/\lambda$ et $\lambda$ est comobile}. On retrouve essentiellement la même équation et les mêmes conclusions s'imposent, à savoir instabilité si $\lambda >\lambda_J$ et oscillations sonores dans le cas inverse. On note toutefois la présence du terme $2H\dot \delta_k$ qui s'apparente à un terme d'amortissement dû à l'expansion\index{expansion!amortissement}. On montrera qu'à cause de ce terme qui tempère les solutions, les modes instables\index{modes instables} ne seront plus exponentiels mais en loi de puissance et les modes stables oscillants seront amortis sur des temps caractéristiques de l'ordre du temps de Hubble\index{Hubble!temps}\sidenote{temps donné par $H^{-1}$}.
+ où toutes les quantités sont des quantités comobiles\sidenote{avec $k=2\pi/\lambda$ et $\lambda$ est comobile}. On retrouve essentiellement la même équation qu'en l'absence d'expansion et les mêmes conclusions s'imposent, à savoir instabilité si $\lambda >\lambda_J$ et oscillations sonores dans le cas inverse. On note toutefois la présence du terme $2H\dot \delta_k$ qui s'apparente à un terme d'amortissement dû à l'expansion\index{expansion!amortissement}. On montrera qu'à cause de ce terme qui tempère les solutions, les modes instables\index{modes instables} ne seront plus exponentiels mais en loi de puissance et les modes stables oscillants seront amortis sur des temps caractéristiques de l'ordre du temps de Hubble\index{Hubble!temps}\sidenote{temps donné par $H^{-1}$}.
  
  A ce stade il faut rappeler, que le traitement décrit juste ici est approché. Par exemple la matière noire \sidenote{qui compose $80\%$ du bilan énergétique de la matière} ne peut pas, à priori, être correctement décrite par les équations 'fluides' utilisées ici. Comme ses particules sont non collisionelles, on ne peut réduire la pression\sidenote{qui est une mesure des propriétés du tenseur des dispersions de vitesses} à un scalaire et elle peut être anisotrope. La question se pose dans les même termes pour le rayonnement. Un traitement rigoureux doit passer par l'utilisation de l'équation de Boltzmann\index{equation@équation!Boltzmann} qui encode directement l'évolution de la fonction de distribution des ces fluides dans l'espace des phases et non simplement celle des ses moments (densité, impulsion, etc...).  Heureusement le résultat obtenu reste très similaire à celui présenté dans l'équation \ref{e:epert} et elle fera donc l'affaire pour les raisonnements à suivre.
  
@@ -301,7 +301,7 @@ La solution est oscillante avec un amortissement induit par l'expansion\sidenote
 
 \newthought{Durant l'époque dominée par la matière}, le terme source de gravitation devient non négligeable mais n'est pas dominé par les baryons\sidenote{qui ne représente que $20\%$ de la matière totale}. L'équation à résoudre devient alors \sidenote{ici $DM$ dénote la matière noire pour \textit{dark matter}.}:
 \begin{equation}
-\ddot \delta_k+2H\dot \delta +c_s^2k^2 \delta 4\pi G \bar\rho_{DM} \delta_{k,DM}
+\ddot \delta_k+2H\dot \delta +c_s^2k^2 \delta = 4\pi G \bar\rho_{DM} \delta_{k,DM}
 \end{equation}
 On a donc un terme source de fond, mais ce terme n'est pas en mesure de produire une augmentation de l'amplitude des oscillations: ce terme évolue lentement par rapport aux temps caractéristiques d'oscillations et ne peut donc produire de résonances par exemple. Ce terme de forçage n'implique pas de croissance incontrôlée de l'amplitude des fluctuations baryoniques qui sont toujours dans un régime oscillant comme précédemment.
 
@@ -425,7 +425,7 @@ Le spectre de puissance résultant possède donc 2 régimes caractéristiques, l
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=12cm]{figs/pstegmark.png}
-		\caption[Le spectre de puissance observé]{Le spectre de puissance $P(k)$ $\Lambda CDM$ théorique est représenté ici avec une compilation des estimations observationnelles issues de différentes sondes~: lensing, relevés de galaxies, CMB, comptage d'amas, Forêt Lyman-$\alpha$. On note l'excellent accord en théorie et prédiction.  Figure extraite de Tegmark et al. 2003. }
+		\caption[Le spectre de puissance observé]{Le spectre de puissance $P(k)$ $\Lambda CDM$ théorique est représenté ici avec une compilation des estimations observationnelles issues de différentes sondes~: lensing, relevés de galaxies, CMB, Forêt Lyman-$\alpha$. On note l'excellent accord en théorie et prédiction.  Figure inspirée de Tegmark et al. 2003. }
 	\label{f:pktegmark}
 \end{figure}
 
@@ -434,8 +434,8 @@ Le spectre de puissance résultant possède donc 2 régimes caractéristiques, l
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[height=12cm]{figs/percival.png}
-		\caption[Les BAOs dans les relevés de galaxies]{Détection des BAOs dans le spectre de puissance du grand relevé de galaxies SDSS. Les courbes représentées sont le rapport du spectre mesuré dans les données sur le spectre lissé, sans BAO, pour 3 échantillons de galaxies différents. Les BAOs sont très clairement apparent (points) aux positions prédites par la théorie (lignes). Figure extraite de Percival et al. 2007.}
+		\includegraphics[height=15cm]{figs/percival.png}
+		\caption[Les BAOs dans les relevés de galaxies]{Détection des BAOs dans le spectre de puissance du grand relevé de galaxies SDSS. La courbe représentée est le rapport du spectre mesuré dans les données au spectre lissé sans BAOs. Les BAOs sont très clairement apparent (points) aux positions prédites par la théorie (ligne). Figure inspirée de Percival et al. 2007.}
 	\label{f:percival}
 \end{figure}
 

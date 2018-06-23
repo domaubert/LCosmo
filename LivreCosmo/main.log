@@ -1,38 +1,34 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.16)  26 MAY 2018 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.23)  23 JUN 2018 23:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tufte-latex/tufte-book.cls
-Document Class: tufte-book 2009/12/11 v3.5.0 Tufte-book class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tufte-latex/tufte-common.def
-File: tufte-common.def 2009/12/11 v3.5.0 Common code for the Tufte-LaTeX styles
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tufte-latex/tufte-book.cls
+Document Class: tufte-book 2015/06/21 v3.5.2 Tufte-book class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tufte-latex/tufte-common.def
+File: tufte-common.def 2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks14
 \XKV@tempa@toks=\toks15
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count79
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count80
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/xifthen/xifthen.sty
-Package: xifthen 2009/04/17 v1.3 Extended ifthen features
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
-\et@xins=\count80
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count81
 \calc@Bcount=\count82
 \calc@Adimen=\dimen102
@@ -44,41 +40,88 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count83
 \calc@Cskip=\skip43
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 ))
-Class tufte-book Info: Loading the base class `book'.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hardwrap/hardwrap.sty
+Package: hardwrap 2011/02/12 v0.2 Hard wrap messages
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/book.cls
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\hw@charcount=\count84
+\hw@wordcount=\count85
+\hw@maxprintline=\count86
+
+(|kpsewhich -var-value=max_print_line))
+Class tufte-book Info: Loading the base class `book'
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/bk10.clo
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count84
-\c@chapter=\count85
-\c@section=\count86
-\c@subsection=\count87
-\c@subsubsection=\count88
-\c@paragraph=\count89
-\c@subparagraph=\count90
-\c@figure=\count91
-\c@table=\count92
+\c@part=\count87
+\c@chapter=\count88
+\c@section=\count89
+\c@subsection=\count90
+\c@subsubsection=\count91
+\c@paragraph=\count92
+\c@subparagraph=\count93
+\c@figure=\count94
+\c@table=\count95
 \abovecaptionskip=\skip44
 \belowcaptionskip=\skip45
 \bibindent=\dimen104
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip46
 \aftertitleunit=\skip47
@@ -89,133 +132,123 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen108
 \titlewidthfirst=\dimen109
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titletoc.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen110
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen111
-\Hy@linkcounter=\count93
-\Hy@pagecounter=\count94
+\Hy@linkcounter=\count96
+\Hy@pagecounter=\count97
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count95
+\Hy@SavedSpaceFactor=\count98
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4319.
+Package hyperref Info: Option `unicode' set `true' on input line 4383.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count96
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count99
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen112
-\Fld@menulength=\count97
+\Fld@menulength=\count100
 \Field@Width=\dimen113
 \Fld@charsize=\dimen114
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count98
-\c@Item=\count99
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count101
+\c@Item=\count102
 )
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count103
+\c@bookmark@seq@number=\count104
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count100
-\c@bookmark@seq@number=\count101
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip48
 )
-
-Package hyperref Warning: Option `pagecolor' is not available anymore.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/ragged2e.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everysel.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip49
@@ -233,11 +266,11 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip61
 \JustifyingParindent=\skip62
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count102
-\Gm@cntv=\count103
-\c@Gm@tempcnt=\count104
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
 \Gm@bindingoffset=\dimen115
 \Gm@wd@mp=\dimen116
 \Gm@odd@mp=\dimen117
@@ -248,53 +281,82 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen122
 \Gm@dimlist=\toks17
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/changepage/changepage.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count105
-\cp@tempcnt=\count106
+\c@cp@cntr=\count108
+\cp@tempcnt=\count109
 )
 \@tufte@overhang=\skip63
 \@tufte@fullwidth=\skip64
 \@tufte@caption@fill=\skip65
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/paralist/paralist.sty
-Package: paralist 2013/06/09 v2.4 Extended list environments
+(/usr/local/texlive/2018/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
 \pltopsep=\skip66
 \plpartopsep=\skip67
 \plitemsep=\skip68
 \plparsep=\skip69
 \pl@lab=\toks18
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/textcase/textcase.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/letterspace.sty
-Package: letterspace 2013/05/23 v2.5a Robust letterspacing (RS)
-LaTeX Info: Redefining \lsstyle on input line 307.
-LaTeX Info: Redefining \lslig on input line 308.
-LaTeX Info: Redefining \textls on input line 333.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/letterspace.sty
+Package: letterspace 2018/01/14 v2.7a Robust letterspacing (RS)
+LaTeX Info: Redefining \lsstyle on input line 345.
+LaTeX Info: Redefining \lslig on input line 346.
+LaTeX Info: Redefining \textls on input line 371.
 \MT@outer@kern=\dimen123
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip70
 \bibsep=\skip71
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count107
+\c@NAT@ctr=\count110
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/bibentry.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
-) (./main.bbl)
-\c@@tufte@num@bibkeys=\count108
-(/usr/local/texlive/2015/texmf-dist/tex/latex/sauerj/optparams.sty
+)
+No file main.bbl.
+\c@@tufte@num@bibkeys=\count111
+(/usr/local/texlive/2018/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 )
 \@tufte@sidenote@vertical@offset=\skip72
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 \@tufte@margin@floatbox=\box27
@@ -303,25 +365,25 @@ Package: placeins 2005/04/18  v 2.2
 \@tufte@caption@vertical@offset=\skip73
 \@tufte@float@contents@width=\skip74
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/mathpazo.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/helvet.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/bera/beramono.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -335,410 +397,13 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip75
-\f@ncyO@elh=\skip76
-\f@ncyO@erh=\skip77
-\f@ncyO@olh=\skip78
-\f@ncyO@orh=\skip79
-\f@ncyO@elf=\skip80
-\f@ncyO@erf=\skip81
-\f@ncyO@olf=\skip82
-\f@ncyO@orf=\skip83
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Package option `usenames' ignored on input line 216.
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count109
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/svgnam.def
-File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
-))
-\langwohyphens=\language80
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
-\c@tracingmulticols=\count110
-\mult@box=\box30
-\multicol@leftmargin=\dimen124
-\c@unbalance=\count111
-\c@collectmore=\count112
-\doublecol@number=\count113
-\multicoltolerance=\count114
-\multicolpretolerance=\count115
-\full@width=\dimen125
-\page@free=\dimen126
-\premulticols=\dimen127
-\postmulticols=\dimen128
-\multicolsep=\skip84
-\multicolbaselineskip=\skip85
-\partial@page=\box31
-\last@line=\box32
-\maxbalancingoverflow=\dimen129
-\mult@rightbox=\box33
-\mult@grightbox=\box34
-\mult@gfirstbox=\box35
-\mult@firstbox=\box36
-\@tempa=\box37
-\@tempa=\box38
-\@tempa=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
-\@tempa=\box46
-\@tempa=\box47
-\@tempa=\box48
-\@tempa=\box49
-\@tempa=\box50
-\@tempa=\box51
-\@tempa=\box52
-\@tempa=\box53
-\c@columnbadness=\count116
-\c@finalcolumnbadness=\count117
-\last@try=\dimen130
-\multicolovershoot=\dimen131
-\multicolundershoot=\dimen132
-\mult@nat@firstbox=\box54
-\colbreak@box=\box55
-\mc@col@check@num=\count118
-)))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-french/frenchb.ldf
-Language: frenchb 2015/04/10 v3.1e French support from the babel system
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
-\babel@savecnt=\count119
-\U@D=\dimen133
-)
-\l@acadian = a dialect from \language\l@french 
-\l@canadien = a dialect from \language\l@french 
-\FBcolonskip=\skip86
-\FBthinskip=\skip87
-\FB@interchartokenstateORI=\count120
-Package babel Info: Making : an active character on input line 371.
-Package babel Info: Making ; an active character on input line 372.
-Package babel Info: Making ! an active character on input line 373.
-Package babel Info: Making ? an active character on input line 374.
-\FBguillskip=\skip88
-\FBguill@level=\count121
-\FB@Mht=\dimen134
-\std@mcc=\count122
-\dec@mcc=\count123
-\listindentFB=\skip89
-\labelwidthFB=\skip90
-\leftmarginFB=\skip91
-\parindentFFN=\dimen135
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -808,24 +473,195 @@ File: ts1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+25E6 (decimal 9702)
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
-)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+FEFF (decimal 65279)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count124
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip75
+\f@nch@O@elh=\skip76
+\f@nch@O@erh=\skip77
+\f@nch@O@olh=\skip78
+\f@nch@O@orh=\skip79
+\f@nch@O@elf=\skip80
+\f@nch@O@erf=\skip81
+\f@nch@O@olf=\skip82
+\f@nch@O@orf=\skip83
+)
+\tufteskipamount=\skip84
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/04/01 v1.8r multicolumn formatting (FMi)
+\c@tracingmulticols=\count112
+\mult@box=\box30
+\multicol@leftmargin=\dimen124
+\c@unbalance=\count113
+\c@collectmore=\count114
+\doublecol@number=\count115
+\multicoltolerance=\count116
+\multicolpretolerance=\count117
+\full@width=\dimen125
+\page@free=\dimen126
+\premulticols=\dimen127
+\postmulticols=\dimen128
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen129
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count118
+\c@finalcolumnbadness=\count119
+\last@try=\dimen130
+\multicolovershoot=\dimen131
+\multicolundershoot=\dimen132
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count120
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2018/03/25 v3.4c French support from the babel system
+
+
+Package babel-french Warning: Option `frenchb' for Babel is *deprecated*,
+(babel-french)                it might be removed sooner or later. Please
+(babel-french)                use `french' instead; reported on input line 35.
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2018/03/25 v3.4c French support from the babel system
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count121
+\U@D=\dimen133
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count122
+)
+\l@acadian = a dialect from \language\l@french 
+\FB@nonchar=\count123
+Package babel Info: Making : an active character on input line 415.
+Package babel Info: Making ; an active character on input line 416.
+Package babel Info: Making ! an active character on input line 417.
+Package babel Info: Making ? an active character on input line 418.
+\FBguill@level=\count124
+\FB@everypar=\toks19
+\FB@Mht=\dimen134
+\mc@charclass=\count125
+\mc@charfam=\count126
+\mc@charslot=\count127
+\std@mcc=\count128
+\dec@mcc=\count129
+\c@FBcaption@count=\count130
+\listindentFB=\skip87
+\descindentFB=\skip88
+\labelwidthFB=\skip89
+\leftmarginFB=\skip90
+\parindentFFN=\dimen135
+\FBfnindent=\skip91
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count131
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen136
 \lightrulewidth=\dimen137
 \cmidrulewidth=\dimen138
@@ -836,56 +672,56 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen143
 \cmidrulekern=\dimen144
 \defaultaddspace=\dimen145
-\@cmidla=\count125
-\@cmidlb=\count126
+\@cmidla=\count132
+\@cmidlb=\count133
 \@aboverulesep=\dimen146
 \@belowrulesep=\dimen147
-\@thisruleclass=\count127
-\@lastruleclass=\count128
+\@thisruleclass=\count134
+\@lastruleclass=\count135
 \@thisrulewidth=\dimen148
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen149
 \Gin@req@width=\dimen150
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count129
+\FV@CodeLineNo=\count136
 \FV@InFile=\read1
 \FV@TabBox=\box56
-\c@FancyVerbLine=\count130
-\FV@StepNumber=\count131
+\c@FancyVerbLine=\count137
+\FV@StepNumber=\count138
 \FV@OutFile=\write3
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/units/units.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/units/nicefrac.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip92
 \L@UnitsRaiseTextstyle=\skip93
 \L@UnitsRaiseScriptstyle=\skip94
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/makeidx.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write4
@@ -922,26 +758,26 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 171.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 171.
 LaTeX Font Info:    Try loading font information for T1+pplj on input line 171.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pplj.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 \AtBeginShipoutBox=\box57
 Package hyperref Info: Link coloring OFF on input line 171.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count132
+\c@section@level=\count139
 )
 LaTeX Info: Redefining \ref on input line 171.
 LaTeX Info: Redefining \pageref on input line 171.
@@ -988,58 +824,61 @@ LaTeX Info: Redefining \selectfont on input line 171.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\big@size=\dimen151
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen152
+\scratchcounter=\count140
+\scratchdimen=\dimen151
 \scratchbox=\box58
-\nofMPsegments=\count134
-\nofMParguments=\count135
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen153
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks22
-)
-LaTeX Info: Redefining \degres on input line 171.
-LaTeX Info: Redefining \dots on input line 171.
-Package frenchb.ldf Info: Setting StandardItemizeEnv=true for
-(frenchb.ldf)             compatibility with paralist package,
-(frenchb.ldf)              on input line 171.
-Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
-(frenchb.ldf)             compatibility with paralist package,
-(frenchb.ldf)              on input line 171.
-LaTeX Info: Redefining \up on input line 171.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+\nofMPsegments=\count141
+\nofMParguments=\count142
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen152
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\big@size=\dimen153
+\langwohyphens=\language84
+LaTeX Info: Redefining \degres on input line 171.
+LaTeX Info: Redefining \dots on input line 171.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 171.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 171.
+LaTeX Info: Redefining \up on input line 171.
+
 [1
 
 
 ]
 LaTeX Font Info:    Try loading font information for T1+phv on input line 184.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1phv.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 184.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 184.
- [2{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+ [2{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 16.19989pt on input line 203.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -1071,31 +910,31 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Try loading font information for OT1+pplx on input line 13.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 13.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Try loading font information for OMS+zplm on input line 13.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omszplm.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Try loading font information for OMX+zplm on input line 13.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxzplm.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 13.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
@@ -1200,10 +1039,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--23
 
 LaTeX Warning: Marginpar on page 14 moved.
 
+[14]
 
-Underfull \vbox (badness 3138) has occurred while \output is active []
+LaTeX Warning: Marginpar on page 15 moved.
 
- [14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
 [][]\T1/pplj/m/n/8 .en termes ra-pides, les ba-ryons consti-
  []
@@ -1224,7 +1064,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
 LaTeX Warning: Marginpar on page 15 moved.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[][]\T1/pplj/m/n/8 .environ 1 mil-liard d'an-nées après le
+ []
+
 [15]
+
+LaTeX Warning: Marginpar on page 16 moved.
+
 
 LaTeX Warning: Marginpar on page 16 moved.
 
@@ -1237,6 +1085,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \T1/pplj/m/n/8 brillante va-rie len-te-ment, une Cé-phéide
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[][]\T1/pplj/m/n/8 .qui re-lie la lu-mi-no-sité d'une ga-laxie à
+ []
+
+
+LaTeX Warning: Marginpar on page 16 moved.
 
 
 LaTeX Warning: Marginpar on page 16 moved.
@@ -1268,36 +1124,66 @@ LaTeX Warning: Marginpar on page 17 moved.
 
 LaTeX Warning: Marginpar on page 17 moved.
 
-<figs/pieplanck.png, id=421, 1405.25pt x 1405.25pt>
+<figs/pieplanck.png, id=409, 1405.25pt x 1405.25pt>
 File: figs/pieplanck.png Graphic file (type png)
- <use figs/pieplanck.png>
-Package pdftex.def Info: figs/pieplanck.png used on input line 60.
+<use figs/pieplanck.png>
+Package pdftex.def Info: figs/pieplanck.png  used on input line 60.
 (pdftex.def)             Requested size: 284.51868pt x 284.51868pt.
 
-[17] [18 <./figs/pieplanck.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[][]\T1/pplj/m/n/8 .on parle de dé-gé-né-res-cences quand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/pplj/m/n/8 plu-sieurs com-bi-nai-sons de pa-ra-mètres
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/pplj/m/n/8 per-mettent de re-pro-duire une même
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T1/pplj/m/n/8 ob-ser-va-tion. Im-pos-sible alors de dis-tin-
+ []
+
+[17]
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+[18 <./figs/pieplanck.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--70
-[][]\T1/pplj/m/n/8 .on parle aussi de pas-sage au ré-
+[][]\T1/pplj/m/n/8 .on parle aussi de pas-sage au ré-gime
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 70--70
-\T1/pplj/m/n/8 gime non li-néaire, en ré-fé-rence à la
+\T1/pplj/m/n/8 non li-néaire pour l'ef-fon-dre-ment, en
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 70--70
-\T1/pplj/m/n/8 na-ture non li-néaire des équa-tions qui
+\T1/pplj/m/n/8 ré-fé-rence à la na-ture non li-néaire des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\T1/pplj/m/n/8 équa-tions qui per-mettent de dé-crire ce
  []
 
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-<figs/timeline.png, id=435, 659.46375pt x 446.66875pt>
+<figs/timeline.png, id=423, 659.46375pt x 446.66875pt>
 File: figs/timeline.png Graphic file (type png)
- <use figs/timeline.png>
-Package pdftex.def Info: figs/timeline.png used on input line 81.
+<use figs/timeline.png>
+Package pdftex.def Info: figs/timeline.png  used on input line 81.
 (pdftex.def)             Requested size: 312.01083pt x 211.33153pt.
-
 [19]
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
 [][]\T1/pplj/m/n/8 .gravité quan-tique pour la-quelle
@@ -1322,12 +1208,11 @@ LaTeX Warning: Marginpar on page 20 moved.
 
 LaTeX Warning: Marginpar on page 23 moved.
 
-<figs/newton.png, id=468, 785.93625pt x 466.74374pt>
+<figs/newton.png, id=457, 785.93625pt x 466.74374pt>
 File: figs/newton.png Graphic file (type png)
- <use figs/newton.png>
-Package pdftex.def Info: figs/newton.png used on input line 19.
+<use figs/newton.png>
+Package pdftex.def Info: figs/newton.png  used on input line 19.
 (pdftex.def)             Requested size: 287.45796pt x 170.71259pt.
-
 [23]
 Underfull \hbox (badness 10000) in paragraph at lines 26--26
 [][]\T1/pplj/m/n/8 .se fai-sant on consi-dère que ce rayon
@@ -1366,10 +1251,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \T1/pplj/m/n/8 contrôle (conser-vée au cours du temps)
  []
 
-
-LaTeX Warning: Marginpar on page 25 moved.
-
 [25]
+
+LaTeX Warning: Marginpar on page 26 moved.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
 [][]\T1/pplj/m/n/8 .l'énergie po-ten-tielle de gra-vi-ta-tion
  []
@@ -1456,6 +1342,9 @@ LaTeX Warning: Marginpar on page 27 moved.
 LaTeX Warning: Marginpar on page 28 moved.
 
 
+LaTeX Warning: Marginpar on page 28 moved.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 122--122
 [][]\T1/pplj/m/n/8 .par ana-lo-gie avec le terme en den-sité
  []
@@ -1482,13 +1371,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--124
 
 LaTeX Warning: Marginpar on page 28 moved.
 
-
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 147--147
 \T1/pplj/m/n/8 sug-gé-rait déjà que $\OML/zplm/m/it/8 H$ \T1/pplj/m/n/8 consti-
 tuait l'in-
  []
 
-[28]
 
 LaTeX Warning: Marginpar on page 29 moved.
 
@@ -1525,7 +1413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/pplj/m/n/8 té-rieur d'une sphère creuse? D'après
+\T1/pplj/m/n/8 té-rieur d'une sphère creuse ? D'après
  []
 
 
@@ -1549,10 +1437,11 @@ LaTeX Warning: Marginpar on page 29 moved.
 
 LaTeX Warning: Marginpar on page 29 moved.
 
-
-LaTeX Warning: Marginpar on page 29 moved.
-
 [29]
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 168--168
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 ^^O$ \T1/pplj/m/n/8 dé-signe la den-sité 
 d'éner-gie as-so-
@@ -1666,6 +1555,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\T1/pplj/m/n/8 lée de charges op-po-sées sur les échelles
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 [][]\T1/pplj/m/n/8 .le lec-teur in-té-ressé pourra par
  []
 
@@ -1686,6 +1580,10 @@ LaTeX Warning: Marginpar on page 33 moved.
 LaTeX Warning: Marginpar on page 33 moved.
 
 [33]
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 58--58
 [][]\T1/pplj/m/n/8 .actuellement les me-sures ex-pé-ri-men-
  []
@@ -1698,18 +1596,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
 LaTeX Warning: Marginpar on page 34 moved.
 
-[34] <figs/ascenceur.png, id=567, 734.745pt x 336.25626pt>
+[34]
+<figs/ascenceur.png, id=556, 734.745pt x 336.25626pt>
 File: figs/ascenceur.png Graphic file (type png)
-
 <use figs/ascenceur.png>
-Package pdftex.def Info: figs/ascenceur.png used on input line 65.
+Package pdftex.def Info: figs/ascenceur.png  used on input line 65.
 (pdftex.def)             Requested size: 312.01024pt x 142.79156pt.
-
-<figs/ascradial.png, id=568, 486.81876pt x 471.7625pt>
+<figs/ascradial.png, id=557, 486.81876pt x 471.7625pt>
 File: figs/ascradial.png Graphic file (type png)
-
 <use figs/ascradial.png>
-Package pdftex.def Info: figs/ascradial.png used on input line 75.
+Package pdftex.def Info: figs/ascradial.png  used on input line 75.
 (pdftex.def)             Requested size: 293.60887pt x 284.52817pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
@@ -1807,12 +1703,12 @@ it être
 
 LaTeX Warning: Marginpar on page 39 moved.
 
-<figs/dlum.png, id=595, 874.26625pt x 412.54124pt>
+<figs/dlum.png, id=584, 874.26625pt x 412.54124pt>
 File: figs/dlum.png Graphic file (type png)
- <use figs/dlum.png>
-Package pdftex.def Info: figs/dlum.png used on input line 139.
+<use figs/dlum.png>
+Package pdftex.def Info: figs/dlum.png  used on input line 139.
 (pdftex.def)             Requested size: 312.00087pt x 147.22429pt.
- [39]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 153--153
 [][]\T1/pplj/m/n/8 .en par-ti-cu-lier, les ar-ticles 'grand pu-
  []
@@ -1834,17 +1730,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--161
 
 LaTeX Warning: Marginpar on page 40 moved.
 
-[40 <./figs/dlum.png>] <figs/grille.png, id=616, 824.07875pt x 401.5pt>
+[40 <./figs/dlum.png>]
+<figs/grille.png, id=605, 824.07875pt x 401.5pt>
 File: figs/grille.png Graphic file (type png)
-
 <use figs/grille.png>
-Package pdftex.def Info: figs/grille.png used on input line 184.
+Package pdftex.def Info: figs/grille.png  used on input line 184.
 (pdftex.def)             Requested size: 311.99632pt x 152.00795pt.
- [41] <figs/hubble.png, id=630, 1405.25pt x 1405.25pt>
+ [41]
+<figs/hubble.png, id=619, 1405.25pt x 1405.25pt>
 File: figs/hubble.png Graphic file (type png)
-
 <use figs/hubble.png>
-Package pdftex.def Info: figs/hubble.png used on input line 213.
+Package pdftex.def Info: figs/hubble.png  used on input line 213.
 (pdftex.def)             Requested size: 284.51868pt x 284.51868pt.
 
 
@@ -1858,12 +1754,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--222
 
 LaTeX Warning: Marginpar on page 43 moved.
 
-<figs/canard.png, id=643, 850.17625pt x 331.2375pt>
+<figs/canard.png, id=632, 850.17625pt x 331.2375pt>
 File: figs/canard.png Graphic file (type png)
- <use figs/canard.png>
-Package pdftex.def Info: figs/canard.png used on input line 226.
+<use figs/canard.png>
+Package pdftex.def Info: figs/canard.png  used on input line 226.
 (pdftex.def)             Requested size: 312.00468pt x 121.56026pt.
-
 [43 <./figs/hubble.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 248--248
 [][]\T1/pplj/m/n/8 .flux qui sont des nombres de pho-tons
@@ -1872,11 +1767,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--248
 
 LaTeX Warning: Marginpar on page 44 moved.
 
-[44 <./figs/canard.png>] <figs/wSN.png, id=660, 1473.505pt x 549.05125pt>
+[44 <./figs/canard.png>]
+<figs/wSN.png, id=651, 1473.505pt x 549.05125pt>
 File: figs/wSN.png Graphic file (type png)
-
 <use figs/wSN.png>
-Package pdftex.def Info: figs/wSN.png used on input line 260.
+Package pdftex.def Info: figs/wSN.png  used on input line 260.
 (pdftex.def)             Requested size: 311.98586pt x 116.25085pt.
  [45 <./figs/wSN.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 277--277
@@ -1947,10 +1842,10 @@ LaTeX Warning: Marginpar on page 51 moved.
 
 LaTeX Warning: Marginpar on page 51 moved.
 
-<figs/fluides.png, id=707, 792.9625pt x 631.35875pt>
+<figs/fluides.png, id=697, 792.9625pt x 631.35875pt>
 File: figs/fluides.png Graphic file (type png)
- <use figs/fluides.png>
-Package pdftex.def Info: figs/fluides.png used on input line 15.
+<use figs/fluides.png>
+Package pdftex.def Info: figs/fluides.png  used on input line 15.
 (pdftex.def)             Requested size: 312.00073pt x 248.41577pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
@@ -1984,12 +1879,18 @@ LaTeX Warning: Marginpar on page 53 moved.
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
 [][]\T1/pplj/m/n/8 .\T1/pplj/m/it/8 froid \T1/pplj/m/n/8 dé-signe ici un fluide
- dont les par-
+ dont les
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\T1/pplj/m/n/8 ti-cules sont ani-mées de faibles vi-tesses,
+\T1/pplj/m/n/8 par-ti-cules sont ani-mées de faibles vi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\T1/pplj/m/n/8 tesses de-vant $\OML/zplm/m/it/8 c$\T1/pplj/m/n/8 , voir le cha-
+pitre dé-dié à
  []
 
 
@@ -2037,18 +1938,27 @@ LaTeX Warning: Marginpar on page 55 moved.
 
 [55]
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
-[][]\T1/pplj/m/n/8 .habituellement c'est l'in-verse : un gaz
+[][]\T1/pplj/m/n/8 .habituellement c'est l'in-verse : un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\T1/pplj/m/n/8 gaz chauffe quand on le com-prime,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+\T1/pplj/m/n/8 son éner-gie in-terne aug-mente quand le
  []
 
 
 LaTeX Warning: Marginpar on page 56 moved.
 
-<figs/era.png, id=758, 1505.625pt x 685.56125pt>
+<figs/era.png, id=747, 1505.625pt x 685.56125pt>
 File: figs/era.png Graphic file (type png)
- <use figs/era.png>
-Package pdftex.def Info: figs/era.png used on input line 141.
+<use figs/era.png>
+Package pdftex.def Info: figs/era.png  used on input line 141.
 (pdftex.def)             Requested size: 311.98634pt x 142.05777pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2173,7 +2083,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
 LaTeX Warning: Marginpar on page 61 moved.
 
-[61] [62]
+[61]
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 296--296
 [][]\T1/pplj/m/n/8 .ce mo-dèle sert éga-le-ment de base à
  []
@@ -2191,16 +2105,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--296
 
 LaTeX Warning: Marginpar on page 63 moved.
 
-[63] <figs/a2t_cosmo.png, id=835, 578.16pt x 433.62pt>
-File: figs/a2t_cosmo.png Graphic file (type png)
 
+LaTeX Warning: Marginpar on page 63 moved.
+
+[63]
+<figs/a2t_cosmo.png, id=825, 578.16pt x 433.62pt>
+File: figs/a2t_cosmo.png Graphic file (type png)
 <use figs/a2t_cosmo.png>
-Package pdftex.def Info: figs/a2t_cosmo.png used on input line 302.
+Package pdftex.def Info: figs/a2t_cosmo.png  used on input line 302.
 (pdftex.def)             Requested size: 311.99884pt x 233.99913pt.
-) [64 <./figs/a2t_cosmo.png>]
+) [64 <./figs/a2t_cosmo.png>] [65]
 \openout2 = `chaud.aux'.
 
- (./chaud.tex
+ (./chaud.tex [66
+
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
 [][]\T1/pplj/m/n/8 .terme qui dé-signe les élé-ments de
  []
@@ -2211,7 +2132,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
  []
 
 
-LaTeX Warning: Marginpar on page 65 moved.
+LaTeX Warning: Marginpar on page 67 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
@@ -2219,7 +2140,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
  []
 
 
-LaTeX Warning: Marginpar on page 65 moved.
+LaTeX Warning: Marginpar on page 67 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--15
@@ -2231,13 +2152,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 \T1/pplj/m/n/8 tielle est si-mi-laire à celle dé-cri-vant la
  []
 
-[65
+[67]
 
-
-
-]
-
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
@@ -2246,29 +2163,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--25
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/pplj/m/n/8 cos-mo-lo-gique d'une quan-tité \T1/pplj/m/it/8 vo-lu-mique\T1/p
-plj/m/n/8 ,
+\T1/pplj/m/n/8 cos-mo-lo-gique d'une quan-tité \T1/pplj/m/it/8 vo-lu-
  []
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\T1/pplj/m/it/8 mique\T1/pplj/m/n/8 , qui dé-pend du cube (donc à la
+ []
 
-[66]
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+[68]
 Underfull \hbox (badness 5519) in paragraph at lines 53--53
 [][]\T1/pplj/m/n/8 .ici $[] \OT1/zplm/m/n/8 = []$ \T1/pplj/m/n/8 dé-signe la co
 nstante de
  []
 
 
-LaTeX Warning: Marginpar on page 67 moved.
+LaTeX Warning: Marginpar on page 69 moved.
 
 
-LaTeX Warning: Marginpar on page 67 moved.
+LaTeX Warning: Marginpar on page 69 moved.
 
-[67] <figs/k.png, id=863, 539.01375pt x 503.8825pt>
+[69]
+<figs/k.png, id=861, 539.01375pt x 503.8825pt>
 File: figs/k.png Graphic file (type png)
- <use figs/k.png>
-Package pdftex.def Info: figs/k.png used on input line 75.
+<use figs/k.png>
+Package pdftex.def Info: figs/k.png  used on input line 75.
 (pdftex.def)             Requested size: 312.00311pt x 291.66772pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
@@ -2281,16 +2203,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--80
  []
 
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
-[68 <./figs/k.png>]
+[70 <./figs/k.png>]
 
-LaTeX Warning: Marginpar on page 69 moved.
+LaTeX Warning: Marginpar on page 71 moved.
 
-[69]
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 121--121
 [][]\T1/pplj/m/n/8 .en uti-li-sant l'ex-pres-sion de la
  []
@@ -2301,13 +2226,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--121
  []
 
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 72 moved.
 
-[70]
+[72]
 
-LaTeX Warning: Marginpar on page 71 moved.
+LaTeX Warning: Marginpar on page 73 moved.
 
-[71]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 162--162
 [][]\T1/pplj/m/n/8 .on rap-pelle que le MeV dé-signe 1
  []
@@ -2323,9 +2248,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--162
  []
 
 
-LaTeX Warning: Marginpar on page 72 moved.
+LaTeX Warning: Marginpar on page 74 moved.
 
-[72]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 190--190
 [][]\T1/pplj/m/n/8 .généralement cette sta-tis-tique de-vient
  []
@@ -2346,53 +2271,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--190
  []
 
 
-LaTeX Warning: Marginpar on page 73 moved.
+LaTeX Warning: Marginpar on page 75 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 [][]\T1/pplj/m/n/8 .on note que l'in-té-grale porte sur $\OMS/zplm/m/n/8 1$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/pplj/m/n/8 alors qu'elle de-vrait être bor-née pour
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/pplj/m/n/8 sa-tis-faire l'hy-po-thèse non-relativiste.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/pplj/m/n/8 Tou-te-fois, l'in-té-grand est une gaus-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/pplj/m/n/8 sienne dont la dé-crois-sance est très
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/pplj/m/n/8 ra-pide : l'er-reur est donc faible et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/pplj/m/n/8 per-met de re-con-naître l'ex-pres-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \T1/pplj/m/n/8 de la (moi-tié de la) va-riance d'une
  []
 
 
-LaTeX Warning: Marginpar on page 73 moved.
-
-
-LaTeX Warning: Marginpar on page 73 moved.
+LaTeX Warning: Marginpar on page 75 moved.
 
 
 Underfull \hbox (badness 1383) in paragraph at lines 212--212
@@ -2400,20 +2322,19 @@ Underfull \hbox (badness 1383) in paragraph at lines 212--212
 $ \T1/pplj/m/n/8 qui tend à
  []
 
-[73]
+[75]
 
-LaTeX Warning: Marginpar on page 74 moved.
+LaTeX Warning: Marginpar on page 76 moved.
 
-<figs/freeze.png, id=923, 566.115pt x 423.5825pt>
+<figs/freeze.png, id=921, 566.115pt x 423.5825pt>
 File: figs/freeze.png Graphic file (type png)
- <use figs/freeze.png>
-Package pdftex.def Info: figs/freeze.png used on input line 228.
+<use figs/freeze.png>
+Package pdftex.def Info: figs/freeze.png  used on input line 228.
 (pdftex.def)             Requested size: 312.00343pt x 233.44937pt.
 
+LaTeX Warning: Marginpar on page 76 moved.
 
-LaTeX Warning: Marginpar on page 74 moved.
-
-[74]
+[76]
 Underfull \hbox (badness 10000) in paragraph at lines 242--242
 [][]\T1/pplj/m/n/8 .dans le cas de l'an-ti-pro-ton, cela se
  []
@@ -2430,12 +2351,12 @@ Overfull \hbox (13.28972pt too wide) in paragraph at lines 242--243
  []
 
 
-LaTeX Warning: Marginpar on page 75 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
 
-LaTeX Warning: Marginpar on page 75 moved.
+LaTeX Warning: Marginpar on page 77 moved.
 
-[75 <./figs/freeze.png>]
+[77 <./figs/freeze.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 256--256
 [][]\T1/pplj/m/n/8 .les pho-tons pro-duits par les an-ni-
  []
@@ -2452,16 +2373,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--256
  []
 
 
-LaTeX Warning: Marginpar on page 76 moved.
+LaTeX Warning: Marginpar on page 78 moved.
 
 
-LaTeX Warning: Marginpar on page 76 moved.
+LaTeX Warning: Marginpar on page 78 moved.
 
-[76] <figs/sakharov.png, id=947, 977.6525pt x 567.11874pt>
+[78]
+<figs/sakharov.png, id=945, 977.6525pt x 567.11874pt>
 File: figs/sakharov.png Graphic file (type png)
-
 <use figs/sakharov.png>
-Package pdftex.def Info: figs/sakharov.png used on input line 279.
+Package pdftex.def Info: figs/sakharov.png  used on input line 279.
 (pdftex.def)             Requested size: 312.00488pt x 180.98845pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--284
@@ -2479,12 +2400,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
  []
 
 
-LaTeX Warning: Marginpar on page 77 moved.
+LaTeX Warning: Marginpar on page 79 moved.
 
-) [77 <./figs/sakharov.png>]
+) [79 <./figs/sakharov.png>]
 \openout2 = `thermique.aux'.
 
- (./thermique.tex [78
+ (./thermique.tex [80
 
 
 
@@ -2505,7 +2426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
  []
 
 
-LaTeX Warning: Marginpar on page 79 moved.
+LaTeX Warning: Marginpar on page 81 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
@@ -2519,7 +2440,7 @@ Underfull \hbox (badness 1642) in paragraph at lines 12--12
  []
 
 
-LaTeX Warning: Marginpar on page 79 moved.
+LaTeX Warning: Marginpar on page 81 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--16
@@ -2538,9 +2459,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
  []
 
 
-LaTeX Warning: Marginpar on page 79 moved.
+LaTeX Warning: Marginpar on page 81 moved.
 
-[79]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
 [][]\T1/pplj/m/n/8 .défini par le pro-duit de la sec-tion
  []
@@ -2563,7 +2484,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
  []
 
 
-LaTeX Warning: Marginpar on page 80 moved.
+LaTeX Warning: Marginpar on page 82 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
@@ -2571,9 +2492,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--37
  []
 
 
-LaTeX Warning: Marginpar on page 80 moved.
+LaTeX Warning: Marginpar on page 82 moved.
 
-[80]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
 [][]\T1/pplj/m/n/8 .alternativement on a l'en-tro-pie qui
  []
@@ -2584,9 +2505,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--59
  []
 
 
-LaTeX Warning: Marginpar on page 81 moved.
+LaTeX Warning: Marginpar on page 83 moved.
 
-[81]
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 87--87
 [][]\T1/pplj/m/n/8 .c'est un iso-tope de l'hy-dro-gène à
  []
@@ -2597,41 +2518,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--87
  []
 
 
-LaTeX Warning: Marginpar on page 82 moved.
+LaTeX Warning: Marginpar on page 84 moved.
 
-[82]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 109--109
 [][]\T1/pplj/m/n/8 .on rap-pelle le rap-port ba-ryon sur
  []
 
 
-LaTeX Warning: Marginpar on page 83 moved.
+LaTeX Warning: Marginpar on page 85 moved.
 
-<figs/helium.png, id=1001, 643.40375pt x 191.71625pt>
+<figs/helium.png, id=999, 643.40375pt x 191.71625pt>
 File: figs/helium.png Graphic file (type png)
- <use figs/helium.png>
-Package pdftex.def Info: figs/helium.png used on input line 125.
+<use figs/helium.png>
+Package pdftex.def Info: figs/helium.png  used on input line 125.
 (pdftex.def)             Requested size: 312.01117pt x 92.97057pt.
-
-[83] <figs/binding.png, id=1013, 806.01125pt x 534.99875pt>
+[85]
+<figs/binding.png, id=1012, 806.01125pt x 534.99875pt>
 File: figs/binding.png Graphic file (type png)
-
 <use figs/binding.png>
-Package pdftex.def Info: figs/binding.png used on input line 136.
+Package pdftex.def Info: figs/binding.png  used on input line 136.
 (pdftex.def)             Requested size: 311.99406pt x 207.08945pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84 <./figs/helium.png>]
+ [86 <./figs/helium.png>]
 Underfull \vbox (badness 7099) has occurred while \output is active []
 
- [85 <./figs/binding.png>] <figs/BBN.png, id=1026, 1405.25pt x 1405.25pt>
+ [87 <./figs/binding.png>]
+<figs/BBN.png, id=1024, 1405.25pt x 1405.25pt>
 File: figs/BBN.png Graphic file (type png)
-
 <use figs/BBN.png>
-Package pdftex.def Info: figs/BBN.png used on input line 152.
+Package pdftex.def Info: figs/BBN.png  used on input line 152.
 (pdftex.def)             Requested size: 311.98634pt x 311.98634pt.
-) [86 <./figs/BBN.png>]
+) [88 <./figs/BBN.png>]
 \openout2 = `cmb.aux'.
 
  (./cmb.tex
@@ -2640,10 +2560,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
  []
 
 
-LaTeX Warning: Marginpar on page 87 moved.
+LaTeX Warning: Marginpar on page 89 moved.
 
 
-LaTeX Warning: Marginpar on page 87 moved.
+LaTeX Warning: Marginpar on page 89 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
@@ -2655,18 +2575,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--19
 \T1/pplj/m/n/8 sence d'hé-lium, qui ne re-pré-sente que
  []
 
-[87
+[89
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 88 moved.
+LaTeX Warning: Marginpar on page 90 moved.
 
-<figs/recom.png, id=1040, 578.16pt x 433.62pt>
+<figs/recom.png, id=1038, 578.16pt x 433.62pt>
 File: figs/recom.png Graphic file (type png)
- <use figs/recom.png>
-Package pdftex.def Info: figs/recom.png used on input line 37.
+<use figs/recom.png>
+Package pdftex.def Info: figs/recom.png  used on input line 37.
 (pdftex.def)             Requested size: 311.99884pt x 233.99913pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
@@ -2684,7 +2604,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
  []
 
 
-LaTeX Warning: Marginpar on page 88 moved.
+Underfull \hbox (badness 4416) in paragraph at lines 42--42
+\T1/pplj/m/n/8 en-vi-ron $\OML/zplm/m/it/8 ^^Q \OMS/zplm/m/n/8 ^^X \OT1/pplx/m/
+n/8 10[]$\T1/pplj/m/n/8 , très lar-ge-ment en
+ []
+
+
+LaTeX Warning: Marginpar on page 90 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
@@ -2703,17 +2629,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
-\T1/pplj/m/n/8 l'étoile ont des libre par-cours moyen de
+\T1/pplj/m/n/8 l'étoile ont des libre par-cours moyens
  []
 
-[88]
+[90]
 
-LaTeX Warning: Marginpar on page 89 moved.
+LaTeX Warning: Marginpar on page 91 moved.
 
-<figs/diffusion.png, id=1050, 770.88pt x 442.65375pt>
+<figs/diffusion.png, id=1048, 770.88pt x 442.65375pt>
 File: figs/diffusion.png Graphic file (type png)
- <use figs/diffusion.png>
-Package pdftex.def Info: figs/diffusion.png used on input line 54.
+<use figs/diffusion.png>
+Package pdftex.def Info: figs/diffusion.png  used on input line 54.
 (pdftex.def)             Requested size: 311.99297pt x 179.15219pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
@@ -2726,18 +2652,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--59
  []
 
 
-LaTeX Warning: Marginpar on page 89 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+\T1/pplj/m/n/8 être plane en moyenne dans le cas de
+ []
 
-[89 <./figs/recom.png>] <figs/LSS.png, id=1058, 704.6325pt x 502.87875pt>
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+[91 <./figs/recom.png>]
+<figs/LSS.png, id=1057, 704.6325pt x 502.87875pt>
 File: figs/LSS.png Graphic file (type png)
-
 <use figs/LSS.png>
-Package pdftex.def Info: figs/LSS.png used on input line 63.
+Package pdftex.def Info: figs/LSS.png  used on input line 63.
 (pdftex.def)             Requested size: 311.9961pt x 222.66386pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90 <./figs/diffusion.png>]
+ [92 <./figs/diffusion.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
 [][]\T1/pplj/m/n/8 .notamment grâce aux me-sures du sa-
  []
@@ -2748,21 +2679,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--78
  []
 
 
-LaTeX Warning: Marginpar on page 91 moved.
+LaTeX Warning: Marginpar on page 93 moved.
 
-<figs/bb.png, id=1065, 722.7pt x 576.1525pt>
+<figs/bb.png, id=1064, 796.77675pt x 598.75694pt>
 File: figs/bb.png Graphic file (type png)
- <use figs/bb.png>
-Package pdftex.def Info: figs/bb.png used on input line 84.
-(pdftex.def)             Requested size: 312.00104pt x 248.73416pt.
- [91 <./figs/LSS.png>] [92 <./figs/bb.png>]
-<figs/planck2015.png, id=1082, 3011.25pt x 1505.625pt>
+<use figs/bb.png>
+Package pdftex.def Info: figs/bb.png  used on input line 84.
+(pdftex.def)             Requested size: 312.00609pt x 234.46443pt.
+[93 <./figs/LSS.png>]
+<figs/planck2015.png, id=1074, 1093.08376pt x 553.22685pt>
 File: figs/planck2015.png Graphic file (type png)
-
 <use figs/planck2015.png>
-Package pdftex.def Info: figs/planck2015.png used on input line 107.
-(pdftex.def)             Requested size: 311.98634pt x 155.99316pt.
-
+Package pdftex.def Info: figs/planck2015.png  used on input line 107.
+(pdftex.def)             Requested size: 311.99911pt x 157.90765pt.
+ [94 <./figs/bb.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 119--119
 [][]\T1/pplj/m/n/8 .les har-mo-niques sphé-riques ap-pa-
  []
@@ -2788,16 +2718,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--119
  []
 
 
-LaTeX Warning: Marginpar on page 93 moved.
+LaTeX Warning: Marginpar on page 95 moved.
 
-[93 <./figs/planck2015.png>]
-<figs/cl2015.png, id=1091, 796.9775pt x 511.9125pt>
+[95 <./figs/planck2015.png>]
+<figs/cl2015.png, id=1090, 922.1652pt x 490.35194pt>
 File: figs/cl2015.png Graphic file (type png)
- <use figs/cl2015.png>
-Package pdftex.def Info: figs/cl2015.png used on input line 135.
-(pdftex.def)             Requested size: 311.99957pt x 200.40276pt.
-
-[94 <./figs/cl2015.png>]
+<use figs/cl2015.png>
+Package pdftex.def Info: figs/cl2015.png  used on input line 135.
+(pdftex.def)             Requested size: 311.99828pt x 165.90189pt.
+ [96 <./figs/cl2015.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 148--148
 [][]\T1/pplj/m/n/8 .les ré-gions du ciel cou-vertes par la
  []
@@ -2818,7 +2747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
  []
 
 
-LaTeX Warning: Marginpar on page 95 moved.
+LaTeX Warning: Marginpar on page 97 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
@@ -2851,11 +2780,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
  []
 
 
-LaTeX Warning: Marginpar on page 95 moved.
+LaTeX Warning: Marginpar on page 97 moved.
 
-[95]
+[97]
 
-LaTeX Warning: Marginpar on page 96 moved.
+LaTeX Warning: Marginpar on page 98 moved.
 
 
 Overfull \hbox (2.16972pt too wide) in paragraph at lines 172--174
@@ -2874,7 +2803,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--175
  []
 
 
-LaTeX Warning: Marginpar on page 96 moved.
+LaTeX Warning: Marginpar on page 98 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 185--185
@@ -2906,9 +2835,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--185
 \T1/pplj/m/n/8 ac-ces-sible à un pro-ces-sus avec l'âge de
  []
 
-[96]
+[98]
 
-LaTeX Warning: Marginpar on page 97 moved.
+LaTeX Warning: Marginpar on page 99 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 191--191
@@ -2917,26 +2846,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--191
  []
 
 
-LaTeX Warning: Marginpar on page 97 moved.
+LaTeX Warning: Marginpar on page 99 moved.
 
-<figs/cmb_geom.png, id=1122, 734.745pt x 628.3475pt>
+<figs/cmb_geom.png, id=1121, 734.745pt x 628.3475pt>
 File: figs/cmb_geom.png Graphic file (type png)
- <use figs/cmb_geom.png>
-Package pdftex.def Info: figs/cmb_geom.png used on input line 198.
+<use figs/cmb_geom.png>
+Package pdftex.def Info: figs/cmb_geom.png  used on input line 198.
 (pdftex.def)             Requested size: 199.61703pt x 170.71074pt.
-
-[97]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 206--206
 [][]\T1/pplj/m/n/8 .du nom du phy-si-cien qui a mis en
  []
 
 
-LaTeX Warning: Marginpar on page 98 moved.
+LaTeX Warning: Marginpar on page 100 moved.
 
 
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [98 <./figs/cmb_geom.png>]
+ [100 <./figs/cmb_geom.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 214--214
 [][]\T1/pplj/m/n/8 .les qua-sars sont des ob-jets très
  []
@@ -2962,7 +2890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 214--214
  []
 
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 101 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 218--218
@@ -2970,27 +2898,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--218
  []
 
 
-LaTeX Warning: Marginpar on page 99 moved.
+LaTeX Warning: Marginpar on page 101 moved.
 
-[99]
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 231--231
 [][]\T1/pplj/m/n/8 .on peut mon-trer que $\OML/zplm/m/it/8 g\OT1/zplm/m/n/8 (\O
 ML/zplm/m/it/8 x\OT1/zplm/m/n/8 ) =
  []
 
-<figs/SZ.png, id=1146, 1356.06625pt x 1109.14375pt>
+<figs/SZ.png, id=1144, 1356.06625pt x 1109.14375pt>
 File: figs/SZ.png Graphic file (type png)
- <use figs/SZ.png>
-Package pdftex.def Info: figs/SZ.png used on input line 234.
+<use figs/SZ.png>
+Package pdftex.def Info: figs/SZ.png  used on input line 234.
 (pdftex.def)             Requested size: 311.99214pt x 255.18231pt.
 
+LaTeX Warning: Marginpar on page 102 moved.
 
-LaTeX Warning: Marginpar on page 100 moved.
 
-) [100] [101 <./figs/SZ.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 242--242
+[][]\T1/pplj/m/n/8 .obtenu à par-tir de l'in-ten-sité du
+ []
+
+) [102]
+
+LaTeX Warning: Marginpar on page 103 moved.
+
+[103 <./figs/SZ.png>]
 \openout2 = `dm.aux'.
 
- (./dm.tex [102
+ (./dm.tex [104
 
 
 
@@ -3005,7 +2941,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []
 
 
-LaTeX Warning: Marginpar on page 103 moved.
+LaTeX Warning: Marginpar on page 105 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
@@ -3018,12 +2954,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
  []
 
 
-LaTeX Warning: Marginpar on page 103 moved.
+LaTeX Warning: Marginpar on page 105 moved.
 
-[103] <figs/sysol.png, id=1171, 505.89pt x 505.89pt>
+[105]
+<figs/sysol.png, id=1169, 505.89pt x 505.89pt>
 File: figs/sysol.png Graphic file (type png)
- <use figs/sysol.png>
-Package pdftex.def Info: figs/sysol.png used on input line 17.
+<use figs/sysol.png>
+Package pdftex.def Info: figs/sysol.png  used on input line 17.
 (pdftex.def)             Requested size: 312.00435pt x 312.00435pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
@@ -3043,13 +2980,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--27
  []
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 106 moved.
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 106 moved.
 
 
-LaTeX Warning: Marginpar on page 104 moved.
+LaTeX Warning: Marginpar on page 106 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
@@ -3061,15 +2998,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \T1/pplj/m/n/8 d'autres pos-si-bi-li-tés sont dis-cu-tées en
  []
 
-[104 <./figs/sysol.png>]
+[106 <./figs/sysol.png>]
 
-LaTeX Warning: Marginpar on page 105 moved.
+LaTeX Warning: Marginpar on page 107 moved.
 
-<figs/rocurveMW.png, id=1179, 1786.675pt x 956.57375pt>
+<figs/rocurveMW.png, id=1177, 1786.675pt x 956.57375pt>
 File: figs/rocurveMW.png Graphic file (type png)
-
 <use figs/rocurveMW.png>
-Package pdftex.def Info: figs/rocurveMW.png used on input line 33.
+Package pdftex.def Info: figs/rocurveMW.png  used on input line 33.
 (pdftex.def)             Requested size: 311.99124pt x 167.03801pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
@@ -3077,10 +3013,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
  []
 
 
-LaTeX Warning: Marginpar on page 105 moved.
+LaTeX Warning: Marginpar on page 107 moved.
 
 
-LaTeX Warning: Marginpar on page 105 moved.
+LaTeX Warning: Marginpar on page 107 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
@@ -3088,12 +3024,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
  []
 
 
-LaTeX Warning: Marginpar on page 105 moved.
+LaTeX Warning: Marginpar on page 107 moved.
 
 
 Underfull \vbox (badness 1348) has occurred while \output is active []
 
- [105 <./figs/rocurveMW.png>]
+ [107 <./figs/rocurveMW.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
 [][]\T1/pplj/m/n/8 .le pas-sage de la 1ère à la 2ème ligne
  []
@@ -3119,7 +3055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
  []
 
 
-LaTeX Warning: Marginpar on page 106 moved.
+LaTeX Warning: Marginpar on page 108 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
@@ -3127,7 +3063,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--59
  []
 
 
-LaTeX Warning: Marginpar on page 106 moved.
+LaTeX Warning: Marginpar on page 108 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
@@ -3150,15 +3086,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--65
  []
 
 
-LaTeX Warning: Marginpar on page 106 moved.
+LaTeX Warning: Marginpar on page 108 moved.
 
-[106] <figs/halogal.png, id=1195, 850.17625pt x 509.905pt>
+[108]
+<figs/halogal.png, id=1193, 850.17625pt x 509.905pt>
 File: figs/halogal.png Graphic file (type png)
-
 <use figs/halogal.png>
-Package pdftex.def Info: figs/halogal.png used on input line 81.
+Package pdftex.def Info: figs/halogal.png  used on input line 81.
 (pdftex.def)             Requested size: 312.00468pt x 187.12914pt.
- [107 <./figs/halogal.png>]
+ [109 <./figs/halogal.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--91
 [][]\T1/pplj/m/n/8 .par exemple la pe-tite ga-laxie de \T1/pplj/m/it/8 Draco
  []
@@ -3173,17 +3109,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \T1/pplj/m/n/8 fois su-pé-rieure à ce qui est at-tendu
  []
 
-<figs/fbar.png, id=1203, 473.77pt x 500.87125pt>
+<figs/fbar.png, id=1202, 473.77pt x 500.87125pt>
 File: figs/fbar.png Graphic file (type png)
- <use figs/fbar.png>
-Package pdftex.def Info: figs/fbar.png used on input line 94.
+<use figs/fbar.png>
+Package pdftex.def Info: figs/fbar.png  used on input line 94.
 (pdftex.def)             Requested size: 215.30544pt x 227.62163pt.
 
+LaTeX Warning: Marginpar on page 110 moved.
 
-LaTeX Warning: Marginpar on page 108 moved.
 
-
-LaTeX Warning: Marginpar on page 108 moved.
+LaTeX Warning: Marginpar on page 110 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--103
@@ -3217,15 +3152,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--103
  le champ de
  []
 
-[108 <./figs/fbar.png>]
+[110 <./figs/fbar.png>]
 
-LaTeX Warning: Marginpar on page 109 moved.
-
-
-LaTeX Warning: Marginpar on page 109 moved.
+LaTeX Warning: Marginpar on page 111 moved.
 
 
-LaTeX Warning: Marginpar on page 109 moved.
+LaTeX Warning: Marginpar on page 111 moved.
+
+
+LaTeX Warning: Marginpar on page 111 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 107--107
@@ -3234,12 +3169,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--107
  []
 
 
-LaTeX Warning: Marginpar on page 109 moved.
+LaTeX Warning: Marginpar on page 111 moved.
 
-<figs/poisson.png, id=1210, 823.075pt x 326.21875pt>
+<figs/poisson.png, id=1209, 823.075pt x 326.21875pt>
 File: figs/poisson.png Graphic file (type png)
- <use figs/poisson.png>
-Package pdftex.def Info: figs/poisson.png used on input line 114.
+<use figs/poisson.png>
+Package pdftex.def Info: figs/poisson.png  used on input line 114.
 (pdftex.def)             Requested size: 311.99309pt x 123.65579pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 121--121
@@ -3257,9 +3192,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--121
 /m/n/8 élévé) ou
  []
 
-[109 <./figs/poisson.png>]
+[111 <./figs/poisson.png>]
 
-LaTeX Warning: Marginpar on page 110 moved.
+LaTeX Warning: Marginpar on page 112 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--131
@@ -3267,25 +3202,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--131
  []
 
 
-LaTeX Warning: Marginpar on page 110 moved.
+LaTeX Warning: Marginpar on page 112 moved.
 
 
-LaTeX Warning: Marginpar on page 110 moved.
+LaTeX Warning: Marginpar on page 112 moved.
 
-[110]
+[112]
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
 [][]\T1/pplj/m/n/8 .qui dé-coulent de l'in-ter-ac-tion élec-tro-
  []
 
 
-LaTeX Warning: Marginpar on page 111 moved.
+LaTeX Warning: Marginpar on page 113 moved.
 
-<figs/bullet.jpg, id=1228, 963.6pt x 696.6025pt>
+<figs/bullet.jpg, id=1226, 963.6pt x 696.6025pt>
 File: figs/bullet.jpg Graphic file (type jpg)
- <use figs/bullet.jpg>
-Package pdftex.def Info: figs/bullet.jpg used on input line 150.
+<use figs/bullet.jpg>
+Package pdftex.def Info: figs/bullet.jpg  used on input line 150.
 (pdftex.def)             Requested size: 311.99002pt x 225.54279pt.
- [111 <./figs/bullet.jpg>] [112]
+[113 <./figs/bullet.jpg>] [114]
 Underfull \hbox (badness 10000) in paragraph at lines 173--173
 [][]\T1/pplj/m/n/8 .Ici $\OT1/zplm/m/n/8 ^^F[]$ \T1/pplj/m/n/8 dé-signe une den
 -sité sur-fa-cique
@@ -3307,19 +3242,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--173
  []
 
 
-LaTeX Warning: Marginpar on page 113 moved.
+LaTeX Warning: Marginpar on page 115 moved.
 
-<figs/SPLHALO.png, id=1242, 946.53625pt x 959.585pt>
+<figs/SPLHALO.png, id=1240, 946.53625pt x 959.585pt>
 File: figs/SPLHALO.png Graphic file (type png)
- <use figs/SPLHALO.png>
-Package pdftex.def Info: figs/SPLHALO.png used on input line 180.
+<use figs/SPLHALO.png>
+Package pdftex.def Info: figs/SPLHALO.png  used on input line 180.
 (pdftex.def)             Requested size: 311.99686pt x 316.29797pt.
 
+LaTeX Warning: Marginpar on page 115 moved.
 
-LaTeX Warning: Marginpar on page 113 moved.
 
-
-LaTeX Warning: Marginpar on page 113 moved.
+LaTeX Warning: Marginpar on page 115 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 189--189
@@ -3327,18 +3261,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--189
  []
 
 
-LaTeX Warning: Marginpar on page 113 moved.
+LaTeX Warning: Marginpar on page 115 moved.
 
 
-LaTeX Warning: Marginpar on page 113 moved.
+LaTeX Warning: Marginpar on page 115 moved.
 
-<figs/SPL.png, id=1243, 415.5525pt x 427.5975pt>
+<figs/SPL.png, id=1241, 415.5525pt x 427.5975pt>
 File: figs/SPL.png Graphic file (type png)
- <use figs/SPL.png>
-Package pdftex.def Info: figs/SPL.png used on input line 193.
+<use figs/SPL.png>
+Package pdftex.def Info: figs/SPL.png  used on input line 193.
 (pdftex.def)             Requested size: 312.01234pt x 321.05618pt.
- [113]
-[114 <./figs/SPLHALO.png>] [115 <./figs/SPL.png>]
+[115] [116 <./figs/SPLHALO.png>] [117 <./figs/SPL.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 203--203
 [][]\T1/pplj/m/n/8 .ces ondes sont les os-cil-la-tions ba-ryo-
  []
@@ -3349,18 +3282,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--203
  []
 
 
-LaTeX Warning: Marginpar on page 116 moved.
+LaTeX Warning: Marginpar on page 118 moved.
 
-
-LaTeX Warning: Marginpar on page 116 moved.
-
-<figs/cl_silk.png, id=1263, 908.39375pt x 475.7775pt>
+<figs/cl_silk.png, id=1261, 908.39375pt x 475.7775pt>
 File: figs/cl_silk.png Graphic file (type png)
- <use figs/cl_silk.png>
-Package pdftex.def Info: figs/cl_silk.png used on input line 207.
+<use figs/cl_silk.png>
+Package pdftex.def Info: figs/cl_silk.png  used on input line 207.
 (pdftex.def)             Requested size: 311.99623pt x 163.41017pt.
+[118]
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[][]\T1/pplj/m/n/8 .en an-glais on parle de CDM, \T1/pplj/m/it/8 Cold
+ []
 
-[116] [117 <./figs/cl_silk.png>]
+
+LaTeX Warning: Marginpar on page 119 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[][]\T1/pplj/m/n/8 .en an-glais on parle de HDM, \T1/pplj/m/it/8 Hot Dark
+ []
+
+[119 <./figs/cl_silk.png>]
+
+LaTeX Warning: Marginpar on page 120 moved.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 223--223
 [][]\T1/pplj/m/n/8 .on la re-trou-vera dans une ap-proche
  []
@@ -3371,13 +3317,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--223
  []
 
 
-LaTeX Warning: Marginpar on page 118 moved.
+LaTeX Warning: Marginpar on page 120 moved.
 
 
-LaTeX Warning: Marginpar on page 118 moved.
+LaTeX Warning: Marginpar on page 120 moved.
 
 
-LaTeX Warning: Marginpar on page 118 moved.
+LaTeX Warning: Marginpar on page 120 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 236--236
@@ -3402,11 +3348,11 @@ fi-ni-tion sa-
  []
 
 
-LaTeX Warning: Marginpar on page 118 moved.
+LaTeX Warning: Marginpar on page 120 moved.
 
-[118]
+[120]
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
 
 Underfull \hbox (badness 1264) in paragraph at lines 242--242
@@ -3416,10 +3362,10 @@ pplj/m/n/8 et de
  []
 
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 259--259
@@ -3432,20 +3378,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--259
  []
 
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
 
-LaTeX Warning: Marginpar on page 119 moved.
+LaTeX Warning: Marginpar on page 121 moved.
 
-[119] <figs/wdm.png, id=1292, 840.13875pt x 438.63875pt>
+[121]
+<figs/wdm.png, id=1291, 840.13875pt x 438.63875pt>
 File: figs/wdm.png Graphic file (type png)
- <use figs/wdm.png>
-Package pdftex.def Info: figs/wdm.png used on input line 277.
+<use figs/wdm.png>
+Package pdftex.def Info: figs/wdm.png  used on input line 277.
 (pdftex.def)             Requested size: 312.00023pt x 162.89616pt.
-
+ [122 <./figs/wdm.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 287--287
 [][]\T1/pplj/m/n/8 .gravitation, hy-dro-dy-na-mique, chi-mie,
  []
@@ -3460,42 +3407,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--287
 \T1/pplj/m/n/8 être ainsi in-vo-quées pour pré-dire la
  []
 
-[120 <./figs/wdm.png>]
 
-LaTeX Warning: Marginpar on page 121 moved.
+LaTeX Warning: Marginpar on page 123 moved.
 
-<figs/hmf.png, id=1301, 1405.25pt x 1405.25pt>
+<figs/hmf.png, id=1300, 1405.25pt x 1405.25pt>
 File: figs/hmf.png Graphic file (type png)
- <use figs/hmf.png>
-Package pdftex.def Info: figs/hmf.png used on input line 292.
+<use figs/hmf.png>
+Package pdftex.def Info: figs/hmf.png  used on input line 292.
 (pdftex.def)             Requested size: 311.98634pt x 311.98634pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \T1/pplj/m/n/8 le cha-pitre sur la for-ma-tion des pe-tites
  []
 
-[121 <./figs/hmf.png>]
+[123 <./figs/hmf.png>]
 
-LaTeX Warning: Marginpar on page 122 moved.
+LaTeX Warning: Marginpar on page 124 moved.
 
 
-LaTeX Warning: Marginpar on page 122 moved.
+LaTeX Warning: Marginpar on page 124 moved.
 
-<figs/L.png, id=1311, 505.89pt x 505.89pt>
+<figs/L.png, id=1309, 505.89pt x 505.89pt>
 File: figs/L.png Graphic file (type png)
- <use figs/L.png>
-Package pdftex.def Info: figs/L.png used on input line 304.
+<use figs/L.png>
+Package pdftex.def Info: figs/L.png  used on input line 304.
 (pdftex.def)             Requested size: 312.00435pt x 312.00435pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 309--309
 [][]\T1/pplj/m/n/8 .La cour-bure de la fonc-tion est plus
  []
 
-<figs/SilkMamon.png, id=1313, 715.67375pt x 443.6575pt>
+<figs/SilkMamon.png, id=1311, 715.67375pt x 443.6575pt>
 File: figs/SilkMamon.png Graphic file (type png)
-
 <use figs/SilkMamon.png>
-Package pdftex.def Info: figs/SilkMamon.png used on input line 312.
+Package pdftex.def Info: figs/SilkMamon.png  used on input line 312.
 (pdftex.def)             Requested size: 312.00354pt x 193.41594pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 316--316
@@ -3503,30 +3448,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--316
  []
 
 
-LaTeX Warning: Marginpar on page 122 moved.
-
-
-LaTeX Warning: Marginpar on page 122 moved.
-
-[122] [123 <./figs/L.png> <./figs/SilkMamon.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[][]\T1/pplj/m/n/8 .reposant es-sen-tiel-le-ment sur des
- []
-
-<figs/missing.png, id=1326, 711.65875pt x 635.37375pt>
-File: figs/missing.png Graphic file (type png)
- <use figs/missing.png>
-Package pdftex.def Info: figs/missing.png used on input line 322.
-(pdftex.def)             Requested size: 311.99062pt x 278.54733pt.
+LaTeX Warning: Marginpar on page 124 moved.
 
 
 LaTeX Warning: Marginpar on page 124 moved.
 
-<figs/planM31.png, id=1327, 479.7925pt x 239.89626pt>
+[124] [125 <./figs/L.png> <./figs/SilkMamon.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
+[][]\T1/pplj/m/n/8 .reposant es-sen-tiel-le-ment sur des
+ []
+
+<figs/missing.png, id=1324, 626.21954pt x 597.31155pt>
+File: figs/missing.png Graphic file (type png)
+<use figs/missing.png>
+Package pdftex.def Info: figs/missing.png  used on input line 322.
+(pdftex.def)             Requested size: 312.01013pt x 297.6069pt.
+
+LaTeX Warning: Marginpar on page 126 moved.
+
+<figs/planM31.png, id=1325, 505.89pt x 287.0725pt>
 File: figs/planM31.png Graphic file (type png)
- <use figs/planM31.png>
-Package pdftex.def Info: figs/planM31.png used on input line 329.
-(pdftex.def)             Requested size: 312.00052pt x 156.00026pt.
+<use figs/planM31.png>
+Package pdftex.def Info: figs/planM31.png  used on input line 329.
+(pdftex.def)             Requested size: 312.00435pt x 177.05008pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 334--334
 [][]\T1/pplj/m/n/8 .ces pré-dic-tions re-posent sur des
@@ -3573,13 +3517,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--334
  []
 
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 126 moved.
 
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 126 moved.
 
 
-LaTeX Warning: Marginpar on page 124 moved.
+LaTeX Warning: Marginpar on page 126 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 336--336
@@ -3611,42 +3555,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 336--336
 \T1/pplj/m/n/8 si-mi-laire à l'ef-fet d'une dis-tri-bu-tion de
  []
 
-) [124] [125 <./figs/missing.png> <./figs/planM31.png>]
+) [126] [127 <./figs/missing.png> <./figs/planM31.png>]
 
-LaTeX Warning: Marginpar on page 126 moved.
+LaTeX Warning: Marginpar on page 128 moved.
 
-[126]
+[128]
 \openout2 = `structures.aux'.
 
- (./structures.tex <figs/2MASSLSS.png, id=1344, 810.02625pt x 433.62pt>
+ (./structures.tex
+<figs/2MASSLSS.png, id=1343, 810.02625pt x 433.62pt>
 File: figs/2MASSLSS.png Graphic file (type png)
-
 <use figs/2MASSLSS.png>
-Package pdftex.def Info: figs/2MASSLSS.png used on input line 7.
+Package pdftex.def Info: figs/2MASSLSS.png  used on input line 7.
 (pdftex.def)             Requested size: 312.0032pt x 167.0203pt.
- <figs/simLSS.png, id=1345, 2055.68pt x 2055.68pt>
+<figs/simLSS.png, id=1344, 2055.68pt x 2055.68pt>
 File: figs/simLSS.png Graphic file (type png)
-
 <use figs/simLSS.png>
-Package pdftex.def Info: figs/simLSS.png used on input line 17.
+Package pdftex.def Info: figs/simLSS.png  used on input line 17.
 (pdftex.def)             Requested size: 311.97728pt x 311.97728pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127
+ [129
 
 
 
- <./figs/2MASSLSS.png>] [128 <./figs/simLSS.png>]
+ <./figs/2MASSLSS.png>] [130 <./figs/simLSS.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
 [][]\T1/pplj/m/n/8 .dont on rap-pelle qu'elle fait va-rier la
  []
 
 
-LaTeX Warning: Marginpar on page 129 moved.
+LaTeX Warning: Marginpar on page 131 moved.
 
 
-LaTeX Warning: Marginpar on page 129 moved.
+LaTeX Warning: Marginpar on page 131 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
@@ -3663,9 +3606,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 \T1/pplj/m/n/8 les ré-gions denses se trouvent plu-tôt à
  []
 
-[129]
+[131]
 
-LaTeX Warning: Marginpar on page 130 moved.
+LaTeX Warning: Marginpar on page 132 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--45
@@ -3679,7 +3622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--45
  []
 
 
-LaTeX Warning: Marginpar on page 130 moved.
+LaTeX Warning: Marginpar on page 132 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--51
@@ -3712,15 +3655,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--51
  []
 
 
-LaTeX Warning: Marginpar on page 130 moved.
+LaTeX Warning: Marginpar on page 132 moved.
 
-[130]
+[132]
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
 [][]\T1/pplj/m/n/8 .voir aussi le cha-pitre dé-dié à la
  []
 
 
-LaTeX Warning: Marginpar on page 131 moved.
+LaTeX Warning: Marginpar on page 133 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
@@ -3728,9 +3671,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--64
  []
 
 
-LaTeX Warning: Marginpar on page 131 moved.
+LaTeX Warning: Marginpar on page 133 moved.
 
-[131]
+[133]
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
 [][]\T1/pplj/m/n/8 .ici $\OML/zplm/m/it/8 P$ \T1/pplj/m/n/8 dé-signe la pres-si
 on du gaz.
@@ -3754,10 +3697,10 @@ qui est conforme à cette
  []
 
 
-LaTeX Warning: Marginpar on page 132 moved.
+LaTeX Warning: Marginpar on page 134 moved.
 
 
-LaTeX Warning: Marginpar on page 132 moved.
+LaTeX Warning: Marginpar on page 134 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 97--97
@@ -3804,19 +3747,19 @@ ML/zplm/m/it/8 P[]$ \T1/pplj/m/n/8 sont
  []
 
 
-LaTeX Warning: Marginpar on page 132 moved.
+LaTeX Warning: Marginpar on page 134 moved.
 
-[132]
+[134]
 Underfull \hbox (badness 4193) in paragraph at lines 120--120
 [][]\T1/pplj/m/n/8 .et donc de fré-quence tem-po-relle $\OML/zplm/m/it/8 ^^W \O
 T1/zplm/m/n/8 =
  []
 
 
-LaTeX Warning: Marginpar on page 133 moved.
+LaTeX Warning: Marginpar on page 135 moved.
 
 
-LaTeX Warning: Marginpar on page 133 moved.
+LaTeX Warning: Marginpar on page 135 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--132
@@ -3831,9 +3774,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
  []
 
 
-LaTeX Warning: Marginpar on page 133 moved.
+LaTeX Warning: Marginpar on page 135 moved.
 
-[133]
+[135]
 Underfull \hbox (badness 1210) in paragraph at lines 140--140
 [][]\T1/pplj/m/n/8 .on rap-pelle que pour $\OML/zplm/m/it/8 f\OT1/zplm/m/n/8 (\
 OML/zplm/m/it/8 r \OT1/zplm/m/n/8 = \OML/zplm/m/it/8 a\OT1/zplm/m/n/8 (\OML/zpl
@@ -3842,7 +3785,7 @@ m/m/it/8 t\OT1/zplm/m/n/8 )\OML/zplm/m/it/8 x\OT1/pplx/m/n/8 , \OML/zplm/m/it/8
  []
 
 
-LaTeX Warning: Marginpar on page 134 moved.
+LaTeX Warning: Marginpar on page 136 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--148
@@ -3850,7 +3793,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
  []
 
 
-LaTeX Warning: Marginpar on page 134 moved.
+LaTeX Warning: Marginpar on page 136 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 158--158
@@ -3858,22 +3801,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--158
  []
 
 
-LaTeX Warning: Marginpar on page 134 moved.
+LaTeX Warning: Marginpar on page 136 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 182--182
 [][]\T1/pplj/m/n/8 .qui n'est autre qu'une équa-tion de
  []
 
-[134]
+[136]
 
-LaTeX Warning: Marginpar on page 135 moved.
-
-
-LaTeX Warning: Marginpar on page 135 moved.
+LaTeX Warning: Marginpar on page 137 moved.
 
 
-LaTeX Warning: Marginpar on page 135 moved.
+LaTeX Warning: Marginpar on page 137 moved.
+
+
+LaTeX Warning: Marginpar on page 137 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 213--213
@@ -3881,20 +3824,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--213
  []
 
 
-LaTeX Warning: Marginpar on page 135 moved.
+LaTeX Warning: Marginpar on page 137 moved.
 
 
-LaTeX Warning: Marginpar on page 135 moved.
+LaTeX Warning: Marginpar on page 137 moved.
 
-[135]
+[137]
 
-LaTeX Warning: Marginpar on page 136 moved.
-
-
-LaTeX Warning: Marginpar on page 136 moved.
+LaTeX Warning: Marginpar on page 138 moved.
 
 
-LaTeX Warning: Marginpar on page 136 moved.
+LaTeX Warning: Marginpar on page 138 moved.
+
+
+LaTeX Warning: Marginpar on page 138 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 240--240
@@ -3908,12 +3851,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--240
  []
 
 
-LaTeX Warning: Marginpar on page 136 moved.
+LaTeX Warning: Marginpar on page 138 moved.
 
 
-LaTeX Warning: Marginpar on page 136 moved.
+LaTeX Warning: Marginpar on page 138 moved.
 
-[136]
+[138]
 Underfull \hbox (badness 10000) in paragraph at lines 248--248
 [][]\T1/pplj/m/n/8 .correspondant à $\OML/zplm/m/it/8 z > \OT1/pplx/m/n/8 3000$
  \T1/pplj/m/n/8 ou
@@ -3931,21 +3874,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--248
  []
 
 
-LaTeX Warning: Marginpar on page 137 moved.
+LaTeX Warning: Marginpar on page 139 moved.
 
 
-LaTeX Warning: Marginpar on page 137 moved.
+LaTeX Warning: Marginpar on page 139 moved.
 
-[137]
+
 Underfull \hbox (badness 10000) in paragraph at lines 265--265
 [][]\T1/pplj/m/n/8 .de fait elle aura un com-por-te-ment
  []
 
+[139]
 
-LaTeX Warning: Marginpar on page 138 moved.
+LaTeX Warning: Marginpar on page 140 moved.
 
 
-LaTeX Warning: Marginpar on page 138 moved.
+LaTeX Warning: Marginpar on page 140 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 287--287
@@ -3964,18 +3908,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--287
  []
 
 
-LaTeX Warning: Marginpar on page 138 moved.
+LaTeX Warning: Marginpar on page 140 moved.
 
 
-LaTeX Warning: Marginpar on page 138 moved.
+LaTeX Warning: Marginpar on page 140 moved.
 
-[138]
+[140]
 Underfull \hbox (badness 10000) in paragraph at lines 300--300
 [][]\T1/pplj/m/n/8 .avec un temps ca-rac-té-ris-tique
  []
 
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 302--302
@@ -3990,13 +3934,13 @@ e noire pour
  []
 
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 308--308
@@ -4014,13 +3958,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--308
  []
 
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 
-LaTeX Warning: Marginpar on page 139 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 310--310
@@ -4032,33 +3976,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--310
 \T1/pplj/m/n/8 per-met-tant aux pho-tons de s'échap-per
  []
 
-[139]
 
-LaTeX Warning: Marginpar on page 140 moved.
+LaTeX Warning: Marginpar on page 141 moved.
 
-<figs/bao1.png, id=1466, 538.01pt x 453.695pt>
+[141]
+<figs/bao1.png, id=1464, 538.01pt x 453.695pt>
 File: figs/bao1.png Graphic file (type png)
- <use figs/bao1.png>
-Package pdftex.def Info: figs/bao1.png used on input line 314.
+<use figs/bao1.png>
+Package pdftex.def Info: figs/bao1.png  used on input line 314.
 (pdftex.def)             Requested size: 312.00496pt x 263.10867pt.
 
 
-LaTeX Warning: Marginpar on page 140 moved.
+LaTeX Warning: Marginpar on page 142 moved.
 
-[140 <./figs/bao1.png>] <figs/bao2.png, id=1474, 773.89125pt x 459.7175pt>
+[142 <./figs/bao1.png>]
+<figs/bao2.png, id=1472, 773.89125pt x 459.7175pt>
 File: figs/bao2.png Graphic file (type png)
-
 <use figs/bao2.png>
-Package pdftex.def Info: figs/bao2.png used on input line 326.
+Package pdftex.def Info: figs/bao2.png  used on input line 326.
 (pdftex.def)             Requested size: 311.99539pt x 185.33578pt.
- [141 <./figs/bao2.png>]
-
-LaTeX Warning: Marginpar on page 142 moved.
 
 
-LaTeX Warning: Marginpar on page 142 moved.
+LaTeX Warning: Marginpar on page 143 moved.
 
 
+LaTeX Warning: Marginpar on page 143 moved.
+
+[143 <./figs/bao2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 351--351
 [][]\T1/pplj/m/n/8 .pour ces échelles plus grandes que
  []
@@ -4074,7 +4018,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 351--351
  []
 
 
-LaTeX Warning: Marginpar on page 142 moved.
+LaTeX Warning: Marginpar on page 144 moved.
 
 
 Overfull \hbox (0.96979pt too wide) in paragraph at lines 353--354
@@ -4082,10 +4026,10 @@ Overfull \hbox (0.96979pt too wide) in paragraph at lines 353--354
  sub-horizon. 
  []
 
-<figs/perturb.png, id=1482, 628.3475pt x 443.6575pt>
+<figs/perturb.png, id=1481, 628.3475pt x 443.6575pt>
 File: figs/perturb.png Graphic file (type png)
- <use figs/perturb.png>
-Package pdftex.def Info: figs/perturb.png used on input line 369.
+<use figs/perturb.png>
+Package pdftex.def Info: figs/perturb.png  used on input line 369.
 (pdftex.def)             Requested size: 311.99654pt x 220.29147pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 374--374
@@ -4093,9 +4037,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 374--374
 a-leur prise au
  []
 
-[142]
 
-LaTeX Warning: Marginpar on page 143 moved.
+LaTeX Warning: Marginpar on page 144 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 382--382
@@ -4103,10 +4046,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--382
 as du mode
  []
 
+[144]
 
-LaTeX Warning: Marginpar on page 143 moved.
+LaTeX Warning: Marginpar on page 145 moved.
 
-[143 <./figs/perturb.png>]
+[145 <./figs/perturb.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 406--406
 [][]\T1/pplj/m/n/8 .on parle de spectre in-va-riant
  []
@@ -4117,19 +4061,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 406--406
  []
 
 
-LaTeX Warning: Marginpar on page 144 moved.
+LaTeX Warning: Marginpar on page 146 moved.
 
 <figs/pk.png, id=1503, 716.6775pt x 263.98625pt>
 File: figs/pk.png Graphic file (type png)
- <use figs/pk.png>
-Package pdftex.def Info: figs/pk.png used on input line 418.
+<use figs/pk.png>
+Package pdftex.def Info: figs/pk.png  used on input line 418.
 (pdftex.def)             Requested size: 312.00372pt x 114.92574pt.
- [144 <./figs/pk.png>] <figs/pstegmark.png, id=1515, 453.695pt x 412.54124pt>
+<figs/pstegmark.png, id=1505, 622.60605pt x 598.03426pt>
 File: figs/pstegmark.png Graphic file (type png)
-
 <use figs/pstegmark.png>
-Package pdftex.def Info: figs/pstegmark.png used on input line 427.
-(pdftex.def)             Requested size: 311.99762pt x 283.69695pt.
+Package pdftex.def Info: figs/pstegmark.png  used on input line 427.
+(pdftex.def)             Requested size: 312.00526pt x 299.69165pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 433--433
 [][]\T1/pplj/m/n/8 .mesurée à z=0 dans des grands re-le-
@@ -4145,32 +4088,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--433
 [][]\T1/pplj/m/n/8 .sondée dans les spectres de Qua-sars
  []
 
+[146 <./figs/pk.png>] [147 <./figs/pstegmark.png>]
 
-LaTeX Warning: Marginpar on page 145 moved.
+LaTeX Warning: Marginpar on page 148 moved.
 
 
-LaTeX Warning: Marginpar on page 145 moved.
+LaTeX Warning: Marginpar on page 148 moved.
 
-[145 <./figs/pstegmark.png>]
 
-LaTeX Warning: Marginpar on page 146 moved.
+LaTeX Warning: Marginpar on page 148 moved.
 
-<figs/percival.png, id=1523, 408.52625pt x 425.59pt>
+<figs/percival.png, id=1521, 918.5517pt x 384.11505pt>
 File: figs/percival.png Graphic file (type png)
- <use figs/percival.png>
-Package pdftex.def Info: figs/percival.png used on input line 437.
-(pdftex.def)             Requested size: 312.01665pt x 325.04926pt.
-
-[146 <./figs/percival.png>]) [147]
+<use figs/percival.png>
+Package pdftex.def Info: figs/percival.png  used on input line 437.
+(pdftex.def)             Requested size: 311.99509pt x 130.46843pt.
+[148 <./figs/percival.png>]) [149]
 \openout2 = `halo.aux'.
 
- (./halo.tex [148
+ (./halo.tex [150
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 149 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
@@ -4183,18 +4125,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
  []
 
 
-LaTeX Warning: Marginpar on page 149 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
 
-LaTeX Warning: Marginpar on page 149 moved.
+LaTeX Warning: Marginpar on page 151 moved.
 
-[149]
+[151]
 Underfull \hbox (badness 10000) in paragraph at lines 18--18
 \T1/pplj/m/n/8 et nous em-pêche d'in-té-grer sim-ple-ment
  []
 
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 152 moved.
 
 
 Underfull \hbox (badness 5592) in paragraph at lines 24--24
@@ -4209,7 +4151,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
  []
 
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 152 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
@@ -4222,12 +4164,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
  []
 
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 152 moved.
 
-<figs/rtparam.png, id=1545, 505.89pt x 505.89pt>
+<figs/rtparam.png, id=1544, 505.89pt x 505.89pt>
 File: figs/rtparam.png Graphic file (type png)
- <use figs/rtparam.png>
-Package pdftex.def Info: figs/rtparam.png used on input line 44.
+<use figs/rtparam.png>
+Package pdftex.def Info: figs/rtparam.png  used on input line 44.
 (pdftex.def)             Requested size: 284.53154pt x 284.53154pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
@@ -4240,9 +4182,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
  []
 
 
-LaTeX Warning: Marginpar on page 150 moved.
+LaTeX Warning: Marginpar on page 152 moved.
 
-[150]
+[152]
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
 [][]\T1/pplj/m/n/8 .on uti-lise aussi fré-quem-ment les
  []
@@ -4260,12 +4202,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--59
  []
 
 
-LaTeX Warning: Marginpar on page 151 moved.
+LaTeX Warning: Marginpar on page 153 moved.
 
 
-LaTeX Warning: Marginpar on page 151 moved.
+LaTeX Warning: Marginpar on page 153 moved.
 
-[151 <./figs/rtparam.png>]
+[153 <./figs/rtparam.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
 [][]\T1/pplj/m/n/8 .en ef-fet le dé-cou-plage cor-res-pond au
  []
@@ -4276,11 +4218,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--84
  []
 
 
-LaTeX Warning: Marginpar on page 152 moved.
+LaTeX Warning: Marginpar on page 154 moved.
 
-[152]
+[154]
 
-LaTeX Warning: Marginpar on page 153 moved.
+LaTeX Warning: Marginpar on page 155 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 116--116
@@ -4288,7 +4230,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--116
  []
 
 
-LaTeX Warning: Marginpar on page 153 moved.
+LaTeX Warning: Marginpar on page 155 moved.
 
 
 Underfull \hbox (badness 1253) in paragraph at lines 121--121
@@ -4298,20 +4240,20 @@ Underfull \hbox (badness 1253) in paragraph at lines 121--121
  []
 
 
-LaTeX Warning: Marginpar on page 153 moved.
+LaTeX Warning: Marginpar on page 155 moved.
 
-[153]
+[155]
 Underfull \hbox (badness 10000) in paragraph at lines 130--130
 [][]\T1/pplj/m/n/8 .voir le cha-pitre dé-dié à la ma-tière
  []
 
 
-LaTeX Warning: Marginpar on page 154 moved.
+LaTeX Warning: Marginpar on page 156 moved.
 
-<figs/delta_coll.png, id=1586, 505.89pt x 505.89pt>
+<figs/delta_coll.png, id=1584, 505.89pt x 505.89pt>
 File: figs/delta_coll.png Graphic file (type png)
- <use figs/delta_coll.png>
-Package pdftex.def Info: figs/delta_coll.png used on input line 134.
+<use figs/delta_coll.png>
+Package pdftex.def Info: figs/delta_coll.png  used on input line 134.
 (pdftex.def)             Requested size: 284.53154pt x 284.53154pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--144
@@ -4321,14 +4263,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--144
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [154 <./figs/delta_coll.png>]
+ [156 <./figs/delta_coll.png>]
 
-LaTeX Warning: Marginpar on page 155 moved.
+LaTeX Warning: Marginpar on page 157 moved.
 
-<figs/nfw.png, id=1593, 505.89pt x 505.89pt>
+<figs/nfw.png, id=1591, 505.89pt x 505.89pt>
 File: figs/nfw.png Graphic file (type png)
- <use figs/nfw.png>
-Package pdftex.def Info: figs/nfw.png used on input line 151.
+<use figs/nfw.png>
+Package pdftex.def Info: figs/nfw.png  used on input line 151.
 (pdftex.def)             Requested size: 256.07838pt x 256.07838pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
@@ -4352,7 +4294,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 156--156
-\T1/pplj/m/n/8 por-te-ment pi-quer tend tout de même
+\T1/pplj/m/n/8 por-te-ment pi-qué tend tout de même
  []
 
 
@@ -4361,16 +4303,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--156
  []
 
 
-LaTeX Warning: Marginpar on page 155 moved.
+LaTeX Warning: Marginpar on page 157 moved.
 
-[155 <./figs/nfw.png>]
+[157 <./figs/nfw.png>]
 
-LaTeX Warning: Marginpar on page 156 moved.
+LaTeX Warning: Marginpar on page 158 moved.
 
-<figs/coolgal.png, id=1601, 892.33376pt x 557.08125pt>
+<figs/coolgal.png, id=1600, 892.33376pt x 557.08125pt>
 File: figs/coolgal.png Graphic file (type png)
- <use figs/coolgal.png>
-Package pdftex.def Info: figs/coolgal.png used on input line 165.
+<use figs/coolgal.png>
+Package pdftex.def Info: figs/coolgal.png  used on input line 165.
 (pdftex.def)             Requested size: 311.99472pt x 194.77734pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 175--175
@@ -4383,9 +4325,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--175
  []
 
 
-LaTeX Warning: Marginpar on page 156 moved.
+LaTeX Warning: Marginpar on page 158 moved.
 
-[156 <./figs/coolgal.png>]
+[158 <./figs/coolgal.png>]
 Underfull \hbox (badness 3068) in paragraph at lines 177--177
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 x \OT1/zplm/m/n/8 = \OT1/pplx/m/n/8 1$ \T
 1/pplj/m/n/8 dé-signe un gaz dont tous les
@@ -4398,12 +4340,13 @@ Underfull \hbox (badness 1796) in paragraph at lines 177--177
  []
 
 
-LaTeX Warning: Marginpar on page 157 moved.
+LaTeX Warning: Marginpar on page 159 moved.
 
-[157] <figs/cool.png, id=1616, 505.89pt x 505.89pt>
+[159]
+<figs/cool.png, id=1614, 505.89pt x 505.89pt>
 File: figs/cool.png Graphic file (type png)
- <use figs/cool.png>
-Package pdftex.def Info: figs/cool.png used on input line 194.
+<use figs/cool.png>
+Package pdftex.def Info: figs/cool.png  used on input line 194.
 (pdftex.def)             Requested size: 284.53154pt x 284.53154pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 200--200
@@ -4417,12 +4360,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--200
 
 )
 
-LaTeX Warning: Marginpar on page 158 moved.
+LaTeX Warning: Marginpar on page 160 moved.
 
-[158] [159 <./figs/cool.png>]
+[160] [161 <./figs/cool.png>]
 \openout2 = `simulation.aux'.
 
- (./simulation.tex [160
+ (./simulation.tex [162
 
 
 
@@ -4447,18 +4390,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []
 
 
-LaTeX Warning: Marginpar on page 161 moved.
+LaTeX Warning: Marginpar on page 163 moved.
 
 
-LaTeX Warning: Marginpar on page 161 moved.
+LaTeX Warning: Marginpar on page 163 moved.
 
-[161] <figs/simuemma.jpg, id=1635, 2055.68pt x 2055.68pt>
+[163]
+<figs/simuemma.jpg, id=1634, 2055.68pt x 2055.68pt>
 File: figs/simuemma.jpg Graphic file (type jpg)
-
 <use figs/simuemma.jpg>
-Package pdftex.def Info: figs/simuemma.jpg used on input line 10.
+Package pdftex.def Info: figs/simuemma.jpg  used on input line 10.
 (pdftex.def)             Requested size: 311.97728pt x 311.97728pt.
- [162 <./figs/simuemma.jpg>] [163]
+ [164 <./figs/simuemma.jpg>] [165]
 Overfull \hbox (11.42976pt too wide) in paragraph at lines 28--29
 []\T1/pplj/m/n/10 Considérons dans un pre-mier temps la com-po-sante non-collis
 ionnelle 
@@ -4485,7 +4428,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--32
  []
 
 
-LaTeX Warning: Marginpar on page 164 moved.
+LaTeX Warning: Marginpar on page 166 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
@@ -4493,12 +4436,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--44
  []
 
 
-LaTeX Warning: Marginpar on page 164 moved.
+LaTeX Warning: Marginpar on page 166 moved.
 
 
-LaTeX Warning: Marginpar on page 164 moved.
+LaTeX Warning: Marginpar on page 166 moved.
 
-[164]
+[166]
 Underfull \hbox (badness 10000) in paragraph at lines 51--51
 [][]\T1/pplj/m/n/8 .on sup-pose que toutes les par-ti-cules
  []
@@ -4516,7 +4459,7 @@ $
  []
 
 
-LaTeX Warning: Marginpar on page 165 moved.
+LaTeX Warning: Marginpar on page 167 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 55--55
@@ -4525,9 +4468,9 @@ j/m/n/8 ou
  []
 
 
-LaTeX Warning: Marginpar on page 165 moved.
+LaTeX Warning: Marginpar on page 167 moved.
 
-[165]
+[167]
 Underfull \hbox (badness 10000) in paragraph at lines 70--70
 [][]\T1/pplj/m/n/8 .en pra-tique il s'agit de cal-cu-ler l'his-
  []
@@ -4537,10 +4480,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \T1/pplj/m/n/8 to-gramme 3D des po-si-tions de ces
  []
 
-<figs/PM.png, id=1660, 450.68375pt x 356.33125pt>
+<figs/PM.png, id=1658, 450.68375pt x 356.33125pt>
 File: figs/PM.png Graphic file (type png)
- <use figs/PM.png>
-Package pdftex.def Info: figs/PM.png used on input line 73.
+<use figs/PM.png>
+Package pdftex.def Info: figs/PM.png  used on input line 73.
 (pdftex.def)             Requested size: 215.92pt x 170.71625pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--77
@@ -4548,12 +4491,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--77
  []
 
 
-LaTeX Warning: Marginpar on page 166 moved.
+LaTeX Warning: Marginpar on page 168 moved.
 
 
-LaTeX Warning: Marginpar on page 166 moved.
+LaTeX Warning: Marginpar on page 168 moved.
 
-[166 <./figs/PM.png>]
+[168 <./figs/PM.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--87
 [][]\T1/pplj/m/n/8 .ici $\OML/zplm/m/it/8 i$ \T1/pplj/m/n/8 dé-signe une cel-lu
 le donc une
@@ -4565,7 +4508,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--87
  []
 
 
-LaTeX Warning: Marginpar on page 167 moved.
+LaTeX Warning: Marginpar on page 169 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 95--95
@@ -4583,12 +4526,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--95
  []
 
 
-LaTeX Warning: Marginpar on page 167 moved.
+LaTeX Warning: Marginpar on page 169 moved.
 
 
-LaTeX Warning: Marginpar on page 167 moved.
+LaTeX Warning: Marginpar on page 169 moved.
 
-[167]
+[169]
 Underfull \hbox (badness 10000) in paragraph at lines 104--104
 [][]\T1/pplj/m/n/8 .représentées ici à 1D. On y dis-tingue
  []
@@ -4621,7 +4564,7 @@ m/m/it/8 t\OT1/zplm/m/n/8 )$ \T1/pplj/m/n/8 sa pres-sion[] et $\OML/zplm/m/it/8
  []
 
 
-LaTeX Warning: Marginpar on page 168 moved.
+LaTeX Warning: Marginpar on page 170 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--109
@@ -4634,9 +4577,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--109
  []
 
 
-LaTeX Warning: Marginpar on page 168 moved.
+LaTeX Warning: Marginpar on page 170 moved.
 
-[168] [169]
+[170] [171]
 Underfull \hbox (badness 10000) in paragraph at lines 148--148
 [][]\T1/pplj/m/n/8 .Notons que la même chose existe
  []
@@ -4662,12 +4605,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
  []
 
 
-LaTeX Warning: Marginpar on page 170 moved.
+LaTeX Warning: Marginpar on page 172 moved.
 
-[170] <figs/zoom.png, id=1700, 883.3pt x 659.46375pt>
+[172]
+<figs/zoom.png, id=1698, 883.3pt x 659.46375pt>
 File: figs/zoom.png Graphic file (type png)
- <use figs/zoom.png>
-Package pdftex.def Info: figs/zoom.png used on input line 160.
+<use figs/zoom.png>
+Package pdftex.def Info: figs/zoom.png  used on input line 160.
 (pdftex.def)             Requested size: 312.0035pt x 232.93896pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 167--167
@@ -4686,12 +4630,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--167
 \T1/pplj/m/n/8 ve-ment les fonc-tions de chauf-fage et de
  []
 
-[171 <./figs/zoom.png>]
+[173 <./figs/zoom.png>]
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 173--173
@@ -4712,7 +4656,7 @@ a den-sité
  []
 
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 178--178
@@ -4751,16 +4695,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--178
  []
 
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 180--180
@@ -4774,7 +4718,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--180
  []
 
 
-LaTeX Warning: Marginpar on page 172 moved.
+LaTeX Warning: Marginpar on page 174 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 185--185
@@ -4798,12 +4742,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--185
  l'éner-gie
  []
 
-[172]
+[174]
 
-LaTeX Warning: Marginpar on page 173 moved.
+LaTeX Warning: Marginpar on page 175 moved.
 
 
-LaTeX Warning: Marginpar on page 173 moved.
+LaTeX Warning: Marginpar on page 175 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 189--189
@@ -4816,17 +4760,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--189
  []
 
 
-LaTeX Warning: Marginpar on page 173 moved.
+LaTeX Warning: Marginpar on page 175 moved.
 
 
-LaTeX Warning: Marginpar on page 173 moved.
+LaTeX Warning: Marginpar on page 175 moved.
 
-<figs/HM.png, id=1716, 1405.25pt x 1405.25pt>
+<figs/HM.png, id=1714, 1405.25pt x 1405.25pt>
 File: figs/HM.png Graphic file (type png)
- <use figs/HM.png>
-Package pdftex.def Info: figs/HM.png used on input line 193.
+<use figs/HM.png>
+Package pdftex.def Info: figs/HM.png  used on input line 193.
 (pdftex.def)             Requested size: 311.98634pt x 311.98634pt.
- [173] [174 <./figs/HM.png>]
+[175] [176 <./figs/HM.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 204--204
 [][]\T1/pplj/m/n/8 .dans des vo-lumes cos-mo-lo-giques. Il
  []
@@ -4870,16 +4814,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--204
  []
 
 
-LaTeX Warning: Marginpar on page 175 moved.
+LaTeX Warning: Marginpar on page 177 moved.
 
 
-LaTeX Warning: Marginpar on page 175 moved.
+LaTeX Warning: Marginpar on page 177 moved.
 
 
-LaTeX Warning: Marginpar on page 175 moved.
+LaTeX Warning: Marginpar on page 177 moved.
 
 
-LaTeX Warning: Marginpar on page 175 moved.
+LaTeX Warning: Marginpar on page 177 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 219--219
@@ -4903,13 +4847,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--219
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 219--219
-\T1/pplj/m/n/8 leur rôles re-la-tifs et quan-ti-ta-tifs ne
+\T1/pplj/m/n/8 leurs rôles re-la-tifs et quan-ti-ta-tifs ne
  []
 
 
-LaTeX Warning: Marginpar on page 175 moved.
+LaTeX Warning: Marginpar on page 177 moved.
 
-[175]
+[177]
 Underfull \hbox (badness 10000) in paragraph at lines 223--223
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 N\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 m\OT1/
 zplm/m/n/8 )$ \T1/pplj/m/n/8 dé-signe le nombre d'étoiles de
@@ -4922,16 +4866,18 @@ rieures d'étoiles
  []
 
 
-LaTeX Warning: Marginpar on page 176 moved.
+LaTeX Warning: Marginpar on page 178 moved.
 
-<figs/SN.png, id=1736, 435.6275pt x 634.37pt>
+
+LaTeX Warning: Marginpar on page 178 moved.
+
+<figs/SN.png, id=1734, 435.6275pt x 634.37pt>
 File: figs/SN.png Graphic file (type png)
- <use figs/SN.png>
-Package pdftex.def Info: figs/SN.png used on input line 231.
+<use figs/SN.png>
+Package pdftex.def Info: figs/SN.png  used on input line 231.
 (pdftex.def)             Requested size: 254.01349pt x 369.89983pt.
 
-
-LaTeX Warning: Marginpar on page 176 moved.
+LaTeX Warning: Marginpar on page 178 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 240--240
@@ -4943,9 +4889,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \T1/pplj/m/n/8 vi-tesse de li-bé-ra-tion est égale à celle du
  []
 
-[176] [177 <./figs/SN.png>]
+[178] [179 <./figs/SN.png>]
 
-LaTeX Warning: Marginpar on page 178 moved.
+LaTeX Warning: Marginpar on page 180 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 244--244
@@ -4953,28 +4899,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--244
  []
 
 
-LaTeX Warning: Marginpar on page 178 moved.
+LaTeX Warning: Marginpar on page 180 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 246--246
-[][]\T1/pplj/m/n/8 .comme étant ex-pé-rience dé-pen-dant
+[][]\T1/pplj/m/n/8 .comme étant dé-pen-dant de l'ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\T1/pplj/m/n/8 pé-rience réa-li-sée ou ac-ci-den-tel par
  []
 
 )
 
-LaTeX Warning: Marginpar on page 178 moved.
+LaTeX Warning: Marginpar on page 180 moved.
 
-[178]
+[180]
 \openout2 = `entropie.aux'.
 
  (./entropie.tex
 
-LaTeX Warning: Marginpar on page 179 moved.
+LaTeX Warning: Marginpar on page 181 moved.
 
 
-LaTeX Warning: Marginpar on page 179 moved.
+LaTeX Warning: Marginpar on page 181 moved.
 
-[179
+[181
 
 
 
@@ -4988,10 +4939,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--18
 \T1/pplj/m/n/8 exemple un état où les cou-leurs sont
  []
 
-<figs/micro.png, id=1761, 319.1925pt x 374.39874pt>
+<figs/micro.png, id=1760, 319.1925pt x 374.39874pt>
 File: figs/micro.png Graphic file (type png)
- <use figs/micro.png>
-Package pdftex.def Info: figs/micro.png used on input line 22.
+<use figs/micro.png>
+Package pdftex.def Info: figs/micro.png  used on input line 22.
 (pdftex.def)             Requested size: 169.80437pt x 199.17305pt.
 
 Overfull \hbox (2.24973pt too wide) in paragraph at lines 18--26
@@ -5000,9 +4951,9 @@ Overfull \hbox (2.24973pt too wide) in paragraph at lines 18--26
  []
 
 
-LaTeX Warning: Marginpar on page 180 moved.
+LaTeX Warning: Marginpar on page 182 moved.
 
-[180 <./figs/micro.png>]
+[182 <./figs/micro.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
 [][]\T1/pplj/m/n/8 .Par exemple, pour re-col-ler un verre
  []
@@ -5028,39 +4979,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
  []
 
 
-LaTeX Warning: Marginpar on page 181 moved.
-
-! Undefined control sequence.
-l.33 \sigma \sim \srqt
-                      {k_B T}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Marginpar on page 183 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
 [][]\T1/pplj/m/n/8 .type dis-tri-bu-tion de Maxwell-
  []
 
-<figs/dispersion.png, id=1768, 431.6125pt x 319.1925pt>
+<figs/dispersion.png, id=1767, 431.6125pt x 319.1925pt>
 File: figs/dispersion.png Graphic file (type png)
-
 <use figs/dispersion.png>
-Package pdftex.def Info: figs/dispersion.png used on input line 38.
+Package pdftex.def Info: figs/dispersion.png  used on input line 38.
 (pdftex.def)             Requested size: 269.31589pt x 199.16849pt.
 
+LaTeX Warning: Marginpar on page 183 moved.
 
-LaTeX Warning: Marginpar on page 181 moved.
-
-[181] <figs/equiconfig.png, id=1776, 792.9625pt x 225.84375pt>
+[183]
+<figs/equiconfig.png, id=1774, 792.9625pt x 225.84375pt>
 File: figs/equiconfig.png Graphic file (type png)
-
 <use figs/equiconfig.png>
-Package pdftex.def Info: figs/equiconfig.png used on input line 51.
+Package pdftex.def Info: figs/equiconfig.png  used on input line 51.
 (pdftex.def)             Requested size: 312.00073pt x 88.86096pt.
- [182 <./figs/dispersion.png>]
+ [184 <./figs/dispersion.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
 [][]\T1/pplj/m/n/8 .intuitivement cette du-rée $\OML/zplm/m/it/8 t[]$\T1/pplj/m
 /n/8 est liée à la
@@ -5082,15 +5022,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \T1/pplj/m/n/8 tant plus ra-pi-de-ment at-teint que la
  []
 
-<figs/equientro.png, id=1783, 556.0775pt x 231.86626pt>
+<figs/equientro.png, id=1781, 556.0775pt x 231.86626pt>
 File: figs/equientro.png Graphic file (type png)
-
 <use figs/equientro.png>
-Package pdftex.def Info: figs/equientro.png used on input line 61.
+Package pdftex.def Info: figs/equientro.png  used on input line 61.
 (pdftex.def)             Requested size: 312.00371pt x 130.0954pt.
 
-
-LaTeX Warning: Marginpar on page 183 moved.
+LaTeX Warning: Marginpar on page 185 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
@@ -5102,28 +5040,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--66
 [][]\T1/pplj/m/n/8 .on dit aussi que l'on trouve que \T1/pplj/m/it/8 le
  []
 
-[183 <./figs/equiconfig.png>]
+[185 <./figs/equiconfig.png>]
 
-LaTeX Warning: Marginpar on page 184 moved.
+LaTeX Warning: Marginpar on page 186 moved.
 
 
-LaTeX Warning: Marginpar on page 184 moved.
+LaTeX Warning: Marginpar on page 186 moved.
 
-<figs/melange.png, id=1790, 826.08624pt x 200.75pt>
+<figs/melange.png, id=1788, 826.08624pt x 200.75pt>
 File: figs/melange.png Graphic file (type png)
- <use figs/melange.png>
-Package pdftex.def Info: figs/melange.png used on input line 73.
+<use figs/melange.png>
+Package pdftex.def Info: figs/melange.png  used on input line 73.
 (pdftex.def)             Requested size: 312.00006pt x 75.82018pt.
-
-[184 <./figs/equientro.png>]
+[186 <./figs/equientro.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 83--83
 [][]\T1/pplj/m/n/8 .étudiée en dé-tail dans la sec-tion
  []
 
 
-LaTeX Warning: Marginpar on page 185 moved.
+LaTeX Warning: Marginpar on page 187 moved.
 
-[185 <./figs/melange.png>]
+[187 <./figs/melange.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 85--85
 [][]\T1/pplj/m/n/8 .typiquement plu-sieurs mil-liers de fois
  []
@@ -5134,10 +5071,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--85
  []
 
 
-LaTeX Warning: Marginpar on page 186 moved.
+LaTeX Warning: Marginpar on page 188 moved.
 
 
-LaTeX Warning: Marginpar on page 186 moved.
+LaTeX Warning: Marginpar on page 188 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 89--89
@@ -5162,9 +5099,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--89
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [186]
+ [188]
 
-LaTeX Warning: Marginpar on page 187 moved.
+LaTeX Warning: Marginpar on page 189 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 93--93
@@ -5192,7 +5129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--93
  []
 
 
-LaTeX Warning: Marginpar on page 187 moved.
+LaTeX Warning: Marginpar on page 189 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 97--97
@@ -5216,18 +5153,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--97
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 97--97
-\T1/pplj/m/n/8 est mois pro-bable que de res-ter dans
+\T1/pplj/m/n/8 est moins pro-bable que de res-ter dans
  []
 
-<figs/fluctuation.png, id=1807, 699.61375pt x 229.85875pt>
+<figs/fluctuation.png, id=1805, 699.61375pt x 229.85875pt>
 File: figs/fluctuation.png Graphic file (type png)
-
 <use figs/fluctuation.png>
-Package pdftex.def Info: figs/fluctuation.png used on input line 101.
+Package pdftex.def Info: figs/fluctuation.png  used on input line 101.
 (pdftex.def)             Requested size: 312.00502pt x 102.50952pt.
- [187]
+[189]
 
-LaTeX Warning: Marginpar on page 188 moved.
+LaTeX Warning: Marginpar on page 190 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 116--116
@@ -5245,24 +5181,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--116
  []
 
 
-LaTeX Warning: Marginpar on page 188 moved.
+LaTeX Warning: Marginpar on page 190 moved.
 
-[188 <./figs/fluctuation.png>]
+[190 <./figs/fluctuation.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 118--118
 [][]\T1/pplj/m/n/8 .à la ma-nière de ré-ser-voirs de gaz en
  []
 
 )
 
-LaTeX Warning: Marginpar on page 189 moved.
+LaTeX Warning: Marginpar on page 191 moved.
 
 
-LaTeX Warning: Marginpar on page 189 moved.
+LaTeX Warning: Marginpar on page 191 moved.
 
-[189]
+[191]
 \openout2 = `inflation.aux'.
 
- (./inflation.tex [190
+ (./inflation.tex [192
 
 
 
@@ -5277,7 +5213,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
  []
 
 
-LaTeX Warning: Marginpar on page 191 moved.
+LaTeX Warning: Marginpar on page 193 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -5285,9 +5221,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
  []
 
 
-LaTeX Warning: Marginpar on page 191 moved.
+LaTeX Warning: Marginpar on page 193 moved.
 
-[191]
+[193]
 Underfull \hbox (badness 10000) in paragraph at lines 16--16
 [][]\T1/pplj/m/n/8 .bien sûr, $\OML/zplm/m/it/8 c$ \T1/pplj/m/n/8 étant la plus
  grande vi-
@@ -5304,13 +5240,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
  []
 
 
-LaTeX Warning: Marginpar on page 192 moved.
+LaTeX Warning: Marginpar on page 194 moved.
 
-[192] <figs/inflation.png, id=1841, 764.8575pt x 400.49625pt>
+[194]
+<figs/inflation.png, id=1839, 764.8575pt x 400.49625pt>
 File: figs/inflation.png Graphic file (type png)
-
 <use figs/inflation.png>
-Package pdftex.def Info: figs/inflation.png used on input line 30.
+Package pdftex.def Info: figs/inflation.png  used on input line 30.
 (pdftex.def)             Requested size: 311.9947pt x 163.36731pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
@@ -5328,19 +5264,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--35
  []
 
 
-LaTeX Warning: Marginpar on page 193 moved.
+LaTeX Warning: Marginpar on page 195 moved.
 
 
-LaTeX Warning: Marginpar on page 193 moved.
+LaTeX Warning: Marginpar on page 195 moved.
 
 
-LaTeX Warning: Marginpar on page 193 moved.
+LaTeX Warning: Marginpar on page 195 moved.
 
-[193 <./figs/inflation.png>]
+[195 <./figs/inflation.png>]
 
-LaTeX Warning: Marginpar on page 194 moved.
+LaTeX Warning: Marginpar on page 196 moved.
 
-[194]
+[196]
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
 [][]\T1/pplj/m/n/8 .ces mo-no-pôles ma-gné-tiques se-raient
  []
@@ -5388,13 +5324,13 @@ lle du
  []
 
 
-LaTeX Warning: Marginpar on page 195 moved.
+LaTeX Warning: Marginpar on page 197 moved.
 
 
-LaTeX Warning: Marginpar on page 195 moved.
+LaTeX Warning: Marginpar on page 197 moved.
 
 
-LaTeX Warning: Marginpar on page 195 moved.
+LaTeX Warning: Marginpar on page 197 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 69--69
@@ -5402,12 +5338,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
  []
 
 
-LaTeX Warning: Marginpar on page 195 moved.
+LaTeX Warning: Marginpar on page 197 moved.
 
 
-LaTeX Warning: Marginpar on page 195 moved.
+LaTeX Warning: Marginpar on page 197 moved.
 
-[195]
+[197]
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[][]\T1/pplj/m/n/8 .par exemple c'est parce que les élec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T1/pplj/m/n/8 trons sont is-sus d'un champ unique
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T1/pplj/m/n/8 qu'ils sont stric-te-ment in-dis-tin-guables
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T1/pplj/m/n/8 (masse, charge,...) les uns des autres,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T1/pplj/m/n/8 alors que nor-ma-le-ment toute pro-duc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T1/pplj/m/n/8 tion d'ori-gine phy-sique de-vrait in-duire
+ []
+
+
+LaTeX Warning: Marginpar on page 198 moved.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 92--92
 [][]\T1/pplj/m/n/8 .de fa-çon tout à fait ana-logue à la dy-
  []
@@ -5427,15 +5396,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \T1/pplj/m/n/8 de la théo-rie des champs qui per-met
  []
 
-[196]
+[198]
 
-LaTeX Warning: Marginpar on page 197 moved.
-
-
-LaTeX Warning: Marginpar on page 197 moved.
+LaTeX Warning: Marginpar on page 199 moved.
 
 
-LaTeX Warning: Marginpar on page 197 moved.
+LaTeX Warning: Marginpar on page 199 moved.
+
+
+LaTeX Warning: Marginpar on page 199 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 97--97
@@ -5443,22 +5412,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--97
  []
 
 
-LaTeX Warning: Marginpar on page 197 moved.
+LaTeX Warning: Marginpar on page 199 moved.
 
-<figs/slowroll.png, id=1871, 732.7375pt x 375.4025pt>
+<figs/slowroll.png, id=1868, 732.7375pt x 375.4025pt>
 File: figs/slowroll.png Graphic file (type png)
- <use figs/slowroll.png>
-Package pdftex.def Info: figs/slowroll.png used on input line 113.
+<use figs/slowroll.png>
+Package pdftex.def Info: figs/slowroll.png  used on input line 113.
 (pdftex.def)             Requested size: 311.9963pt x 159.84468pt.
-
-[197 <./figs/slowroll.png>]
+[199 <./figs/slowroll.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
 [][]\T1/pplj/m/n/8 .ici $\OML/zplm/m/it/8 i$ \T1/pplj/m/n/8 et $\OML/zplm/m/it/
 8 f$ \T1/pplj/m/n/8 dé-si-gnent res-pec-ti-ve-ment les
  []
 
 
-LaTeX Warning: Marginpar on page 198 moved.
+LaTeX Warning: Marginpar on page 200 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--141
@@ -5471,9 +5439,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--141
  []
 
 
-LaTeX Warning: Marginpar on page 198 moved.
+LaTeX Warning: Marginpar on page 200 moved.
 
-[198]
+[200]
 Underfull \hbox (badness 10000) in paragraph at lines 151--151
 [][]\T1/pplj/m/n/8 .pour ré-fé-rence les éner-gies ac-tuel-le-
  []
@@ -5500,7 +5468,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
  []
 
 
-LaTeX Warning: Marginpar on page 199 moved.
+LaTeX Warning: Marginpar on page 201 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 163--163
@@ -5508,14 +5476,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--163
  []
 
 
-LaTeX Warning: Marginpar on page 199 moved.
+LaTeX Warning: Marginpar on page 201 moved.
 
-[199]) [200]
+[201]) [202]
 \openout2 = `reionisation.aux'.
 
  (./reionisation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
-[][]\T1/pplj/m/n/8 .on parle aussi de la Ré-io-ni-sa-tion de
+[][]\T1/pplj/m/n/8 .on dis-tingue aussi la Ré-io-ni-sa-tion de
  []
 
 
@@ -5524,7 +5492,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
  []
 
 
-LaTeX Warning: Marginpar on page 201 moved.
+LaTeX Warning: Marginpar on page 203 moved.
+
+
+LaTeX Warning: Marginpar on page 203 moved.
 
 
 Underfull \hbox (badness 6725) in paragraph at lines 6--6
@@ -5533,31 +5504,30 @@ plm/m/n/8 ^^X
  []
 
 
-LaTeX Warning: Marginpar on page 201 moved.
+LaTeX Warning: Marginpar on page 203 moved.
 
-<figs/frisereion.png, id=1905, 711.65875pt x 369.38pt>
+<figs/frisereion.png, id=1902, 711.65875pt x 369.38pt>
 File: figs/frisereion.png Graphic file (type png)
-
 <use figs/frisereion.png>
-Package pdftex.def Info: figs/frisereion.png used on input line 10.
+Package pdftex.def Info: figs/frisereion.png  used on input line 10.
 (pdftex.def)             Requested size: 311.99062pt x 161.93588pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
 [][]\T1/pplj/m/n/8 .voir le cha-pitre dé-dié à la for-ma-tion
  []
 
-[201
+[203
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 202 moved.
+LaTeX Warning: Marginpar on page 204 moved.
 
-<figs/dX.png, id=1910, 2055.68pt x 2055.68pt>
+<figs/dX.png, id=1907, 2055.68pt x 2055.68pt>
 File: figs/dX.png Graphic file (type png)
- <use figs/dX.png>
-Package pdftex.def Info: figs/dX.png used on input line 23.
+<use figs/dX.png>
+Package pdftex.def Info: figs/dX.png  used on input line 23.
 (pdftex.def)             Requested size: 284.4997pt x 284.4997pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
@@ -5580,7 +5550,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
  []
 
 
-LaTeX Warning: Marginpar on page 202 moved.
+LaTeX Warning: Marginpar on page 204 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
@@ -5600,7 +5570,7 @@ ni-sés, $\OML/zplm/m/it/8 N[]$
  []
 
 
-LaTeX Warning: Marginpar on page 202 moved.
+LaTeX Warning: Marginpar on page 204 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
@@ -5608,23 +5578,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--37
  []
 
 
-LaTeX Warning: Marginpar on page 202 moved.
+LaTeX Warning: Marginpar on page 204 moved.
 
-[202 <./figs/frisereion.png>]
+[204 <./figs/frisereion.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 43--43
 [][]\T1/pplj/m/n/8 .on rap-pelle que son abon-dance est
  []
 
 
-LaTeX Warning: Marginpar on page 203 moved.
+LaTeX Warning: Marginpar on page 205 moved.
 
-[203 <./figs/dX.png>]
+[205 <./figs/dX.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 55--55
 [][]\T1/pplj/m/n/8 .du nom du scien-ti-fique ayant dé-crit
  []
 
 
-LaTeX Warning: Marginpar on page 204 moved.
+LaTeX Warning: Marginpar on page 206 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
@@ -5639,12 +5609,12 @@ nt[] et $\OML/zplm/m/it/8 F[]$ \T1/pplj/m/n/8 le
  []
 
 
-LaTeX Warning: Marginpar on page 204 moved.
+LaTeX Warning: Marginpar on page 206 moved.
 
-<figs/strom.png, id=1925, 505.89pt x 505.89pt>
+<figs/strom.png, id=1923, 505.89pt x 505.89pt>
 File: figs/strom.png Graphic file (type png)
- <use figs/strom.png>
-Package pdftex.def Info: figs/strom.png used on input line 84.
+<use figs/strom.png>
+Package pdftex.def Info: figs/strom.png  used on input line 84.
 (pdftex.def)             Requested size: 284.53154pt x 284.53154pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 89--89
@@ -5664,9 +5634,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--89
  []
 
 
-LaTeX Warning: Marginpar on page 204 moved.
+LaTeX Warning: Marginpar on page 206 moved.
 
-[204] [205 <./figs/strom.png>]
+[206] [207 <./figs/strom.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 99--99
 [][]\T1/pplj/m/n/8 .$\OML/zplm/m/it/8 I[]$ \T1/pplj/m/n/8 dé-signe l'in-ten-sit
 é spé-ci-fique
@@ -5679,7 +5649,7 @@ ces de
  []
 
 
-LaTeX Warning: Marginpar on page 206 moved.
+LaTeX Warning: Marginpar on page 208 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
@@ -5692,13 +5662,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--105
  []
 
 
-LaTeX Warning: Marginpar on page 206 moved.
+LaTeX Warning: Marginpar on page 208 moved.
 
 
-LaTeX Warning: Marginpar on page 206 moved.
+LaTeX Warning: Marginpar on page 208 moved.
 
 
-LaTeX Warning: Marginpar on page 206 moved.
+LaTeX Warning: Marginpar on page 208 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--117
@@ -5716,11 +5686,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--117
  []
 
 
-LaTeX Warning: Marginpar on page 206 moved.
+LaTeX Warning: Marginpar on page 208 moved.
 
-[206]
+[208]
 
-LaTeX Warning: Marginpar on page 207 moved.
+LaTeX Warning: Marginpar on page 209 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--127
@@ -5728,30 +5698,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--127
  []
 
 
-LaTeX Warning: Marginpar on page 207 moved.
+LaTeX Warning: Marginpar on page 209 moved.
 
-[207]
+[209]
 
-LaTeX Warning: Marginpar on page 208 moved.
+LaTeX Warning: Marginpar on page 210 moved.
 
-<figs/lya.png, id=1962, 620.3175pt x 389.455pt>
+<figs/lya.png, id=1959, 620.3175pt x 389.455pt>
 File: figs/lya.png Graphic file (type png)
- <use figs/lya.png>
-Package pdftex.def Info: figs/lya.png used on input line 145.
+<use figs/lya.png>
+Package pdftex.def Info: figs/lya.png  used on input line 145.
 (pdftex.def)             Requested size: 311.99425pt x 195.87988pt.
- [208 <./figs/lya.png>]
+[210 <./figs/lya.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 152--152
 [][]\T1/pplj/m/n/8 .on pourra le tra-duire par 'Tun-nel'
  []
 
-<figs/fan06.png, id=1968, 363.3575pt x 453.695pt>
-File: figs/fan06.png Graphic file (type png)
- <use figs/fan06.png>
-Package pdftex.def Info: figs/fan06.png used on input line 155.
-(pdftex.def)             Requested size: 273.4489pt x 341.43344pt.
+<figs/Becker01.png, id=1965, 887.4756pt x 487.8225pt>
+File: figs/Becker01.png Graphic file (type png)
+<use figs/Becker01.png>
+Package pdftex.def Info: figs/Becker01.png  used on input line 155.
+(pdftex.def)             Requested size: 311.98883pt x 171.49223pt.
 
-
-LaTeX Warning: Marginpar on page 209 moved.
+LaTeX Warning: Marginpar on page 211 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--161
@@ -5769,36 +5738,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--161
  []
 
 
-Underfull \vbox (badness 2435) has occurred while \output is active []
+LaTeX Warning: Marginpar on page 211 moved.
 
- [209 <./figs/fan06.png>]
-
-LaTeX Warning: Marginpar on page 210 moved.
-
-<figs/ne.png, id=1974, 505.89pt x 505.89pt>
+<figs/ne.png, id=1966, 505.89pt x 505.89pt>
 File: figs/ne.png Graphic file (type png)
- <use figs/ne.png>
-Package pdftex.def Info: figs/ne.png used on input line 165.
+<use figs/ne.png>
+Package pdftex.def Info: figs/ne.png  used on input line 165.
 (pdftex.def)             Requested size: 284.53154pt x 284.53154pt.
-
+[211 <./figs/Becker01.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 174--174
 [][]\T1/pplj/m/n/8 .on consi-dère que l'hé-lium est né-gli-
  []
 
-[210 <./figs/ne.png>]
 
-LaTeX Warning: Marginpar on page 211 moved.
+LaTeX Warning: Marginpar on page 212 moved.
 
-<figs/tau.png, id=1983, 485.815pt x 377.41pt>
-File: figs/tau.png Graphic file (type png)
- <use figs/tau.png>
-Package pdftex.def Info: figs/tau.png used on input line 191.
-(pdftex.def)             Requested size: 311.9954pt x 242.3766pt.
+[212 <./figs/ne.png>]
+
+LaTeX Warning: Marginpar on page 213 moved.
 
 
-LaTeX Warning: Marginpar on page 211 moved.
-
-[211]
 Underfull \hbox (badness 10000) in paragraph at lines 201--201
 [][]\T1/pplj/m/n/8 .qui est de l'ordre de la di-zaine
  []
@@ -5808,15 +5767,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \T1/pplj/m/n/8 de K aux red-shifts consi-dé-rés avec
  []
 
+[213]
 
-LaTeX Warning: Marginpar on page 212 moved.
+LaTeX Warning: Marginpar on page 214 moved.
 
-[212 <./figs/tau.png>] <figs/21cm.png, id=1999, 582.175pt x 164.615pt>
+<figs/21cm.png, id=1990, 917.1063pt x 355.92975pt>
 File: figs/21cm.png Graphic file (type png)
-
 <use figs/21cm.png>
-Package pdftex.def Info: figs/21cm.png used on input line 205.
-(pdftex.def)             Requested size: 312.00687pt x 88.22263pt.
+Package pdftex.def Info: figs/21cm.png  used on input line 205.
+(pdftex.def)             Requested size: 311.99393pt x 121.08511pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 210--210
 [][]\T1/pplj/m/n/8 .la tem-pé-ra-ture du gaz évo-lue en
@@ -5829,9 +5788,12 @@ m/m/n/8 )[]$ \T1/pplj/m/n/8 tan-dis que celle du CMB
  []
 
 
-LaTeX Warning: Marginpar on page 213 moved.
+LaTeX Warning: Marginpar on page 214 moved.
 
-[213 <./figs/21cm.png>]
+
+LaTeX Warning: Marginpar on page 214 moved.
+
+[214 <./figs/21cm.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 217--217
 [][]\T1/pplj/m/n/8 .pouvant consis-ter en un mé-lange
  []
@@ -5842,12 +5804,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--217
  []
 
 
-LaTeX Warning: Marginpar on page 214 moved.
+LaTeX Warning: Marginpar on page 215 moved.
+
+[215]
+
+LaTeX Warning: Marginpar on page 216 moved.
 
 
-LaTeX Warning: Marginpar on page 214 moved.
-
-[214]
 Underfull \hbox (badness 10000) in paragraph at lines 221--221
 [][]\T1/pplj/m/n/8 .typiquement une tem-pé-ra-ture de gaz
  []
@@ -5858,36 +5821,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--221
  []
 
 
-LaTeX Warning: Marginpar on page 215 moved.
+LaTeX Warning: Marginpar on page 216 moved.
 
-) [215] [216
-
-
-] (./main.bbl
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 40.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 40.
-) [217
-
-] [218
-
-]
-(./main.ind [219] [220
-
-] [221] [222] [223]) [224] (./main.lof
+) [216]
+No file main.bbl.
+No file main.ind.
+(./main.lof
 Overfull \hbox (17.19978pt too wide) in paragraph at lines 21--21
  [][] [][]\T1/pplj/m/n/10 Evolution sché-ma-tique de l'abon-dance d'une par-ti-
-cule re-lique.[] 75 
+cule re-lique.[] 77 
  []
 
 
 Overfull \hbox (6.58978pt too wide) in paragraph at lines 26--26
  [][] [][]\T1/pplj/m/n/10 Comparaison des abon-dances ob-ser-vées des élé-ments
- lé-gers[] 86 
+ lé-gers[] 88 
  []
 
 
@@ -5928,7 +5876,10 @@ Overfull \hbox (7.33974pt too wide) in paragraph at lines 28--28
 mince au
  []
 
-[225
+[217
+
+
+
 
 
 ]
@@ -5940,7 +5891,7 @@ dif-fus cos-mo-lo-gique
 
 Overfull \hbox (18.60979pt too wide) in paragraph at lines 40--40
  [][] [][]\T1/pplj/m/n/10 La frac-tion ba-ryo-nique pré-dite par une si-mu-la-t
-ion nu-mé-rique[] 108 
+ion nu-mé-rique[] 110 
  []
 
 
@@ -5982,7 +5933,7 @@ Overfull \hbox (7.2498pt too wide) in paragraph at lines 49--49
 
 Overfull \hbox (20.92984pt too wide) in paragraph at lines 50--50
  [][] [][]\T1/pplj/m/n/10 Distribution du nombre de ga-laxies sa-tel-lites de l
-a Voie Lac-tée[] 125 
+a Voie Lac-tée[] 127 
  []
 
 
@@ -6006,10 +5957,10 @@ l'ef-fon-dre-ment
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [226]
+ [218]
 Overfull \hbox (4.63985pt too wide) in paragraph at lines 69--69
  [][] [][]\T1/pplj/m/n/10 schématique de la mé-thode de cal-cul des forces sur 
-grilles.[] 166 
+grilles.[] 168 
  []
 
 
@@ -6033,13 +5984,13 @@ Overfull \hbox (15.18979pt too wide) in paragraph at lines 74--74
 
 Overfull \hbox (23.70982pt too wide) in paragraph at lines 75--75
  [][] [][]\T1/pplj/m/n/10 Le lien entre la dis-per-sion de vi-tesse et la tem-p
-é-ra-ture du gaz. [] 182 
+é-ra-ture du gaz. [] 184 
  []
 
 
 Overfull \hbox (67.40964pt too wide) in paragraph at lines 81--81
  [][] [][]\T1/pplj/m/n/10 Histoire d'évo-lu-tion de quelques lon-geurs phy-siqu
-es au cours du temps.[] 193 
+es au cours du temps.[] 195 
  []
 
 )
@@ -6047,7 +5998,7 @@ es au cours du temps.[] 193
 \openout7 = `main.lof'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1211.
- [227]
+ [219]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1211.
  (./main.aux (./Intro.aux) (./connaissance.aux) (./newton.aux)
 (./fondamentaux.aux) (./homogene.aux) (./chaud.aux) (./thermique.aux)
@@ -6057,7 +6008,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1211.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1211.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AD8818359DBEF856A93F18A3E29F9868;15513.
+(rerunfilecheck)             Checksum: 02911FD69D1A0F4E020A8E1D7D02D267;15329.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -6065,31 +6016,30 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1211.
  ) 
 Here is how much of TeX's memory you used:
- 16045 strings out of 493089
- 224900 string characters out of 6134841
- 441071 words of memory out of 5000000
- 18186 multiletter control sequences out of 15000+600000
- 115589 words of font info for 191 fonts, out of 8000000 for 9000
+ 15934 strings out of 492649
+ 226296 string characters out of 6129622
+ 445526 words of memory out of 5000000
+ 18496 multiletter control sequences out of 15000+600000
+ 99074 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,13n,58p,3273b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
-w/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palat
-ino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/upl
-r8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
-b>
-Output written on main.pdf (227 pages, 26718570 bytes).
+ 45i,13n,58p,3293b,739s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
+rw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pala
+tino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/up
+lri8a.pfb>
+Output written on main.pdf (219 pages, 27295730 bytes).
 PDF statistics:
- 3211 PDF objects out of 3580 (max. 8388607)
- 2776 compressed objects within 28 object streams
- 814 named destinations out of 1000 (max. 500000)
- 11725 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 2330 PDF objects out of 2487 (max. 8388607)
+ 1916 compressed objects within 20 object streams
+ 798 named destinations out of 1000 (max. 500000)
+ 4024 words of extra memory for PDF output out of 10000 (max. 10000000)
 
