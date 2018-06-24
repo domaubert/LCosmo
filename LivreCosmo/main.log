@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.23)  24 JUN 2018 08:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.23)  24 JUN 2018 08:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1179,11 +1179,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-<figs/timeline.png, id=423, 593.21625pt x 572.1375pt>
+<figs/timeline.png, id=423, 592.97536pt x 572.01704pt>
 File: figs/timeline.png Graphic file (type png)
 <use figs/timeline.png>
 Package pdftex.def Info: figs/timeline.png  used on input line 81.
-(pdftex.def)             Requested size: 295.01428pt x 284.53154pt.
+(pdftex.def)             Requested size: 294.95782pt x 284.53273pt.
 [19]
 Underfull \hbox (badness 10000) in paragraph at lines 88--88
 [][]\T1/pplj/m/n/8 .gravité quan-tique pour la-quelle
@@ -3091,11 +3091,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--65
 LaTeX Warning: Marginpar on page 108 moved.
 
 [108]
-<figs/halogal.png, id=1193, 850.17625pt x 509.905pt>
+<figs/halogal.png, id=1193, 849.8952pt x 509.86485pt>
 File: figs/halogal.png Graphic file (type png)
 <use figs/halogal.png>
 Package pdftex.def Info: figs/halogal.png  used on input line 81.
-(pdftex.def)             Requested size: 312.00468pt x 187.12914pt.
+(pdftex.def)             Requested size: 312.00528pt x 187.17664pt.
  [109 <./figs/halogal.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--91
 [][]\T1/pplj/m/n/8 .par exemple la pe-tite ga-laxie de \T1/pplj/m/it/8 Draco
@@ -3389,11 +3389,11 @@ LaTeX Warning: Marginpar on page 121 moved.
 LaTeX Warning: Marginpar on page 121 moved.
 
 [121]
-<figs/wdm.png, id=1293, 840.13875pt x 438.63875pt>
+<figs/wdm.png, id=1293, 840.13875pt x 438.31755pt>
 File: figs/wdm.png Graphic file (type png)
 <use figs/wdm.png>
 Package pdftex.def Info: figs/wdm.png  used on input line 276.
-(pdftex.def)             Requested size: 312.00023pt x 162.89616pt.
+(pdftex.def)             Requested size: 312.00023pt x 162.77689pt.
  [122 <./figs/wdm.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 286--286
 [][]\T1/pplj/m/n/8 .gravitation, hy-dro-dy-na-mique, chi-mie,
@@ -4873,11 +4873,11 @@ LaTeX Warning: Marginpar on page 178 moved.
 
 LaTeX Warning: Marginpar on page 178 moved.
 
-<figs/SN.png, id=1737, 435.6275pt x 634.37pt>
+<figs/SN.png, id=1737, 435.42674pt x 634.16925pt>
 File: figs/SN.png Graphic file (type png)
 <use figs/SN.png>
 Package pdftex.def Info: figs/SN.png  used on input line 231.
-(pdftex.def)             Requested size: 254.01349pt x 369.89983pt.
+(pdftex.def)             Requested size: 253.96951pt x 369.88922pt.
 
 LaTeX Warning: Marginpar on page 178 moved.
 
@@ -5049,11 +5049,11 @@ LaTeX Warning: Marginpar on page 186 moved.
 
 LaTeX Warning: Marginpar on page 186 moved.
 
-<figs/melange.png, id=1791, 826.08624pt x 200.75pt>
+<figs/melange.png, id=1791, 826.0461pt x 200.54926pt>
 File: figs/melange.png Graphic file (type png)
 <use figs/melange.png>
 Package pdftex.def Info: figs/melange.png  used on input line 73.
-(pdftex.def)             Requested size: 312.00006pt x 75.82018pt.
+(pdftex.def)             Requested size: 311.99751pt x 75.74742pt.
 [186 <./figs/equientro.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 83--83
 [][]\T1/pplj/m/n/8 .étudiée en dé-tail dans la sec-tion
@@ -5526,11 +5526,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
 LaTeX Warning: Marginpar on page 204 moved.
 
-<figs/dX.png, id=1910, 2055.68pt x 2055.68pt>
+<figs/dX.png, id=1910, 2055.3588pt x 2055.3588pt>
 File: figs/dX.png Graphic file (type png)
 <use figs/dX.png>
 Package pdftex.def Info: figs/dX.png  used on input line 23.
-(pdftex.def)             Requested size: 284.4997pt x 284.4997pt.
+(pdftex.def)             Requested size: 284.51796pt x 284.51796pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
 [][]\T1/pplj/m/n/8 .HI étant une dé-no-mi-na-tion de l'hy-
@@ -6038,7 +6038,7 @@ type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
 rw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pala
 tino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on main.pdf (219 pages, 48133837 bytes).
+Output written on main.pdf (219 pages, 68688264 bytes).
 PDF statistics:
  2333 PDF objects out of 2487 (max. 8388607)
  1916 compressed objects within 20 object streams
