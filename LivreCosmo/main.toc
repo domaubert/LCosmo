@@ -42,7 +42,7 @@
 \contentsline {subsection}{La Mati\IeC {\`e}re Relativiste}{54}{subsection*.43}
 \contentsline {subsection}{Le "Volume"}{56}{subsection*.44}
 \contentsline {section}{Epoques de domination}{56}{section*.45}
-\contentsline {subsection}{Param\IeC {\`e}tre de densit\IeC {\'e} $\Omega $}{58}{subsection*.46}
+\contentsline {subsection}{Param\IeC {\`e}tre de densit\IeC {\'e} $\Omega $}{59}{subsection*.46}
 \contentsline {subsection}{Valeurs exp\IeC {\'e}rimentales des param\IeC {\`e}tres de densit\IeC {\'e}}{60}{subsection*.47}
 \contentsline {section}{Mod\IeC {\`e}les d'Univers}{61}{section*.48}
 \contentsline {subsection}{Mod\IeC {\`e}le d'Einstein-de Sitter : $\Omega _m=1$}{61}{subsection*.49}
