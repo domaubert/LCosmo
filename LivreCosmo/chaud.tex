@@ -3,7 +3,7 @@
 \chapter{l'Univers Chaud}
 Dans ce chapitre nous allons étudier de premières bases se rapportant à l'Univers quasi-primordial âgé de quelques minutes au plus. Durant cette période, la dynamique de l'Univers est régie par les espèces relativistes, avec une dépendance temporelle du facteur d'expansion en $a(t)\sim\sqrt{t}$~: durant ces époques les influences respectives de la matière et de la constante cosmologique sont faibles. Ces premiers instants sont proches du Big-Bang et l'Univers s'y trouve dense et chaud~: ces conditions sont propices aux interactions entre atomes et particules subatomiques. C'est durant cette époque que les abondances des particules reliques\index{particule relique} et des éléments légers\index{element légers@élément légers}\sidenote{terme qui désigne les éléments de faible nombre de masse tels que H, He, Li ou Be} sont fixées~: c'est de ces abondances dont nous allons discuter dans ce chapitre.
 
-\section{Equilibre \& Gel de Réactions}
+\section{Équilibre \& Gel de Réactions}
 Les deux concepts fondamentaux des processus qui règlent les abondance\index{abondance} sont les notions \textit{d'abondance à l'équilibre}\index{abondance à l'équilibre} et de \textit{gel des réactions}\index{gel des réactions}. Dans notre cas, le terme d'abondance désigne la densité numérique d'une espèce atomique, subatomique, isotopique, etc... Par exemple l'abondance des atomes\index{atome} d'hydrogène se note $n_H$ et s'exprime en atomes par $m^3$. Les réactions qui permettent de modifier ces abondances font généralement intervenir d'autres réactifs. La photoionisation\index{ionisation} par exemple se caractérise par la réaction suivante:
 \begin{equation}
 n_H+\gamma \leftrightarrow n_{H+} + e^-,
@@ -31,7 +31,7 @@ Dans le cas cosmologique général, les deux procédés se superposent et l'abon
 \end{equation}
 Cette équation demande en toute généralité à être résolue numériquement. Toutefois 2 cas limites se détachent facilement:
 \begin{itemize}
-\item si $H\gg \Gamma$ : l'expansion est beaucoup plus efficace que les réactions. C'est un régime où le 2nd terme de l'équation \ref{e:reac} peut être négligé, on retrouve $n\sim a^{-3}$ et le nombre de particules dans un volume en expansion donné est \textit{constant}. On dit que l'espèce est \textit{gelée}.
+\item si $H\gg \Gamma$ : l'expansion est beaucoup plus efficace que les réactions. C'est un régime où le second terme de l'équation \ref{e:reac} peut être négligé, on retrouve $n\sim a^{-3}$ et le nombre de particules dans un volume en expansion donné est \textit{constant}. On dit que l'espèce est \textit{gelée}.
 \item si $H\ll \Gamma$ : on peut négliger la dilution cosmologique et les temps de retour à l'équilibre sont très courts. L'abondance est celle de l'équilibre, qui est éventuellement une fonction du temps $n\sim n_e(a)$.
 \end{itemize}
 
@@ -82,7 +82,7 @@ L'équation \ref{e:densetat} n'est pas suffisante pour calculer l'abondance d'un
 n(E)=\frac{g(E)}{\exp(\beta(E-\mu))\pm 1}.
 \label{e:BEFD}
 \end{equation}
-Le signe positif (resp. négatif) au dénominateur désigne la statistique de Fermi-Dirac\index{Fermi-Dirac!statistique} (resp. Bose-Einstein \index{Bose-Einstein!statistique}).La quantité $\beta=1/k_B T$ dépend est une représentation de la température\index{température}, $\mu$ est le potentiel chimique\index{potentiel chimique} de l'espèce étudiée et $g(E)$ est la dégénérescence\index{dégénerescence} d'un état d'énergie $E$. Cette dernière quantité dépend également de la particule considérée. On note que dans le cas d'une statistique de Fermi-Dirac, s'appliquant aux fermions, $n(E)\le g(E)$\sidenote{avec un dénominateur supérieur à 1}: cela découle du principe d'exclusion de Pauli\index{principe d'exclusion} l'occupation est au mieux égale à la dégénérescence du niveau d'énergie. A l'inverse les bosons, soumis à la statistique de Bose-Einstein, peuvent avoir des niveaux d'occupation arbitrairement grands.
+Le signe positif (resp. négatif) au dénominateur désigne la statistique de Fermi-Dirac\index{Fermi-Dirac!statistique} (resp. Bose-Einstein \index{Bose-Einstein!statistique}).La quantité $\beta=1/k_B T$ dépend est une représentation de la température\index{température}, $\mu$ est le potentiel chimique\index{potentiel chimique} de l'espèce étudiée et $g(E)$ est la dégénérescence\index{dégénérescence} d'un état d'énergie $E$. Cette dernière quantité dépend également de la particule considérée. On note que dans le cas d'une statistique de Fermi-Dirac, s'appliquant aux fermions, $n(E)\le g(E)$\sidenote{avec un dénominateur supérieur à 1}: cela découle du principe d'exclusion de Pauli\index{principe d'exclusion} l'occupation est au mieux égale à la dégénérescence du niveau d'énergie. A l'inverse les bosons, soumis à la statistique de Bose-Einstein, peuvent avoir des niveaux d'occupation arbitrairement grands.
 
 A ce stade, l'abondance d'une particule peut être déterminée et le nombre total de particules d'une espèce donnée dans une cuve de volume $V=L^3$ à température $T$ est
 \begin{equation}
@@ -118,7 +118,7 @@ D'où son abondance à l'équilibre:
 \begin{equation}
 n_\gamma=\frac{1}{(\hbar c)^3\pi^2}\int_0^\infty\frac{E^2dE}{e^{\frac{E}{k_B T}}-1}.
 \end{equation}
-On reconnait dans l'intégrale la distribution de Planck\index{Planck!distribution}, qui par définition décrit la distribution spectrale d'énergie d'un gaz de photons à l'équilibre, comme présent par exemple dans un corps noir\index{corps noir}. Cette intégrale peut être conduite analytiquement conduisant à \sidenote{en utilisant l'expression de la fonction \textit{zéta} de Riemann avec $\zeta(3)=\frac{1}{\Gamma(3)} \int_0^\infty \frac{x^2}{e^x-1}dx$.} :
+On reconnait dans l'intégrale la distribution de Planck\index{Planck!distribution}, qui par définition décrit la distribution spectrale d'énergie d'un gaz de photons à l'équilibre, comme présent par exemple dans un corps noir\index{corps noir}. Cette intégrale peut être conduite analytiquement conduisant à \sidenote{en utilisant l'expression de la fonction \textit{zêta} de Riemann avec $\zeta(3)=\frac{1}{\Gamma(3)} \int_0^\infty \frac{x^2}{e^x-1}dx$.} :
 \begin{equation}
 n_\gamma \approx 0.244 \left(\frac{k_BT}{\hbar c}\right)^3 \mathrm{m}^{-3}.
 \label{e:densphot}
@@ -166,7 +166,7 @@ T\approx\frac{10^{10} K}{\sqrt{t\mathrm{(sec)}}} \approx \frac{1}{k_B}\frac{1 \m
 Ces lois permettent déjà de se faire une idée des hautes températures en place durant les phases primordiales de l'Univers et donc permettent d'anticiper que des processus très énergétiques sont en mesure d'être effectifs. Par exemple les énergies typiques du LHC\index{LHC} sont de l'ordre du TeV $=10^6$ MeV: elles correspondent aux énergies typiques dans un Univers de $10^{-12}$ secondes. De plus ces lois d'échelles permettent d'anticiper que certaines époques joueront un rôle pour certaines particules quand l'énergie typique du cosmos est de l'ordre de leur énergie de masse : par exemple l'électron\index{electron@électron} possède une énergie de masse proche du MeV ( 511 keV exactement) et donc il est probable que son abondance soit significativement modifiée lorsque l'Univers aura un âge correspondant à cette masse (à savoir de l'ordre de la seconde).
 
 
-\section{Evolution des abondances}
+\section{Évolution des abondances}
 Pour une "particule" quelconque, l'expression précise de son abondance\index{abondance} va dépendre de son caractère relativiste ou non. Il existe des particules pour lesquelles ce caractère reste inchangé au cours du temps, comme les photons par exemple, mais en général, une particule aura tendance à être considérée comme relativiste aux premiers instants de l'Univers puis évoluera plus tard vers le régime non-relativiste, avec comme conséquence une variation, parfois radicale, de son abondance au cours du temps.
 
 L'énergie d'une particule libre\index{particule libre} est donnée par :
@@ -195,7 +195,7 @@ g e^{-\frac{E-\mu}{k_B T}}.
 \begin{equation}
 n=\frac{g}{2\pi^2 \hbar^3}e^{-\frac{mc^2-\mu}{k_BT}}\int_0^\infty p^2 e^{-\frac{p^2}{2mk_B T}}dp.
 \end{equation} 
- Le calcul de son abondance donne une quantité qui dépend directement de la température\index{température}\sidenote{on note que l'intégrale porte sur $\infty$ alors qu'elle devrait être bornée pour satisfaire l'hypothèse non-relativiste. Toutefois, l'intégrand est une gaussienne dont la décroissance est très rapide : l'erreur est donc faible et permet de reconnaître l'expression de la (moitié de la) variance d'une distribution normale.}
+ Le calcul de son abondance donne une quantité qui dépend directement de la température\index{température}\sidenote{on note que l'intégrale porte sur $\infty$ alors qu'elle devrait être bornée pour satisfaire l'hypothèse non-relativiste. Toutefois, l'intégrande est une gaussienne dont la décroissance est très rapide : l'erreur est donc faible et permet de reconnaître l'expression de la (moitié de la) variance d'une distribution normale.}
 \begin{equation}
 n=ge^{\frac{\mu}{k_BT}}\left(\frac{m k_B T}{2\pi\hbar^2}\right)^{3/2}e^{-\frac{mc^2}{k_B T}}\sim e^{-\frac{mc^2}{k_B T}}.
 \label{e:nonrel}
@@ -226,7 +226,7 @@ Sachant que la température du rayonnement\index{température!rayonnement} varie
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[height=12cm]{figs/freeze.png}
-	\caption[Evolution schématique de l'abondance d'une particule relique.]{Evolution schématique de l'abondance d'une particule relique. Dans le régime ultra-relativiste (UR), la particule se comporte comme un photon et son abondance est similaire. Le passage au régime non relativiste (NR) provoque la décroissance de l'abondance, exponentielle, typique d'une particule massive. Son abondance deviendrait négligeable sans le 'gel' (freeze-out)~: la dilution cosmologique ainsi que l'absence de réactifs ou la baisse de température vont stabiliser la densité numérique de la particule à une abondance non nulle. }
+	\caption[Évolution schématique de l'abondance d'une particule relique.]{Évolution schématique de l'abondance d'une particule relique. Dans le régime ultra-relativiste (UR), la particule se comporte comme un photon et son abondance est similaire. Le passage au régime non relativiste (NR) provoque la décroissance de l'abondance, exponentielle, typique d'une particule massive. Son abondance deviendrait négligeable sans le 'gel' (freeze-out)~: la dilution cosmologique ainsi que l'absence de réactifs ou la baisse de température vont stabiliser la densité numérique de la particule à une abondance non nulle. }
 	\label{f:freeze}
 \end{figure}
  
@@ -255,7 +255,7 @@ A+ \bar A \leftrightarrow \gamma.
  \end{equation}
  Par ailleurs, nous constatons autour de nous une absence d'abondance significative d'antimatière, qui autrement se manifesterait par la production de photons gamma à très haute énergie lors de rencontre avec la matière \sidenote{les photons produits par les annihilation emportent une énergie $mc^2$, donc de l'ordre du GeV pour des protons-antiprotons par exemple.} Tout indique qu'il existait une asymétrie dans les abondances initiales de particules et d'antiparticules, faible mais non nulle et suffisante pour que notre Univers soit aujourd'hui dominé par la matière.
  
-Ceci étant posé, comment expliquer une telle asymétrie ? Une première possibilité est qu'il s'agisse simplement d'une des caractéristiques de notre Univers. Une seconde possibilité est qu'il existe des mécanismes qui sont capables de transformer une situation initialement symétrique en situation présentant une légère surabondance de matière : ces processus auraient étés à l'oeuvre lors d'un évènement que l'on nomme la \textit{Baryogénèse}\index{Baryogénèse}. Aujourd'hui, nous ne savons pas quand elle a eu lieu\sidenote{si elle a eu lieu} et sous quelles modalités exactes. Par contre dès 1967, Sakharov posa 3 conditions\index{conditions de Sakharov} qui doivent être satisfaites à minima pour que la Baryogénèse ait pu prendre place :
+Ceci étant posé, comment expliquer une telle asymétrie ? Une première possibilité est qu'il s'agisse simplement d'une des caractéristiques de notre Univers. Une seconde possibilité est qu'il existe des mécanismes qui sont capables de transformer une situation initialement symétrique en situation présentant une légère surabondance de matière : ces processus auraient étés à l'œuvre lors d'un évènement que l'on nomme la \textit{Baryogénèse}\index{Baryogénèse}. Aujourd'hui, nous ne savons pas quand elle a eu lieu\sidenote{si elle a eu lieu} et sous quelles modalités exactes. Par contre dès 1967, Sakharov posa 3 conditions\index{conditions de Sakharov} qui doivent être satisfaites à minima pour que la Baryogénèse ait pu prendre place :
 \begin{enumerate}
 \item il faut des réactions qui ne conservent pas le nombre baryonique:
 \begin{eqnarray}
