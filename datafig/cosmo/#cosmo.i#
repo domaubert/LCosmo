@@ -1,0 +1,11 @@
+
+func dadt(a,om,ov,H0){
+     ok=1.-om-ov;
+     res=H0*sqrt(  
+}
+
+om=0.3;
+ov=0.7;
+ok=1.-om-ov;
+H0=70e3/3.08e22;//s-1;
+

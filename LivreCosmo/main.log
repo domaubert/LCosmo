@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.23)  24 JUN 2018 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.23)  25 JUN 2018 09:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2109,11 +2109,11 @@ LaTeX Warning: Marginpar on page 64 moved.
 
 LaTeX Warning: Marginpar on page 64 moved.
 
-<figs/a2t_cosmo.png, id=855, 578.16pt x 433.62pt>
+<figs/a2t_cosmo.png, id=855, 918.19035pt x 597.6729pt>
 File: figs/a2t_cosmo.png Graphic file (type png)
 <use figs/a2t_cosmo.png>
 Package pdftex.def Info: figs/a2t_cosmo.png  used on input line 302.
-(pdftex.def)             Requested size: 311.99884pt x 233.99913pt.
+(pdftex.def)             Requested size: 311.99846pt x 203.08754pt.
 ) [64 <./figs/a2t_cosmo.png>] [65]
 \openout2 = `chaud.aux'.
 
@@ -2583,11 +2583,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--19
 
 LaTeX Warning: Marginpar on page 90 moved.
 
-<figs/recom.png, id=1068, 578.16pt x 433.62pt>
+<figs/recom.png, id=1068, 916.3836pt x 596.9502pt>
 File: figs/recom.png Graphic file (type png)
 <use figs/recom.png>
 Package pdftex.def Info: figs/recom.png  used on input line 37.
-(pdftex.def)             Requested size: 311.99884pt x 233.99913pt.
+(pdftex.def)             Requested size: 311.99977pt x 203.24275pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
 [][]\T1/pplj/m/n/8 .on rap-pelle que les contraintes de la
@@ -2665,10 +2665,7 @@ File: figs/LSS.png Graphic file (type png)
 <use figs/LSS.png>
 Package pdftex.def Info: figs/LSS.png  used on input line 63.
 (pdftex.def)             Requested size: 311.9961pt x 222.66386pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92 <./figs/diffusion.png>]
+ [92 <./figs/diffusion.png> <./figs/LSS.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
 [][]\T1/pplj/m/n/8 .notamment grâce aux me-sures du sa-
  []
@@ -2681,13 +2678,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
 LaTeX Warning: Marginpar on page 93 moved.
 
-<figs/bb.png, id=1094, 796.77675pt x 598.75694pt>
+<figs/bb.png, id=1095, 796.77675pt x 598.75694pt>
 File: figs/bb.png Graphic file (type png)
 <use figs/bb.png>
 Package pdftex.def Info: figs/bb.png  used on input line 84.
 (pdftex.def)             Requested size: 312.00609pt x 234.46443pt.
-[93 <./figs/LSS.png>]
-<figs/planck2015.png, id=1104, 1093.08376pt x 553.22685pt>
+[93]
+<figs/planck2015.png, id=1105, 1093.08376pt x 553.22685pt>
 File: figs/planck2015.png Graphic file (type png)
 <use figs/planck2015.png>
 Package pdftex.def Info: figs/planck2015.png  used on input line 107.
@@ -2721,12 +2718,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--119
 LaTeX Warning: Marginpar on page 95 moved.
 
 [95 <./figs/planck2015.png>]
-<figs/cl2015.png, id=1121, 922.1652pt x 490.35194pt>
+<figs/cl2015.png, id=1122, 922.1652pt x 490.35194pt>
 File: figs/cl2015.png Graphic file (type png)
 <use figs/cl2015.png>
 Package pdftex.def Info: figs/cl2015.png  used on input line 135.
 (pdftex.def)             Requested size: 311.99828pt x 165.90189pt.
- [96 <./figs/cl2015.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 148--148
 [][]\T1/pplj/m/n/8 .les ré-gions du ciel cou-vertes par la
  []
@@ -2746,6 +2743,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 \T1/pplj/m/n/8 le fond dif-fus, à cause des in-cer-ti-tudes
  []
 
+
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+ [96 <./figs/cl2015.png>]
 
 LaTeX Warning: Marginpar on page 97 moved.
 
@@ -2782,11 +2783,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
 LaTeX Warning: Marginpar on page 97 moved.
 
+
+LaTeX Warning: Marginpar on page 97 moved.
+
 [97]
-
-LaTeX Warning: Marginpar on page 98 moved.
-
-
 Overfull \hbox (2.16972pt too wide) in paragraph at lines 172--174
 \T1/pplj/m/n/10 Dans un ré-gime de fluc-tua-tions adia-ba-tiques, les ré-gions 
 plus chaudes 
@@ -2835,11 +2835,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--185
 \T1/pplj/m/n/8 ac-ces-sible à un pro-ces-sus avec l'âge de
  []
 
+
+LaTeX Warning: Marginpar on page 98 moved.
+
 [98]
-
-LaTeX Warning: Marginpar on page 99 moved.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 191--191
 [][]\T1/pplj/m/n/8 .BAO en an-glais pour \T1/pplj/m/it/8 ba-ryo-nic acous-tic
  []
@@ -2847,7 +2846,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--191
 
 LaTeX Warning: Marginpar on page 99 moved.
 
-<figs/cmb_geom.png, id=1151, 734.745pt x 628.3475pt>
+<figs/cmb_geom.png, id=1152, 734.745pt x 628.3475pt>
 File: figs/cmb_geom.png Graphic file (type png)
 <use figs/cmb_geom.png>
 Package pdftex.def Info: figs/cmb_geom.png  used on input line 198.
@@ -2861,7 +2860,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--206
 LaTeX Warning: Marginpar on page 100 moved.
 
 
-Underfull \vbox (badness 1163) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [100 <./figs/cmb_geom.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 214--214
@@ -5820,12 +5819,12 @@ LaTeX Warning: Marginpar on page 216 moved.
 
 LaTeX Warning: Marginpar on page 217 moved.
 
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 23.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 35.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 23.
+(Font)              scaled to size 8.50006pt on input line 35.
  [217
 
 
@@ -5839,19 +5838,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 
 
 ]
-! Misplaced alignment tab character &.
-<argument> Planck Collaboration 2016, A&
-                                        A, 594, A13 (Paper XIII), Table 4 (T...
-l.45 ...ble 4 (TT, TE, EE + lowP + lensing + ext)}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-<figs/zage.png, id=2075, 634.16925pt x 597.31155pt>
+<figs/zage.png, id=2077, 634.16925pt x 597.31155pt>
 File: figs/zage.png Graphic file (type png)
 <use figs/zage.png>
 Package pdftex.def Info: figs/zage.png  used on input line 61.
@@ -6035,7 +6022,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1213.
  (./main.aux (./Intro.aux) (./connaissance.aux) (./newton.aux)
 (./fondamentaux.aux) (./homogene.aux) (./chaud.aux) (./thermique.aux)
 (./cmb.aux) (./dm.aux) (./structures.aux) (./halo.aux) (./simulation.aux)
-(./entropie.aux) (./inflation.aux) (./reionisation.aux) (./chiffres.aux))
+(./entropie.aux) (./inflation.aux) (./reionisation.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+(./chiffres.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1213.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1213.
 
@@ -6048,10 +6040,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1213.
  ) 
 Here is how much of TeX's memory you used:
- 16080 strings out of 492649
- 228605 string characters out of 6129622
- 448387 words of memory out of 5000000
- 18596 multiletter control sequences out of 15000+600000
+ 16090 strings out of 492649
+ 228803 string characters out of 6129622
+ 448617 words of memory out of 5000000
+ 18604 multiletter control sequences out of 15000+600000
  99694 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,13n,58p,3293b,739s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6069,10 +6061,10 @@ w/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palat
 ino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on main.pdf (225 pages, 68802392 bytes).
+Output written on main.pdf (225 pages, 69019572 bytes).
 PDF statistics:
- 2423 PDF objects out of 2487 (max. 8388607)
- 1996 compressed objects within 20 object streams
- 828 named destinations out of 1000 (max. 500000)
+ 2427 PDF objects out of 2487 (max. 8388607)
+ 2000 compressed objects within 20 object streams
+ 830 named destinations out of 1000 (max. 500000)
  4085 words of extra memory for PDF output out of 10000 (max. 10000000)
 

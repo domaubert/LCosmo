@@ -76,13 +76,13 @@
 \contentsline {paragraph}{surface de derni\IeC {\`e}re diffusion}{91}{paragraph*.77}
 \contentsline {section}{Corps noir cosmologique}{93}{section*.78}
 \contentsline {section}{Anisotropies du CMB}{94}{section*.79}
-\contentsline {subsection}{Principe de l'analyse des anisotropies du CMB}{95}{subsection*.80}
+\contentsline {subsection}{Principe de l'analyse des anisotropies du CMB}{94}{subsection*.80}
 \contentsline {paragraph}{\IeC {\'E}chelles angulaires}{95}{paragraph*.81}
 \contentsline {paragraph}{Spectre de puissance}{96}{paragraph*.82}
 \contentsline {subsection}{Avant-plans}{97}{subsection*.83}
 \contentsline {paragraph}{Dip\IeC {\^o}le}{97}{paragraph*.84}
 \contentsline {subsection}{Anisotropies Intrins\IeC {\`e}ques}{97}{subsection*.85}
-\contentsline {paragraph}{Grandes \IeC {\'e}chelles}{99}{paragraph*.86}
+\contentsline {paragraph}{Grandes \IeC {\'e}chelles}{98}{paragraph*.86}
 \contentsline {paragraph}{Petites \IeC {\'e}chelles}{99}{paragraph*.87}
 \contentsline {subsection}{Anisotropies secondaires}{101}{subsection*.88}
 \contentsline {paragraph}{La R\IeC {\'e}ionisation}{101}{paragraph*.89}
