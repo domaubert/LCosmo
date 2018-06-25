@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.23)  25 JUN 2018 09:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.23)  25 JUN 2018 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6022,12 +6022,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1213.
  (./main.aux (./Intro.aux) (./connaissance.aux) (./newton.aux)
 (./fondamentaux.aux) (./homogene.aux) (./chaud.aux) (./thermique.aux)
 (./cmb.aux) (./dm.aux) (./structures.aux) (./halo.aux) (./simulation.aux)
-(./entropie.aux) (./inflation.aux) (./reionisation.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-(./chiffres.aux))
+(./entropie.aux) (./inflation.aux) (./reionisation.aux) (./chiffres.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1213.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1213.
 
@@ -6042,7 +6037,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1213.
 Here is how much of TeX's memory you used:
  16090 strings out of 492649
  228803 string characters out of 6129622
- 448617 words of memory out of 5000000
+ 448686 words of memory out of 5000000
  18604 multiletter control sequences out of 15000+600000
  99694 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6061,7 +6056,7 @@ w/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palat
 ino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on main.pdf (225 pages, 69019572 bytes).
+Output written on main.pdf (225 pages, 69019786 bytes).
 PDF statistics:
  2427 PDF objects out of 2487 (max. 8388607)
  2000 compressed objects within 20 object streams
