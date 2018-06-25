@@ -1,0 +1,114 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Appel()]{9782351410394}
+Walter Appel.
+\newblock \emph{Mathematiques pour la physique et les physiciens !}
+\newblock H \& K.
+\newblock ISBN 2351410394.
+
+\bibitem[Bernardeau(2007)]{9782868839541}
+Francis Bernardeau.
+\newblock \emph{cosmologie}.
+\newblock EDP Sciences, 2007.
+\newblock ISBN 2868839541.
+
+\bibitem[Binney and Tremaine(2011)]{9781400828722}
+James Binney and Scott Tremaine.
+\newblock \emph{Galactic Dynamics: Second Edition (Princeton Series in
+  Astrophysics)}.
+\newblock Princeton University Press, 2011.
+
+\bibitem[Börner(2004)]{9783540441977}
+Gerhard Börner.
+\newblock \emph{The Early Universe}.
+\newblock Springer, 2004.
+\newblock ISBN 3540441972.
+
+\bibitem[Caltech()]{l5}
+IPAC Caltech.
+\newblock Level 5, a knowledgebase for extragalactic astronomy and cosmology.
+\newblock \url{https://ned.ipac.caltech.edu/level5/}.
+
+\bibitem[Hockney and Eastwood(1989)]{9780852743928}
+R.W Hockney and J.W Eastwood.
+\newblock \emph{Computer Simulation Using Particles}.
+\newblock CRC Press, 1989.
+\newblock ISBN 0852743920.
+
+\bibitem[Hu()]{hu}
+Wayne Hu.
+\newblock Wayne hu's tutorials.
+\newblock \url{http://background.uchicago.edu/~whu/}.
+
+\bibitem[Landau and Lifchitz(2000)]{9782729894023}
+Landau and Lifchitz.
+\newblock \emph{Cours de physique théorique et de mécanique}.
+\newblock Ellipses Marketing, 2000.
+\newblock ISBN 2729894020.
+
+\bibitem[Loeb and Furlanetto(2013)]{9780691144917}
+Abraham Loeb and Steven Furlanetto.
+\newblock \emph{The First Galaxies in the Universe (Princeton Series in
+  Astrophysics)}.
+\newblock Princeton University Press, 2013.
+\newblock ISBN 0691144915.
+
+\bibitem[Mo et~al.(2010)Mo, van~den Bosch, and White]{9780521857932}
+Houjun Mo, Frank van~den Bosch, and Simon White.
+\newblock \emph{Galaxy Formation and Evolution}.
+\newblock Cambridge University Press, 2010.
+\newblock ISBN 0521857937.
+
+\bibitem[Peacock(1998)]{9780521422703}
+J.~A. Peacock.
+\newblock \emph{Cosmological Physics (Cambridge Astrophysics)}.
+\newblock Cambridge University Press, 1998.
+\newblock ISBN 0521422701.
+
+\bibitem[Peebles(1980)]{9780691082400}
+Phillip Peebles.
+\newblock \emph{Large-Scale Structure of the Universe}.
+\newblock Princeton University Press, 1980.
+\newblock ISBN 0691082405.
+
+\bibitem[Peebles(1993)]{9780691074283}
+Phillip Peebles.
+\newblock \emph{Principles of Physical Cosmology}.
+\newblock Princeton University Press, 1993.
+\newblock ISBN 0691074283.
+
+\bibitem[Peter and Uzan(2013)]{9780199665150}
+Patrick Peter and Jean-Philippe Uzan.
+\newblock \emph{Cosmologie Primordiale}.
+\newblock Belin, 2013.
+
+\bibitem[Schutz(2009)]{9780521887052}
+Bernard Schutz.
+\newblock \emph{A First Course in General Relativity}.
+\newblock Cambridge University Press, 2009.
+\newblock ISBN 0521887054.
+
+\bibitem[Weinberg(1972)]{9780471925675}
+Steven Weinberg.
+\newblock \emph{Gravitation and Cosmology: Principles and Applications of the
+  General Theory of Relativity}.
+\newblock John Wiley \& Sons, Inc., 1972.
+\newblock ISBN 0471925675.
+
+\bibitem[Weinberg(2008)]{9780198526827}
+Steven Weinberg.
+\newblock \emph{Cosmology}.
+\newblock Oxford University Press, 2008.
+\newblock ISBN 0198526822.
+
+\bibitem[Wright()]{wright}
+Ned Wright.
+\newblock Ned wright's cosmology tutorial.
+\newblock \url{http://www.astro.ucla.edu/~wright/cosmolog.htm}.
+
+\end{thebibliography}

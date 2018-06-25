@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Intro.aux
+A level-1 auxiliary file: connaissance.aux
+A level-1 auxiliary file: newton.aux
+A level-1 auxiliary file: fondamentaux.aux
+A level-1 auxiliary file: homogene.aux
+A level-1 auxiliary file: chaud.aux
+A level-1 auxiliary file: thermique.aux
+A level-1 auxiliary file: cmb.aux
+A level-1 auxiliary file: dm.aux
+A level-1 auxiliary file: structures.aux
+A level-1 auxiliary file: halo.aux
+A level-1 auxiliary file: simulation.aux
+A level-1 auxiliary file: entropie.aux
+A level-1 auxiliary file: inflation.aux
+A level-1 auxiliary file: reionisation.aux
+The style file: plainnat.bst
+A level-1 auxiliary file: chiffres.aux
+Database file #1: sample-handout.bib
+Warning--empty year in 9782351410394
+Warning--empty year in 9782351410394
+Warning--empty year in l5
+Warning--empty year in hu
+Warning--empty year in wright
+You've used 18 entries,
+            2773 wiz_defined-function locations,
+            699 strings with 6743 characters,
+and the built_in function-call counts, 5905 in all, are:
+= -- 481
+> -- 255
+< -- 17
++ -- 93
+- -- 75
+* -- 341
+:= -- 963
+add.period$ -- 67
+call.type$ -- 18
+change.case$ -- 64
+chr.to.int$ -- 18
+cite$ -- 41
+duplicate$ -- 346
+empty$ -- 578
+format.name$ -- 103
+if$ -- 1235
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 30
+newline$ -- 111
+num.names$ -- 72
+pop$ -- 221
+preamble$ -- 1
+purify$ -- 61
+quote$ -- 0
+skip$ -- 231
+stack$ -- 0
+substring$ -- 36
+swap$ -- 18
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 123
+warning$ -- 5
+while$ -- 54
+width$ -- 0
+write$ -- 245
+(There were 5 warnings)

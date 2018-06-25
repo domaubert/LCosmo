@@ -1,0 +1,242 @@
+%!TEX root = /Users/domaubert/Documents/Lectures/cosmolog/cosmo_main.tex
+
+\chapter{Le Fond Diffus Cosmologique}
+
+Le fond diffus\index{fond diffus cosmologique} constitue la pierre angulaire de la cosmologie actuelle et se présente comme l'un des objets astrophysiques les mieux connus et les plus étudiés. C'est la conjonction d'une excellente compréhension théorique de cet objet avec l'avalanche de données de grande qualité\sidenote{notamment avec le satellite européen \textit{Planck}} qui ont contribué à installer le fond diffus comme l'un des plus grands succès de la cosmologie.
+
+Le fond diffus cosmologique est communément appelé CMB (pour \textit{cosmic microwave background}) et est constitué des photons "libérés" lors du processus de dernière diffusion. Ce processus a opéré 380 000 ans après le Big Bang\sidenote{à un redshift équivalent $z\sim 1100$} et ces photons sont toujours détectables aujourd'hui car présents en grande quantité. Ils sont les reliques d'une époque où l'équilibre matière-rayonnement régnait et présentent une distribution spectrale de corps noir\index{corps noir}. Ce corps noir possède une température caractéristique d'environ 3K. Il se caractérise également par une intensité sur le ciel qui est uniforme à un très grand niveau de précision. Une étude détaillé de ce rayonnement fait ressortir des fluctuations qui tracent la distribution de matière à l'époque de son émission, donnant ainsi accès à une vue sans égal sur le cosmos à ces époques reculées.
+
+\section{Recombinaison}
+Si l'on se place après la fin de la nucléosynthèse primordiale ($t>3$ minutes), protons, photons et électrons sont en interaction via 2 types de réactions, la recombinaison\index{recombinaison} et la diffusion Thomson\index{diffusion Thomson}
+\begin{eqnarray}
+p + e^- &\leftrightarrow& H+ \gamma\label{e:rec}\\
+\gamma +e^- &\leftrightarrow& \gamma +e^- 
+\end{eqnarray}
+Ces 2 couplages vont disparaître de façon simultanée sous l'effet de la baisse de la densité cosmique d'électrons (ou de protons libres). On définit la fraction d'ionisation $x$ de la façon suivante:
+\begin{equation}
+x=\frac{n_p}{n_p+n_H}
+\end{equation} 
+qui vaut 1 lorsque que le gaz cosmique est complètement ionisé et 0 lorsqu'il est complètement neutre. Notons qu'en raison de la neutralité électrique\index{neutralité électrique}, la densité de protons libres $n_p$ est égale à la densité d'électrons libres $n_e$\sidenote{par simplicité, on ignorera ici la présence d'hélium, qui ne représente que $10\%$ des éléments}. De même, le nombre d'atomes d'hydrogène (crée par l'assemblage d'un proton et d'un électron) est donné par $n_H=(1-x) (n_p+n_H)$. 
+
+L'équation de recombinaison peut être équilibrée via les potentiels chimiques\index{potentiel chimique} $\mu_p+ \mu_e =\mu_H$ et on rappelle que pour chaque espèce son abondance $n_i$ est donnée par:
+\begin{equation}
+n_i=g_ie^{\frac{\mu_i}{k_BT}}\left(\frac{m_i k_B T}{2\pi\hbar^2}\right)^{3/2}e^{-\frac{m_i c^2}{k_B T}}.
+\end{equation}
+On obtient alors l'équation décrivant l'évolution temporelle de la fraction ionisée \index{fraction ionisée}
+\begin{equation}
+\frac{1-x}{x^2}=n_B \frac{g_H}{g_e g_p} \left(\frac{k_B T}{2\pi\hbar^2}\right)^{-3/2} m_e^{-3/2} e^{\frac{\chi}{k_B T}},
+\end{equation}
+où $n_B=n_p + n_H$ désigne la densité de baryons et $\chi=13.6$ eV est l'énergie de liaison de l'atome d'hydrogène. Notons également que la densité de baryons peut s'écrire en fonction du nombre de photons $n_B=\eta n_\gamma\sim T^3$ et l'équation de l'état d'ionisation peut s'écrire:
+\begin{equation}
+\frac{1-x}{x^2}=A \eta \left(\frac{k_B T}{m_e c^2}\right)^{3/2}e^{\frac{\chi}{k_B T}}
+\label{e:recomb}
+\end{equation}
+où $A$ est un pré-facteur fonction notamment des facteurs de dégénérescence. Notons que le terme de droite de l'équation \ref{e:recomb} ne dépend que du temps, par conséquent elle se résume à une équation du second degré sur $x$ à un instant donné. On rappelle que cette évolution manifeste \textit{un déplacement de l'équilibre} vers  la droite de l'équation \ref{e:rec}.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=10cm]{figs/recom.png}
+		\caption{Évolution temporelle de fraction d'ionisation}{Évolution temporelle de fraction d'ionisation $x_e$ pour trois valeur de $\Omega_b$. L'âge typique de l'Univers aux redshifts concernés est d'environ 380 000 ans. Les atomes sont totalement ionisés, $x_e=1$ aux grandes valeurs de $z$, et le gaz cosmique est sous la forme d'un plasma. Progressivement, sous l'effet de la baisse de température, les atomes vont recombiner pour donner un Univers neutre, optiquement mince au rayonnement du fond diffus.}
+	\label{f:recomb}
+\end{figure}
+
+La figure \ref{f:recomb} présente l'évolution de la fraction ionisée\index{fraction ionisée} pour différente valeurs de $\Omega_b$. Dans tous les cas, l'Univers voit la quantité d'atomes ionisés divisée d'un facteur 100-1000 entre z=1500 et z=1000, correspondant à un âge d'Univers t=380 000 ans. On peut constater que ce processus opère plutôt tardivement: l'époque correspondant à l'énergie caractéristique $\chi=$13.6 eV s'est mise en place à $t=180$ ans. De manière analogue au deutérium bottleneck\index{deutérium!bottleneck}, c'est la grande quantité de photons par rapport au nombre de baryons \sidenote{on rappelle que les contraintes de la nucléosynthèse primordiale indiquent que le rapport baryons/photons vaut environ $\eta \sim 10^{-9}$, très largement en faveur des photons} qui empêche une mise en place plus rapide. Si l'on examine la figure \ref{f:recomb} plus en détail on constate d'une part qu'une plus faible densité de baryons ($\Omega_b$ plus faible) conduit à une mise en place moins efficace de la recombinaison\index{recombinaison}. Elle opère plus tardivement et est moins complète dans un Univers moins riche en baryons.
+
+\section{Surface de dernière diffusion}
+
+\paragraph{Fin de la diffusion Thomson} La baisse de la densité électronique qui accompagne la formation d'atomes neutres conduit également à réduire l'efficacité de la diffusion Thomson\index{diffusion Thomson}. Dans un environnement riche en électrons libres, la diffusion force un court libre parcours moyen des photons et empêche le rayonnement de se propager sur de longues distances\sidenote{on a une situation analogue à l'intérieur du Soleil qui est aussi un plasma. Les photons produits au centre de l'étoile ont des libre parcours moyens de l'ordre du cm}: c'est la marque d'un Univers opaque, dans lequel l'information ne peut provenir de régions lointaines.  Toutefois lorsque $x\sim 0.01\%$, la diffusion gèle\index{gel des réactions}, et se produit alors la \textit{dernière diffusion}\index{surface de dernière diffusion} à un redshift z=1100. A partir de cet instant, le rayonnement n'interagit plus avec les électrons et de fait se découple de la matière~: ce rayonnement peut dorénavant se propager librement et est détecté aujourd'hui sous la forme du CMB. Notons pour finir que la baisse de la densité électronique va également conduire au gel des réactions de recombinaison vers z=1100, avec un ionisation résiduelle de l'ordre de 0.01\%.
+
+
+
+\paragraph{surface de dernière diffusion\index{surface de dernière diffusion}}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/diffusion.png}
+	\caption[Le plasma cosmique avant la recombinaison][-2cm]{Avant la recombinaison, la présence d'électrons libres dans le plasma cosmique est à l'origine d'un processus de diffusion des photons important. Le plasma peut alors être considéré comme opaque, compte tenu de l'impossibilité d'extraire de l'information sur des grandes distances. La seule information disponible provient de la dernière diffusion. Après la recombinaison, l'absence d'électrons libres permet enfin au rayonnement de se propager librement, l'Univers devient transparent pour les photons du fond diffus cosmologique.}
+	\label{f:diffusion}
+\end{figure}
+
+A partir de $z=1100$ les photons du fond diffus vont pouvoir se propager librement et de façon essentiellement rectiligne \sidenote{plus précisément en épousant la géométrie de l'espace-temps, qui s'avère être plane en moyenne dans le cas de notre Univers}. Les photons du fond diffus qui nous parviennent aujourd'hui sont donc issus de toutes les régions à une distance telle que le rayonnement mette environ 13.8 milliards d'années à nous parvenir. L'ensemble de ces régions définit une coquille, centrée sur l'observateur et de distance de parcours lumineux égale à l'âge de l'Univers. Cette coquille possède une faible épaisseur, correspondant à la durée qu'aura mis la diffusion Thomson\index{diffusion Thomson} à geler, comparable à la durée qu'à mis la recombinaison\index{recombinaison} à se mettre en place ($\Delta z\sim 100$). Vu depuis l'observateur, cette coquille apparaît donc comme une surface sphérique perçue depuis l'intérieur, \textit{la surface de dernière diffusion}\index{dernière diffusion!surface}. Les régions au delà de cette surface de dernière diffusion nous sont inaccessibles par l'intermédiaire des photons, puisque ces derniers n'emportent que l'information de la dernière diffusion~: les régions au delà de cette sphère sont opaques à toute observation et les régions en deçà (à l'intérieur) de cette sphère constitue l'Univers observable de l'observateur placé en son centre.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=12cm]{figs/LSS.png}
+	\caption[L'Univers devient transparent au CMB]{Les photons du fond diffus ont pu se propager librement à partir du même instant, correspondant à un Univers âgé de 380 000 ans. Un même instant correspond à une même distance : tous les photons reçus aujourd'hui proviennent de régions situées sur une surface sphérique, dont nous sommes le centre. Son rayon est tel que le parcours des photons est d'environ 13 milliards d'années de vol. Les régions plus distantes que cette 'surface de dernière diffusion' sont opaques, celle moins distantes sont transparentes à ce rayonnement.}
+	\label{f:LSS}
+\end{figure}
+
+Rappelons que ces photons sont ultra-dominant en nombre, avec par exemple un rapport baryon/photon $\eta\sim6\times 10^{-10}$. Cela a plusieurs conséquences: d'une part cela signifie qu'aucun processus astrophysique n'est en mesure de faire disparaître ce rayonnement et il est de fait toujours mesurable aujourd'hui. D'autre part cette domination est telle que l'impression même de signatures de processus astrophysiques entre z=1100 et aujourd'hui ne peut se faire qu'à des niveaux très faible. Par conséquent ce rayonnement possède toujours un spectre de corps noir\index{corps noir} (décalé vers le rouge) même si il n'est plus en situation d'équilibre avec la matière. De même les éventuelles marques des propriétés de l'Univers âgé de 380 000 ans s'y trouvent toujours. L'observation de la surface de dernière diffusion est donc une fenêtre incomparable sur l'état du cosmos à ces époques lointaines.
+
+
+
+
+\section{Corps noir cosmologique}
+Le fond diffus cosmologique est issu d'une époque où matière et rayonnement étaient couplés et par conséquent possédait à ces époques reculées un spectre de corps noir\index{corps noir}. La densité volumique de photons dans l'intervalle $[\nu,\nu+d\nu]$ est donné par:
+\begin{equation}
+n(\nu)d\nu=\frac{8\pi}{c^3}\frac{\nu^2d\nu}{e^{h\nu/k_BT}-1}.
+\end{equation}
+Comme indiqué précédemment, la surabondance de ces photons est telle que ce signal a conservé les caractéristique d'un tel corps noir, même dans un régime de faible couplage entre matière et rayonnement. Aujourd'hui la température de ce 'corps noir' est mesurée avec une très grande précision \sidenote{notamment grâce aux mesures du satellite américain COBE dans les années 90} (voir aussi la figure \ref{f:bb}):
+\begin{equation}
+T_0=2.7255\pm0.0006 K.
+\end{equation}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=15cm]{figs/bb.png}
+		\caption[Le spectre du fond diffus cosmologique]{Le spectre du fond diffus cosmologique. Dans le panneau supérieur, les symboles représentent les mesures de l'instrument FIRAS, la ligne le spectre de corps noir pour une température de $T_0=2.725$K. Dans le panneau inférieur, les écarts au spectre théorique. Notez l'amplitude très faible des incertitudes. Figure produite à partir des données de Fixsen et al. 2009.}
+	\label{f:bb}
+\end{figure}
+Ce spectre va conserver sa forme, malgré le redshift des photons concernés et malgré la modification de leurs fréquences $\nu$ selon:
+\begin{equation}
+\nu(a)=\frac{\nu_0}{a}.
+\end{equation}
+Dans un volume de contrôle de volume $V=V_0a^3$ et dans un intervalle de fréquence $d\nu=d\nu_0/a$, le nombre de photons doit rester identique quel que soit l'instant considéré:
+\begin{equation}
+\frac{\nu^2d\nu}{e^{h\nu/k_BT}-1}V=\frac{\nu_0^2d\nu_0}{e^{h\nu_0/k_BT_0}-1}V_0,
+\end{equation}
+qui ne peut être satisfait que si la température caractéristique du corps noir suit la relation :
+\begin{equation}
+T=\frac{T_0}{a}=T_0(1+z)
+\end{equation}
+que nous avions déjà établi. On remarque ainsi que la Recombinaison opérant à $z\sim1100$, la température du gaz de photon\index{température!gaz de photons} cosmique était proche des 3300 K.
+
+\section{Anisotropies du CMB}
+Le fond diffus est représentatif d'un Univers jeune (t=380 000 ans) et donc très proche de l'homogénéité\index{homogénéité} parfaite. Par conséquent sa mesure fait apparaître une très grande stabilité du signal sur tout le ciel, sans fluctuations de température détectable jusqu'à des niveaux de 0.001 K. Au delà, commence toutefois à apparaître des anisotropies\index{fond diffus!anisotropies} dans le signal~: celles-ci sont essentiellement générées par la physique des baryons à l'œuvre au moment de la Recombinaison et par des processus astrophysiques qui affecte le rayonnement au cours de son vol jusqu'à l'observateur. L'étude de ces anisotropies est extrêmement riche d'informations pour la physique fondamentale, la cosmologie et l'astrophysique. Notons que nous allons nous concentrer sur les fluctuations de température\index{température!fluctuations} et implicitement le mot "fluctuation" ou "signal" désigne ce type de donnée. Il existe également des études en \textit{polarisation} que nous n'aborderons pas ici.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=10cm]{figs/planck2015.png}
+		\caption[Les fluctuations de température vues par Planck]{La carte des anisotropies de température du fond diffus obtenue par la mission européenne \textit{Planck}. Les zones claires sont plus chaudes que les zones sombres. Le niveau des fluctuations représentées est de l'ordre de 0.001\%.}
+	\label{f:planckmap}
+\end{figure}
+
+\subsection{Principe de l'analyse des anisotropies du CMB}
+Dans cette section, nous allons exposer rapidement les grands principes de l'analyse du signal du fond diffus. Le CMB se manifeste pour l'observateur comme un signal sur tout le ciel, généralement sous la forme d'une carte de température $\delta T(\theta,\phi)$, mesurée dans un repère sphérique. Afin de pouvoir extraire de l'information de ce type de données, l'on raisonne généralement sur la transformée de Fourier\index{transformée de Fourier} de ce signal. Cette opération permet d'une part de séparer les contributions des différentes échelles angulaires\index{echelles@échelles angulaires}. D'autre part, nous verrons que la théorie qui permet de prédire les propriétés de ces fluctuations se fait naturellement dans l'espace de Fourier, où les différentes échelles angulaires évoluent de façon découplées en très bonne approximation.  
+
+Dans un espace sphérique, les opérations de transformées de Fourier s'effectuent via la base des harmoniques sphériques\index{harmoniques sphériques} $Y_{\ell,m}(\theta,\phi)$ et la carte de températures se décompose de la façon suivante:
+\begin{equation}
+\delta T(\theta,\phi)= \sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} a_{\ell,m} Y_{\ell,m}(\theta,\phi),
+\end{equation}
+où les coefficients (complexes) $a_{\ell,m}$ sont obtenus par projection de la carte sur la base vectorielle composée des harmoniques\sidenote[][-2cm]{les harmoniques sphériques apparaissent aussi en mécanique quantique car elles sont les fonctions propres de la partie angulaire du Laplacien, qui encode l'opérateur de moment angulaire}:
+\begin{equation}
+a_{\ell,m}=\int \int d\theta d\phi\sin \theta Y^*_{\ell,m}(\theta,\phi) \delta T(\theta,\phi).
+\end{equation}
+Les coefficients $a_{\ell,m}$ constituent ainsi la contribution de chaque harmonique à la carte de température.
+
+\paragraph{Échelles angulaires}
+ Les harmoniques sphériques sont les analogues des modes de Fourier sur la sphère, à savoir une base de sinus et cosinus adaptée à une géométrie sphérique:
+\begin{equation}
+Y_{\ell,m}\sim e^{im\phi} P_{\ell,m}(\cos \theta).
+\end{equation} 
+ Le coefficient $\ell$ trace l'échelle angulaire\index{echelle@échelle angulaire} de l'harmonique qui possède ainsi une taille angulaire caractéristique $\theta\sim\pi/\ell$: on parle également de fréquence angulaire où les bas $\ell$ désigne les grandes échelles sur le ciel et les grands $\ell$ les petites échelles. Le coefficient $m$ peut varier entre $-\ell$ et $\ell$ et désigne les différentes orientations indépendantes pour chaque taille angulaire caractéristique: celle ci sont d'autant plus nombreuses que la fréquence angulaire est élevée. L'harmonique $\ell=0$ correspond au monopole, à savoir un signal uniforme sur toute la sphère et dont le coefficient $a_{00}$ renvoie directement à la moyenne sur tout le ciel. Les harmoniques $\ell=1$ sont des dipôles\index{dipôle}, avec un côté 'chaud' et un côté 'froid' diamétralement opposés. Celles avec $\ell=2$ désignent un quadrupôle, etc...
+
+\paragraph{Spectre de puissance}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=15cm]{figs/cl2015.png}
+		\caption[Le spectre de puissance des anisotropies du fond diffus cosmologique obtenu par \textit{Planck}.]{Le spectre de puissance des anisotropies du fond diffus cosmologique obtenu par \textit{Planck}, $D_\ell=\ell(\ell+1)C_\ell$. Les points sont les données et la ligne représente le spectre prévu pour un modèle $\Lambda$CDM. Notez le changement d'échelle horizontale à partir de $\ell=30$.}
+	\label{f:cl}
+\end{figure}
+
+Armé de la collection des coefficients $a_{\ell,m}$ d'une carte du ciel, on évalue les contributions relatives de chaque échelle par le spectre de puissance angulaire:
+\begin{equation}
+C_\ell=\langle |a_{\ell,m}|^2\rangle=\frac{1}{2\ell+1}\sum_{m=-\ell}^{\ell} |a_{\ell,m}|^2
+\end{equation}
+Ce faisant, on rassemble pour chaque échelle angulaire $\ell$ les contributions de toutes les orientations $m$ associées. Si toutes les directions sont à priori équivalentes et aucune n'est privilégiée, alors cette opération ne produit pas de perte d'information. C'est le cas du CMB, celui-ci étant à priori isotrope\index{isotropie!du fond diffus}. D'autre part, une grande classe de modèles d'Inflation prédisent que les fluctuations du fond diffus doivent appartenir à la classe des \textit{champs aléatoires gaussiens}\index{champ aléatoire gaussien} qui sont entièrement définis par leur 'variance', ce qui est précisément la nature du spectre de puissance angulaire.
+
+\subsection{Avant-plans}
+
+Avant toute chose, il est important de réaliser qu'une carte brute du ciel aux longueurs d'ondes sondées par les missions CMB est soumise à une forte contamination par des avant-plans\index{fond diffus!avant-plan} astrophysiques. Parmi ces avant-plans, le plus spectaculaire est sans contexte la Voie Lactée dont par exemple l'émission  par les poussières ou le rayonnement synchrotron empêchent d'accéder aux fluctuations du CMB en arrière plan\sidenote{les régions du ciel couvertes par la Voie Lactée sont par ailleurs fréquemment ignorées lors des études faites sur le fond diffus, à cause des incertitudes générées par sa présence}. Ces avant-plans peuvent être ajustés, modélisés et pris en compte dans des modèles d'inversion, afin d'extraire le signal d'origine cosmologique des portions du ciel affectées. Notons que ces avant-plans sont également source de recherches dédiées, notamment à propos des propriétés des poussières dans la Voie Lactée.
+
+\paragraph{Dipôle} Le premier niveau d'anisotropie est constitué par le dipôle\index{dipole} du CMB. Il possède une amplitude de l'ordre de 3 mK et résulte du mouvement de l'observateur par rapport à la surface de dernière diffusion. Ce mouvement induit un effet Doppler, fonction de la vitesse de déplacement et qui fait apparaître des zones plus chaudes et plus froides que la moyenne, diamétralement opposées et alignées avec la direction de déplacement. Au premier ordre, la variation de température dans la direction du dipôle obéit à la relation:
+\begin{equation}
+\left(\frac{\Delta T}{T}\right)_\mathrm{dipole}\sim \frac{v}{c}
+\end{equation}
+et donne une valeur de vitesse de déplacement $v\sim 330$ km/s pour le barycentre du système solaire. Cette vitesse est la somme notamment de la vitesse de déplacement du Soleil dans la Galaxie et de la Galaxie dans le Groupe Local\sidenote{Par Groupe Local, on désigne le groupe de galaxies auquel la Voie Lactée appartient et constitué de la Voie Lactée, de la galaxie d'Andromède et du Triangle ainsi que de tout un ensemble de galaxies moins massives et galaxies satellites}.
+
+\subsection{Anisotropies Intrinsèques}
+Les fluctuations de température du CMB tracent des fluctuations de densité de matière. Plusieurs modèles de couplage entre matière et rayonnement existent, mais un grand nombre d'évidences observationnelles pointent vers des fluctuations de type \textit{adiabatiques}\index{fluctuations adiabatiques}. Dans ce mode de couplage, le rapport entre la densité de matière et celle de rayonnement reste constant y compris au sein des fluctuations locales : le fluide de matière ne dérive pas par rapport au fluide de photons. Dans ce cas le rapport des densités reste constant:
+\begin{equation}
+\frac{n}{n_\gamma}=\mathrm{cste}\rightarrow\frac{\delta n}{n}=\frac{\delta n_\gamma}{n_\gamma}
+\end{equation}
+Pour la matière, densité de matière et d'énergie sont directement reliées $\epsilon=n m c^2$ \sidenote{avec $\rho=n m$} et
+\begin{equation}
+\frac{\delta n}{n}=\frac{\delta \epsilon}{\epsilon}=\frac{\delta \rho}{\rho}.
+\end{equation}
+Pour les photons, nous avons déjà vu que $n_\gamma \sim T^3$ :
+\begin{equation}
+\frac{\delta n_\gamma}{n_\gamma}=3 \frac{\delta T}{T}.
+\end{equation}
+D'où il apparaît que les fluctuations de températures tracent les fluctuations de densité via:
+\begin{equation}
+\left(\frac{\delta T}{T}\right)_\mathrm{adiab}=\frac{1}{3}\frac{\delta n}{n}=\frac{1}{3}\frac{\delta \rho}{\rho}.
+\end{equation}
+Dans un régime de fluctuations adiabatiques, les régions plus chaudes (respectivement plus froides) que la moyenne correspondent aux régions les plus dense (respectivement moins denses) au même moment. 
+
+Toutefois les fluctuations de densité produisent également des fluctuations de potentiel gravitationnel qui devront être gravie ou dévalées par les photons du fond diffus au moment de leur émission. Les photons en train de sortir d'un puits (correspondant à une surdensité) seront décalées vers le rouge (perte d'énergie) et ceux en train de dévaler un pic de potentiel (correspondant à une sous densité seront décalés vers le bleu (gain d'énergie) \sidenote{cette sensibilité des photons au champ gravitationnel local est un effet standard de la relativité générale}. Cet effet se nomme \textit{effet Sachs-Wolf}\index{effet Sachs-Wolf}
+\begin{equation}
+\left(\frac{\delta T}{T}\right)_\mathrm{SW}=-\delta\phi
+\end{equation}
+où $\delta \phi$ est la fluctuation de potentiel. Par ailleurs on peut montrer que la variation de potentiel est liée à la fluctuation de densité via $\delta \rho/\rho=2\delta \phi$ ce qui implique que la variation de température \textit{totale} est donnée par :
+\begin{equation}
+\left(\frac{\delta T}{T}\right)_\mathrm{total}=\left(\frac{\delta T}{T}\right)_\mathrm{SW}+\left(\frac{\delta T}{T}\right)_\mathrm{adiab}=-\frac{1}{3}\delta \phi=-\frac{1}{6}\frac{\delta \rho}{\rho}
+\end{equation}
+Les points chaud du CMB correspondent à des régions sous-denses de l'Univers au moment de l'émission. La carte de température du CMB est donc une carte de la distribution de matière au même instant. Ces fluctuations se situent à des niveaux de 0.001\%, indiquant par la même que l'Univers était extrêmement homogène au moment de la recombinaison.
+
+\paragraph{Grandes échelles} Reste à expliciter l'origine des fluctuations de densité qui conduisent aux fluctuations de températures. L'examen de la figure \ref{f:cl} permet de distinguer 2 régimes. Le premier régime correspond aux grandes échelles $\ell<30$: ces modes sont plus grands que l'Horizon\sidenote{ce terme désigne la plus grande distance sur laquelle un phénomène physique peut se propager : c'est essentiellement le produit de la plus grande vitesse accessible à un processus avec l'âge de l'Univers à l'instant considéré}\index{horizon} au moment de la recombinaison et tracent les fluctuations les plus primordiales, dont on pense qu'elles sont issues d'une période inflationnaire présente aux tous premiers instants après le Big-Bang. L'étude de ces régions du spectre permet notamment de mesurer l'amplitude des fluctuations inflationnaire\index{inflation} ainsi que le spectre de ces fluctuations. En particulier, les théories inflationnaires indiquent que le spectre de puissance tridimensionnel des fluctuations primordiales doit être invariant d'échelle et de la forme:
+\begin{equation}
+P(k)\sim k^{n_s}
+\end{equation}
+avec $n_s$ proche mais différent de 1. Les résultats de \textit{Planck 2015} indiquent que $n_s=0.968\pm0.006$ en accord avec ces théories.
+
+\paragraph{Petites échelles} Au delà de $\ell\sim 30$, le spectre présente un ensemble de modes correspondant à des échelles caractéristiques et qui se manifestent sous forme de pics: on en dénombre 3 principaux suivis d'environs 6 pics d'amplitude décroissante. Ces pics indiquent l'existence d'échelles privilégiées dans la carte des fluctuations: ces échelles résultent d'ondes sonores se propageant dans le plasma au moment de la recombinaison. Ces ondes sonores sont appelées \textit{oscillations baryoniques acoustiques}\index{BAO}\index{oscillation baryonique acoustique} \sidenote{BAO en anglais pour \textit{baryonic acoustic oscillations}} : leur production sera décrite en détail dans le chapitre dédié à la croissance des grandes structures. Ces oscillations se mettent en place pour des échelles sub-horizon d'où leur présence seulement aux petites échelles: la position du premier pic permet ainsi de tracer la taille sur le ciel de l'horizon sonore. Connaissant la taille \textit{intrinsèque} de cet horizon, la mesure de sa taille apparente sur le ciel permet de déduire la géométrie du cosmos le long du parcours des photons (et donc $\Omega_m+\Omega_\Lambda$). Connaissant, le rayon de la surface de dernière diffusion $r_{LSS}$ (donnée par le redshift de la recombinaison) et la taille de l'horizon  sonore $L_H$ à cette époque, l'angle qui sous-tend ces fluctuations est simplement donné par:
+\begin{equation}
+\theta=\frac{L_H}{r_{LSS}}.
+\end{equation}
+Si $\theta \neq \frac{L_H}{r_{LSS}}$ la trajectoire des photons du fond diffus est incurvée (cf. Fig \ref{f:cmb_geom}), traçant une géométrie courbée de l'Univers contenu dans la surface de dernière diffusion : au niveau actuel de précision, on ne détecte aucun départ à la géométrie plane.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=6cm]{figs/cmb_geom.png}
+		\caption[CMB et géométrie]{Les fluctuations les plus grandes sont de l'ordre de la taille de l'horizon au moment de la dernière diffusion, représenté sous la forme d'une ellipse claire. L'observateur perçoit ces fluctuations avec une certaine taille angulaire, représentée par l'ouverture des rayons en tirets. Si la trajectoire des rayons lumineux est incurvée à cause de la géométrie globale de l'Univers, cette taille apparente va sur-estimer (cas du haut, où la géométrie est sphérique) ou sous-estimer (cas du bas, où la géométrie est hyperbolique) la taille angulaire des fluctuations par rapport à celle attendue. Cette comparaison permet d'estimer le départ à la platitude de la géométrie de l'Univers.  }
+	\label{f:cmb_geom}
+\end{figure}
+
+Les pics suivants tracent la taille des modes ayant effectué un nombre de battement de plus en plus important entre leur production et l'émission du fond diffus. En particulier leurs amplitudes relatives permettent de contraindre précisément le couplage entre la matière et le rayonnement et la force de rappel qui permet d'entretenir ces battements. Cette force de rappel est induite par la gravité créée par la matière et la mesure de l'entretien de ces battements permet de contraindre la quantité de matière totale ($\Omega_b$ et $\Omega_m$). 
+
+
+L'une des grandes leçons apprise par l'étude du CMB est la constatation que $\Omega_m>\Omega_b$ : en particulier la grande amplitude du 3ème pic (et des suivants) ne peut s'expliquer par une matière purement baryonique. Elle nécessite une matière non couplée avec le rayonnement, en quantité significative, \textit{la matière noire}. En l'absence de matière noire\index{matière noire}, le couplage entre matière et rayonnement n'est pas suffisamment important pour garantir un entretien maximal des oscillations baryoniques. Ce couplage imparfait conduit à un amortissement de ces dernières au cours des battements successifs : les échelles les plus petites, celles-qui oscillent le plus rapidement voient donc leur amplitude décroître. Dans le spectre de puissance angulaire, ce la se manifeste par des pics d'amplitudes de plus en plus faibles pour les hautes fréquences angulaires : on parle d'amortissement Silk\index{amortissement Silk}\sidenote{du nom du physicien qui a mis en évidence cet effet}. Or l'amplitude du 3ème pic (et des suivants) est supérieure à celle attendue dans le cas d'une matière  purement baryonique, i.e. en présence uniquement de matière capable d'interagir avec le rayonnement (qui fournit le support de pression). Cet excès d'amplitude peut s'expliquer si il existe une force de rappel gravitationnelle supplémentaire, créée par de la masse \textit{qui n'est pas sensible à ce couplage rayonnement matière imparfait}. Cette masse qui n'interagit pas avec le rayonnement est la \textit{matière noire}.
+
+Cette matière noire, pèse, entretient les BAOs et n'interagit pas avec le rayonnement : si elle existe, elle nous est actuellement inconnue. On retrouve également trace d'un effet similaire dans la masse des amas de galaxies, dans la dynamique des galaxies et dans les effets de lentille gravitationnelle\index{lentilles gravitationnelles}.
+
+\subsection{Anisotropies secondaires}
+En plus des anisotropies imprimées dans le plasma au moment de le Recombinaison, il existe tout un ensemble d'anisotropies créées par différents processus qui affectent les photons du CMB le long de leur parcours entre la surface de dernière diffusion et leur réception. Nous n'en citerons que 3 ici.
+
+\paragraph{La Réionisation} \index{réionisation}
+La Réionisation désigne l'époque à laquelle les premières sources de rayonnement ionisant apparaissent dans l'histoire du cosmos entre 400 millions et 1 milliard d'années après le Big-Bang. Ces sources (essentiellement les premières étoiles et quasars\index{quasar}\sidenote{les quasars sont des objets très brillants, visible en particulier à très grande distance. Ils résultent de l'énergie rayonnée par l'accrétion de matière  par les trous noirs supermassifs qu'on trouve au centre de certaines galaxies.}) vont ioniser à nouveau le gaz cosmique, dans un court laps de temps et vont produire une nuée d'électrons libres susceptibles d'interagir avec les photons du CMB par effet Thomson\index{diffusion Thomson}. Cette interaction va influer sur l'amplitude des fluctuations de température et affecter le spectre du CMB en polarisation aux grandes échelles. Cette interaction se mesure via la profondeur optique Thomson $\tau$:
+\begin{equation}
+\tau=\int_{z_\mathrm{rec}}^{0} c\sigma_t n_e(z)\frac{dt}{dz}dt
+\end{equation}
+qui est une mesure du nombre d'interactions entre un photon du CMB et les électrons de la Réionisation. Notons que si la Réionisation est précoce, la densité d'électrons $n_e$ est grande et $\tau$ est grand tandis que si elle est tardive, cette densité sera plus faible par simple dilution cosmologique conduisant à une faible valeur de $\tau$. Les mesures du CMB indiquent que la mi-Réionisation a eu lieu pour $z_\mathrm{reion}\sim8$. Pour l'anecdote, les premières estimations de l'effet de la Réionisation sur le fond diffus cosmologique prédisaient des époques de mi-Réionisation bien plus reculées \sidenote{par le satellite américain WMAP par exemple}, vers $z\sim 17$ : depuis, les estimations successives tendent à faire diminuer cette valeur vers celles que nous connaissons actuellement et plus en accord avec les mesures d'opacité du milieu inter-galactique qui mettent une fin de Réionisation vers $z\sim 6$. Paradoxalement, ces mesures de plus en plus précises font du CMB une sonde de moins en moins sensible à la Réionisation : une Réionisation tardive implique une densité électronique plus faible et donc une diffusion Thomson secondaire plus faible, réduisant d'autant l'empreinte du processus sur les photons du fond diffus.
+
+\paragraph{L'effet SZ des amas}\index{effet SZ}
+Les amas de galaxies sont les plus grandes structures viriélisées de l'Univers actuel. Ils ont été formés récemment, vers $z\sim 1$, et contiennent typiquement plusieurs centaines ou milliers de galaxies pour des masses totales approchant les $10^{14}-10^{15} M_\odot$. La masse très importante de ces objets font que le gaz piégé dans leurs puits de potentiel gravitationnel est chauffé à des températures de l'ordre du million de degrés : à ces températures le gaz devient un fort émetteur X et est l'objet par exemple de processus d'ionisation collisionnelle. De façon analogue à la Réionisation, les amas constituent des ilots denses d'électrons libres avec lesquels les photons du CMB peuvent interagir à des redshifts $z\sim 1$. On parle d'effet Sunyaev-Zeldovich, qui produit de légères distorsions du spectre du CMB, en redistribuant l'énergie des photons vers de plus hautes valeurs. Les amas de galaxies présents sur le ciel produisent ainsi des anisotropies localisées, permettant même leur découverte dans le fond diffus avant confirmation par des observations X par exemple.
+
+Quantitativement, le spectre du fond diffus cosmologique subit une modification en intensité qui suit :
+\begin{equation}
+\Delta I \sim g(\frac{h\nu}{k_B T_0}) y
+\end{equation}
+où $g$ est une fonction connue qui donne la dépendance en fréquence de la distorsion spectrale et où $y$ désigne le facteur de 'comptonisation' de l'amas de galaxie :
+\begin{equation}
+y=\int n_e \frac{k_B T_e}{m_e c^2} \sigma_T d\ell.
+\end{equation} 
+Cet facteur $y$ décrit la physique interne de l'amas, comme sa densité électronique interne $n_e$ ou sa température électronique $T_e$. Pour un amas typique ce facteur est petit et de l'ordre de 0.0001. La forme fonctionnelle de la dépendance spectrale de l'effet SZ, $g(x)$ \sidenote{on peut montrer que $g(x)=x^4\frac{e^x}{(e^x-1)^2}(\frac{x}{\tanh (x/2)}-4)$.}, présente un pivot pour une fréquence de l'ordre de 200 GHz, quelle que soit le redshift de l'amas : en deçà de cette fréquence, les photons du fond diffus peuvent être redistribués à des énergies supérieures. Une mesure précise des propriétés du CMB doit donc prendre l'effet SZ des amas en compte, tandis qu'à l'inverse cette distorsion spectrale peut être utilisée pour détecter ces amas dans une carte du fond diffus.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=15cm]{figs/SZ.png}
+		\caption[L'effet SZ][-1cm]{La présence de gaz chaud et ionisé dans les amas de galaxies à $z\sim 1$ est à l'origine d'une distorsion du spectre du fond diffus, appelé \textit{effet Sunyaev-Zeldovich}. L'interaction entre les électrons énergétiques dans le gaz chaud intra-amas et les photons du fond diffus redistribue l'énergie de ces derniers vers les hautes énergies. La distorsion associée en intensité spécifique est représentée ici pour un amas de galaxie typique avec une température électronique typique de $k_B T_e \sim 10$ keV. On note que l'amplitude de la distorsion est faible, de l'ordre du millième par rapport à l'intensité non-modifiée du fond diffus (divisée ici par 1000 pour une meilleure visibilité) }
+	\label{f:SZ}
+\end{figure}
+Pour finir, notons que si l'amas de galaxie est en mouvement, une distorsion supplémentaire due s'ajoute à la précédente à cause de l'effet Doppler qui modifie la perception de la fréquence des photons du CMB. Cet effet est connu sous le nom d'effet SZ \textit{cinétique} tandis que le précédent est connu sous l'effet d'effet SZ \textit{thermique}. L'effet thermique est lié à l'agitation cinétique des électrons libres de l'amas, tandis que l'effet cinétique est lié au mouvement global de ces électrons, piégés dans l'amas en mouvement. Cet effet cinétique est typiquement au moins 10 fois plus faible que le précédent.
+
+
+\paragraph{Le lentillage gravitationnel cosmique}\index{lentille gravitationnelle}
+Les grandes structures croisées par les photons du CMB au cours de leur parcours entre l'émission et leur réception vont modifier subtilement la distribution sur le ciel des anisotropies primaires par effet de lentille gravitationnelle. Une lentille résulte d'une déformation locale de la métrique par une lentille faite de matière (galaxie, amas, filaments, etc..) qui courbe la trajectoire des rayons lumineux et modifie donc l'apparence des sources d'arrière plan. Dans le cas du CMB, la lentille est constituée de toutes les grandes structures rencontrées au cours de l'histoire de l'Univers tandis que la source d'arrière-plan est la source la plus reculée imaginable. Cet effet de lentille se manifeste essentiellement aux petites échelles et dans le spectre angulaire en polarisation\sidenote{obtenu à partir de l'intensité du rayonnement polarisé du CMB}, il nécessite donc des expériences CMB de grande résolution pour pouvoir être extrait. Il a récemment été mesuré par les expériences sol tels que le \textit{South Pole Telescope} ou dans l'espace par \textit{Planck}. Cette mesure est extrêmement importante car elle permet de mesurer de façon quasi indépendante les paramètres cosmologiques à partir de la croissance des grandes structures qui opère à des redshifts différents ($z\sim 2$) de ceux concernant la physique du CMB. Elle permet une forte levée de dégénérescence des paramètres mesurés par les fluctuations de température. Pour l'essentiel les paramètres contraints par le lentillage du CMB confirment les paramètres $\Lambda$CDM obtenus par le fond diffus.
